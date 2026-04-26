@@ -5,6 +5,11 @@
  * @format
  */
 
+
+import FilterScreen from './components/FilterScreen';
+import DiscoverScreen from './components/DiscoverScreen';
+import FavoriteScreen from './components/FavoriteScreen';
+import React, { useState } from 'react';
 import { StatusBar, StyleSheet, useColorScheme, View } from 'react-native';
 import {
   SafeAreaProvider,
@@ -24,9 +29,23 @@ function App() {
 
 function AppContent() {
 
+  const [activeTab, setActiveTab] = useState('discover');
+
+  const renderScreen = () => {
+    switch (activeTab) {
+      case 'filters': return <FilterScreen />;
+      case 'discover': return <DiscoverScreen />;
+      case 'favorites': return <FavoriteScreen />;
+    }
+  };
+
   return (
     <View style={styles.container}>
-      <BottomNavigationBar />
+      {renderScreen()}
+      <BottomNavigationBar
+        activeTab={activeTab}
+        onTabPress={setActiveTab}
+      />
     </View>
   );
 }
