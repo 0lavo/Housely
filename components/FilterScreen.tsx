@@ -1,12 +1,20 @@
-import { View } from "react-native";
+import { View, Text, StyleSheet } from "react-native";
 
 
 function FilterScreen() {
   return (
-    <View>
-        <h1>Filter Screen</h1>
+    <View style={styles.container}>
+        <Text>Filter Screen</Text>
     </View>
   );
 }
+
+const styles =  StyleSheet.create({
+  container: {
+    flex: 1,
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+});
 
 export default FilterScreen;
