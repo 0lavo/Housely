@@ -6,15 +6,15 @@
  */
 
 
-import FilterScreen from './components/FilterScreen';
-import DiscoverScreen from './components/DiscoverScreen';
-import FavoriteScreen from './components/FavoriteScreen';
+import FilterScreen from './src/screens/FilterScreen';
+import DiscoverScreen from './src/screens/DiscoverScreen';
+import FavoriteScreen from './src/screens/FavoriteScreen';
 import React, { useState } from 'react';
 import { StatusBar, StyleSheet, useColorScheme, View } from 'react-native';
 import {
   SafeAreaProvider,
 } from 'react-native-safe-area-context';
-import BottomNavigationBar from './components/BottomNavigationBar';
+import BottomNavigationBar from './src/components/BottomNavigationBar';
 
 function App() {
   const isDarkMode = useColorScheme() === 'dark';

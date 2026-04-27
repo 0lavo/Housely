@@ -1,0 +1,13 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "assets/fonts/Alexandria-Bold.ttf",
+      "sha1": "c1cb3750dd035bdeeb13a7fa93fbce4c094d8835"
+    },
+    {
+      "path": "assets/fonts/Alexandria-Regular.ttf",
+      "sha1": "4e15c32ad5a28bfe1db4f0ddf8540d851c643ed6"
+    }
+  ]
+}
