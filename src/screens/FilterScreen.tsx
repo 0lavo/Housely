@@ -5,9 +5,11 @@ import AppFooter from "../components/AppFooter";
 
 const FilterScreen = ({navigation}: any) => (
 
-    <View style={globalStyles.container}>
-        <Text>Filter Screen</Text>
-        <AppFooter navigation={navigation} activeScreen="Filter"/>
+    <View style={globalStyles.screen}>
+        <View style={globalStyles.centeredContainer}>
+            <Text>Filter Screen</Text>
+        </View>
+        <AppFooter navigation={navigation} activeScreen="Favorite"/>
     </View>
 )
 

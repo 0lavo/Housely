@@ -11,13 +11,13 @@ const Drawer = createDrawerNavigator();
 const DrawerNavigator = () => (
     <Drawer.Navigator initialRouteName="Home" screenOptions={{headerShown: false}}>
         <Drawer.Screen 
-        name="Home" 
-        component={HomeScreen}
-        options={{title: 'Home'}} />
-        <Drawer.Screen 
         name="Favorite" 
         component={FavoriteScreen}
         options={{title: 'Favorite'}} />
+        <Drawer.Screen 
+        name="Home" 
+        component={HomeScreen}
+        options={{title: 'Home'}} />
         <Drawer.Screen 
         name="Filter" 
         component={FilterScreen}

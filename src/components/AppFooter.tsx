@@ -1,7 +1,7 @@
 // src/components/AppFooter.tsx
 
 import { SafeAreaView } from "react-native-safe-area-context";
-import { Text, TouchableOpacity, View, StyleSheet } from "react-native";
+import { Text, TouchableOpacity, View, StyleSheet, Image } from "react-native";
 import { COLORS, FONTS } from "../styles/globalStyles";
 
 interface AppFooterProps {
@@ -12,9 +12,9 @@ interface AppFooterProps {
 const AppFooter: React.FC<AppFooterProps> = ({ navigation, activeScreen }) => {
 
     const tabs = [
-        {name: 'Home', icon: '' , screen: 'Home'},
-        {name: 'Filter', icon: '' , screen: 'Filter'},
-        {name: 'Favorite', icon: '' , screen: 'Favorite'},
+        {name: 'Filter', icon: require('../../assets/icons/filter.png') , screen: 'Filter'},
+        {name: 'Home', icon: require('../../assets/icons/home.png') , screen: 'Home'},
+        {name: 'Favorite', icon: require('../../assets/icons/favorite.png') , screen: 'Favorite'},
     ]
     
     //TODO Colocar a imagem certa nos icons
@@ -29,7 +29,7 @@ const AppFooter: React.FC<AppFooterProps> = ({ navigation, activeScreen }) => {
                         key={tab.name}
                         style={styles.tab}
                         onPress={() => navigation.navigate(tab.screen)}>
-
+                            <Image source={tab.icon} style={styles.icon} />
                             <Text style={[styles.label, isActive && styles.labelActive]}>{tab.name}</Text>
                         </TouchableOpacity>
                     )
@@ -46,21 +46,35 @@ const styles = StyleSheet.create({
     },
     footer: {
         backgroundColor: COLORS.corCard,
-        height: 170,
+        height: 70,
         flexDirection: 'row',
         justifyContent: 'space-around',
         alignItems: 'center',
+        borderTopWidth: 1,
+        borderTopColor: COLORS.corCard,
+        elevation: 5,
     },
     tab: {
         alignItems: 'center',
+        justifyContent: 'center',
+        flex: 1,
+        paddingVertical: 8,
     },
     label: {
         color: COLORS.corIconsTexto,
         fontFamily: FONTS.regular,
-        fontSize: FONTS.size.body
+        fontSize: 12,
+        marginTop: 2,
     },
     labelActive: {
         backgroundColor: COLORS.corCard,
+        fontFamily: FONTS.bold,
+    },
+    icon: {
+        color: COLORS.corIconsTexto,
+        width: 24,
+        height: 24,
+        resizeMode: 'contain',
     },
 });
 

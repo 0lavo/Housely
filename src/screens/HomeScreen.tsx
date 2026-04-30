@@ -6,10 +6,12 @@ import AppFooter from "../components/AppFooter";
 
 
 const HomeScreen = ({navigation}: any) => (
-  <View style={globalStyles.container}>
-    <Text>Home Screen</Text>
-    <AppFooter navigation={navigation} activeScreen='Home'/>
-  </View>
+  <View style={globalStyles.screen}>
+        <View style={globalStyles.centeredContainer}>
+            <Text>Home Screen</Text>
+        </View>
+        <AppFooter navigation={navigation} activeScreen="Favorite"/>
+    </View>
 )
 
 

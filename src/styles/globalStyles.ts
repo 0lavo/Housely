@@ -18,8 +18,13 @@ export const FONTS = {
 }
 
 export const globalStyles = StyleSheet.create({
-    container:{
+    screen:{
         flex: 1,
         backgroundColor: COLORS.corFundo,
+    },
+    centeredContainer: {
+        flex: 1,
+        justifyContent: 'center',
+        alignItems: 'center',
     }
 })

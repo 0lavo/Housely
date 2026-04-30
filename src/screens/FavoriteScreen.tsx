@@ -5,8 +5,10 @@ import AppFooter from "../components/AppFooter";
 
 const FavoriteScreen = ({navigation}: any) => (
 
-    <View style={globalStyles.container}>
-        <Text>Favorite Screen</Text>
+    <View style={globalStyles.screen}>
+        <View style={globalStyles.centeredContainer}>
+            <Text>Favorite Screen</Text>
+        </View>
         <AppFooter navigation={navigation} activeScreen="Favorite"/>
     </View>
 )
