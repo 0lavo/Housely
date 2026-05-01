@@ -18,6 +18,9 @@ export const FONTS = {
 }
 
 export const globalStyles = StyleSheet.create({
+    safeArea: {
+        backgroundColor: COLORS.corCard,
+    },
     screen:{
         flex: 1,
         backgroundColor: COLORS.corFundo,

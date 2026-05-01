@@ -2,7 +2,7 @@
 
 import { SafeAreaView } from "react-native-safe-area-context";
 import { Text, TouchableOpacity, View, StyleSheet, Image } from "react-native";
-import { COLORS, FONTS } from "../styles/globalStyles";
+import { COLORS, FONTS, globalStyles } from "../styles/globalStyles";
 
 interface AppFooterProps {
     navigation: any;
@@ -16,11 +16,9 @@ const AppFooter: React.FC<AppFooterProps> = ({ navigation, activeScreen }) => {
         {name: 'Home', icon: require('../../assets/icons/home.png') , screen: 'Home'},
         {name: 'Favorite', icon: require('../../assets/icons/favorite.png') , screen: 'Favorite'},
     ]
-    
-    //TODO Colocar a imagem certa nos icons
 
     return (
-        <SafeAreaView edges={['bottom']} style={styles.safeArea}>
+        <SafeAreaView edges={['bottom']} style={globalStyles.safeArea}>
             <View style={styles.footer}>
                 {tabs.map((tab) => {
                     const isActive = activeScreen === tab.screen;
@@ -41,9 +39,6 @@ const AppFooter: React.FC<AppFooterProps> = ({ navigation, activeScreen }) => {
 
 
 const styles = StyleSheet.create({
-    safeArea: {
-        backgroundColor: COLORS.corCard,
-    },
     footer: {
         backgroundColor: COLORS.corCard,
         height: 70,
@@ -52,7 +47,7 @@ const styles = StyleSheet.create({
         alignItems: 'center',
         borderTopWidth: 1,
         borderTopColor: COLORS.corCard,
-        elevation: 5,
+        elevation: 2,
     },
     tab: {
         alignItems: 'center',
@@ -67,7 +62,6 @@ const styles = StyleSheet.create({
         marginTop: 2,
     },
     labelActive: {
-        backgroundColor: COLORS.corCard,
         fontFamily: FONTS.bold,
     },
     icon: {
