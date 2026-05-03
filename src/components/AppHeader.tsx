@@ -22,7 +22,7 @@ const styles = StyleSheet.create({
         alignItems: 'center',
         paddingHorizontal: 16,
         backgroundColor: COLORS.corFundo,
-        elevation: 2,
+        //elevation: 2,
     },
 });
 

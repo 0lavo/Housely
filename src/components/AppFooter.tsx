@@ -3,6 +3,7 @@
 import { SafeAreaView } from "react-native-safe-area-context";
 import { Text, TouchableOpacity, View, StyleSheet, Image } from "react-native";
 import { COLORS, FONTS, globalStyles } from "../styles/globalStyles";
+import Icon from 'react-native-vector-icons/MaterialIcons';
 
 interface AppFooterProps {
     navigation: any;
@@ -12,9 +13,9 @@ interface AppFooterProps {
 const AppFooter: React.FC<AppFooterProps> = ({ navigation, activeScreen }) => {
 
     const tabs = [
-        {name: 'Filter', icon: require('../../assets/icons/filter.png') , screen: 'Filter'},
-        {name: 'Home', icon: require('../../assets/icons/home.png') , screen: 'Home'},
-        {name: 'Favorite', icon: require('../../assets/icons/favorite.png') , screen: 'Favorite'},
+        {name: 'Filter', icon: 'filter-list', screen: 'Filter'}, // Nomes da biblioteca
+        {name: 'Home', icon: 'home', screen: 'Home'},
+        {name: 'Favorite', icon: 'favorite', screen: 'Favorite'},
     ]
 
     return (
@@ -27,7 +28,11 @@ const AppFooter: React.FC<AppFooterProps> = ({ navigation, activeScreen }) => {
                         key={tab.name}
                         style={styles.tab}
                         onPress={() => navigation.navigate(tab.screen)}>
-                            <Image source={tab.icon} style={styles.icon} />
+                            <Icon 
+                            name={tab.icon} 
+                            size={24} 
+                            color={isActive ? COLORS.corAtiva : COLORS.corIconsTexto} 
+                            />
                             <Text style={[styles.label, isActive && styles.labelActive]}>{tab.name}</Text>
                         </TouchableOpacity>
                     )
@@ -47,7 +52,7 @@ const styles = StyleSheet.create({
         alignItems: 'center',
         borderTopWidth: 1,
         borderTopColor: COLORS.corCard,
-        elevation: 2,
+        //elevation: 2,
     },
     tab: {
         alignItems: 'center',

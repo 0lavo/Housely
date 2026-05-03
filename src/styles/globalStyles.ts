@@ -6,6 +6,7 @@ export const COLORS = {
     corFundo : '#E0ECF4',
     corIconsTexto : '#235F76',
     corBotoes : '#FD761A',
+    corAtiva : '#FD761A',
 };
 
 export const FONTS = {

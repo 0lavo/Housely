@@ -12,7 +12,7 @@ const HomeScreen = ({navigation}: any) => (
         <View style={globalStyles.centeredContainer}>
             <Text>Home Screen</Text>
         </View>
-        <AppFooter navigation={navigation} activeScreen="Favorite"/>
+        <AppFooter navigation={navigation} activeScreen="Home"/>
     </View>
 )
 
