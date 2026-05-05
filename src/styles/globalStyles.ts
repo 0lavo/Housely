@@ -7,14 +7,19 @@ export const COLORS = {
     corIconsTexto : '#235F76',
     corBotoes : '#FD761A',
     corAtiva : '#FD761A',
+    corFundoSummaryCardLaranja :'#FFF1E6',
 };
 
 export const FONTS = {
     regular: 'Alexandria-Regular',
     bold : 'Alexandria-Bold',
     size: {
-        body: 32,
-        title: 48,
+        small: 12,      // Para ícones, moradas ou textos secundários
+        body: 14,       // Para texto normal, como o subtítulo "Review the properties..."
+        largeBody: 16,  // Para textos de destaque moderado
+        h3: 18,         // Para os títulos dos cards das casas (ex: "Azure Skyline Penthouse")
+        h2: 24,         // Para títulos de páginas (ex: "Your Favorites")
+        h1: 32,         // Para números grandes
     }
 }
 
