@@ -15,25 +15,19 @@ const FavoriteScreen = ({navigation}: any) => (
 
         <ScrollView style={styles.contentContainer}>
             <View style={styles.headerTextContainer}>
-                <Text style={styles.title}>Your Favorites</Text>
+                <Text style={styles.title}>Favoritos</Text>
                 <Text style={styles.subtitle}>
-                    Review the properties you've saved for your next move.
+                   Revise as tuas propriedades favoritas antes de dar o próximo passo
                 </Text>
             </View>
 
             {/* Secção Cartões de Resumo */}
             <View style={styles.summaryContainer}>
                 <SummaryCard 
-                    title="Total Saved"
+                    title="Total Salvo"
                     value="12"
-                    label="Properties"
-                    variant="blue" 
-                />
-                <SummaryCard 
-                    title="Active Tours"
-                    value="2"
-                    label="Scheduled"
-                    variant="orange" 
+                    label="Propriedades"
+                    onReset={() => console.log('Botão de reset clicado!')}
                 />
             </View>
 

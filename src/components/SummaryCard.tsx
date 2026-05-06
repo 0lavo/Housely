@@ -1,5 +1,6 @@
 import React from 'react';
-import { View, Text, StyleSheet } from 'react-native';
+import { View, Text, StyleSheet, TouchableOpacity } from 'react-native';
+import Icon from 'react-native-vector-icons/Ionicons';
 import { COLORS, FONTS } from '../styles/globalStyles'; 
 
 // props que este cartão vai receber
@@ -7,21 +8,29 @@ interface SummaryCardProps {
     title: string;
     value: string | number;
     label: string;
-    variant: 'blue' | 'orange'; 
+    onReset?: () => void;
 }
 
 
-const SummaryCard = ({ title, value, label, variant }: SummaryCardProps) => {
-    // para nao ter de desenhar 2 summary cards em separado:
-    const isBlue = variant === 'blue';
-    const bgColor = isBlue ? COLORS.corCard : COLORS.corFundoSummaryCardLaranja;
-    const textColor = isBlue ? COLORS.corIconsTexto : COLORS.corBotoes;
-
+const SummaryCard = ({ title, value, label, onReset }: SummaryCardProps) => {
     return (
-        <View style={[styles.card, { backgroundColor: bgColor }]}>
-            <Text style={[styles.title, { color: textColor }]}>{title}</Text>
-            <Text style={[styles.value, { color: textColor }]}>{value}</Text>
-            <Text style={[styles.label, { color: textColor }]}>{label}</Text>
+        <View style={[styles.card, { backgroundColor: COLORS.corCard }]}>
+            <Text style={[styles.title, { color: COLORS.corIconsTexto }]}>{title}</Text>
+            <Text style={[styles.value, { color: COLORS.corIconsTexto }]}>{value}</Text>
+            <Text style={[styles.label, { color: COLORS.corIconsTexto }]}>{label}</Text>
+
+
+            <View style={styles.actionContainer}>
+                <TouchableOpacity style={styles.resetButton} onPress={onReset}>
+                    <Text style={[styles.resetText, { color: COLORS.branco }]}>Reset</Text>
+                </TouchableOpacity>
+                
+                <TouchableOpacity onPress={onReset}>
+                    
+                    <Icon name="sync" size={20} color={COLORS.corIconsTexto} />
+                </TouchableOpacity>
+            </View>
+
         </View>
     );
 };
@@ -47,6 +56,23 @@ const styles = StyleSheet.create({
     label: {
         fontSize: FONTS.size.body,
         fontFamily: FONTS.regular,
+    },
+    actionContainer: {
+        flexDirection: 'row',
+        alignItems: 'center',
+        marginTop: 12,
+    },
+    resetButton: {
+        backgroundColor: COLORS.corBotoes,
+        paddingVertical: 4,
+        paddingHorizontal: 12,
+        borderRadius: 6,
+        marginRight: 10,
+    },
+    resetText: {
+        fontSize: FONTS.size.small,
+        fontFamily: FONTS.regular,
+
     }
 });
 

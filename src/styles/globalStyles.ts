@@ -2,12 +2,13 @@
 import { StyleSheet} from 'react-native';
 
 export const COLORS = {
-    corCard : '#CDE0EE',
+    corCard : '#DEE8FF',
     corFundo : '#E0ECF4',
     corIconsTexto : '#235F76',
     corBotoes : '#FD761A',
     corAtiva : '#FD761A',
     corFundoSummaryCardLaranja :'#FFF1E6',
+    branco : '#FFFFFF',
 };
 
 export const FONTS = {
