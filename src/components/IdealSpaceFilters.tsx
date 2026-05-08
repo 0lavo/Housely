@@ -4,7 +4,7 @@ import { View, Text } from "react-native";
 import { globalStyles } from "../styles/globalStyles";
 
 
-const HomeScreen = ({navigation}: any) => (
+const IdealSpace = ({navigation}: any) => (
     <View style={globalStyles.screen}>
         <View style={globalStyles.centeredContainer}>
             <Text>IdealSpace</Text>
@@ -13,4 +13,4 @@ const HomeScreen = ({navigation}: any) => (
 )
 
 
-export default HomeScreen;
+export default IdealSpace;
