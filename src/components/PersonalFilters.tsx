@@ -25,7 +25,7 @@ const ToggleOption = ({ iconName, title, subtitle, value, onValueChange }: any) 
 );
 
 const PersonalFilters = ({ navigation }: any) => {
-    // Estados baseados na tua imagem (Laranja = true/Ativo)
+    
     const [hasPets, setHasPets] = useState(true);
     const [friendlyHouse, setFriendlyHouse] = useState(true);
     const [smoker, setSmoker] = useState(false);

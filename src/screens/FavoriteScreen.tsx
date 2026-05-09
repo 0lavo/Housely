@@ -17,7 +17,7 @@ const FavoriteScreen = ({navigation}: any) => (
             <View style={styles.headerTextContainer}>
                 <Text style={styles.title}>Favoritos</Text>
                 <Text style={styles.subtitle}>
-                   Revise as tuas propriedades favoritas antes de dar o próximo passo
+                   Reveja as suas propriedades favoritas antes de dar o próximo passo
                 </Text>
             </View>
 
