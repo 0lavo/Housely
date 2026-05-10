@@ -95,8 +95,8 @@ const FilterScreen = ({ navigation }: any) => {
 
             {/*  Botão Principal e Footer */}
             <View style={filterStyles.submitSection}>
-                <TouchableOpacity style={filterStyles.submitButton} activeOpacity={0.8}>
-                    <Text style={filterStyles.submitText}>Mostrar propriedades</Text>
+                <TouchableOpacity style={globalStyles.primaryButton} activeOpacity={0.8}>
+                    <Text style={globalStyles.primaryButtonText}>Mostrar propriedades</Text>
                 </TouchableOpacity>
             </View>
 

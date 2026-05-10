@@ -36,5 +36,20 @@ export const globalStyles = StyleSheet.create({
         flex: 1,
         justifyContent: 'center',
         alignItems: 'center',
+    },
+    // --- BOTÃO PRINCIPAL GLOBAL ---
+    primaryButton: {
+        backgroundColor: COLORS.corBotoes,
+        paddingVertical: 15,
+        paddingHorizontal: 20,
+        borderRadius: 12, // Usamos o 12 do Property para ficar mais arredondado e moderno
+        alignItems: 'center',
+        justifyContent: 'center',
+        flexDirection: 'row', // Útil caso queiras juntar um ícone ao lado do texto
+    },
+    primaryButtonText: {
+        color: COLORS.branco,
+        fontFamily: FONTS.bold,
+        fontSize: 16, // Ou usa o teu FONTS.size.largeBody
     }
 })

@@ -111,16 +111,5 @@ export const filterStyles = StyleSheet.create({
     submitSection: { 
         paddingVertical: 15,
         paddingHorizontal: 20,
-    },
-    submitButton: { 
-        backgroundColor: COLORS.corBotoes, 
-        padding: 15, 
-        borderRadius: 10, 
-        alignItems: 'center' 
-    },
-    submitText: { 
-        color: COLORS.branco, 
-        fontFamily: FONTS.bold,   
-        fontSize: FONTS.size.largeBody 
     }
 });
