@@ -2,8 +2,8 @@
 import { StyleSheet} from 'react-native';
 
 export const COLORS = {
-    corCard : '#DEE8FF',
-    corFundo : '#E0ECF4',
+    corCard : '#F9F9FF',
+    corFundo : '#FFFFFF',
     corIconsTexto : '#235F76',
     corBotoes : '#FD761A',
     corAtiva : '#FD761A',
