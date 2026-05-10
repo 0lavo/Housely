@@ -12,10 +12,11 @@ interface PropertyCardProps {
     // beds e bath, ver como ajustar depois
     beds: number;
     baths: number;
-    onPressFavorite?: () => void; 
+    onPressFavorite?: () => void;
+    onPressViewDetails?: () => void;
 }
 
-const PropertyCard = ({ imageUrl, title, price, address, beds, baths, onPressFavorite }: PropertyCardProps) => {
+const PropertyCard = ({ imageUrl, title, price, address, beds, baths, onPressFavorite, onPressViewDetails }: PropertyCardProps) => {
     return (
         <View style={styles.card}>
             {/* Secção Superior: Imagem e Coração */}
@@ -58,9 +59,9 @@ const PropertyCard = ({ imageUrl, title, price, address, beds, baths, onPressFav
                         </View>
                     </View>
 
-                    <TouchableOpacity style={styles.viewButton}>
-                        <Text style={styles.viewButtonText}>View Details</Text>
-                    </TouchableOpacity>
+                    <TouchableOpacity style={styles.viewButton} onPress={onPressViewDetails}>
+                    <Text style={styles.viewButtonText}>Ver Detalhes</Text>
+                </TouchableOpacity>
 
                 </View>
             </View>

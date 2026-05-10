@@ -40,6 +40,7 @@ const FavoriteScreen = ({navigation}: any) => (
                     address="Downtown, Metropolis District"
                     beds={3}
                     baths={2}
+                    onPressViewDetails={() => navigation.navigate('PropertyDetails')}
                 />
                 
                 <PropertyCard 
@@ -49,6 +50,7 @@ const FavoriteScreen = ({navigation}: any) => (
                     address="Green Valley, Suburbia"
                     beds={5}
                     baths={4}
+                    onPressViewDetails={() => navigation.navigate('PropertyDetails')}
                 />
             </View>
 
