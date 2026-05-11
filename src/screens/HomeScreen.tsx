@@ -11,7 +11,7 @@ import Icon from 'react-native-vector-icons/MaterialIcons';
 const HomeScreen = ({navigation}: any) => (
     <View style={globalStyles.screen}>
         <AppHeader navigation={navigation}/>
-        <View style={globalStyles.centeredContainer}>
+        <View style={[globalStyles.centeredContainer, {paddingVertical: 16}]}> 
             <View style={homeStyles.cardContainer}>
                 <ImageBackground
                     source={require('../../assets/house.png')}
@@ -20,25 +20,17 @@ const HomeScreen = ({navigation}: any) => (
                 >
                     <View style={homeStyles.overlay}>
 
-                        <View style={homeStyles.locationBadge}>
-                            <Icon name="location-on" size={16} color={COLORS.branco} />
-                            <Text style={homeStyles.locationBadgeText}>Porto, Portugal</Text>
-                        </View>
 
-                        <View style={homeStyles.contentTop}>
-                            <Text style={homeStyles.title}>T1 + 1 em V.N de Gaia</Text>
-
-                            <View style={homeStyles.tagsRow}>
-                                <View style={homeStyles.orangeTag}>
-                                    <Text style={homeStyles.orangeTagText}>NOVA CONSTRUÇÃO</Text>
-                                </View>
-
-                                <View style={homeStyles.darkTag}>
-                                    <Text style={homeStyles.darkTagText}>MOBILIADO</Text>
-                                </View>
+                        <View>
+                            <View style={homeStyles.locationBadge}>
+                                <Icon name="location-on" size={16} color={COLORS.branco} />
+                                <Text style={homeStyles.locationBadgeText}>Porto, Portugal</Text>
                             </View>
+                            <Text style={homeStyles.title}>T1 + 1 em V.N de Gaia</Text>
                         </View>
-                        <View style={homeStyles.bottomContent}>
+
+                        <View>
+                            <View style={homeStyles.bottomContent}>
 
                             <View style={homeStyles.addressContainer}>
                                 <View style={homeStyles.addressRow}>
@@ -56,7 +48,6 @@ const HomeScreen = ({navigation}: any) => (
                                 <Text style={homeStyles.priceMonth}>por mês</Text>
                             </View>
                         </View>
-
                         <View style={homeStyles.infoRow}>
 
                             <View style={homeStyles.infoItem}>
@@ -74,6 +65,10 @@ const HomeScreen = ({navigation}: any) => (
                             </View>
 
                         </View>
+                        </View>
+                        
+
+                        
                     </View>
                 </ImageBackground>
             </View>

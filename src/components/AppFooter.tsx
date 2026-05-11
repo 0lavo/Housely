@@ -1,7 +1,7 @@
 // src/components/AppFooter.tsx
 
 import { SafeAreaView } from "react-native-safe-area-context";
-import { Text, TouchableOpacity, View, StyleSheet, Image } from "react-native";
+import { Text, TouchableOpacity, View, StyleSheet } from "react-native";
 import { COLORS, FONTS, globalStyles } from "../styles/globalStyles";
 import Icon from 'react-native-vector-icons/MaterialIcons';
 
@@ -52,7 +52,7 @@ const styles = StyleSheet.create({
         alignItems: 'center',
         borderTopWidth: 1,
         borderTopColor: COLORS.corCard,
-        //elevation: 2,
+        //elevation: 1,
     },
     tab: {
         alignItems: 'center',

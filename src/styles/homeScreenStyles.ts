@@ -3,16 +3,13 @@ import { StyleSheet } from 'react-native';
 import { COLORS, FONTS } from './globalStyles';
 
 export const homeStyles = StyleSheet.create({
-    wrapper: {
-        alignItems: 'center',
-        justifyContent: 'center',
-        flex: 1,
-        paddingTop: 10,
-    },
-
+    
     cardContainer: {
         width: 342,
-        height: 618,
+        flex: 1,
+        elevation: 20,
+        backgroundColor: COLORS.branco,
+        borderRadius: 36
     },
 
     card: {
@@ -52,10 +49,6 @@ export const homeStyles = StyleSheet.create({
         fontSize: 14,
     },
 
-    contentTop: {
-        marginTop: -140,
-    },
-
     title: {
         color: COLORS.branco,
         fontFamily: FONTS.bold,
@@ -64,43 +57,10 @@ export const homeStyles = StyleSheet.create({
         width: '85%',
     },
 
-    tagsRow: {
-        flexDirection: 'row',
-        marginTop: 14,
-    },
-
-    orangeTag: {
-        backgroundColor: COLORS.corBotoes,
-        paddingHorizontal: 12,
-        paddingVertical: 6,
-        borderRadius: 6,
-        marginRight: 8,
-    },
-
-    orangeTagText: {
-        color: COLORS.branco,
-        fontFamily: FONTS.bold,
-        fontSize: 11,
-    },
-
-    darkTag: {
-        backgroundColor: 'rgba(0,0,0,0.45)',
-        paddingHorizontal: 12,
-        paddingVertical: 6,
-        borderRadius: 6,
-    },
-
-    darkTagText: {
-        color: COLORS.branco,
-        fontFamily: FONTS.bold,
-        fontSize: 11,
-    },
-
     bottomContent: {
         flexDirection: 'row',
         justifyContent: 'space-between',
         alignItems: 'flex-end',
-        marginTop: 240,
     },
 
     addressContainer: {
