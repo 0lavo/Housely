@@ -55,6 +55,7 @@ export const homeStyles = StyleSheet.create({
         fontSize: 38,
         lineHeight: 48,
         width: '85%',
+        letterSpacing: 1.5,
     },
 
     bottomContent: {
