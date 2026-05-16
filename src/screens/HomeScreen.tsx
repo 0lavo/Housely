@@ -27,6 +27,8 @@ const HomeScreen = ({navigation}: any) => {
             bathrooms: data[index].bathrooms,
             size: data[index].size,
             price: data[index].price,
+            description: data[index].description,
+            url: data[index].url,
         })
     }
     

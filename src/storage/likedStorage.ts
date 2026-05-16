@@ -22,6 +22,8 @@ export type LikedProperty = {
   bathrooms: number;
   size: number;
   price: number;
+  description:string;
+  url: string;
 };
 
 // Prefixo @housely: evita colisões se outra lib usar a mesma key.

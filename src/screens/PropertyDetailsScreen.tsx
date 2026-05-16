@@ -1,10 +1,10 @@
-import React from 'react';
-import { View, Text, Image, TouchableOpacity, ScrollView } from "react-native";
+import React, {useState} from 'react';
+import { View, Text, Image, TouchableOpacity, ScrollView, Linking, Alert } from "react-native";
 import Icon from 'react-native-vector-icons/Ionicons';
 import { COLORS, globalStyles } from "../styles/globalStyles";
 import { propertyStyles } from '../styles/propertyDetailsStyles';
 import AppFooter from "../components/AppFooter";
-
+import data from '../../data/properties.json';
 
 interface FeatureProps {
   iconName: string;
@@ -19,7 +19,48 @@ const FeatureCard = ({ iconName, label, value }: FeatureProps) => (
     </View>
 );
 
-const PropertyDetails = ({ navigation }: any ) => {
+const PropertyDetails = ({ route, navigation }: any ) => {
+
+    const [isExpanded, setIsExpanded] = useState(false);
+
+    // Buscar o propertyCode vindo do FavoriteScreen
+    const { propertyCode } = route.params || {};
+
+    // Procurar a propriedade correta no JSON usando o propertyCode
+    const property = data.find((p: any) => p.propertyCode === propertyCode);
+
+    // Se por acaso a propriedade não for encontrada (exemplo de fallback)
+    if (!property) {
+        return (
+            <View style={[globalStyles.screen, globalStyles.centeredContainer]}>
+                <Text>Propriedade não encontrada.</Text>
+                <TouchableOpacity onPress={() => navigation.goBack()}>
+                    <Text style={{ color: COLORS.corIconsTexto, marginTop: 10 }}>Voltar</Text>
+                </TouchableOpacity>
+            </View>
+        );
+    }
+
+    const openPropertyUrl = async (url: string | undefined) => {
+    if (!url) {
+        Alert.alert("Erro", "O link deste imóvel não está disponível.");
+        return;
+    }
+
+    try {
+        // Verifica se o dispositivo suporta abrir o link (ex: tem browser instalado)
+        const supported = await Linking.canOpenURL(url);
+
+        if (supported) {
+            await Linking.openURL(url);
+        } else {
+            Alert.alert("Erro", "Não foi possível abrir o link neste dispositivo.");
+        }
+    } catch (error) {
+        console.error("Erro ao tentar abrir o URL:", error);
+    }
+};
+
     return (
         <View style={propertyStyles.container}>
             <ScrollView showsVerticalScrollIndicator={false}>
@@ -38,23 +79,23 @@ const PropertyDetails = ({ navigation }: any ) => {
                 {/* Imagem Principal */}
                 <View style={propertyStyles.imageContainer}>
                     <Image 
-                        source={{ uri: 'https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=800&q=80' }} 
+                        source={{ uri: property.thumbnail }} 
                         style={propertyStyles.mainImage} 
                     />
                     <View style={propertyStyles.imageBadge}>
                         <Icon name="camera-outline" size={14} color={COLORS.branco} />
-                        <Text style={propertyStyles.badgeText}>1/12 Photos</Text>
+                        <Text style={propertyStyles.badgeText}>Fotos</Text>
                     </View>
                 </View>
 
                 {/* Detalhes da Propriedade */}
                 <View style={propertyStyles.detailsContainer}>
-                    <Text style={propertyStyles.priceText}>€4,850,000</Text>
-                    <Text style={propertyStyles.propertyName}>The Azure Enclave Villa</Text>
+                    <Text style={propertyStyles.priceText}>€{property.price.toLocaleString()}</Text>
+                    <Text style={propertyStyles.propertyName}>T{property.rooms} em {property.municipality}</Text>
                     
                     <View style={propertyStyles.locationRow}>
                         <Icon name="location-outline" size={16} color="#888" />
-                        <Text style={propertyStyles.locationText}>1204 Sapphire Heights, Malibu Coastline, CA</Text>
+                        <Text style={propertyStyles.locationText}>{property.address}, {property.province}</Text>
                     </View>
 
                     {/* Grid de Características */}
@@ -62,18 +103,19 @@ const PropertyDetails = ({ navigation }: any ) => {
                         <FeatureCard 
                             iconName="resize-outline" 
                             label="AREA" 
-                            value="5,420 m2" 
+                            value={`${property.size} m²`} 
                         />
                         <FeatureCard 
                             iconName="bed-outline" 
                             label="BEDS" 
-                            value="5 Bedrooms" 
+                            value={`${property.rooms} Quartos`} 
                         />
                         <FeatureCard 
                             iconName="water-outline" 
                             label="BATHS" 
-                            value="6.5 Bathrooms" 
+                            value={`${property.bathrooms} WC`} 
                         />
+                        {/* ver isto */}
                         <FeatureCard 
                             iconName="car-outline" 
                             label="PARKING" 
@@ -82,20 +124,46 @@ const PropertyDetails = ({ navigation }: any ) => {
                     </View>
 
                     {/* Secção "Sobre" */}
-                    <Text style={propertyStyles.aboutTitle}>About this Property</Text>
+                    <Text style={propertyStyles.aboutTitle}>Sobre este imovel</Text>
+    
                     <Text style={propertyStyles.aboutDescription}>
-                        Redefining coastal luxury, The Azure Enclave is an architectural masterpiece perched above the Pacific. This meticulously crafted estate features floor-to-ceiling glass walls that disappear to create a seamless indoor-outdoor living experience.
+                        Excelente imóvel tipo T{property.rooms} situado na província de {property.province}, concelho de {property.municipality}. 
+                        Possui {property.size} metros quadrados de área total e conta com {property.bathrooms} casa(s) de banho. 
+                        Uma ótima oportunidade de negócio por €{property.price.toLocaleString()}.
                     </Text>
-                    
+                    {/*
                     <TouchableOpacity style={propertyStyles.readMoreRow}>
-                        <Text style={propertyStyles.readMoreText}>Read More</Text>
+                        <Text style={propertyStyles.readMoreText}>Descrição detalhada</Text>
                         <Icon name="chevron-down-outline" size={16} color={COLORS.corIconsTexto} />
+                    </TouchableOpacity>*/}
+
+                    {/* Aqui a descrição do JSON só aparece se clicarem no botão (isExpanded = true) */}
+                    {isExpanded && (
+                        <Text style={[propertyStyles.aboutDescription, { marginTop: 10 }]}>
+                            {property.description}
+                        </Text>
+                    )}
+
+                    {/* O botão muda o nome e o ícone consoante esteja aberto ou fechado */}
+                    <TouchableOpacity 
+                        style={propertyStyles.readMoreRow} 
+                        onPress={() => setIsExpanded(!isExpanded)}
+                    >
+                        <Text style={propertyStyles.readMoreText}>
+                            {isExpanded ? "Ocultar descrição" : "Descrição detalhada"}
+                        </Text>
+                        <Icon 
+                            name={isExpanded ? "chevron-up-outline" : "chevron-down-outline"} 
+                            size={16} 
+                            color={COLORS.corIconsTexto} 
+                        />
                     </TouchableOpacity>
 
                     {/* Botão Contactar Agente */}
-                    <TouchableOpacity style={globalStyles.primaryButton} activeOpacity={0.8}>
+                    <TouchableOpacity style={globalStyles.primaryButton} activeOpacity={0.8}
+                    onPress={() => openPropertyUrl(property.url)}>
                         <Text style={{...globalStyles.primaryButtonText}}>
-                            Contacte o Agente
+                            Ver no site
                         </Text>
                     </TouchableOpacity>
 
