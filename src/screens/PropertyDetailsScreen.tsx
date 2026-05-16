@@ -5,6 +5,7 @@ import { COLORS, globalStyles } from "../styles/globalStyles";
 import { propertyStyles } from '../styles/propertyDetailsStyles';
 import AppFooter from "../components/AppFooter";
 import data from '../../data/properties.json';
+import { SafeAreaView } from 'react-native-safe-area-context';
 
 interface FeatureProps {
   iconName: string;
@@ -63,7 +64,8 @@ const PropertyDetails = ({ route, navigation }: any ) => {
 
     return (
         <View style={propertyStyles.container}>
-            <ScrollView showsVerticalScrollIndicator={false}>
+            <SafeAreaView style={[globalStyles.safeArea, { flex: 1 }]}>
+                <ScrollView showsVerticalScrollIndicator={false}>
                 
                 {/*  Cabeçalho (Header) */}
                 <View style={propertyStyles.header}>
@@ -169,8 +171,8 @@ const PropertyDetails = ({ route, navigation }: any ) => {
 
                 </View>
             </ScrollView>
+            </SafeAreaView>
             <AppFooter navigation={navigation} activeScreen="Favorite"/>
-
         </View>
     );
 };
