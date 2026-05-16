@@ -1,15 +1,42 @@
-import { View, Text, StyleSheet, ScrollView} from "react-native";
+import { View, Text, ScrollView} from "react-native";
 import { globalStyles } from "../styles/globalStyles";
 import AppFooter from "../components/AppFooter";
 import AppHeader from "../components/AppHeader";
 import { styles } from '../styles/favoriteScreenStyles';
 import SummaryCard from '../components/SummaryCard';
 import PropertyCard from "../components/PropertyCard";
+import { clearLiked, getLiked, LikedProperty } from "../storage/likedStorage";
+import { useCallback, useState } from 'react';
+import { useFocusEffect } from "@react-navigation/native";
 
 
-const FavoriteScreen = ({navigation}: any) => (
 
-    <View style={globalStyles.screen}>
+const FavoriteScreen = ({navigation}: any) => {
+
+    const [likedProperties, setLikedProperties] = useState<LikedProperty[]>([]);
+
+    /**
+     * useFocusEffect é como se fosse um useEffect, mas ele roda toda a vez
+     * que a screen ganha foco, ja o useEffect so quando carrega a screen pela primeira vez.
+     * como getLiked retorna uma Promise, usamos o then para atualizar o estado likedProperties com os dados lidos do AsyncStorage
+     */
+    useFocusEffect(
+        useCallback(() => {
+            getLiked().then(setLikedProperties);
+        }, [])
+    );
+
+    /**
+     * Aqui o clearLiked é parecido com o getLiked, retorna uma Promise.
+     * Entao para isso eu declaro uma constante que recebe uma funcao.
+     * Ai a arrow function diz que essa funcao da constante vai ser o clearLiked.then,
+     * ou seja, quandoa promise for comprida, e com isso ele seta o likedProperties como vazio.
+     * Assim atualizando o AsyncStorage e a variavel local daqui.
+     */
+    const clearLikedProperties = () => clearLiked().then(() => setLikedProperties([]));
+
+    return (
+        <View style={globalStyles.screen}>
         <AppHeader navigation={navigation}/>
 
 
@@ -27,40 +54,29 @@ const FavoriteScreen = ({navigation}: any) => (
                     title="Total Salvo"
                     value="12"
                     label="Propriedades"
-                    onReset={() => console.log('Botão de reset clicado!')}
+                    onReset={() => clearLikedProperties()}
                 />
             </View>
 
 
             <View style={{ paddingHorizontal: 20 }}>
-                <PropertyCard 
-                    imageUrl={{ uri: 'https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=500&q=80' }} // Link de teste
-                    title="Azure Skyline Penthouse"
-                    price="$4,500/mo"
-                    address="Downtown, Metropolis District"
-                    beds={3}
-                    baths={2}
-                    onPressViewDetails={() => navigation.navigate('PropertyDetails')}
-                />
-                
-                <PropertyCard 
-                    imageUrl={{ uri: 'https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=500&q=80' }} // Link de teste
-                    title="Willow Creek Estate"
-                    price="$1,250,000"
-                    address="Green Valley, Suburbia"
-                    beds={5}
-                    baths={4}
-                    onPressViewDetails={() => navigation.navigate('PropertyDetails')}
-                />
-            </View>
-
-
-            
+                {likedProperties.map(p => (
+                    <PropertyCard
+                        key={p.propertyCode}
+                        imageUrl={{ uri: p.image }}
+                        title={`T${p.rooms} em ${p.municipality}`}
+                        price={`€${p.price.toLocaleString()}`}
+                        address={p.address}
+                        beds={p.rooms}
+                        baths={p.bathrooms}
+                        onPressViewDetails={() => navigation.navigate('PropertyDetails', { propertyCode: p.propertyCode })}
+                    />
+                ))}
+            </View> 
         </ScrollView>
-
-
         <AppFooter navigation={navigation} activeScreen="Favorite"/>
     </View>
-)
+    )
+}
 
 export default FavoriteScreen;

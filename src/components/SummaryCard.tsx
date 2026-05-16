@@ -1,6 +1,5 @@
 import React from 'react';
 import { View, Text, StyleSheet, TouchableOpacity } from 'react-native';
-import Icon from 'react-native-vector-icons/Ionicons';
 import { COLORS, FONTS } from '../styles/globalStyles'; 
 
 // props que este cartão vai receber
@@ -23,11 +22,6 @@ const SummaryCard = ({ title, value, label, onReset }: SummaryCardProps) => {
             <View style={styles.actionContainer}>
                 <TouchableOpacity style={styles.resetButton} onPress={onReset}>
                     <Text style={[styles.resetText, { color: COLORS.branco }]}>Reset</Text>
-                </TouchableOpacity>
-                
-                <TouchableOpacity onPress={onReset}>
-                    
-                    <Icon name="sync" size={20} color={COLORS.corIconsTexto} />
                 </TouchableOpacity>
             </View>
 
