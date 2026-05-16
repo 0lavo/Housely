@@ -48,7 +48,7 @@ const HomeScreen = ({navigation}: any) => {
                                     <Icon name="location-on" size={16} color={COLORS.branco} />
                                     <Text style={homeStyles.locationBadgeText}>{data[index].province}, Portugal</Text> {/* -- PROVINCE -- */}
                                 </View>
-                                <Text style={homeStyles.title}>T{data[index].rooms} em V.N de Gaia</Text> {/* -- ROOMS -- */} 
+                                <Text style={homeStyles.title}>T{data[index].rooms} em {data[index].province}</Text> {/* -- ROOMS -- */} 
                             </View>
 
                             <View>
