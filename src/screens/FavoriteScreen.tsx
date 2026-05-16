@@ -52,7 +52,7 @@ const FavoriteScreen = ({navigation}: any) => {
             <View style={styles.summaryContainer}>
                 <SummaryCard 
                     title="Total Salvo"
-                    value="12"
+                    value={likedProperties.length.toString()}
                     label="Propriedades"
                     onReset={() => clearLikedProperties()}
                 />
