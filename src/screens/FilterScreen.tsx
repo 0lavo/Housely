@@ -9,6 +9,8 @@ import AppHeader from "../components/AppHeader";
 import IdealSpaceFilters from '../components/IdealSpaceFilters';
 import PersonalFilters from '../components/PersonalFilters';
 import Icon from 'react-native-vector-icons/Ionicons';
+import { getCurrentLocation } from '../services/location';
+
 
 type TabType = 'space' | 'personal';
 
@@ -17,6 +19,33 @@ const FilterScreen = ({ navigation }: any) => {
     const [activeTab, setActiveTab] = useState<TabType>('space');
     const [location, setLocation] = useState(''); // <-- Guarda o texto da cidade
     const [useCurrentLocation, setUseCurrentLocation] = useState(false); // <-- Guarda o estado da checkbox
+    const [locationCoords, setLocationCoords] = useState<{latitude: number, longitude: number} | null>(null);
+
+    const handleToggleLocation = async () => {
+        if (!useCurrentLocation) {
+            try {
+            const coords = await getCurrentLocation() as {latitude: number, longitude: number}; 
+
+                // print das coordenadas no terminal
+                console.log("Coordenadas:", coords);
+
+            setLocationCoords(coords); 
+            setUseCurrentLocation(true);
+            
+            // Limpa o texto da cidade para não haver conflitos
+            setLocation('');
+            } catch (error) {
+                setUseCurrentLocation(false);
+            }
+        } 
+        else {
+            // Desmarca a checkbox
+            setUseCurrentLocation(false);
+            
+            // Limpa as coordenadas quando o utilizador desmarca a opção!
+            setLocationCoords(null);
+        }
+    };
 
     return (
         <View style={globalStyles.screen}>
@@ -35,23 +64,28 @@ const FilterScreen = ({ navigation }: any) => {
                     <View style={filterStyles.locationInputContainer}>
                         <Icon name="location-outline" size={20} color="#888" style={filterStyles.locationIcon} />
                         <TextInput
-                            style={filterStyles.locationInput}
-                            placeholder="Cidade ou distrito"
+                            style={[
+                                filterStyles.locationInput,
+                                useCurrentLocation && { opacity: 0.5 } // meio transparente se desativado
+                            ]}
+                            placeholder={useCurrentLocation ? "A usar a localização atual..." : "Cidade ou distrito"}
                             placeholderTextColor="#888"
                             value={location}
                             onChangeText={setLocation}
+                            editable={!useCurrentLocation} // Bloqueia a escrita se a checkbox estiver ativa
+                            selectTextOnFocus={!useCurrentLocation}
                         />
                     </View>
 
                     {/* Checkbox "Usar localização atual" */}
                     <TouchableOpacity 
                         style={filterStyles.checkboxContainer} 
-                        onPress={() => setUseCurrentLocation(!useCurrentLocation)}
+                        onPress={handleToggleLocation}
                         activeOpacity={0.8}
                     >
                         <View style={filterStyles.checkbox}>
                             {useCurrentLocation && (
-                                <Icon name="checkmark" size={16} color={COLORS.corIconsTexto} />
+                                <Icon name="checkmark" size={24} color={COLORS.corIconsTexto} />
                             )}
                         </View>
                         <Text style={filterStyles.checkboxLabel}>Usar localização atual</Text>
