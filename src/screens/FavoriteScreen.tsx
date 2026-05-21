@@ -5,7 +5,7 @@ import AppHeader from "../components/AppHeader";
 import { styles } from '../styles/favoriteScreenStyles';
 import SummaryCard from '../components/SummaryCard';
 import PropertyCard from "../components/PropertyCard";
-import { clearLiked, getLiked, LikedProperty } from "../storage/likedStorage";
+import { clearLiked, getLiked, LikedProperty, removedLiked } from "../storage/likedStorage";
 import { useCallback, useState } from 'react';
 import { useFocusEffect } from "@react-navigation/native";
 
@@ -70,6 +70,7 @@ const FavoriteScreen = ({navigation}: any) => {
                         beds={p.rooms}
                         baths={p.bathrooms}
                         onPressViewDetails={() => navigation.navigate('PropertyDetails', { propertyCode: p.propertyCode })}
+                        onPressFavorite={() => removedLiked(p.propertyCode).then(() => setLikedProperties(prev => prev.filter(prop => prop.propertyCode !== p.propertyCode)))}
                     />
                 ))}
             </View> 
