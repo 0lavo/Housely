@@ -1,16 +1,18 @@
 // src/screens/HomeScreen.tsx
 
-import { View, Text, ImageBackground, TouchableOpacity } from "react-native";
+import { View, Text, ImageBackground, TouchableOpacity, Animated, PanResponder, Dimensions } from "react-native";
+import React, { useState, useRef } from 'react';
 import { globalStyles, COLORS } from "../styles/globalStyles";
 import AppFooter from "../components/AppFooter";
 import AppHeader from "../components/AppHeader";
 import { homeStyles } from '../styles/homeScreenStyles';
 import Icon from 'react-native-vector-icons/MaterialIcons';
 import data from '../../data/properties.json'
-import { useState } from 'react';
 import { addLiked } from '../storage/likedStorage';
 import EndOfListModal from "../components/EndOfListModal";
 
+const SCREEN_WIDTH = Dimensions.get('window').width;
+const SWIPE_THRESHOLD = 0.25 * SCREEN_WIDTH;
 
 const HomeScreen = ({navigation}: any) => {
     
@@ -18,96 +20,151 @@ const HomeScreen = ({navigation}: any) => {
     const isEnd = index >= data.length;
     const safeIndex = isEnd ? data.length - 1 : index;
 
-
     const addToLiked = async () => {
         setIndex(i => i + 1);
         addLiked({
-            propertyCode: data[index].propertyCode,
-            image: data[index].thumbnail,
-            province: data[index].province,
-            municipality: data[index].municipality,
-            address: data[index].address,
-            rooms: data[index].rooms,
-            bathrooms: data[index].bathrooms,
-            size: data[index].size,
-            price: data[index].price,
-            description: data[index].description,
-            url: data[index].url,
+            propertyCode: data[safeIndex].propertyCode,
+            image: data[safeIndex].thumbnail,
+            province: data[safeIndex].province,
+            municipality: data[safeIndex].municipality,
+            address: data[safeIndex].address,
+            rooms: data[safeIndex].rooms,
+            bathrooms: data[safeIndex].bathrooms,
+            size: data[safeIndex].size,
+            price: data[safeIndex].price,
+            description: data[safeIndex].description,
+            url: data[safeIndex].url,
+        });
+    };
+
+    const latest = useRef({ addToLiked });
+    latest.current = { addToLiked };
+
+    const position = useRef(new Animated.ValueXY()).current;
+
+    const panResponder = useRef(
+        PanResponder.create({
+            onStartShouldSetPanResponder: () => true,
+            onPanResponderMove: (evt: any, gestureState: any) => {
+                position.setValue({ x: gestureState.dx, y: gestureState.dy });
+            },
+            onPanResponderRelease: (evt: any, gestureState: any) => {
+                if (gestureState.dx > SWIPE_THRESHOLD) {
+                    forceSwipe('right');
+                } else if (gestureState.dx < -SWIPE_THRESHOLD) {
+                    forceSwipe('left');
+                } else {
+                    resetPosition();
+                }
+            }
         })
-    }
-    
+    ).current;
+
+    const forceSwipe = (direction: 'left' | 'right') => {
+        const x = direction === 'right' ? SCREEN_WIDTH + 50 : -SCREEN_WIDTH - 50;
+        Animated.timing(position, {
+            toValue: { x, y: 0 },
+            duration: 250,
+            useNativeDriver: false,
+        }).start(() => onSwipeComplete(direction));
+    };
+
+    const onSwipeComplete = (direction: 'left' | 'right') => {
+        if (direction === 'right') {
+            {/* Chama através do .current para ignorar o bloqueio do PanResponder */}
+            latest.current.addToLiked(); 
+        } else {
+            setIndex(i => i + 1);
+        }
+        position.setValue({ x: 0, y: 0 });
+    };
+
+    const resetPosition = () => {
+        Animated.spring(position, {
+            toValue: { x: 0, y: 0 },
+            useNativeDriver: false,
+        }).start();
+    };
+
+    const rotate = position.x.interpolate({
+        inputRange: [-SCREEN_WIDTH / 2, 0, SCREEN_WIDTH / 2],
+        outputRange: ['-10deg', '0deg', '10deg'],
+        extrapolate: 'clamp'
+    });
+
+    const animatedCardStyle: any = {
+        ...position.getLayout(),
+        transform: [{ rotate }]
+    };
+
     return (
         <View style={globalStyles.screen}>
             <AppHeader navigation={navigation}/>
             <View style={[globalStyles.centeredContainer, {paddingVertical: 16}]}> 
                 <View style={homeStyles.cardContainer}>
-                    <ImageBackground
-                        source={{uri: data[safeIndex].thumbnail}}
-                        style={homeStyles.card}
-                        imageStyle={homeStyles.cardImage}
+                    
+                    <Animated.View 
+                        style={[animatedCardStyle, { height: '100%', width: '100%' }]} 
+                        {...panResponder.panHandlers}
                     >
-                        <View style={homeStyles.overlay}>
-
-
-                            <View>
-                                <View style={homeStyles.locationBadge}>
-                                    <Icon name="location-on" size={16} color={COLORS.branco} />
-                                    <Text style={homeStyles.locationBadgeText}>{data[safeIndex].province}, Portugal</Text>
-                                </View>
-                                <Text style={homeStyles.title}>T{data[safeIndex].rooms} em {data[safeIndex].province}</Text>
-                            </View>
-
-                            <View>
-                                <View style={homeStyles.bottomContent}>
-
-                                <View style={homeStyles.addressContainer}>
-                                    <View style={homeStyles.addressRow}>
+                        <ImageBackground
+                            source={{uri: data[safeIndex].thumbnail}}
+                            style={homeStyles.card}
+                            imageStyle={homeStyles.cardImage}
+                        >
+                            <View style={homeStyles.overlay}>
+                                <View>
+                                    <View style={homeStyles.locationBadge}>
                                         <Icon name="location-on" size={16} color={COLORS.branco} />
-                                        <Text style={homeStyles.addressText}>{data[safeIndex].address}</Text>
+                                        <Text style={homeStyles.locationBadgeText}>{data[safeIndex].province}, Portugal</Text>
                                     </View>
-
-                                    <Text style={homeStyles.cityText}>{data[safeIndex].municipality}</Text>
+                                    <Text style={homeStyles.title}>T{data[safeIndex].rooms} em {data[safeIndex].province}</Text>
                                 </View>
 
-                                <View style={homeStyles.priceContainer}>
-                                    <Text style={homeStyles.price}>€{data[safeIndex].price}</Text>
-                                    <Text style={homeStyles.priceMonth}>por mês</Text>
+                                <View>
+                                    <View style={homeStyles.bottomContent}>
+                                        <View style={homeStyles.addressContainer}>
+                                            <View style={homeStyles.addressRow}>
+                                                <Icon name="location-on" size={16} color={COLORS.branco} />
+                                                <Text style={homeStyles.addressText}>{data[safeIndex].address}</Text>
+                                            </View>
+                                            <Text style={homeStyles.cityText}>{data[safeIndex].municipality}</Text>
+                                        </View>
+
+                                        <View style={homeStyles.priceContainer}>
+                                            <Text style={homeStyles.price}>€{data[safeIndex].price}</Text>
+                                            <Text style={homeStyles.priceMonth}>por mês</Text>
+                                        </View>
+                                    </View>
+                                    <View style={homeStyles.infoRow}>
+                                        <View style={homeStyles.infoItem}>
+                                            <Icon name="bed" size={20} color={COLORS.branco} />
+                                            <Text style={homeStyles.infoText}>{data[safeIndex].rooms}</Text>
+                                        </View>
+                                        <View style={homeStyles.infoItem}>
+                                            <Icon name="bathtub" size={20} color={COLORS.branco} />
+                                            <Text style={homeStyles.infoText}>{data[safeIndex].bathrooms}</Text>
+                                        </View>
+                                        <View style={homeStyles.infoItem}>
+                                            <Icon name="square-foot" size={20} color={COLORS.branco} />
+                                            <Text style={homeStyles.infoText}>{data[safeIndex].size}m²</Text>
+                                        </View>
+                                    </View>
                                 </View>
                             </View>
-                            <View style={homeStyles.infoRow}>
+                        </ImageBackground>
+                    </Animated.View>
 
-                                <View style={homeStyles.infoItem}>
-                                    <Icon name="bed" size={20} color={COLORS.branco} />
-                                    <Text style={homeStyles.infoText}>{data[safeIndex].rooms}</Text>
-                                </View>
-                                <View style={homeStyles.infoItem}>
-                                    <Icon name="bathtub" size={20} color={COLORS.branco} />
-                                    <Text style={homeStyles.infoText}>{data[safeIndex].bathrooms}</Text>
-                                </View>
-
-                                <View style={homeStyles.infoItem}>
-                                    <Icon name="square-foot" size={20} color={COLORS.branco} />
-                                    <Text style={homeStyles.infoText}>{data[safeIndex].size}m²</Text>
-                                </View>
-
-                            </View>
-                            </View>
-                            
-
-                            
-                        </View>
-                    </ImageBackground>
                 </View>
-                <View style={homeStyles.actionsContainer}>
 
-                    <TouchableOpacity style={homeStyles.rejectButton} onPress={() => setIndex(i => i + 1)}>
+                <View style={homeStyles.actionsContainer}>
+                    <TouchableOpacity style={homeStyles.rejectButton} onPress={() => forceSwipe('left')}>
                         <Icon name="close" size={34} color="#D32F2F" />
                     </TouchableOpacity>
 
-                    <TouchableOpacity style={homeStyles.favoriteButton} onPress={() => addToLiked()}>
+                    <TouchableOpacity style={homeStyles.favoriteButton} onPress={() => forceSwipe('right')}>
                         <Icon name="favorite" size={30} color={COLORS.branco} />
                     </TouchableOpacity>
-
                 </View>
             </View>
             
@@ -120,6 +177,5 @@ const HomeScreen = ({navigation}: any) => {
         </View>
     );
 };
-
 
 export default HomeScreen;
