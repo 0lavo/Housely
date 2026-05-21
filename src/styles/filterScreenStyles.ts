@@ -28,7 +28,7 @@ export const filterStyles = StyleSheet.create({
         backgroundColor: COLORS.branco, 
         borderRadius: 10,
         borderWidth: 1,
-        borderColor: COLORS.corCard,        
+        borderColor: COLORS.corIconsTexto,        
         height: 50,
         paddingHorizontal: 15,
         marginBottom: 20,
@@ -115,5 +115,25 @@ export const filterStyles = StyleSheet.create({
     submitSection: { 
         paddingVertical: 15,
         paddingHorizontal: 20,
-    }
+    },
+
+    // slider distancia
+    distanceContainer: {
+        paddingTop: 10,
+    },
+    distanceHeader: {
+        flexDirection: 'row',
+        justifyContent: 'space-between',
+        alignItems: 'center',
+    },
+    distanceLabel: {
+        fontSize: FONTS.size.body,
+        fontFamily: FONTS.regular,
+        color: COLORS.corIconsTexto,
+    },
+    distanceValue: {
+        fontSize: FONTS.size.body,
+        fontFamily: FONTS.bold,
+        color: COLORS.corIconsTexto,
+    },
 });

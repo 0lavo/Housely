@@ -10,6 +10,8 @@ import Icon from 'react-native-vector-icons/Ionicons';
 import { getCurrentLocation } from '../services/location';
 import { PropertyType, MIN_BUDGET, MAX_BUDGET } from '../components/IdealSpaceFilters';
 import { saveFilters } from '../storage/filtersStorage.ts';
+import {propertyStyles} from '../styles/idealSpaceFiltersStyles.ts'
+import Slider from '@react-native-community/slider';
 
 
 type TabType = 'space' | 'personal';
@@ -95,38 +97,68 @@ const FilterScreen = ({ navigation }: any) => {
                         Conta-nos o teu perfil para encontrarmos a casa certa.
                     </Text>
                     
-                    {/* localização */}
-                    <View style={filterStyles.locationInputContainer}>
-                        <Icon name="location-outline" size={20} color="#888" style={filterStyles.locationIcon} />
-                        <TextInput
-                            style={[
-                                filterStyles.locationInput,
-                                useCurrentLocation && { opacity: 0.5 } // meio transparente se desativado
-                            ]}
-                            placeholder={useCurrentLocation ? "A usar a localização atual..." : "Cidade ou distrito"}
-                            placeholderTextColor="#888"
-                            value={location}
-                            onChangeText={setLocation}
-                            editable={!useCurrentLocation} // Bloqueia a escrita se a checkbox estiver ativa
-                            selectTextOnFocus={!useCurrentLocation}
-                        />
-                    </View>
 
-                    {/* Checkbox "Usar localização atual" */}
-                    <TouchableOpacity 
-                        style={filterStyles.checkboxContainer} 
-                        onPress={handleToggleLocation}
-                        activeOpacity={0.8}
-                    >
-                        <View style={filterStyles.checkbox}>
-                            {useCurrentLocation && (
-                                <Icon name="checkmark" size={24} color={COLORS.corIconsTexto} />
-                            )}
+                    {/* NOVO: Cartão à volta da localização */}
+                    <View style={[propertyStyles.othersCard, { padding: 20 }]}>
+
+                        {/* localização */}
+                        <View style={filterStyles.locationInputContainer}>
+                            <Icon name="location-outline" size={20} color={COLORS.corIconsTexto} style={filterStyles.locationIcon} />
+                            <TextInput
+                                style={[
+                                    filterStyles.locationInput,
+                                    useCurrentLocation && { opacity: 0.5 } // meio transparente se desativado
+                                ]}
+                                placeholder={useCurrentLocation ? "A usar a localização atual..." : "Cidade ou distrito"}
+                                placeholderTextColor="#888"
+                                value={location}
+                                onChangeText={setLocation}
+                                editable={!useCurrentLocation} // Bloqueia a escrita se a checkbox estiver ativa
+                                selectTextOnFocus={!useCurrentLocation}
+                            />
+                            
                         </View>
-                        <Text style={filterStyles.checkboxLabel}>Usar localização atual</Text>
-                    </TouchableOpacity>
-                </View>
 
+                        {/* Checkbox "Usar localização atual" */}
+                        <TouchableOpacity 
+                            style={filterStyles.checkboxContainer} 
+                            onPress={handleToggleLocation}
+                            activeOpacity={0.8}
+                        >
+                            <View style={filterStyles.checkbox}>
+                                {useCurrentLocation && (
+                                    <Icon name="checkmark" size={24} color={COLORS.corIconsTexto} />
+                                )}
+                            </View>
+                            <Text style={filterStyles.checkboxLabel}>Usar localização atual</Text>
+                        </TouchableOpacity>
+
+
+                        {/* Slider de Distância */}
+                        <View style={filterStyles.distanceContainer}>
+                            <View style={filterStyles.distanceHeader}>
+                                <Text style={filterStyles.distanceLabel}>Distância máxima</Text>
+                                <Text style={filterStyles.distanceValue}>+ {distance} km</Text>
+                            </View>
+                            
+                            <Slider
+                                style={{ width: '100%', height: 40, marginTop: 10 }}
+                                minimumValue={0}
+                                maximumValue={50}
+                                step={5}
+                                value={distance}
+                                onValueChange={(val) => setDistance(val)}
+                                minimumTrackTintColor={COLORS.corBotoes}
+                                maximumTrackTintColor="#e0e0e0"
+                                thumbTintColor={COLORS.corBotoes}
+                            />
+                        </View>
+
+                    </View>
+                    
+                </View> {/* FIM DO NOVO CARTÃO */}
+
+                            
 
                 {/*  Switcher botões para trocar */}
                 <View style={filterStyles.tabContainer}>
