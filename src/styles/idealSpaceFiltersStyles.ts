@@ -5,6 +5,19 @@ export const propertyStyles = StyleSheet.create({
     container: {
         flex: 1,
     },
+    multiSlider: {
+        backgroundColor: COLORS.corBotoes,
+        width: 20,
+        height: 20,
+        borderRadius: 10,
+        borderWidth: 2,
+        borderColor: COLORS.branco,
+        shadowColor: '#000',
+        shadowOffset: { width: 0, height: 2 },
+        shadowOpacity: 0.15,
+        shadowRadius: 3,
+        elevation: 3,
+    },
 
     // --- ESTILOS DO SLIDER DE ORÇAMENTO ---
     budgetCard: {

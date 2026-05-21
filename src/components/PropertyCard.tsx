@@ -25,7 +25,7 @@ const PropertyCard = ({ imageUrl, title, price, address, beds, baths, onPressFav
                 
                 {/* Botão de Favorito (Flutuante) */}
                 <TouchableOpacity style={styles.heartButton} onPress={onPressFavorite}>
-                    <Icon name="heart" size={20} color={COLORS.corBotoes} /> 
+                    <Icon name="close-sharp" size={28} color={COLORS.corBotoes} /> 
                 </TouchableOpacity>
             </View>
 

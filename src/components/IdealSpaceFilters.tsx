@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { Dispatch, SetStateAction, useState } from 'react';
 import { View, Text, Switch, TouchableOpacity } from "react-native";
 import MultiSlider from '@ptomasroos/react-native-multi-slider';
 import Icon from 'react-native-vector-icons/Ionicons';
@@ -6,12 +6,27 @@ import { COLORS } from "../styles/globalStyles";
 import { propertyStyles } from '../styles/idealSpaceFiltersStyles';
 
 // --- Tipos ---
-type PropertyType = 'Quarto' | 'T0/Studio' | 'T1' | 'T2' | 'T3';
+export type PropertyType = 'Quarto' | 'T0/Studio' | 'T1' | 'T2' | 'T3';
 
-const ALL_PROPERTY_TYPES: PropertyType[] = ['Quarto', 'T0/Studio', 'T1', 'T2', 'T3'];
+const ALL_PROPERTY_TYPES: PropertyType[] = ['T0/Studio', 'T1', 'T2', 'T3'];
 
-const MIN_BUDGET = 100;
-const MAX_BUDGET = 3500;
+export const MIN_BUDGET = 100;
+export const MAX_BUDGET = 3500;
+
+type IdealSpaceFiltersProps = {
+    budgetRange: [number | null, number | null];
+    setBudgetRange: (range: [number | null, number | null]) => void;
+    selectedTypes: PropertyType[];
+    setSelectedTypes: Dispatch<SetStateAction<PropertyType[]>>;
+    elevator: boolean;
+    setElevator: (value: boolean) => void;
+    garage: boolean;
+    setGarage: (value: boolean) => void;
+    swimmingPool: boolean;
+    setSwimmingPool: (value: boolean) => void;
+    furnished: boolean;
+    setFurnished: (value: boolean) => void;
+} 
 
 // --- Subcomponente: Chip de tipo de propriedade ---
 const PropertyChip = ({
@@ -77,25 +92,12 @@ const RequirementToggle = ({
 );
 
 // --- Componente principal ---
-const idealSpaceFilters = ({ navigation }: any) => {
+const IdealSpaceFilters = (idealSpaceFilters: IdealSpaceFiltersProps) => {
 
-    // Orçamento
-    const [budgetRange, setBudgetRange] = useState<[number, number]>([MIN_BUDGET, MAX_BUDGET]);
-
-    // Tipos de propriedade
-    const [selectedTypes, setSelectedTypes] = useState<PropertyType[]>(['Quarto']);
-
-    // Secção "Outros Requisitos" expansível
     const [isOthersExpanded, setIsOthersExpanded] = useState(true);
 
-    // Outros requisitos
-    const [elevator, setElevator] = useState(true);
-    const [garage, setGarage] = useState(false);
-    const [pool, setPool] = useState(false);
-    const [furnished, setFurnished] = useState(true);
-
     const togglePropertyType = (type: PropertyType) => {
-        setSelectedTypes(prev =>
+        idealSpaceFilters.setSelectedTypes(prev =>
             prev.includes(type)
                 ? prev.filter(t => t !== type)
                 : [...prev, type]
@@ -112,31 +114,19 @@ const idealSpaceFilters = ({ navigation }: any) => {
                 <View style={propertyStyles.budgetHeader}>
                     <Text style={propertyStyles.budgetTitle}>Teu orçamento</Text>
                     <Text style={propertyStyles.budgetRange}>
-                        {formatBudget(budgetRange[0])} - {formatBudget(budgetRange[1])}
+                        {formatBudget(idealSpaceFilters.budgetRange[0] ?? MIN_BUDGET)} - {formatBudget(idealSpaceFilters.budgetRange[1] ?? MAX_BUDGET)}
                     </Text>
                 </View>
                 <View style={propertyStyles.sliderContainer}>
                     <MultiSlider
-                        values={[budgetRange[0], budgetRange[1]]}
+                        values={[idealSpaceFilters.budgetRange[0] ?? MIN_BUDGET, idealSpaceFilters.budgetRange[1] ?? MAX_BUDGET]}
                         min={MIN_BUDGET}
                         max={MAX_BUDGET}
                         step={50}
-                        onValuesChange={(values) => setBudgetRange([values[0], values[1]])}
+                        onValuesChange={(values) => idealSpaceFilters.setBudgetRange([values[0], values[1]])}
                         selectedStyle={{ backgroundColor: COLORS.corBotoes }}
                         unselectedStyle={{ backgroundColor: COLORS.corCard }}
-                        markerStyle={{
-                            backgroundColor: COLORS.corBotoes,
-                            width: 20,
-                            height: 20,
-                            borderRadius: 10,
-                            borderWidth: 2,
-                            borderColor: COLORS.branco,
-                            shadowColor: '#000',
-                            shadowOffset: { width: 0, height: 2 },
-                            shadowOpacity: 0.15,
-                            shadowRadius: 3,
-                            elevation: 3,
-                        }}
+                        markerStyle={propertyStyles.multiSlider}
                         containerStyle={{ height: 40 }}
                         trackStyle={{ height: 4, borderRadius: 2 }}
                         allowOverlap={false}
@@ -153,7 +143,7 @@ const idealSpaceFilters = ({ navigation }: any) => {
                         <PropertyChip
                             key={type}
                             label={type}
-                            isActive={selectedTypes.includes(type)}
+                            isActive={idealSpaceFilters.selectedTypes.includes(type)}
                             onPress={() => togglePropertyType(type)}
                         />
                     ))}
@@ -184,23 +174,23 @@ const idealSpaceFilters = ({ navigation }: any) => {
                         <View style={propertyStyles.othersContent}>
                             <RequirementToggle
                                 label="Elevador"
-                                value={elevator}
-                                onValueChange={setElevator}
+                                value={idealSpaceFilters.elevator}
+                                onValueChange={idealSpaceFilters.setElevator}
                             />
                             <RequirementToggle
                                 label="Garagem"
-                                value={garage}
-                                onValueChange={setGarage}
+                                value={idealSpaceFilters.garage}
+                                onValueChange={idealSpaceFilters.setGarage}
                             />
                             <RequirementToggle
                                 label="Piscina"
-                                value={pool}
-                                onValueChange={setPool}
+                                value={idealSpaceFilters.swimmingPool}
+                                onValueChange={idealSpaceFilters.setSwimmingPool}
                             />
                             <RequirementToggle
                                 label="Mobilado"
-                                value={furnished}
-                                onValueChange={setFurnished}
+                                value={idealSpaceFilters.furnished}
+                                onValueChange={idealSpaceFilters.setFurnished}
                                 showDivider={false}
                             />
                         </View>
@@ -212,4 +202,4 @@ const idealSpaceFilters = ({ navigation }: any) => {
     );
 };
 
-export default idealSpaceFilters;
+export default IdealSpaceFilters;

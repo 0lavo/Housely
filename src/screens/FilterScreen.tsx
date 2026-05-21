@@ -1,15 +1,15 @@
 import React, { useState } from 'react';
 import { View, Text, ScrollView, TouchableOpacity, TextInput } from "react-native";
-
 import { COLORS, globalStyles } from "../styles/globalStyles";
 import { filterStyles } from "../styles/filterScreenStyles";
-
 import AppFooter from "../components/AppFooter";
 import AppHeader from "../components/AppHeader";
 import IdealSpaceFilters from '../components/IdealSpaceFilters';
 import PersonalFilters from '../components/PersonalFilters';
 import Icon from 'react-native-vector-icons/Ionicons';
 import { getCurrentLocation } from '../services/location';
+import { PropertyType, MIN_BUDGET, MAX_BUDGET } from '../components/IdealSpaceFilters';
+import { saveFilters } from '../storage/filtersStorage.ts';
 
 
 type TabType = 'space' | 'personal';
@@ -20,6 +20,39 @@ const FilterScreen = ({ navigation }: any) => {
     const [location, setLocation] = useState(''); // <-- Guarda o texto da cidade
     const [useCurrentLocation, setUseCurrentLocation] = useState(false); // <-- Guarda o estado da checkbox
     const [locationCoords, setLocationCoords] = useState<{latitude: number, longitude: number} | null>(null);
+    const [distance, setDistance] = useState<number>(5);
+
+    //Filtros do espaço ideal
+    const [budgetRange, setBudgetRange] = useState<[number | null, number | null]>([MIN_BUDGET, MAX_BUDGET]);
+    const [selectedTypes, setSelectedTypes] = useState<PropertyType[]>(['T0/Studio', 'T1']);
+    const [elevator, setElevator] = useState(true);
+    const [garage, setGarage] = useState(false);
+    const [swimmingPool, setSwimmingPool] = useState(false);
+    const [furnished, setFurnished] = useState(true);
+
+    //Filtros pessoais
+    const [hasPets, setHasPets] = useState<boolean | null>(true);
+    const [smoker, setSmoker] = useState<boolean | null>(false);
+    const [gender, setGender] = useState<string | null>('Feminino');
+    const [housemates, setHousemates] = useState<string | null>('3');
+    
+    const handleFilters = () => {
+        saveFilters({
+            locationCoords: locationCoords,
+            distance: distance,
+            minPrice: budgetRange[0],
+            maxPrice: budgetRange[1],
+            bedrooms: selectedTypes,
+            elevator,
+            garage,
+            swimmingPool,
+            furnished,
+            petPolicy: hasPets,
+            smokePolicy: smoker,
+            newGender: gender,
+            housemates: housemates
+        })
+    };
 
     const handleToggleLocation = async () => {
         if (!useCurrentLocation) {
@@ -28,13 +61,15 @@ const FilterScreen = ({ navigation }: any) => {
 
                 // print das coordenadas no terminal
                 console.log("Coordenadas:", coords);
+                
 
-            setLocationCoords(coords); 
-            setUseCurrentLocation(true);
+
+                setLocationCoords(coords); 
+                setUseCurrentLocation(true);
             
-            // Limpa o texto da cidade para não haver conflitos
-            setLocation('');
-            } catch (error) {
+                // Limpa o texto da cidade para não haver conflitos
+                setLocation('');
+            } catch {
                 setUseCurrentLocation(false);
             }
         } 
@@ -119,18 +154,28 @@ const FilterScreen = ({ navigation }: any) => {
                 {/* Área dos Filtros Específicos (renderização condicional)*/}
                 <View style={filterStyles.filtersContainer}>
                     {activeTab === 'space' ? (
-                        <IdealSpaceFilters />
+                        <IdealSpaceFilters
+                            budgetRange={budgetRange} setBudgetRange={setBudgetRange}
+                            selectedTypes={selectedTypes} setSelectedTypes={setSelectedTypes}
+                            elevator={elevator} setElevator={setElevator}
+                            garage={garage} setGarage={setGarage}
+                            swimmingPool={swimmingPool} setSwimmingPool={setSwimmingPool}
+                            furnished={furnished} setFurnished={setFurnished}
+                        />
                     ) : (
-                        <PersonalFilters />
+                        <PersonalFilters 
+                        hasPets={hasPets} setHasPets={setHasPets}
+                        smoker={smoker} setSmoker={setSmoker}
+                        gender={gender} setGender={setGender}
+                        housemates={housemates} setHousemates={setHousemates}/>
                     )}
                 </View>
-
             </ScrollView>
 
             {/*  Botão Principal e Footer */}
             <View style={filterStyles.submitSection}>
-                <TouchableOpacity style={globalStyles.primaryButton} activeOpacity={0.8}>
-                    <Text style={globalStyles.primaryButtonText}>Mostrar propriedades</Text>
+                <TouchableOpacity style={globalStyles.primaryButton} activeOpacity={0.8} onPress={() => handleFilters()}>
+                    <Text style={globalStyles.primaryButtonText}>Salvar Filtros</Text>
                 </TouchableOpacity>
             </View>
 

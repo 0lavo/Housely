@@ -1,8 +1,20 @@
 import React, { useState } from 'react';
 import { View, Text, Switch, TouchableOpacity } from "react-native";
 import Icon from 'react-native-vector-icons/Ionicons';
-import { COLORS, globalStyles } from "../styles/globalStyles";
+import { COLORS } from "../styles/globalStyles";
 import { personalStyles } from '../styles/personalFiltersStyles';
+
+
+type PersonalFiltersProps = {
+    hasPets: boolean | null;
+    setHasPets: (value: boolean | null) => void;
+    smoker: boolean | null;
+    setSmoker: (value: boolean | null) => void;
+    gender: string | null;
+    setGender: (value: string | null) => void;
+    housemates: string | null;
+    setHousemates: (value: string | null) => void;
+}
 
 // Subcomponente reutilizável para as opções de "Liga/Desliga"
 const ToggleOption = ({ iconName, title, subtitle, value, onValueChange }: any) => (
@@ -24,24 +36,21 @@ const ToggleOption = ({ iconName, title, subtitle, value, onValueChange }: any) 
     </View>
 );
 
-const PersonalFilters = ({ navigation }: any) => {
+
+
+
+const PersonalFilters = (personalFilters: PersonalFiltersProps) => {
     
-    const [hasPets, setHasPets] = useState(true);
     const [friendlyHouse, setFriendlyHouse] = useState(true);
-    const [smoker, setSmoker] = useState(false);
-    
-    // Estado do Género
-    const [gender, setGender] = useState<'Masculino' | 'Feminino'>('Feminino');
-    
-    // Estado dos Companheiros de Casa
-    const [housemates, setHousemates] = useState(3);
 
     const handleMinus = () => {
-        if (housemates > 0) setHousemates(housemates - 1);
+        const n = Number(personalFilters.housemates ?? 0);
+        personalFilters.setHousemates(String(Math.max(0, n - 1)));
     };
 
     const handlePlus = () => {
-        setHousemates(housemates + 1);
+        const n = Number(personalFilters.housemates ?? 0);
+        personalFilters.setHousemates(String(n + 1));
     };
 
     return (
@@ -52,8 +61,8 @@ const PersonalFilters = ({ navigation }: any) => {
                 iconName="paw-outline" 
                 title="Tens animais" 
                 subtitle="Procuro casa que aceite o meu pet" 
-                value={hasPets} 
-                onValueChange={setHasPets} 
+                value={personalFilters.hasPets} 
+                onValueChange={personalFilters.setHasPets} 
             />
 
             {/* 2. Casa Diversa */}
@@ -70,8 +79,8 @@ const PersonalFilters = ({ navigation }: any) => {
                 iconName="logo-no-smoking" 
                 title="Fumador" 
                 subtitle="É permitido fumar dentro de casa" 
-                value={smoker} 
-                onValueChange={setSmoker} 
+                value={personalFilters.smoker} 
+                onValueChange={personalFilters.setSmoker}
             />
 
             {/* 4. Género */}
@@ -81,12 +90,12 @@ const PersonalFilters = ({ navigation }: any) => {
                     <TouchableOpacity 
                         style={[
                             personalStyles.genderBtn, 
-                            gender === 'Masculino' ? personalStyles.genderBtnActive : personalStyles.genderBtnInactive
+                            personalFilters.gender === 'Masculino' ? personalStyles.genderBtnActive : personalStyles.genderBtnInactive
                         ]}
-                        onPress={() => setGender('Masculino')}
+                        onPress={() => personalFilters.setGender('Masculino')}
                         activeOpacity={0.8}
                     >
-                        <Text style={gender === 'Masculino' ? personalStyles.genderTextActive : personalStyles.genderTextInactive}>
+                        <Text style={personalFilters.gender === 'Masculino' ? personalStyles.genderTextActive : personalStyles.genderTextInactive}>
                             Masculino
                         </Text>
                     </TouchableOpacity>
@@ -94,12 +103,12 @@ const PersonalFilters = ({ navigation }: any) => {
                     <TouchableOpacity 
                         style={[
                             personalStyles.genderBtn, 
-                            gender === 'Feminino' ? personalStyles.genderBtnActive : personalStyles.genderBtnInactive
+                            personalFilters.gender === 'Feminino' ? personalStyles.genderBtnActive : personalStyles.genderBtnInactive
                         ]}
-                        onPress={() => setGender('Feminino')}
+                        onPress={() => personalFilters.setGender('Feminino')}
                         activeOpacity={0.8}
                     >
-                        <Text style={gender === 'Feminino' ? personalStyles.genderTextActive : personalStyles.genderTextInactive}>
+                        <Text style={personalFilters.gender === 'Feminino' ? personalStyles.genderTextActive : personalStyles.genderTextInactive}>
                             Feminino
                         </Text>
                     </TouchableOpacity>
@@ -121,7 +130,7 @@ const PersonalFilters = ({ navigation }: any) => {
                         <Icon name="remove" size={16} color="#888" />
                     </TouchableOpacity>
                     
-                    <Text style={personalStyles.stepperValue}>{housemates}</Text>
+                    <Text style={personalStyles.stepperValue}>{personalFilters.housemates}</Text>
                     
                     <TouchableOpacity style={[personalStyles.stepperBtn, personalStyles.stepperBtnPlus]} onPress={handlePlus}>
                         <Icon name="add" size={16} color={COLORS.branco} />
