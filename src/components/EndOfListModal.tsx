@@ -27,12 +27,12 @@ const EndOfListModal = ({ visible, onRestart, onClose }: Props) => {
                             </View>
 
                             <Text style={endOfListModalStyles.title}>
-                                Chegou ao fim!
+                                Não há mais casas com esses filtros!
                             </Text>
 
                             <Text style={endOfListModalStyles.subtitle}>
                                 Já viu todas as propriedades disponíveis.
-                                Quer voltar ao início?
+                                Quer mudar os filtros?
                             </Text>
 
                             <TouchableOpacity
@@ -41,7 +41,7 @@ const EndOfListModal = ({ visible, onRestart, onClose }: Props) => {
                             >
                                 <Icon name="refresh" size={20} color={COLORS.branco} />
                                 <Text style={[globalStyles.primaryButtonText, { marginLeft: 8 }]}>
-                                    Voltar ao início
+                                    Voltar aos filtros
                                 </Text>
                             </TouchableOpacity>
 

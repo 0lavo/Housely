@@ -36,10 +36,8 @@ const readFilters = async (): Promise<Filters | null> => {
 };
 
 const writeFilters = async (filters: Filters) => {
-    console.log('[writeFilters] a gravar:', filters);
     try {
         await AsyncStorage.setItem(STORAGE_KEY, JSON.stringify(filters));
-        console.log('[writeFilters] gravação OK');
     } catch (error) {
         console.error('Error writing filters:', error);
     }

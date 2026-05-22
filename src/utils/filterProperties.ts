@@ -7,15 +7,10 @@ export type Property = typeof properties[number];
 
 export const filterProperties = async (): Promise<Property[]>  => {
     const filters = await getFilters();
-    console.log('[filterProperties] filters lidos:', filters);
     if (!filters) return properties;
     
-    //return properties.filter(property => { filtering(property, filters) });
     const result: Property[] = [];
     result.push(...properties.filter(property => filtering(property, filters)));
-
-    if (result.length === 0) return properties;
-
     return result;
 }
 

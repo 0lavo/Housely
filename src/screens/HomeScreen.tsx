@@ -25,17 +25,19 @@ const HomeScreen = ({navigation}: any) => {
             filterProperties().then(result => {
             setData(result);
             setIndex(0);
+            setIsEnd(result.length === 0);
             setLoading(false);
-        });
+            });
         }, [])
     );
     
     const [index, setIndex] = useState(0);
-    const isEnd = index >= data.length;
+    const [isEnd, setIsEnd] = useState(false);
     const safeIndex = isEnd ? data.length - 1 : index;
 
     const addToLiked = async () => {
         setIndex(i => i + 1);
+        if (index >= data.length) setIsEnd(true);
         addLiked({
             propertyCode: data[safeIndex].propertyCode,
             image: data[safeIndex].thumbnail,
@@ -89,6 +91,7 @@ const HomeScreen = ({navigation}: any) => {
             latest.current.addToLiked(); 
         } else {
             setIndex(i => i + 1);
+            if (index >= data.length) setIsEnd(true);
         }
         position.setValue({ x: 0, y: 0 });
     };
@@ -112,8 +115,22 @@ const HomeScreen = ({navigation}: any) => {
     };
 
     if (loading) {
-        return <View><Text>A carregar...</Text></View>;
-    }  
+        return <View style={{flex: 1}}><Text style={{alignItems: "center", justifyContent: "center"}}>A carregar...</Text></View>;
+    }
+
+    if (data.length === 0) {
+        return (
+            <View style={globalStyles.screen}>
+                <AppHeader navigation={navigation}/>
+                <EndOfListModal
+                    visible={true}
+                    onRestart={() => navigation.navigate('Filter')}
+                    onClose={() => {}}
+                />
+                <AppFooter navigation={navigation} activeScreen="Home"/>
+            </View>
+        );
+    }
 
     return (
         <View style={globalStyles.screen}>
@@ -188,7 +205,7 @@ const HomeScreen = ({navigation}: any) => {
             
             <EndOfListModal
                 visible={isEnd}
-                onRestart={() => setIndex(0)}
+                onRestart={() => {navigation.navigate('Filter')}}
                 onClose={() => {}}
             />
             <AppFooter navigation={navigation} activeScreen="Home"/>
