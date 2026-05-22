@@ -27,6 +27,7 @@ const STORAGE_KEY = '@housely:filters';
 const readFilters = async (): Promise<Filters | null> => {
     try {
         const raw = await AsyncStorage.getItem(STORAGE_KEY);
+        console.log('[readFilters] raw do storage:', raw);
         return raw ? JSON.parse(raw) : null;
     } catch (error) {
         console.error('Error reading liked properties:', error);
@@ -35,8 +36,10 @@ const readFilters = async (): Promise<Filters | null> => {
 };
 
 const writeFilters = async (filters: Filters) => {
+    console.log('[writeFilters] a gravar:', filters);
     try {
         await AsyncStorage.setItem(STORAGE_KEY, JSON.stringify(filters));
+        console.log('[writeFilters] gravação OK');
     } catch (error) {
         console.error('Error writing filters:', error);
     }

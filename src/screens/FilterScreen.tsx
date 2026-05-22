@@ -45,10 +45,10 @@ const FilterScreen = ({ navigation }: any) => {
             minPrice: budgetRange[0],
             maxPrice: budgetRange[1],
             bedrooms: selectedTypes,
-            elevator,
-            garage,
-            swimmingPool,
-            furnished,
+            elevator: elevator,
+            garage: garage,
+            swimmingPool: swimmingPool,
+            furnished: furnished,
             petPolicy: hasPets,
             smokePolicy: smoker,
             newGender: gender,
@@ -90,7 +90,6 @@ const FilterScreen = ({ navigation }: any) => {
 
             <ScrollView style={filterStyles.content} showsVerticalScrollIndicator={false}>
                 
-                {/* Título e Localização visível em ambas as abas */}
                 <View style={filterStyles.headerSection}>
                     <Text style={filterStyles.title}>Suas necessidades</Text>
                     <Text style={filterStyles.subtitle}>
@@ -147,7 +146,7 @@ const FilterScreen = ({ navigation }: any) => {
                                 maximumValue={50}
                                 step={5}
                                 value={distance}
-                                onValueChange={(val) => setDistance(val)}
+                                onValueChange={(val: number) => setDistance(val)}
                                 minimumTrackTintColor={COLORS.corBotoes}
                                 maximumTrackTintColor="#e0e0e0"
                                 thumbTintColor={COLORS.corBotoes}

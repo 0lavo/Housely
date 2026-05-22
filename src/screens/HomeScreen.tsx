@@ -1,20 +1,34 @@
 // src/screens/HomeScreen.tsx
 
 import { View, Text, ImageBackground, TouchableOpacity, Animated, PanResponder, Dimensions } from "react-native";
-import React, { useState, useRef } from 'react';
+import React, { useState, useRef, useCallback } from 'react';
 import { globalStyles, COLORS } from "../styles/globalStyles";
 import AppFooter from "../components/AppFooter";
 import AppHeader from "../components/AppHeader";
 import { homeStyles } from '../styles/homeScreenStyles';
 import Icon from 'react-native-vector-icons/MaterialIcons';
-import data from '../../data/properties.json'
 import { addLiked } from '../storage/likedStorage';
 import EndOfListModal from "../components/EndOfListModal";
+import { Property, filterProperties } from "../utils/filterProperties";
+import { useFocusEffect } from "@react-navigation/native";
 
 const SCREEN_WIDTH = Dimensions.get('window').width;
 const SWIPE_THRESHOLD = 0.25 * SCREEN_WIDTH;
 
 const HomeScreen = ({navigation}: any) => {
+
+    const [data, setData] = useState<Property[]>([]);
+    const [loading, setLoading] = useState(true);
+
+    useFocusEffect(
+        useCallback(() => {
+            filterProperties().then(result => {
+            setData(result);
+            setIndex(0);
+            setLoading(false);
+        });
+        }, [])
+    );
     
     const [index, setIndex] = useState(0);
     const isEnd = index >= data.length;
@@ -96,6 +110,10 @@ const HomeScreen = ({navigation}: any) => {
         ...position.getLayout(),
         transform: [{ rotate }]
     };
+
+    if (loading) {
+        return <View><Text>A carregar...</Text></View>;
+    }  
 
     return (
         <View style={globalStyles.screen}>
