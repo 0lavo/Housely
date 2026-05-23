@@ -1,0 +1,524 @@
+[
+{
+    "propertyCode": "50000001",
+    "thumbnail": "https://img4.idealista.pt/blur/480_360_mq/0/id.pro.pt.image.master/11/22/33/314330801.webp",
+    "externalReference": "LX-001",
+    "numPhotos": 22,
+    "floor": "3",
+    "price": 2500.0,
+    "priceInfo": {
+      "price": {
+        "amount": 2500.0,
+        "currencySuffix": "€/mês"
+      }
+    },
+    "propertyType": "flat",
+    "operation": "rent",
+    "size": 110.0,
+    "rooms": 2,
+    "bathrooms": 2,
+    "address": "Avenida da Liberdade, 200",
+    "province": "Lisboa",
+    "municipality": "Lisboa",
+    "district": "Santo António",
+    "country": "pt",
+    "latitude": 38.7200,
+    "longitude": -9.1450,
+    "showAddress": true,
+    "url": "https://www.idealista.pt/imovel/50000001/",
+    "description": "Apartamento T2 de luxo na icónica Avenida da Liberdade. Prédio com segurança 24h e lugar de garagem.",
+    "hasVideo": true,
+    "status": "good",
+    "newDevelopment": false,
+    "hasLift": true,
+    "parkingSpace": {
+      "hasParkingSpace": true,
+      "isParkingSpaceIncludedInPrice": true
+    },
+    "priceByArea": 22.7,
+    "change": {},
+    "detailedType": {
+      "typology": "flat"
+    },
+    "suggestedTexts": {
+      "subtitle": "Santo António, Lisboa",
+      "title": "Apartamento na Avenida da Liberdade, 200"
+    },
+    "hasPlan": true,
+    "has3DTour": false,
+    "has360": false,
+    "hasStaging": false,
+    "savedAd": {},
+    "notes": [],
+    "topNewDevelopment": false,
+    "newDevelopmentHighlight": false,
+    "topPlus": true
+  },
+  {
+    "propertyCode": "50000002",
+    "thumbnail": "https://img4.idealista.pt/blur/480_360_mq/0/id.pro.pt.image.master/11/22/33/314330802.webp",
+    "externalReference": "LX-002",
+    "numPhotos": 16,
+    "floor": "4",
+    "price": 1600.0,
+    "priceInfo": {
+      "price": {
+        "amount": 1600.0,
+        "currencySuffix": "€/mês"
+      }
+    },
+    "propertyType": "flat",
+    "operation": "rent",
+    "size": 65.0,
+    "rooms": 1,
+    "bathrooms": 1,
+    "address": "Rua Augusta, 150",
+    "province": "Lisboa",
+    "municipality": "Lisboa",
+    "district": "Santa Maria Maior",
+    "country": "pt",
+    "latitude": 38.7105,
+    "longitude": -9.1380,
+    "showAddress": true,
+    "url": "https://www.idealista.pt/imovel/50000002/",
+    "description": "Fantástico T1 na famosa Rua Augusta. Inserido num prédio pombalino reabilitado com elevador.",
+    "hasVideo": false,
+    "status": "good",
+    "newDevelopment": true,
+    "hasLift": true,
+    "priceByArea": 24.6,
+    "change": {},
+    "detailedType": {
+      "typology": "flat"
+    },
+    "suggestedTexts": {
+      "subtitle": "Baixa, Lisboa",
+      "title": "Apartamento na Rua Augusta, 150"
+    },
+    "hasPlan": false,
+    "has3DTour": false,
+    "has360": false,
+    "hasStaging": false,
+    "savedAd": {},
+    "notes": [],
+    "topNewDevelopment": false,
+    "newDevelopmentHighlight": false,
+    "topPlus": false
+  },
+  {
+    "propertyCode": "50000003",
+    "thumbnail": "https://img4.idealista.pt/blur/480_360_mq/0/id.pro.pt.image.master/11/22/33/314330803.webp",
+    "externalReference": "LX-003",
+    "numPhotos": 28,
+    "floor": "2",
+    "price": 2800.0,
+    "priceInfo": {
+      "price": {
+        "amount": 2800.0,
+        "currencySuffix": "€/mês"
+      }
+    },
+    "propertyType": "flat",
+    "operation": "rent",
+    "size": 140.0,
+    "rooms": 3,
+    "bathrooms": 3,
+    "address": "Rua Garrett, 50",
+    "province": "Lisboa",
+    "municipality": "Lisboa",
+    "district": "Misericórdia",
+    "country": "pt",
+    "latitude": 38.7107,
+    "longitude": -9.1408,
+    "showAddress": true,
+    "url": "https://www.idealista.pt/imovel/50000003/",
+    "description": "Exclusivo apartamento T3 no Chiado. Com varanda virada para a Rua Garrett. Totalmente mobilado.",
+    "hasVideo": true,
+    "status": "good",
+    "newDevelopment": false,
+    "hasLift": true,
+    "priceByArea": 20.0,
+    "change": {},
+    "detailedType": {
+      "typology": "flat"
+    },
+    "suggestedTexts": {
+      "subtitle": "Chiado, Lisboa",
+      "title": "Apartamento na Rua Garrett, 50"
+    },
+    "hasPlan": true,
+    "has3DTour": true,
+    "has360": false,
+    "hasStaging": true,
+    "savedAd": {},
+    "notes": [],
+    "topNewDevelopment": false,
+    "newDevelopmentHighlight": false,
+    "topPlus": false
+  },
+  {
+    "propertyCode": "50000004",
+    "thumbnail": "https://img4.idealista.pt/blur/480_360_mq/0/id.pro.pt.image.master/11/22/33/314330804.webp",
+    "externalReference": "LX-004",
+    "numPhotos": 14,
+    "floor": "5",
+    "price": 1400.0,
+    "priceInfo": {
+      "price": {
+        "amount": 1400.0,
+        "currencySuffix": "€/mês"
+      }
+    },
+    "propertyType": "flat",
+    "operation": "rent",
+    "size": 80.0,
+    "rooms": 2,
+    "bathrooms": 1,
+    "address": "Avenida Almirante Reis, 100",
+    "province": "Lisboa",
+    "municipality": "Lisboa",
+    "district": "Arroios",
+    "country": "pt",
+    "latitude": 38.7280,
+    "longitude": -9.1340,
+    "showAddress": true,
+    "url": "https://www.idealista.pt/imovel/50000004/",
+    "description": "T2 luminoso na Av. Almirante Reis, junto à estação de metro do Intendente. Vistas desafogadas.",
+    "hasVideo": false,
+    "status": "good",
+    "newDevelopment": false,
+    "hasLift": true,
+    "priceByArea": 17.5,
+    "change": {},
+    "detailedType": {
+      "typology": "flat"
+    },
+    "suggestedTexts": {
+      "subtitle": "Arroios, Lisboa",
+      "title": "Apartamento na Avenida Almirante Reis, 100"
+    },
+    "hasPlan": false,
+    "has3DTour": false,
+    "has360": false,
+    "hasStaging": false,
+    "savedAd": {},
+    "notes": [],
+    "topNewDevelopment": false,
+    "newDevelopmentHighlight": false,
+    "topPlus": false
+  },
+  {
+    "propertyCode": "50000005",
+    "thumbnail": "https://img4.idealista.pt/blur/480_360_mq/0/id.pro.pt.image.master/11/22/33/314330805.webp",
+    "externalReference": "LX-005",
+    "numPhotos": 10,
+    "floor": "3",
+    "price": 1100.0,
+    "priceInfo": {
+      "price": {
+        "amount": 1100.0,
+        "currencySuffix": "€/mês"
+      }
+    },
+    "propertyType": "flat",
+    "operation": "rent",
+    "size": 50.0,
+    "rooms": 1,
+    "bathrooms": 1,
+    "address": "Rua Morais Soares, 25",
+    "province": "Lisboa",
+    "municipality": "Lisboa",
+    "district": "Penha de França",
+    "country": "pt",
+    "latitude": 38.7305,
+    "longitude": -9.1315,
+    "showAddress": false,
+    "url": "https://www.idealista.pt/imovel/50000005/",
+    "description": "Apartamento T1 recentemente remodelado, numa das ruas com mais comércio de Lisboa.",
+    "hasVideo": false,
+    "status": "renew",
+    "newDevelopment": false,
+    "hasLift": false,
+    "priceByArea": 22.0,
+    "change": {},
+    "detailedType": {
+      "typology": "flat"
+    },
+    "suggestedTexts": {
+      "subtitle": "Penha de França, Lisboa",
+      "title": "Apartamento"
+    },
+    "hasPlan": false,
+    "has3DTour": false,
+    "has360": false,
+    "hasStaging": false,
+    "savedAd": {},
+    "notes": [],
+    "topNewDevelopment": false,
+    "newDevelopmentHighlight": false,
+    "topPlus": false
+  },
+  {
+    "propertyCode": "50000006",
+    "thumbnail": "https://img4.idealista.pt/blur/480_360_mq/0/id.pro.pt.image.master/11/22/33/314330806.webp",
+    "externalReference": "LX-006",
+    "numPhotos": 25,
+    "floor": "6",
+    "price": 2200.0,
+    "priceInfo": {
+      "price": {
+        "amount": 2200.0,
+        "currencySuffix": "€/mês"
+      }
+    },
+    "propertyType": "flat",
+    "operation": "rent",
+    "size": 100.0,
+    "rooms": 2,
+    "bathrooms": 2,
+    "address": "Rua Castilho, 75",
+    "province": "Lisboa",
+    "municipality": "Lisboa",
+    "district": "Marquês de Pombal",
+    "country": "pt",
+    "latitude": 38.7235,
+    "longitude": -9.1510,
+    "showAddress": true,
+    "url": "https://www.idealista.pt/imovel/50000006/",
+    "description": "T2 excecional na prestigiada Rua Castilho. Acabamentos premium, ar condicionado e suite principal.",
+    "hasVideo": true,
+    "status": "good",
+    "newDevelopment": false,
+    "hasLift": true,
+    "priceByArea": 22.0,
+    "change": {},
+    "detailedType": {
+      "typology": "flat"
+    },
+    "suggestedTexts": {
+      "subtitle": "Marquês de Pombal, Lisboa",
+      "title": "Apartamento na Rua Castilho, 75"
+    },
+    "hasPlan": true,
+    "has3DTour": false,
+    "has360": false,
+    "hasStaging": false,
+    "savedAd": {},
+    "notes": [],
+    "topNewDevelopment": false,
+    "newDevelopmentHighlight": false,
+    "topPlus": false
+  },
+  {
+    "propertyCode": "50000007",
+    "thumbnail": "https://img4.idealista.pt/blur/480_360_mq/0/id.pro.pt.image.master/11/22/33/314330807.webp",
+    "externalReference": "LX-007",
+    "numPhotos": 18,
+    "floor": "2",
+    "price": 2000.0,
+    "priceInfo": {
+      "price": {
+        "amount": 2000.0,
+        "currencySuffix": "€/mês"
+      }
+    },
+    "propertyType": "flat",
+    "operation": "rent",
+    "size": 125.0,
+    "rooms": 3,
+    "bathrooms": 2,
+    "address": "Praça de Entrecampos, 2",
+    "province": "Lisboa",
+    "municipality": "Lisboa",
+    "district": "Alvalade",
+    "country": "pt",
+    "latitude": 38.7450,
+    "longitude": -9.1480,
+    "showAddress": true,
+    "url": "https://www.idealista.pt/imovel/50000007/",
+    "description": "Excelente apartamento T3 em Entrecampos, ideal para famílias. Perto das universidades e metro.",
+    "hasVideo": false,
+    "status": "good",
+    "newDevelopment": false,
+    "hasLift": true,
+    "parkingSpace": {
+      "hasParkingSpace": true,
+      "isParkingSpaceIncludedInPrice": true
+    },
+    "priceByArea": 16.0,
+    "change": {},
+    "detailedType": {
+      "typology": "flat"
+    },
+    "suggestedTexts": {
+      "subtitle": "Alvalade, Lisboa",
+      "title": "Apartamento na Praça de Entrecampos, 2"
+    },
+    "hasPlan": false,
+    "has3DTour": false,
+    "has360": false,
+    "hasStaging": false,
+    "savedAd": {},
+    "notes": [],
+    "topNewDevelopment": false,
+    "newDevelopmentHighlight": false,
+    "topPlus": false
+  },
+  {
+    "propertyCode": "50000008",
+    "thumbnail": "https://img4.idealista.pt/blur/480_360_mq/0/id.pro.pt.image.master/11/22/33/314330808.webp",
+    "externalReference": "LX-008",
+    "numPhotos": 12,
+    "floor": "1",
+    "price": 1250.0,
+    "priceInfo": {
+      "price": {
+        "amount": 1250.0,
+        "currencySuffix": "€/mês"
+      }
+    },
+    "propertyType": "flat",
+    "operation": "rent",
+    "size": 55.0,
+    "rooms": 1,
+    "bathrooms": 1,
+    "address": "Rua de São Bento, 200",
+    "province": "Lisboa",
+    "municipality": "Lisboa",
+    "district": "Estrela",
+    "country": "pt",
+    "latitude": 38.7150,
+    "longitude": -9.1520,
+    "showAddress": true,
+    "url": "https://www.idealista.pt/imovel/50000008/",
+    "description": "Charmoso T1 na zona da Assembleia da República. Rua icónica lisboeta.",
+    "hasVideo": false,
+    "status": "good",
+    "newDevelopment": false,
+    "hasLift": false,
+    "priceByArea": 22.7,
+    "change": {},
+    "detailedType": {
+      "typology": "flat"
+    },
+    "suggestedTexts": {
+      "subtitle": "Estrela, Lisboa",
+      "title": "Apartamento na Rua de São Bento, 200"
+    },
+    "hasPlan": false,
+    "has3DTour": false,
+    "has360": false,
+    "hasStaging": false,
+    "savedAd": {},
+    "notes": [],
+    "topNewDevelopment": false,
+    "newDevelopmentHighlight": false,
+    "topPlus": false
+  },
+  {
+    "propertyCode": "50000009",
+    "thumbnail": "https://img4.idealista.pt/blur/480_360_mq/0/id.pro.pt.image.master/11/22/33/314330809.webp",
+    "externalReference": "LX-009",
+    "numPhotos": 20,
+    "floor": "4",
+    "price": 1550.0,
+    "priceInfo": {
+      "price": {
+        "amount": 1550.0,
+        "currencySuffix": "€/mês"
+      }
+    },
+    "propertyType": "flat",
+    "operation": "rent",
+    "size": 90.0,
+    "rooms": 2,
+    "bathrooms": 1,
+    "address": "Avenida Infante Santo, 50",
+    "province": "Lisboa",
+    "municipality": "Lisboa",
+    "district": "Estrela",
+    "country": "pt",
+    "latitude": 38.7060,
+    "longitude": -9.1680,
+    "showAddress": true,
+    "url": "https://www.idealista.pt/imovel/50000009/",
+    "description": "T2 amplo com vista lateral de rio na Avenida Infante Santo. Muito central.",
+    "hasVideo": false,
+    "status": "good",
+    "newDevelopment": false,
+    "hasLift": true,
+    "priceByArea": 17.2,
+    "change": {},
+    "detailedType": {
+      "typology": "flat"
+    },
+    "suggestedTexts": {
+      "subtitle": "Estrela, Lisboa",
+      "title": "Apartamento na Avenida Infante Santo, 50"
+    },
+    "hasPlan": false,
+    "has3DTour": false,
+    "has360": false,
+    "hasStaging": false,
+    "savedAd": {},
+    "notes": [],
+    "topNewDevelopment": false,
+    "newDevelopmentHighlight": false,
+    "topPlus": false
+  },
+  {
+    "propertyCode": "50000010",
+    "thumbnail": "https://img4.idealista.pt/blur/480_360_mq/0/id.pro.pt.image.master/11/22/33/314330810.webp",
+    "externalReference": "LX-010",
+    "numPhotos": 35,
+    "floor": "8",
+    "price": 1950.0,
+    "priceInfo": {
+      "price": {
+        "amount": 1950.0,
+        "currencySuffix": "€/mês"
+      }
+    },
+    "propertyType": "flat",
+    "operation": "rent",
+    "size": 115.0,
+    "rooms": 2,
+    "bathrooms": 2,
+    "address": "Alameda dos Oceanos, 10",
+    "province": "Lisboa",
+    "municipality": "Lisboa",
+    "district": "Parque das Nações",
+    "country": "pt",
+    "latitude": 38.7650,
+    "longitude": -9.0950,
+    "showAddress": true,
+    "url": "https://www.idealista.pt/imovel/50000010/",
+    "description": "Espetacular T2 no Parque das Nações com vista frontal rio. Condomínio fechado com piscina e ginásio.",
+    "hasVideo": true,
+    "status": "good",
+    "newDevelopment": false,
+    "hasLift": true,
+    "parkingSpace": {
+      "hasParkingSpace": true,
+      "isParkingSpaceIncludedInPrice": true
+    },
+    "priceByArea": 17.0,
+    "change": {},
+    "detailedType": {
+      "typology": "flat"
+    },
+    "suggestedTexts": {
+      "subtitle": "Parque das Nações, Lisboa",
+      "title": "Apartamento na Alameda dos Oceanos, 10"
+    },
+    "hasPlan": true,
+    "has3DTour": true,
+    "has360": true,
+    "hasStaging": false,
+    "savedAd": {},
+    "notes": [],
+    "topNewDevelopment": false,
+    "newDevelopmentHighlight": false,
+    "topPlus": true
+  }
+]

@@ -1,5 +1,5 @@
 import { Filters, getFilters } from '../storage/filtersStorage';
-import properties from '../../data/properties.json';
+import properties from '../../data/portoProperties.json';
 import { PropertyType } from '../components/IdealSpaceFilters';
 import {MIN_BUDGET, MAX_BUDGET} from '../components/IdealSpaceFilters';
 

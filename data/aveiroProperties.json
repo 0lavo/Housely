@@ -1,0 +1,509 @@
+[
+  {
+    "propertyCode": "40000001",
+    "thumbnail": "https://img4.idealista.pt/blur/480_360_mq/0/id.pro.pt.image.master/11/22/33/314330701.webp",
+    "externalReference": "AV-001",
+    "numPhotos": 12,
+    "floor": "2",
+    "price": 850.0,
+    "priceInfo": {
+      "price": {
+        "amount": 850.0,
+        "currencySuffix": "€/mês"
+      }
+    },
+    "propertyType": "flat",
+    "operation": "rent",
+    "size": 75.0,
+    "rooms": 2,
+    "bathrooms": 1,
+    "address": "Avenida Dr. Lourenço Peixinho, 100",
+    "province": "Aveiro",
+    "municipality": "Aveiro",
+    "country": "pt",
+    "latitude": 40.6416,
+    "longitude": -8.6519,
+    "showAddress": true,
+    "url": "https://www.idealista.pt/imovel/40000001/",
+    "description": "Excelente apartamento T2 no centro de Aveiro, na principal avenida da cidade. Totalmente remodelado e equipado. Perto de transportes, comércio e serviços.",
+    "hasVideo": false,
+    "status": "good",
+    "newDevelopment": false,
+    "hasLift": true,
+    "priceByArea": 11.3,
+    "change": {},
+    "detailedType": {
+      "typology": "flat"
+    },
+    "suggestedTexts": {
+      "subtitle": "Glória e Vera Cruz, Aveiro",
+      "title": "Apartamento na Avenida Dr. Lourenço Peixinho, 100"
+    },
+    "hasPlan": false,
+    "has3DTour": false,
+    "has360": false,
+    "hasStaging": false,
+    "savedAd": {},
+    "notes": [],
+    "topNewDevelopment": false,
+    "newDevelopmentHighlight": false,
+    "topPlus": false
+  },
+  {
+    "propertyCode": "40000002",
+    "thumbnail": "https://img4.idealista.pt/blur/480_360_mq/0/id.pro.pt.image.master/11/22/33/314330702.webp",
+    "externalReference": "AV-002",
+    "numPhotos": 20,
+    "floor": "1",
+    "price": 700.0,
+    "priceInfo": {
+      "price": {
+        "amount": 700.0,
+        "currencySuffix": "€/mês"
+      }
+    },
+    "propertyType": "flat",
+    "operation": "rent",
+    "size": 55.0,
+    "rooms": 1,
+    "bathrooms": 1,
+    "address": "Rua de João Afonso, 25",
+    "province": "Aveiro",
+    "municipality": "Aveiro",
+    "country": "pt",
+    "latitude": 40.6410,
+    "longitude": -8.6550,
+    "showAddress": true,
+    "url": "https://www.idealista.pt/imovel/40000002/",
+    "description": "Acolhedor T1 no coração do Bairro da Beira Mar. Perfeito para casais jovens. A 2 minutos dos canais da ria.",
+    "hasVideo": true,
+    "status": "good",
+    "newDevelopment": false,
+    "hasLift": false,
+    "priceByArea": 12.7,
+    "change": {},
+    "detailedType": {
+      "typology": "flat"
+    },
+    "suggestedTexts": {
+      "subtitle": "Beira Mar, Aveiro",
+      "title": "Apartamento na Rua de João Afonso, 25"
+    },
+    "hasPlan": true,
+    "has3DTour": false,
+    "has360": false,
+    "hasStaging": false,
+    "savedAd": {},
+    "notes": [],
+    "topNewDevelopment": false,
+    "newDevelopmentHighlight": false,
+    "topPlus": false
+  },
+  {
+    "propertyCode": "40000003",
+    "thumbnail": "https://img4.idealista.pt/blur/480_360_mq/0/id.pro.pt.image.master/11/22/33/314330703.webp",
+    "externalReference": "AV-003",
+    "numPhotos": 15,
+    "floor": "3",
+    "price": 1100.0,
+    "priceInfo": {
+      "price": {
+        "amount": 1100.0,
+        "currencySuffix": "€/mês"
+      }
+    },
+    "propertyType": "flat",
+    "operation": "rent",
+    "size": 110.0,
+    "rooms": 3,
+    "bathrooms": 2,
+    "address": "Rua do Carmo, 10",
+    "province": "Aveiro",
+    "municipality": "Aveiro",
+    "country": "pt",
+    "latitude": 40.6385,
+    "longitude": -8.6534,
+    "showAddress": true,
+    "url": "https://www.idealista.pt/imovel/40000003/",
+    "description": "Espaçoso T3 perto da Praça do Peixe. Vista para a ria de Aveiro. Cozinha totalmente equipada e varanda larga.",
+    "hasVideo": false,
+    "status": "good",
+    "newDevelopment": false,
+    "hasLift": true,
+    "parkingSpace": {
+      "hasParkingSpace": true,
+      "isParkingSpaceIncludedInPrice": true
+    },
+    "priceByArea": 10.0,
+    "change": {},
+    "detailedType": {
+      "typology": "flat"
+    },
+    "suggestedTexts": {
+      "subtitle": "Glória e Vera Cruz, Aveiro",
+      "title": "Apartamento na Rua do Carmo, 10"
+    },
+    "hasPlan": false,
+    "has3DTour": false,
+    "has360": false,
+    "hasStaging": false,
+    "savedAd": {},
+    "notes": [],
+    "topNewDevelopment": false,
+    "newDevelopmentHighlight": false,
+    "topPlus": false
+  },
+  {
+    "propertyCode": "40000004",
+    "thumbnail": "https://img4.idealista.pt/blur/480_360_mq/0/id.pro.pt.image.master/11/22/33/314330704.webp",
+    "externalReference": "AV-004",
+    "numPhotos": 8,
+    "floor": "bj",
+    "price": 650.0,
+    "priceInfo": {
+      "price": {
+        "amount": 650.0,
+        "currencySuffix": "€/mês"
+      }
+    },
+    "propertyType": "flat",
+    "operation": "rent",
+    "size": 45.0,
+    "rooms": 1,
+    "bathrooms": 1,
+    "address": "Cais do Alboi, 12",
+    "province": "Aveiro",
+    "municipality": "Aveiro",
+    "country": "pt",
+    "latitude": 40.6402,
+    "longitude": -8.6575,
+    "showAddress": true,
+    "url": "https://www.idealista.pt/imovel/40000004/",
+    "description": "T1 no R/C localizado na carismática zona do Alboi. Muito tranquilo, a passos do centro histórico.",
+    "hasVideo": false,
+    "status": "renew",
+    "newDevelopment": false,
+    "hasLift": false,
+    "priceByArea": 14.4,
+    "change": {},
+    "detailedType": {
+      "typology": "flat"
+    },
+    "suggestedTexts": {
+      "subtitle": "Alboi, Aveiro",
+      "title": "Apartamento no Cais do Alboi, 12"
+    },
+    "hasPlan": false,
+    "has3DTour": false,
+    "has360": false,
+    "hasStaging": false,
+    "savedAd": {},
+    "notes": [],
+    "topNewDevelopment": false,
+    "newDevelopmentHighlight": false,
+    "topPlus": false
+  },
+  {
+    "propertyCode": "40000005",
+    "thumbnail": "https://img4.idealista.pt/blur/480_360_mq/0/id.pro.pt.image.master/11/22/33/314330705.webp",
+    "externalReference": "AV-005",
+    "numPhotos": 18,
+    "floor": "4",
+    "price": 950.0,
+    "priceInfo": {
+      "price": {
+        "amount": 950.0,
+        "currencySuffix": "€/mês"
+      }
+    },
+    "propertyType": "flat",
+    "operation": "rent",
+    "size": 85.0,
+    "rooms": 2,
+    "bathrooms": 2,
+    "address": "Rua de São Martinho, 40",
+    "province": "Aveiro",
+    "municipality": "Aveiro",
+    "country": "pt",
+    "latitude": 40.6425,
+    "longitude": -8.6562,
+    "showAddress": true,
+    "url": "https://www.idealista.pt/imovel/40000005/",
+    "description": "T2 moderno e luminoso, com ar condicionado e acabamentos de luxo. Último andar.",
+    "hasVideo": true,
+    "status": "good",
+    "newDevelopment": true,
+    "hasLift": true,
+    "priceByArea": 11.2,
+    "change": {},
+    "detailedType": {
+      "typology": "flat"
+    },
+    "suggestedTexts": {
+      "subtitle": "Centro, Aveiro",
+      "title": "Apartamento na Rua de São Martinho, 40"
+    },
+    "hasPlan": true,
+    "has3DTour": true,
+    "has360": false,
+    "hasStaging": false,
+    "savedAd": {},
+    "notes": [],
+    "topNewDevelopment": false,
+    "newDevelopmentHighlight": false,
+    "topPlus": false
+  },
+  {
+    "propertyCode": "40000006",
+    "thumbnail": "https://img4.idealista.pt/blur/480_360_mq/0/id.pro.pt.image.master/11/22/33/314330706.webp",
+    "externalReference": "AV-006",
+    "numPhotos": 10,
+    "floor": "1",
+    "price": 750.0,
+    "priceInfo": {
+      "price": {
+        "amount": 750.0,
+        "currencySuffix": "€/mês"
+      }
+    },
+    "propertyType": "flat",
+    "operation": "rent",
+    "size": 60.0,
+    "rooms": 1,
+    "bathrooms": 1,
+    "address": "Praça do Marquês de Pombal, 5",
+    "province": "Aveiro",
+    "municipality": "Aveiro",
+    "country": "pt",
+    "latitude": 40.6391,
+    "longitude": -8.6510,
+    "showAddress": true,
+    "url": "https://www.idealista.pt/imovel/40000006/",
+    "description": "Estúdio/T1 mesmo no centro da cidade, junto aos edifícios governamentais. Decorado com muito gosto.",
+    "hasVideo": false,
+    "status": "good",
+    "newDevelopment": false,
+    "hasLift": true,
+    "priceByArea": 12.5,
+    "change": {},
+    "detailedType": {
+      "typology": "flat"
+    },
+    "suggestedTexts": {
+      "subtitle": "Glória e Vera Cruz, Aveiro",
+      "title": "Apartamento na Praça do Marquês de Pombal, 5"
+    },
+    "hasPlan": false,
+    "has3DTour": false,
+    "has360": false,
+    "hasStaging": false,
+    "savedAd": {},
+    "notes": [],
+    "topNewDevelopment": false,
+    "newDevelopmentHighlight": false,
+    "topPlus": false
+  },
+  {
+    "propertyCode": "40000007",
+    "thumbnail": "https://img4.idealista.pt/blur/480_360_mq/0/id.pro.pt.image.master/11/22/33/314330707.webp",
+    "externalReference": "AV-007",
+    "numPhotos": 25,
+    "floor": "3",
+    "price": 880.0,
+    "priceInfo": {
+      "price": {
+        "amount": 880.0,
+        "currencySuffix": "€/mês"
+      }
+    },
+    "propertyType": "flat",
+    "operation": "rent",
+    "size": 80.0,
+    "rooms": 2,
+    "bathrooms": 1,
+    "address": "Rua Conselheiro Luís Magalhães, 30",
+    "province": "Aveiro",
+    "municipality": "Aveiro",
+    "country": "pt",
+    "latitude": 40.6380,
+    "longitude": -8.6495,
+    "showAddress": false,
+    "url": "https://www.idealista.pt/imovel/40000007/",
+    "description": "T2 muito central, junto à estação de comboios. Facilidade de acesso à universidade.",
+    "hasVideo": false,
+    "status": "good",
+    "newDevelopment": false,
+    "hasLift": true,
+    "priceByArea": 11.0,
+    "change": {},
+    "detailedType": {
+      "typology": "flat"
+    },
+    "suggestedTexts": {
+      "subtitle": "Estação, Aveiro",
+      "title": "Apartamento"
+    },
+    "hasPlan": true,
+    "has3DTour": false,
+    "has360": false,
+    "hasStaging": false,
+    "savedAd": {},
+    "notes": [],
+    "topNewDevelopment": false,
+    "newDevelopmentHighlight": false,
+    "topPlus": false
+  },
+  {
+    "propertyCode": "40000008",
+    "thumbnail": "https://img4.idealista.pt/blur/480_360_mq/0/id.pro.pt.image.master/11/22/33/314330708.webp",
+    "externalReference": "AV-008",
+    "numPhotos": 30,
+    "floor": "5",
+    "price": 1250.0,
+    "priceInfo": {
+      "price": {
+        "amount": 1250.0,
+        "currencySuffix": "€/mês"
+      }
+    },
+    "propertyType": "flat",
+    "operation": "rent",
+    "size": 130.0,
+    "rooms": 3,
+    "bathrooms": 2,
+    "address": "Rua Eça de Queiroz, 15",
+    "province": "Aveiro",
+    "municipality": "Aveiro",
+    "country": "pt",
+    "latitude": 40.6365,
+    "longitude": -8.6472,
+    "showAddress": true,
+    "url": "https://www.idealista.pt/imovel/40000008/",
+    "description": "Fantástico T3 com vistas panorâmicas sobre a cidade de Aveiro. Garagem dupla e arrecadação.",
+    "hasVideo": true,
+    "status": "good",
+    "newDevelopment": false,
+    "hasLift": true,
+    "parkingSpace": {
+      "hasParkingSpace": true,
+      "isParkingSpaceIncludedInPrice": true
+    },
+    "priceByArea": 9.6,
+    "change": {},
+    "detailedType": {
+      "typology": "flat"
+    },
+    "suggestedTexts": {
+      "subtitle": "Glória e Vera Cruz, Aveiro",
+      "title": "Apartamento na Rua Eça de Queiroz, 15"
+    },
+    "hasPlan": true,
+    "has3DTour": false,
+    "has360": true,
+    "hasStaging": false,
+    "savedAd": {},
+    "notes": [],
+    "topNewDevelopment": false,
+    "newDevelopmentHighlight": false,
+    "topPlus": true
+  },
+  {
+    "propertyCode": "40000009",
+    "thumbnail": "https://img4.idealista.pt/blur/480_360_mq/0/id.pro.pt.image.master/11/22/33/314330709.webp",
+    "externalReference": "AV-009",
+    "numPhotos": 14,
+    "floor": "2",
+    "price": 680.0,
+    "priceInfo": {
+      "price": {
+        "amount": 680.0,
+        "currencySuffix": "€/mês"
+      }
+    },
+    "propertyType": "flat",
+    "operation": "rent",
+    "size": 50.0,
+    "rooms": 1,
+    "bathrooms": 1,
+    "address": "Rua de Viana do Castelo, 50",
+    "province": "Aveiro",
+    "municipality": "Aveiro",
+    "country": "pt",
+    "latitude": 40.6358,
+    "longitude": -8.6450,
+    "showAddress": true,
+    "url": "https://www.idealista.pt/imovel/40000009/",
+    "description": "T1 semi-novo, zona residencial muito calma, ótimo para estudantes de mestrado ou trabalhadores.",
+    "hasVideo": false,
+    "status": "good",
+    "newDevelopment": false,
+    "hasLift": true,
+    "priceByArea": 13.6,
+    "change": {},
+    "detailedType": {
+      "typology": "flat"
+    },
+    "suggestedTexts": {
+      "subtitle": "Esgueira, Aveiro",
+      "title": "Apartamento na Rua de Viana do Castelo, 50"
+    },
+    "hasPlan": false,
+    "has3DTour": false,
+    "has360": false,
+    "hasStaging": false,
+    "savedAd": {},
+    "notes": [],
+    "topNewDevelopment": false,
+    "newDevelopmentHighlight": false,
+    "topPlus": false
+  },
+  {
+    "propertyCode": "40000010",
+    "thumbnail": "https://img4.idealista.pt/blur/480_360_mq/0/id.pro.pt.image.master/11/22/33/314330710.webp",
+    "externalReference": "AV-010",
+    "numPhotos": 11,
+    "floor": "1",
+    "price": 600.0,
+    "priceInfo": {
+      "price": {
+        "amount": 600.0,
+        "currencySuffix": "€/mês"
+      }
+    },
+    "propertyType": "flat",
+    "operation": "rent",
+    "size": 40.0,
+    "rooms": 1,
+    "bathrooms": 1,
+    "address": "Avenida da Universidade, 300",
+    "province": "Aveiro",
+    "municipality": "Aveiro",
+    "country": "pt",
+    "latitude": 40.6300,
+    "longitude": -8.6560,
+    "showAddress": true,
+    "url": "https://www.idealista.pt/imovel/40000010/",
+    "description": "T0/T1 diretamente em frente à Universidade de Aveiro. Ideal para professores ou estudantes universitários.",
+    "hasVideo": false,
+    "status": "good",
+    "newDevelopment": false,
+    "hasLift": false,
+    "priceByArea": 15.0,
+    "change": {},
+    "detailedType": {
+      "typology": "flat"
+    },
+    "suggestedTexts": {
+      "subtitle": "Santiago, Aveiro",
+      "title": "Apartamento na Avenida da Universidade, 300"
+    },
+    "hasPlan": false,
+    "has3DTour": false,
+    "has360": false,
+    "hasStaging": false,
+    "savedAd": {},
+    "notes": [],
+    "topNewDevelopment": false,
+    "newDevelopmentHighlight": false,
+    "topPlus": false
+  },

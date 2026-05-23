@@ -4,7 +4,7 @@ import Icon from 'react-native-vector-icons/Ionicons';
 import { COLORS, globalStyles } from "../styles/globalStyles";
 import { propertyStyles } from '../styles/propertyDetailsStyles';
 import AppFooter from "../components/AppFooter";
-import data from '../../data/properties.json';
+import data from '../../data/portoProperties.json';
 import { SafeAreaView } from 'react-native-safe-area-context';
 
 interface FeatureProps {

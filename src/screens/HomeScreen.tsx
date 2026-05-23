@@ -7,7 +7,7 @@ import AppFooter from "../components/AppFooter";
 import AppHeader from "../components/AppHeader";
 import { homeStyles } from '../styles/homeScreenStyles';
 import Icon from 'react-native-vector-icons/MaterialIcons';
-import { addLiked } from '../storage/likedStorage';
+import { addLiked, getLiked } from '../storage/likedStorage';
 import EndOfListModal from "../components/EndOfListModal";
 import { Property, filterProperties } from "../utils/filterProperties";
 import { useFocusEffect } from "@react-navigation/native";
@@ -22,12 +22,18 @@ const HomeScreen = ({navigation}: any) => {
 
     useFocusEffect(
         useCallback(() => {
-            filterProperties().then(result => {
-                setData(result);
-                setIndex(0);
-                setIsEnd(result.length === 0);
-                setLoading(false);
-            });
+            setLoading(true);
+            Promise.all([filterProperties(), getLiked()])
+.then(([result, liked]) => {
+                    const likedSet = new Set(liked.map(p => p.propertyCode));
+                    const filtered = result.filter(p => !likedSet.has(p.propertyCode));
+
+                    setData(filtered);
+                    setIndex(0);
+                    setIsEnd(filtered.length === 0);
+                    setLoading(false);
+                })
+                .catch(() => setLoading(false));
         }, [])
     );
 
