@@ -52,7 +52,7 @@ export const homeStyles = StyleSheet.create({
     title: {
         color: COLORS.branco,
         fontFamily: FONTS.bold,
-        fontSize: 38,
+        fontSize: 30,
         lineHeight: 48,
         width: '85%',
         letterSpacing: 1.5,
@@ -88,7 +88,9 @@ export const homeStyles = StyleSheet.create({
     },
 
     priceContainer: {
-        alignItems: 'flex-end',
+        flexDirection: 'row',
+        alignItems: 'center',
+        gap: 6,
     },
 
     price: {
@@ -101,12 +103,12 @@ export const homeStyles = StyleSheet.create({
         color: COLORS.branco,
         fontFamily: FONTS.regular,
         fontSize: 14,
+        paddingTop: 15,
     },
 
     infoRow: {
         flexDirection: 'row',
         alignItems: 'center',
-        marginTop: 14,
     },
 
     infoItem: {

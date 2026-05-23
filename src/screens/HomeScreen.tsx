@@ -23,17 +23,22 @@ const HomeScreen = ({navigation}: any) => {
     useFocusEffect(
         useCallback(() => {
             filterProperties().then(result => {
-            setData(result);
-            setIndex(0);
-            setIsEnd(result.length === 0);
-            setLoading(false);
+                setData(result);
+                setIndex(0);
+                setIsEnd(result.length === 0);
+                setLoading(false);
             });
         }, [])
     );
-    
+
     const [index, setIndex] = useState(0);
     const [isEnd, setIsEnd] = useState(false);
+    const [imageError, setImageError] = useState(false);
     const safeIndex = isEnd ? data.length - 1 : index;
+    const [mostrarMorada, setMostrarMorada] = useState(false);
+
+    const touchStartX = useRef(0);
+    const touchStartY = useRef(0);
 
     const addToLiked = async () => {
         setIndex(i => i + 1);
@@ -53,19 +58,32 @@ const HomeScreen = ({navigation}: any) => {
         });
     };
 
-    const latest = useRef({ addToLiked });
-    latest.current = { addToLiked };
+    const toggleMorada = () => setMostrarMorada(m => !m);
+
+    const latest = useRef({ addToLiked, toggleMorada });
+    latest.current = { addToLiked, toggleMorada };
 
     const position = useRef(new Animated.ValueXY()).current;
 
     const panResponder = useRef(
         PanResponder.create({
             onStartShouldSetPanResponder: () => true,
+            onPanResponderGrant: (evt) => {
+                touchStartX.current = evt.nativeEvent.pageX;
+                touchStartY.current = evt.nativeEvent.pageY;
+            },
             onPanResponderMove: (evt: any, gestureState: any) => {
                 position.setValue({ x: gestureState.dx, y: gestureState.dy });
             },
             onPanResponderRelease: (evt: any, gestureState: any) => {
-                if (gestureState.dx > SWIPE_THRESHOLD) {
+                const movedX = Math.abs(gestureState.dx);
+                const movedY = Math.abs(gestureState.dy);
+                const isTap = movedX < 10 && movedY < 10;
+
+                if (isTap) {
+                    latest.current.toggleMorada();
+                    resetPosition();
+                } else if (gestureState.dx > SWIPE_THRESHOLD) {
                     forceSwipe('right');
                 } else if (gestureState.dx < -SWIPE_THRESHOLD) {
                     forceSwipe('left');
@@ -86,9 +104,11 @@ const HomeScreen = ({navigation}: any) => {
     };
 
     const onSwipeComplete = (direction: 'left' | 'right') => {
+        setImageError(false);
+        setMostrarMorada(false);
+
         if (direction === 'right') {
-            {/* Chama através do .current para ignorar o bloqueio do PanResponder */}
-            latest.current.addToLiked(); 
+            latest.current.addToLiked();
         } else {
             setIndex(i => i + 1);
             if (index >= data.length) setIsEnd(true);
@@ -135,37 +155,52 @@ const HomeScreen = ({navigation}: any) => {
     return (
         <View style={globalStyles.screen}>
             <AppHeader navigation={navigation}/>
-            <View style={[globalStyles.centeredContainer, {paddingVertical: 16}]}> 
+            <View style={[globalStyles.centeredContainer, {paddingVertical: 16}]}>
                 <View style={homeStyles.cardContainer}>
-                    
-                    <Animated.View 
-                        style={[animatedCardStyle, { height: '100%', width: '100%' }]} 
+
+                    <Animated.View
+                        style={[animatedCardStyle, { height: '100%', width: '100%' }]}
                         {...panResponder.panHandlers}
                     >
                         <ImageBackground
-                            source={{uri: data[safeIndex].thumbnail}}
+                            source={
+                                data[safeIndex]?.thumbnail && !imageError
+                                    ? { uri: data[safeIndex].thumbnail }
+                                    : require('../../assets/placeholder.png')
+                            }
                             style={homeStyles.card}
                             imageStyle={homeStyles.cardImage}
+                            onError={() => setImageError(true)}
                         >
                             <View style={homeStyles.overlay}>
+
                                 <View>
                                     <View style={homeStyles.locationBadge}>
                                         <Icon name="location-on" size={16} color={COLORS.branco} />
                                         <Text style={homeStyles.locationBadgeText}>{data[safeIndex].province}, Portugal</Text>
                                     </View>
-                                    <Text style={homeStyles.title}>T{data[safeIndex].rooms} em {data[safeIndex].province}</Text>
-                                </View>
+                                    <Text style={homeStyles.title}>T{data[safeIndex].rooms} em {data[safeIndex].province} </Text>
+                                    <View style={{ flexDirection: 'row', alignItems: 'center', marginTop: 4, opacity: 0.8 }}>
+                                        <Text style={{ color: COLORS.branco, fontSize: 15 }}>
+                                            {mostrarMorada ? "Ocultar morada" : "Ver morada"}
+                                        </Text>
+                                        <Icon name={mostrarMorada ? "expand-less" : "expand-more"} size={20} color={COLORS.branco} />
+                                    </View>
 
-                                <View>
-                                    <View style={homeStyles.bottomContent}>
-                                        <View style={homeStyles.addressContainer}>
+
+                                    {mostrarMorada && (
+                                        <View style={{ marginTop: 6 }}>
                                             <View style={homeStyles.addressRow}>
                                                 <Icon name="location-on" size={16} color={COLORS.branco} />
                                                 <Text style={homeStyles.addressText}>{data[safeIndex].address}</Text>
                                             </View>
                                             <Text style={homeStyles.cityText}>{data[safeIndex].municipality}</Text>
                                         </View>
+                                    )}
+                                </View>
 
+                                <View>
+                                    <View style={homeStyles.bottomContent}>
                                         <View style={homeStyles.priceContainer}>
                                             <Text style={homeStyles.price}>€{data[safeIndex].price}</Text>
                                             <Text style={homeStyles.priceMonth}>por mês</Text>
@@ -186,6 +221,7 @@ const HomeScreen = ({navigation}: any) => {
                                         </View>
                                     </View>
                                 </View>
+
                             </View>
                         </ImageBackground>
                     </Animated.View>
@@ -202,7 +238,7 @@ const HomeScreen = ({navigation}: any) => {
                     </TouchableOpacity>
                 </View>
             </View>
-            
+
             <EndOfListModal
                 visible={isEnd}
                 onRestart={() => {navigation.navigate('Filter')}}
