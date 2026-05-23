@@ -25,15 +25,15 @@ const FilterScreen = ({ navigation }: any) => {
     const [distance, setDistance] = useState<number>(5);
 
     //Filtros do espaço ideal
-    const [budgetRange, setBudgetRange] = useState<[number | null, number | null]>([MIN_BUDGET, MAX_BUDGET]);
-    const [selectedTypes, setSelectedTypes] = useState<PropertyType[]>(['T0/Studio', 'T1']);
-    const [elevator, setElevator] = useState(true);
+    const [budgetRange, setBudgetRange] = useState<[number | null, number | null]>([50, 500]);
+    const [selectedTypes, setSelectedTypes] = useState<PropertyType[]>(['T3']);
+    const [elevator, setElevator] = useState(false);
     const [garage, setGarage] = useState(false);
     const [swimmingPool, setSwimmingPool] = useState(false);
-    const [furnished, setFurnished] = useState(true);
+    const [furnished, setFurnished] = useState(false);
 
     //Filtros pessoais
-    const [hasPets, setHasPets] = useState<boolean | null>(true);
+    const [hasPets, setHasPets] = useState<boolean | null>(false);
     const [smoker, setSmoker] = useState<boolean | null>(false);
     const [gender, setGender] = useState<string | null>('Feminino');
     const [housemates, setHousemates] = useState<string | null>('3');
@@ -205,7 +205,7 @@ const FilterScreen = ({ navigation }: any) => {
 
             {/*  Botão Principal e Footer */}
             <View style={filterStyles.submitSection}>
-                <TouchableOpacity style={globalStyles.primaryButton} activeOpacity={0.8} onPress={() => handleFilters()}>
+                <TouchableOpacity style={globalStyles.primaryButton} activeOpacity={0.8} onPress={() => { handleFilters(); navigation.navigate('Home'); }}>
                     <Text style={globalStyles.primaryButtonText}>Salvar Filtros</Text>
                 </TouchableOpacity>
             </View>

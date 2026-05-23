@@ -41,7 +41,7 @@ const ToggleOption = ({ iconName, title, subtitle, value, onValueChange }: any) 
 
 const PersonalFilters = (personalFilters: PersonalFiltersProps) => {
     
-    const [friendlyHouse, setFriendlyHouse] = useState(true);
+    const [friendlyHouse, setFriendlyHouse] = useState(false);
 
     const handleMinus = () => {
         const n = Number(personalFilters.housemates ?? 0);
