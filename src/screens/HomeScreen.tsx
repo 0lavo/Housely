@@ -50,8 +50,9 @@ const HomeScreen = ({navigation}: any) => {
     const touchStartY = useRef(0);
 
     const addToLiked = async () => {
-        setIndex(i => i + 1);
-        if (index >= data.length) setIsEnd(true);
+        const nextIndex = index + 1;
+        setIndex(nextIndex);
+        if (nextIndex >= data.length) setIsEnd(true);
         addLiked({
             propertyCode: data[safeIndex].propertyCode,
             image: data[safeIndex].thumbnail,
@@ -119,8 +120,9 @@ const HomeScreen = ({navigation}: any) => {
         if (direction === 'right') {
             latest.current.addToLiked();
         } else {
-            setIndex(i => i + 1);
-            if (index >= data.length) setIsEnd(true);
+            const nextIndex = index + 1;
+            setIndex(nextIndex);
+            if (nextIndex >= data.length) setIsEnd(true);
         }
         position.setValue({ x: 0, y: 0 });
     };
