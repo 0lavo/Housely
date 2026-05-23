@@ -1,6 +1,6 @@
 // src/screens/HomeScreen.tsx
 
-import { View, Text, ImageBackground, TouchableOpacity, Animated, PanResponder, Dimensions } from "react-native";
+import { View, Text, ImageBackground, TouchableOpacity, Animated, PanResponder, Dimensions, Image } from "react-native";
 import React, { useState, useRef, useCallback } from 'react';
 import { globalStyles, COLORS } from "../styles/globalStyles";
 import AppFooter from "../components/AppFooter";
@@ -40,7 +40,10 @@ const HomeScreen = ({navigation}: any) => {
     const [index, setIndex] = useState(0);
     const [isEnd, setIsEnd] = useState(false);
     const [imageError, setImageError] = useState(false);
-    const safeIndex = isEnd ? data.length - 1 : index;
+    const safeIndex = data.length === 0 ? 0 : Math.min(index, data.length - 1);
+
+
+
     const [mostrarMorada, setMostrarMorada] = useState(false);
 
     const touchStartX = useRef(0);
@@ -168,6 +171,12 @@ const HomeScreen = ({navigation}: any) => {
                         style={[animatedCardStyle, { height: '100%', width: '100%' }]}
                         {...panResponder.panHandlers}
                     >
+
+                        <Image 
+                            source={require('../../assets/placeholder.png')}
+                            style={[homeStyles.cardImage, { position: 'absolute', width: '100%', height: '100%' }]}
+                        />
+
                         <ImageBackground
                             source={
                                 data[safeIndex]?.thumbnail && !imageError

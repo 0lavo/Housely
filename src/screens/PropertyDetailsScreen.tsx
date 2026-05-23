@@ -43,24 +43,20 @@ const PropertyDetails = ({ route, navigation }: any ) => {
     }
 
     const openPropertyUrl = async (url: string | undefined) => {
-    if (!url) {
-        Alert.alert("Erro", "O link deste imóvel não está disponível.");
-        return;
-    }
+        if (!url) {
+            Alert.alert("Erro", "O link deste imóvel não está disponível.");
+            return;
+        }
 
-    try {
-        // Verifica se o dispositivo suporta abrir o link (ex: tem browser instalado)
-        const supported = await Linking.canOpenURL(url);
-
-        if (supported) {
+        try {
+            // Tenta abrir diretamente, ignorando o canOpenURL que pode dar falsos negativos
             await Linking.openURL(url);
-        } else {
+        } catch (error) {
+            console.error("Erro ao tentar abrir o URL:", error);
             Alert.alert("Erro", "Não foi possível abrir o link neste dispositivo.");
         }
-    } catch (error) {
-        console.error("Erro ao tentar abrir o URL:", error);
-    }
-};
+    };
+
 
     return (
         <View style={propertyStyles.container}>
@@ -133,13 +129,7 @@ const PropertyDetails = ({ route, navigation }: any ) => {
                         Possui {property.size} metros quadrados de área total e conta com {property.bathrooms} casa(s) de banho. 
                         Uma ótima oportunidade de negócio por €{property.price.toLocaleString()}.
                     </Text>
-                    {/*
-                    <TouchableOpacity style={propertyStyles.readMoreRow}>
-                        <Text style={propertyStyles.readMoreText}>Descrição detalhada</Text>
-                        <Icon name="chevron-down-outline" size={16} color={COLORS.corIconsTexto} />
-                    </TouchableOpacity>*/}
-
-                    {/* Aqui a descrição do JSON só aparece se clicarem no botão (isExpanded = true) */}
+                    
                     {isExpanded && (
                         <Text style={[propertyStyles.aboutDescription, { marginTop: 10 }]}>
                             {property.description}
