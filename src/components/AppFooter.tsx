@@ -13,9 +13,9 @@ interface AppFooterProps {
 const AppFooter: React.FC<AppFooterProps> = ({ navigation, activeScreen }) => {
 
     const tabs = [
-        {name: 'Filter', icon: 'filter-list', screen: 'Filter'}, // Nomes da biblioteca
-        {name: 'Home', icon: 'home', screen: 'Home'},
-        {name: 'Favorite', icon: 'favorite', screen: 'Favorite'},
+        {name: 'Filtros', icon: 'filter-list', screen: 'Filter'}, // Nomes da biblioteca
+        {name: 'Inicio', icon: 'home', screen: 'Home'},
+        {name: 'Favoritos', icon: 'favorite', screen: 'Favorite'},
     ]
 
     return (

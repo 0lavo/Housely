@@ -68,7 +68,7 @@ const PropertyDetails = ({ route, navigation }: any ) => {
                     <TouchableOpacity onPress={() => navigation.goBack()}>
                         <Icon name="arrow-back" size={24} color={COLORS.corIconsTexto} />
                     </TouchableOpacity>
-                    <Text style={propertyStyles.headerTitle}>Home page</Text>
+                    <Text style={propertyStyles.headerTitle}>Detalhes do Imóvel</Text>
                     <TouchableOpacity>
                         <Icon name="share-social-outline" size={24} color={COLORS.corIconsTexto} />
                     </TouchableOpacity>
@@ -105,19 +105,19 @@ const PropertyDetails = ({ route, navigation }: any ) => {
                         />
                         <FeatureCard 
                             iconName="bed-outline" 
-                            label="BEDS" 
+                            label="QUARTOS" 
                             value={`${property.rooms} Quartos`} 
                         />
                         <FeatureCard 
                             iconName="water-outline" 
-                            label="BATHS" 
+                            label="WC" 
                             value={`${property.bathrooms} WC`} 
                         />
                         {/* ver isto */}
                         <FeatureCard 
                             iconName="car-outline" 
-                            label="PARKING" 
-                            value="3 Garages" 
+                            label="GARAGENS" 
+                            value="1 Garagens" 
                         />
                     </View>
 
