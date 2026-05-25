@@ -9,7 +9,7 @@ const AppHeader = ({navigation}: any) => (
                 <Image 
                 source={require('../../assets/logo.png')} 
                 resizeMode="contain" 
-                style={{ width: 200, height: 120 }}/>
+                style={{ width: 200, height: 120, marginTop:20 }}/> {/* ja alterei isto olavo  */}
             </TouchableOpacity>
         </View>
     </SafeAreaView>
@@ -22,7 +22,6 @@ const styles = StyleSheet.create({
         alignItems: 'center',
         paddingHorizontal: 16,
         backgroundColor: COLORS.corFundo,
-        elevation: 1,
     },
 });
 

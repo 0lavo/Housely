@@ -211,7 +211,7 @@ const HomeScreen = ({navigation}: any) => {
                                     <Text style={homeStyles.title}>T{data[safeIndex].rooms} em {data[safeIndex].province} </Text>
                                     <View style={{ flexDirection: 'row', alignItems: 'center', marginTop: 4, opacity: 0.8 }}>
                                         <Text style={{ color: COLORS.branco, fontSize: 15 }}>
-                                            {mostrarMorada ? "Ocultar morada" : "Ver morada"}
+                                            {data[safeIndex].municipality}
                                         </Text>
                                         <Icon name={mostrarMorada ? "expand-less" : "expand-more"} size={20} color={COLORS.branco} />
                                     </View>
@@ -223,7 +223,6 @@ const HomeScreen = ({navigation}: any) => {
                                                 <Icon name="location-on" size={16} color={COLORS.branco} />
                                                 <Text style={homeStyles.addressText}>{data[safeIndex].address}</Text>
                                             </View>
-                                            <Text style={homeStyles.cityText}>{data[safeIndex].municipality}</Text>
                                         </View>
                                     )}
                                 </View>

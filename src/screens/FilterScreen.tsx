@@ -12,6 +12,7 @@ import { PropertyType, MIN_BUDGET, MAX_BUDGET } from '../components/IdealSpaceFi
 import { saveFilters } from '../storage/filtersStorage.ts';
 import {propertyStyles} from '../styles/idealSpaceFiltersStyles.ts'
 import Slider from '@react-native-community/slider';
+import { Picker } from '@react-native-picker/picker';
 
 
 type TabType = 'space' | 'personal';
@@ -64,8 +65,6 @@ const FilterScreen = ({ navigation }: any) => {
                 // print das coordenadas no terminal
                 console.log("Coordenadas:", coords);
                 
-
-
                 setLocationCoords(coords); 
                 setUseCurrentLocation(true);
             
@@ -103,19 +102,22 @@ const FilterScreen = ({ navigation }: any) => {
                         {/* localização */}
                         <View style={filterStyles.locationInputContainer}>
                             <Icon name="location-outline" size={20} color={COLORS.corIconsTexto} style={filterStyles.locationIcon} />
-                            <TextInput
-                                style={[
-                                    filterStyles.locationInput,
-                                    useCurrentLocation && { opacity: 0.5 } // meio transparente se desativado
-                                ]}
-                                placeholder={useCurrentLocation ? "A usar a localização atual..." : "Cidade ou distrito"}
-                                placeholderTextColor="#888"
-                                value={location}
-                                onChangeText={setLocation}
-                                editable={!useCurrentLocation} // Bloqueia a escrita se a checkbox estiver ativa
-                                selectTextOnFocus={!useCurrentLocation}
-                            />
                             
+                            <View style={[{ flex: 1 }, useCurrentLocation && { opacity: 0.5 }]}>
+                                <Picker
+                                    selectedValue={location}
+                                    onValueChange={(itemValue) => setLocation(itemValue)}
+                                    enabled={!useCurrentLocation} // Bloqueia se a checkbox estiver ativa
+                                    style={filterStyles.locationInput}
+                                >
+                                    <Picker.Item label="Selecione a cidade..." value="" color="#888" />
+                                    
+                                    <Picker.Item label="Aveiro" value="Aveiro" />
+                                    <Picker.Item label="Porto" value="Porto" />
+                                    <Picker.Item label="Lisboa" value="Lisboa" />
+                                    <Picker.Item label="Usar localização atual" value="Usar localização atual" />
+                                </Picker>
+                            </View>
                         </View>
 
                         {/* Checkbox "Usar localização atual" */}
