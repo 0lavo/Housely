@@ -70,8 +70,22 @@ const HomeScreen = ({navigation}: any) => {
 
     const toggleMorada = () => setMostrarMorada(m => !m);
 
-    const latest = useRef({ addToLiked, toggleMorada });
-    latest.current = { addToLiked, toggleMorada };
+    const skipCurrent = () => {
+    const nextIndex = index + 1;
+    setIndex(nextIndex);
+    if (nextIndex >= data.length) setIsEnd(true);
+    };
+
+    // Define o tipo
+    type LatestRef = {
+        addToLiked: () => Promise<void>;
+        toggleMorada: () => void;
+        skipCurrent: () => void;
+    };
+
+    // Usa o tipo na ref
+    const latest = useRef<LatestRef>({ addToLiked, toggleMorada, skipCurrent });
+    latest.current = { addToLiked, toggleMorada, skipCurrent };
 
     const position = useRef(new Animated.ValueXY()).current;
 
@@ -120,9 +134,7 @@ const HomeScreen = ({navigation}: any) => {
         if (direction === 'right') {
             latest.current.addToLiked();
         } else {
-            const nextIndex = index + 1;
-            setIndex(nextIndex);
-            if (nextIndex >= data.length) setIsEnd(true);
+            latest.current.skipCurrent();
         }
         position.setValue({ x: 0, y: 0 });
     };
