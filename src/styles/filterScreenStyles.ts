@@ -29,7 +29,7 @@ export const filterStyles = StyleSheet.create({
         borderRadius: 10,
         borderWidth: 1,
         borderColor: COLORS.corIconsTexto,        
-        height: 50,
+        height: 55,
         paddingHorizontal: 15,
         marginBottom: 20,
     },

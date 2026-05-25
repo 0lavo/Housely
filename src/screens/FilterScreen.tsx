@@ -1,6 +1,6 @@
-import React, { useState } from 'react';
+import React, { useState, useRef } from 'react';
 import { View, Text, ScrollView, TouchableOpacity, TextInput } from "react-native";
-import { COLORS, globalStyles } from "../styles/globalStyles";
+import { COLORS, FONTS, globalStyles } from "../styles/globalStyles";
 import { filterStyles } from "../styles/filterScreenStyles";
 import AppFooter from "../components/AppFooter";
 import AppHeader from "../components/AppHeader";
@@ -12,7 +12,7 @@ import { PropertyType, MIN_BUDGET, MAX_BUDGET } from '../components/IdealSpaceFi
 import { saveFilters } from '../storage/filtersStorage.ts';
 import {propertyStyles} from '../styles/idealSpaceFiltersStyles.ts'
 import Slider from '@react-native-community/slider';
-import { Picker } from '@react-native-picker/picker';
+import { Dropdown } from 'react-native-element-dropdown';
 
 
 type TabType = 'space' | 'personal';
@@ -24,6 +24,7 @@ const FilterScreen = ({ navigation }: any) => {
     const [useCurrentLocation, setUseCurrentLocation] = useState(false); // <-- Guarda o estado da checkbox
     const [locationCoords, setLocationCoords] = useState<{latitude: number, longitude: number} | null>(null);
     const [distance, setDistance] = useState<number>(5);
+    const pickerRef = useRef<any>(null);
 
     //Filtros do espaço ideal
     const [budgetRange, setBudgetRange] = useState<[number | null, number | null]>([50, 500]);
@@ -56,6 +57,12 @@ const FilterScreen = ({ navigation }: any) => {
             housemates: housemates
         })
     };
+
+    const cidadesData = [
+    { label: 'Aveiro', value: 'Aveiro' },
+    { label: 'Porto', value: 'Porto' },
+    { label: 'Lisboa', value: 'Lisboa' },
+    ];
 
     const handleToggleLocation = async () => {
         if (!useCurrentLocation) {
@@ -100,27 +107,39 @@ const FilterScreen = ({ navigation }: any) => {
                     <View style={[propertyStyles.othersCard, { padding: 20 }]}>
 
                         {/* localização */}
-                        <View style={filterStyles.locationInputContainer}>
-                            <Icon name="location-outline" size={20} color={COLORS.corIconsTexto} style={filterStyles.locationIcon} />
+                        <Dropdown
+                            style={[
+                                filterStyles.locationInputContainer,
+                                useCurrentLocation && { opacity: 0.5 }
+                            ]}
+                            placeholderStyle={{ color: '#888', fontSize: FONTS.size.body }}
+                            selectedTextStyle={{ color: COLORS.corIconsTexto , fontSize: FONTS.size.body }}
+                            itemTextStyle={{ color: COLORS.corIconsTexto, fontSize: FONTS.size.body }}
+                            containerStyle={{ borderRadius: 10, borderColor: COLORS.corCard }} 
+                            iconStyle={{ width: 20, height: 20, tintColor: COLORS.corIconsTexto }} 
                             
-                            <View style={[{ flex: 1 }, useCurrentLocation && { opacity: 0.5 }]}>
-                                <Picker
-                                    selectedValue={location}
-                                    onValueChange={(itemValue) => setLocation(itemValue)}
-                                    enabled={!useCurrentLocation} // Bloqueia se a checkbox estiver ativa
-                                    style={filterStyles.locationInput}
-                                >
-                                    <Picker.Item label="Selecione a cidade..." value="" color="#888" />
-                                    
-                                    <Picker.Item label="Aveiro" value="Aveiro" />
-                                    <Picker.Item label="Porto" value="Porto" />
-                                    <Picker.Item label="Lisboa" value="Lisboa" />
-                                    <Picker.Item label="Usar localização atual" value="Usar localização atual" />
-                                </Picker>
-                            </View>
-                        </View>
+                            data={cidadesData}
+                            maxHeight={300}
+                            labelField="label"
+                            valueField="value"
+                            placeholder="Selecione a cidade..."
+                            value={location}
+                            disable={useCurrentLocation} // Bloqueia se a checkbox estiver ativa
+                            
+                            onChange={item => {
+                                setLocation(item.value);
+                            }}
+                            
+                            renderLeftIcon={() => (
+                                <Icon 
+                                    name="location-outline" 
+                                    size={20} 
+                                    color={COLORS.corIconsTexto} 
+                                    style={{ marginRight: 10 }} 
+                                />
+                            )}
+                        />
 
-                        {/* Checkbox "Usar localização atual" */}
                         <TouchableOpacity 
                             style={filterStyles.checkboxContainer} 
                             onPress={handleToggleLocation}
