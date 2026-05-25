@@ -227,7 +227,7 @@ const FilterScreen = ({ navigation }: any) => {
             {/*  Botão Principal e Footer */}
             <View style={filterStyles.submitSection}>
                 <TouchableOpacity style={globalStyles.primaryButton} activeOpacity={0.8} onPress={() => { handleFilters(); navigation.navigate('Home'); }}>
-                    <Text style={globalStyles.primaryButtonText}>Salvar Filtros</Text>
+                    <Text style={globalStyles.primaryButtonText}>Ver Propriedades</Text>
                 </TouchableOpacity>
             </View>
 
