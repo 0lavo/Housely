@@ -23,7 +23,7 @@ const FirstTimeModal = ({ visible, onGoToFilters, onClose }: Props) => {
                         <View style={endOfListModalStyles.card}>
 
                             <View style={endOfListModalStyles.iconCircle}>
-                                <Icon name="sentiment-dissatisfied" size={60} color={COLORS.corBotoes} />
+                                <Icon name="maps-home-work" size={60} color={COLORS.corBotoes} />
                             </View>
 
                             <Text style={endOfListModalStyles.title}>
