@@ -11,6 +11,8 @@ import { addLiked, getLiked } from '../storage/likedStorage';
 import EndOfListModal from "../components/EndOfListModal";
 import { Property, filterProperties } from "../utils/filterProperties";
 import { useFocusEffect } from "@react-navigation/native";
+import { getFirstTime, setFirstTime } from "../storage/firstTimeStorage";
+import FirstTimeModal from "../components/FirstTimeModal";
 
 const SCREEN_WIDTH = Dimensions.get('window').width;
 const SWIPE_THRESHOLD = 0.25 * SCREEN_WIDTH;
@@ -23,22 +25,23 @@ const HomeScreen = ({navigation}: any) => {
     useFocusEffect(
         useCallback(() => {
             setLoading(true);
-            Promise.all([filterProperties(), getLiked()])
-.then(([result, liked]) => {
-                    const likedSet = new Set(liked.map(p => p.propertyCode));
-                    const filtered = result.filter(p => !likedSet.has(p.propertyCode));
-
-                    setData(filtered);
-                    setIndex(0);
-                    setIsEnd(filtered.length === 0);
-                    setLoading(false);
-                })
-                .catch(() => setLoading(false));
+            Promise.all([filterProperties(), getLiked(), getFirstTime()])
+            .then(([result, liked, firstTime]) => {
+                const likedSet = new Set(liked.map(p => p.propertyCode));
+                const filtered = result.filter(p => !likedSet.has(p.propertyCode));
+                setData(filtered);
+                setIndex(0);
+                setIsEnd(filtered.length === 0);
+                setShowFirstTimeModal(firstTime === null ? true : firstTime);
+                setLoading(false);
+            })
+            .catch(() => setLoading(false));
         }, [])
     );
 
     const [index, setIndex] = useState(0);
     const [isEnd, setIsEnd] = useState(false);
+    const [showFirstTimeModal, setShowFirstTimeModal] = useState(true);
     const [imageError, setImageError] = useState(false);
     const safeIndex = data.length === 0 ? 0 : Math.min(index, data.length - 1);
 
@@ -271,6 +274,17 @@ const HomeScreen = ({navigation}: any) => {
                 visible={isEnd}
                 onRestart={() => {navigation.navigate('Filter')}}
                 onClose={() => {}}
+            />
+            <FirstTimeModal
+                visible={showFirstTimeModal}
+                onGoToFilters={() => {
+                    setFirstTime(false);
+                    navigation.navigate('Filter');
+                }}
+                onClose={() => {
+                    setFirstTime(false);
+                    setShowFirstTimeModal(false);
+                }}
             />
             <AppFooter navigation={navigation} activeScreen="Home"/>
         </View>

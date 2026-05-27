@@ -9,7 +9,7 @@ const AppHeader = ({navigation}: any) => (
                 <Image 
                 source={require('../../assets/logo.png')} 
                 resizeMode="contain" 
-                style={{ width: 200, height: 120, marginTop:20 }}/> {/* ja alterei isto olavo  */}
+                style={{ width: 200, height: 120, marginTop:20 }}/>
             </TouchableOpacity>
         </View>
     </SafeAreaView>
