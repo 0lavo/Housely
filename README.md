@@ -1,97 +1,76 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
+# Housely
 
-# Getting Started
+> Encontra a tua próxima casa em Portugal com a simplicidade de um swipe.
 
-> **Note**: Make sure you have completed the [Set Up Your Environment](https://reactnative.dev/docs/set-up-your-environment) guide before proceeding.
+**Housely** é uma aplicação móvel desenvolvida em **React Native** que reinventa a forma de procurar imóveis para arrendar. Inspirada nas interfaces de *swipe* das apps de encontros, permite ao utilizador descobrir propriedades em **Aveiro**, **Lisboa** e **Porto** de uma forma rápida, visual e intuitiva.
 
-## Step 1: Start Metro
+---
 
-First, you will need to run **Metro**, the JavaScript build tool for React Native.
+## Funcionalidades
 
-To start the Metro dev server, run the following command from the root of your React Native project:
+- **Interface de Swipe** — desliza para a direita para guardar, para a esquerda para descartar.
+- **Filtros Inteligentes** — define orçamento, tipologia (T0–T3), localização e distância máxima.
+- **Perfil Pessoal** — partilha preferências sobre animais, fumadores, género e número de colegas de casa.
+- **Geolocalização** — usa a localização atual do dispositivo para encontrar imóveis próximos.
+- **Favoritos Persistentes** — as casas guardadas mantêm-se entre sessões através do `AsyncStorage`.
+- **Detalhes Completos** — vê área, quartos, casas de banho, descrição e abre o anúncio original no browser.
+- **Onboarding** — modal de boas-vindas guia novos utilizadores até ao ecrã de filtros.
 
-```sh
-# Using npm
-npm start
+---
 
-# OR using Yarn
-yarn start
-```
+## Stack Tecnológico
 
-## Step 2: Build and run your app
+| Camada | Tecnologia |
+|---|---|
+| **Framework** | React Native `0.85.2` + React `19.2.3` |
+| **Linguagem** | TypeScript `5.9` |
+| **Navegação** | React Navigation (Drawer + Native Stack) |
+| **Animações** | React Native Reanimated + Animated API + PanResponder |
+| **Storage** | AsyncStorage |
+| **Localização** | `@react-native-community/geolocation` |
+| **UI** | React Native Vector Icons, Element Dropdown, Multi-Slider |
+| **Gestos** | React Native Gesture Handler |
 
-With Metro running, open a new terminal window/pane from the root of your React Native project, and use one of the following commands to build and run your Android or iOS app:
+---
 
-### Android
+## Estrutura do Projeto
 
-```sh
-# Using npm
-npm run android
+Housely/
+├── App.tsx # Entry point com GestureHandlerRootView
+├── assets/ # Fontes (Alexandria) e imagens
+├── data/ # Datasets locais de imóveis (JSON)
+│ ├── aveiroProperties.json
+│ ├── lisboaProperties.json
+│ └── portoProperties.json
+└── src/
+├── components/ # Componentes reutilizáveis (Cards, Modais, Header, Footer)
+├── navigation/ # AppNavigator + DrawerNavigator
+├── screens/ # Home, Filter, Favorite, PropertyDetails
+├── services/ # Serviço de geolocalização
+├── storage/ # Wrappers do AsyncStorage (liked, filters, firstTime)
+├── styles/ # Estilos globais e por ecrã
+└── utils/ # filterProperties + cálculo Haversine
 
-# OR using Yarn
-yarn android
-```
 
-### iOS
+---
 
-For iOS, remember to install CocoaPods dependencies (this only needs to be run on first clone or after updating native deps).
+## Como Executar
 
-The first time you create a new project, run the Ruby bundler to install CocoaPods itself:
+### Pré-requisitos
 
-```sh
-bundle install
-```
+- **Node.js** `>= 22.11.0`
+- **React Native CLI** configurado ([guia oficial](https://reactnative.dev/docs/set-up-your-environment))
+- Android Studio (para Android) ou Xcode (para iOS)
 
-Then, and every time you update your native dependencies, run:
+### Instalação
 
-```sh
-bundle exec pod install
-```
+```bash
+# 1. Clonar o repositório
+git clone https://github.com/0lavo/Housely.git
+cd Housely
 
-For more information, please visit [CocoaPods Getting Started guide](https://guides.cocoapods.org/using/getting-started.html).
+# 2. Instalar dependências
+npm install
 
-```sh
-# Using npm
-npm run ios
-
-# OR using Yarn
-yarn ios
-```
-
-If everything is set up correctly, you should see your new app running in the Android Emulator, iOS Simulator, or your connected device.
-
-This is one way to run your app — you can also build it directly from Android Studio or Xcode.
-
-## Step 3: Modify your app
-
-Now that you have successfully run the app, let's make changes!
-
-Open `App.tsx` in your text editor of choice and make some changes. When you save, your app will automatically update and reflect these changes — this is powered by [Fast Refresh](https://reactnative.dev/docs/fast-refresh).
-
-When you want to forcefully reload, for example to reset the state of your app, you can perform a full reload:
-
-- **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Dev Menu**, accessed via <kbd>Ctrl</kbd> + <kbd>M</kbd> (Windows/Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (macOS).
-- **iOS**: Press <kbd>R</kbd> in iOS Simulator.
-
-## Congratulations! :tada:
-
-You've successfully run and modified your React Native App. :partying_face:
-
-### Now what?
-
-- If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
-- If you're curious to learn more about React Native, check out the [docs](https://reactnative.dev/docs/getting-started).
-
-# Troubleshooting
-
-If you're having issues getting the above steps to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
-
-# Learn More
-
-To learn more about React Native, take a look at the following resources:
-
-- [React Native Website](https://reactnative.dev) - learn more about React Native.
-- [Getting Started](https://reactnative.dev/docs/environment-setup) - an **overview** of React Native and how setup your environment.
-- [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
-- [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
-- [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
+#. 3 Correr o App
+npm run android   # Android
