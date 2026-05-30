@@ -40,8 +40,9 @@ const FilterScreen = ({ navigation }: any) => {
     const [gender, setGender] = useState<string | null>('Feminino');
     const [housemates, setHousemates] = useState<string | null>('3');
     
-    const handleFilters = () => {
-        saveFilters({
+    const handleFilters = async () => {
+        await saveFilters({
+            locationString: location,
             locationCoords: locationCoords,
             distance: distance,
             minPrice: budgetRange[0],
@@ -103,10 +104,8 @@ const FilterScreen = ({ navigation }: any) => {
                     </Text>
                     
 
-                    {/* NOVO: Cartão à volta da localização */}
                     <View style={[propertyStyles.othersCard, { padding: 20 }]}>
 
-                        {/* localização */}
                         <Dropdown
                             style={[
                                 filterStyles.locationInputContainer,
@@ -154,7 +153,6 @@ const FilterScreen = ({ navigation }: any) => {
                         </TouchableOpacity>
 
 
-                        {/* Slider de Distância */}
                         <View style={filterStyles.distanceContainer}>
                             <View style={filterStyles.distanceHeader}>
                                 <Text style={filterStyles.distanceLabel}>Distância máxima</Text>
@@ -226,7 +224,13 @@ const FilterScreen = ({ navigation }: any) => {
 
             {/*  Botão Principal e Footer */}
             <View style={filterStyles.submitSection}>
-                <TouchableOpacity style={globalStyles.primaryButton} activeOpacity={0.8} onPress={() => { handleFilters(); navigation.navigate('Home'); }}>
+                <TouchableOpacity 
+                    style={globalStyles.primaryButton} 
+                    activeOpacity={0.8} 
+                    onPress={async () => {
+                        await handleFilters();
+                        navigation.navigate('Home');
+                    }}>
                     <Text style={globalStyles.primaryButtonText}>Ver Propriedades</Text>
                 </TouchableOpacity>
             </View>

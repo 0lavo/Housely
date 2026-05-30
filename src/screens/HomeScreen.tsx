@@ -20,11 +20,9 @@ const SWIPE_THRESHOLD = 0.25 * SCREEN_WIDTH;
 const HomeScreen = ({navigation}: any) => {
 
     const [data, setData] = useState<Property[]>([]);
-    const [loading, setLoading] = useState(true);
 
     useFocusEffect(
         useCallback(() => {
-            setLoading(true);
             Promise.all([filterProperties(), getLiked(), getFirstTime()])
             .then(([result, liked, firstTime]) => {
                 const likedSet = new Set(liked.map(p => p.propertyCode));
@@ -33,9 +31,7 @@ const HomeScreen = ({navigation}: any) => {
                 setIndex(0);
                 setIsEnd(filtered.length === 0);
                 setShowFirstTimeModal(firstTime === null ? true : firstTime);
-                setLoading(false);
             })
-            .catch(() => setLoading(false));
         }, [])
     );
 
@@ -160,13 +156,9 @@ const HomeScreen = ({navigation}: any) => {
         transform: [{ rotate }]
     };
 
-    if (loading) {
-        return <View style={{flex: 1}}><Text style={{alignItems: "center", justifyContent: "center"}}>A carregar...</Text></View>;
-    }
-
     if (data.length === 0) {
         return (
-            <View style={globalStyles.screen}>
+            <View style={[globalStyles.screen]}>
                 <AppHeader navigation={navigation}/>
                 <EndOfListModal
                     visible={true}

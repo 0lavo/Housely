@@ -1,17 +1,53 @@
 import { Filters, getFilters } from '../storage/filtersStorage';
-import properties from '../../data/portoProperties.json';
+import portoProperties from '../../data/portoProperties.json';
+import lisboaProperties from '../../data/lisboaProperties.json';
+import aveiroProperties from '../../data/aveiroProperties.json';
 import { PropertyType } from '../components/IdealSpaceFilters';
 import {MIN_BUDGET, MAX_BUDGET} from '../components/IdealSpaceFilters';
+import { buildApiParams, fetchProperties } from '../services/api';
 
-export type Property = typeof properties[number];
+
+export type Property = typeof portoProperties[number];
 
 export const filterProperties = async (): Promise<Property[]>  => {
     const filters = await getFilters();
+
+    const properties = selectPropertiesByCity(filters?.locationString ?? 'Porto');
     if (!filters) return properties;
     
-    const result: Property[] = [];
-    result.push(...properties.filter(property => filtering(property, filters)));
-    return result;
+
+    const params = buildApiParams(filters);
+
+    if (params) {
+        try {
+            const apiRes = await fetchProperties(params);
+            
+            
+            if (filters.locationCoords && filters.distance != null) {
+                return apiRes.filter((property: Property) => {
+                    const d = haversineKm(
+                        filters.locationCoords!,
+                        { latitude: property.latitude, longitude: property.longitude }
+                    );
+                    return d <= filters.distance!;
+                });
+            };
+
+            return apiRes;
+        } catch {
+            return properties.filter(property => filtering(property, filters));;
+        };
+    };
+
+
+    return properties.filter(property => filtering(property, filters));;
+}
+
+const selectPropertiesByCity = (city: string): Property[] => {
+    if (city === 'Lisboa') return lisboaProperties;
+    if (city === 'Aveiro') return aveiroProperties;
+
+    return portoProperties;
 }
 
 const filtering = (property: Property, filters: Filters): boolean => {

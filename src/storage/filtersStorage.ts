@@ -3,6 +3,7 @@ import { PropertyType } from '../components/IdealSpaceFilters';
 
 export type Filters = {
     // Filtro local
+    locationString: string | null;
     locationCoords: {latitude: number, longitude: number} | null;
     distance: number | null;
     // Filtros ideal space
