@@ -31,28 +31,25 @@
 | **UI** | React Native Vector Icons, Element Dropdown, Multi-Slider |
 | **Gestos** | React Native Gesture Handler |
 
----
-
 ## Estrutura do Projeto
 
+```text
 Housely/
-├── App.tsx # Entry point com GestureHandlerRootView
-├── assets/ # Fontes (Alexandria) e imagens
-├── data/ # Datasets locais de imóveis (JSON)
-│ ├── aveiroProperties.json
-│ ├── lisboaProperties.json
-│ └── portoProperties.json
+├── App.tsx                    # Entry point com GestureHandlerRootView
+├── assets/                    # Fontes (Alexandria) e imagens
+├── data/                      # Datasets locais de imóveis (JSON)
+│   ├── aveiroProperties.json
+│   ├── lisboaProperties.json
+│   └── portoProperties.json
 └── src/
-├── components/ # Componentes reutilizáveis (Cards, Modais, Header, Footer)
-├── navigation/ # AppNavigator + DrawerNavigator
-├── screens/ # Home, Filter, Favorite, PropertyDetails
-├── services/ # Serviço de geolocalização
-├── storage/ # Wrappers do AsyncStorage (liked, filters, firstTime)
-├── styles/ # Estilos globais e por ecrã
-└── utils/ # filterProperties + cálculo Haversine
-
-
----
+    ├── components/            # Componentes reutilizáveis (Cards, Modais, Header, Footer)
+    ├── navigation/            # AppNavigator + DrawerNavigator
+    ├── screens/               # Home, Filter, Favorite, PropertyDetails
+    ├── services/              # Serviço de geolocalização
+    ├── storage/               # Wrappers do AsyncStorage (liked, filters, firstTime)
+    ├── styles/                # Estilos globais e por ecrã
+    └── utils/                 # filterProperties + cálculo Haversine
+```
 
 ## Como Executar
 
@@ -73,4 +70,4 @@ cd Housely
 npm install
 
 #. 3 Correr o App
-npm run android   # Android
+npx react-native run-android   # Android
