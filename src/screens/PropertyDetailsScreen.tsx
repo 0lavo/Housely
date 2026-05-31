@@ -1,11 +1,13 @@
 import React, {useMemo, useState} from 'react';
-import { View, Text, Image, TouchableOpacity, ScrollView, Linking, Alert, FlatList, useWindowDimensions } from "react-native";
+import { View, Text, Image, TouchableOpacity, ScrollView, Linking, Alert, FlatList, useWindowDimensions, Share } from "react-native";
 
 import Icon from 'react-native-vector-icons/Ionicons';
 import { COLORS, globalStyles } from "../styles/globalStyles";
 import { propertyStyles } from '../styles/propertyDetailsStyles';
 import AppFooter from "../components/AppFooter";
-import data from '../../data/portoProperties.json';
+import portoData from '../../data/portoProperties.json';
+import aveiroData from '../../data/aveiroProperties.json';
+import lisboaData from '../../data/lisboaProperties.json';
 import imagesMap from '../../data/images.json';
 import { SafeAreaView } from 'react-native-safe-area-context';
 
@@ -32,7 +34,11 @@ const PropertyDetails = ({ route, navigation }: any ) => {
     const { propertyCode } = route.params || {};
 
     // Procurar a propriedade correta no JSON usando o propertyCode
-    const property = data.find((p: any) => p.propertyCode === propertyCode);
+    const property =
+        portoData.find((p: any) => p.propertyCode === propertyCode) ??
+        aveiroData.find((p: any) => p.propertyCode === propertyCode) ??
+        lisboaData.find((p: any) => p.propertyCode === propertyCode);
+
 
     const imagesList = useMemo(() => {
         let listFromJson: string[] = (imagesMap as any)?.[String(propertyCode)] ?? [];
@@ -84,6 +90,26 @@ const PropertyDetails = ({ route, navigation }: any ) => {
         }
     };
 
+    const onShare = async () => {
+        try {
+            //mensagem para quem vai receber
+            const mensagem = `Olha este excelente imóvel! T${property.rooms} em ${property.municipality} por €${property.price.toLocaleString()}.\n\nVê tudo aqui: ${property.url}`;
+
+            const result = await Share.share({
+                message: mensagem,
+                title: `Imóvel em ${property.municipality}` 
+            });
+
+            if (result.action === Share.sharedAction) {
+                console.log("Partilhado com sucesso!");
+            } else if (result.action === Share.dismissedAction) {
+                console.log("Partilha cancelada");
+            }
+        } catch (error: any) {
+            Alert.alert("Erro ao partilhar", error.message);
+        }
+    };
+
 
     return (
         <View style={propertyStyles.container}>
@@ -96,7 +122,7 @@ const PropertyDetails = ({ route, navigation }: any ) => {
                         <Icon name="arrow-back" size={24} color={COLORS.corIconsTexto} />
                     </TouchableOpacity>
                     <Text style={propertyStyles.headerTitle}>Detalhes do Imóvel</Text>
-                    <TouchableOpacity>
+                    <TouchableOpacity onPress={onShare}>
                         <Icon name="share-social-outline" size={24} color={COLORS.corIconsTexto} />
                     </TouchableOpacity>
                 </View>

@@ -73,7 +73,7 @@ export const buildApiParams = (
 
 // Aqui a onde realmente faz a chamada a API, usando os parametros construidos acima
 
-const TIMEOUT_MS = 5000; // 5 segundos
+const TIMEOUT_MS = 500; 
 
 export const fetchProperties = async (
     params: Record<string, string>
