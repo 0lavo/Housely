@@ -1,11 +1,14 @@
-import React, {useState} from 'react';
-import { View, Text, Image, TouchableOpacity, ScrollView, Linking, Alert } from "react-native";
+import React, {useMemo, useState} from 'react';
+import { View, Text, Image, TouchableOpacity, ScrollView, Linking, Alert, FlatList, useWindowDimensions } from "react-native";
+
 import Icon from 'react-native-vector-icons/Ionicons';
 import { COLORS, globalStyles } from "../styles/globalStyles";
 import { propertyStyles } from '../styles/propertyDetailsStyles';
 import AppFooter from "../components/AppFooter";
 import data from '../../data/portoProperties.json';
+import imagesMap from '../../data/images.json';
 import { SafeAreaView } from 'react-native-safe-area-context';
+
 
 interface FeatureProps {
   iconName: string;
@@ -23,6 +26,7 @@ const FeatureCard = ({ iconName, label, value }: FeatureProps) => (
 const PropertyDetails = ({ route, navigation }: any ) => {
 
     const [isExpanded, setIsExpanded] = useState(false);
+    const [currentIndex, setCurrentIndex] = useState(0);
 
     // Buscar o propertyCode vindo do FavoriteScreen
     const { propertyCode } = route.params || {};
@@ -30,8 +34,31 @@ const PropertyDetails = ({ route, navigation }: any ) => {
     // Procurar a propriedade correta no JSON usando o propertyCode
     const property = data.find((p: any) => p.propertyCode === propertyCode);
 
+    const imagesList = useMemo(() => {
+        let listFromJson: string[] = (imagesMap as any)?.[String(propertyCode)] ?? [];
+
+        if (!listFromJson || listFromJson.length === 0) {
+            listFromJson = (imagesMap as any)?.["50000001"] ?? [];
+        }
+
+        // Primeira imagem deve ser sempre a principal (thumbnail)
+        const first = property?.thumbnail;
+        if (!first) return listFromJson;
+
+
+        // Remove duplicados mantendo ordem: thumbnail primeiro, depois o resto
+        const merged = [first, ...listFromJson];
+        return Array.from(new Set(merged));
+    }, [propertyCode, property?.thumbnail]);
+
+    const { width } = useWindowDimensions();
+    const IMAGE_WIDTH = width - 40;
+
+
+
     // Se por acaso a propriedade não for encontrada (exemplo de fallback)
     if (!property) {
+
         return (
             <View style={[globalStyles.screen, globalStyles.centeredContainer]}>
                 <Text>Propriedade não encontrada.</Text>
@@ -74,17 +101,55 @@ const PropertyDetails = ({ route, navigation }: any ) => {
                     </TouchableOpacity>
                 </View>
 
-                {/* Imagem Principal */}
+                {/* Imagem Principal + restantes (carrossel) */}
                 <View style={propertyStyles.imageContainer}>
-                    <Image 
-                        source={{ uri: property.thumbnail }} 
-                        style={propertyStyles.mainImage} 
+                    <FlatList
+                        data={imagesList}
+                        keyExtractor={(item, index) => `${item}-${index}`}
+                        horizontal
+                        pagingEnabled
+                        showsHorizontalScrollIndicator={false}
+
+                        onScroll={(event) => {
+                            const slideSize = event.nativeEvent.layoutMeasurement.width;
+                            const index = event.nativeEvent.contentOffset.x / slideSize;
+                            setCurrentIndex(Math.round(index));
+                        }}
+                        scrollEventThrottle={16} // Ajuda a que o onScroll seja fluido
+
+                        snapToInterval={IMAGE_WIDTH} 
+                        decelerationRate="fast"
+                        renderItem={({ item }) => (
+                            <Image
+                                source={{ uri: item }}
+                                style={[
+                                    propertyStyles.mainImage, 
+                                    { width: IMAGE_WIDTH }
+                                ]}
+                            />
+                        )}
                     />
+
                     <View style={propertyStyles.imageBadge}>
                         <Icon name="camera-outline" size={14} color={COLORS.branco} />
                         <Text style={propertyStyles.badgeText}>Fotos</Text>
                     </View>
                 </View>
+                 {/* ---> NOVOS PONTINHOS <--- */}
+                    <View style={propertyStyles.paginationContainer}>
+                        {imagesList.map((_, index) => (
+                            <View
+                                key={index}
+                                style={[
+                                    propertyStyles.paginationDot,
+                                    currentIndex === index 
+                                        ? propertyStyles.paginationDotActive 
+                                        : propertyStyles.paginationDotInactive
+                                ]}
+                            />
+                        ))}
+                    </View>
+
 
                 {/* Detalhes da Propriedade */}
                 <View style={propertyStyles.detailsContainer}>

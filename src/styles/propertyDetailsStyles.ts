@@ -127,5 +127,24 @@ export const propertyStyles = StyleSheet.create({
         fontFamily: FONTS.bold,
         color: COLORS.corIconsTexto,
         marginRight: 4,
-    }
+    },
+    // --- CARROSSEL DE IMAGENS ---
+    paginationContainer: {
+        flexDirection: 'row',
+        justifyContent: 'center',
+        alignItems: 'center',
+        marginTop: 10,
+    },
+    paginationDot: {
+        width: 8,
+        height: 8,
+        borderRadius: 4,
+        marginHorizontal: 4,
+    },
+    paginationDotActive: {
+        backgroundColor: COLORS.corIconsTexto, // Cor do ponto ativo
+    },
+    paginationDotInactive: {
+        backgroundColor: '#D3D3D3', // Cor dos pontos inativos (cinza claro)
+    },
 });
