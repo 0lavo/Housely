@@ -5,9 +5,9 @@ import { Property } from '../utils/filterProperties';
 
 //Funcoes para deixar os filtros como os parametros da API
 const cityToLocationId: Record<string, string> = {
-    Aveiro: '0-EU-PT-13',  // <-- substituir
+    Aveiro: '0-EU-PT-01',
     Porto:  '0-EU-PT-13',
-    Lisboa: '0-EU-PT-13',  // <-- substituir
+    Lisboa: '0-EU-PT-11',
 };
 
 const bedroomsToString = (types: PropertyType[] | null): string | null => {

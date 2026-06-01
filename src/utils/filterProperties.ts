@@ -16,11 +16,11 @@ export const filterProperties = async (): Promise<Property[]>  => {
     if (!filters) return properties;
     
 
-    const params = buildApiParams(filters);
+    const params = false //buildApiParams(filters);
 
     if (params) {
         try {
-            const apiRes = await fetchProperties(params);
+          const apiRes = await fetchProperties(params);
             
             
             if (filters.locationCoords && filters.distance != null) {
