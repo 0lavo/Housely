@@ -1,6 +1,6 @@
 // src/screens/HomeScreen.tsx
 
-import { View, Text, ImageBackground, TouchableOpacity, Animated, PanResponder, Dimensions, Image } from "react-native";
+import { View, TouchableOpacity, Animated, PanResponder, Dimensions } from "react-native";
 import React, { useState, useRef, useCallback } from 'react';
 import { globalStyles, COLORS } from "../styles/globalStyles";
 import AppFooter from "../components/AppFooter";
@@ -13,6 +13,7 @@ import { Property, filterProperties } from "../utils/filterProperties";
 import { useFocusEffect } from "@react-navigation/native";
 import { getFirstTime, setFirstTime } from "../storage/firstTimeStorage";
 import FirstTimeModal from "../components/FirstTimeModal";
+import SwipeCard from "../components/SwipeCard"; // <--- ADICIONADO AQUI
 
 const SCREEN_WIDTH = Dimensions.get('window').width;
 const SWIPE_THRESHOLD = 0.25 * SCREEN_WIDTH;
@@ -38,10 +39,7 @@ const HomeScreen = ({navigation}: any) => {
     const [index, setIndex] = useState(0);
     const [isEnd, setIsEnd] = useState(false);
     const [showFirstTimeModal, setShowFirstTimeModal] = useState(true);
-    const [imageError, setImageError] = useState(false);
     const safeIndex = data.length === 0 ? 0 : Math.min(index, data.length - 1);
-
-
 
     const [mostrarMorada, setMostrarMorada] = useState(false);
 
@@ -70,19 +68,17 @@ const HomeScreen = ({navigation}: any) => {
     const toggleMorada = () => setMostrarMorada(m => !m);
 
     const skipCurrent = () => {
-    const nextIndex = index + 1;
-    setIndex(nextIndex);
-    if (nextIndex >= data.length) setIsEnd(true);
+        const nextIndex = index + 1;
+        setIndex(nextIndex);
+        if (nextIndex >= data.length) setIsEnd(true);
     };
 
-    // Define o tipo
     type LatestRef = {
         addToLiked: () => Promise<void>;
         toggleMorada: () => void;
         skipCurrent: () => void;
     };
 
-    // Usa o tipo na ref
     const latest = useRef<LatestRef>({ addToLiked, toggleMorada, skipCurrent });
     latest.current = { addToLiked, toggleMorada, skipCurrent };
 
@@ -127,7 +123,6 @@ const HomeScreen = ({navigation}: any) => {
     };
 
     const onSwipeComplete = (direction: 'left' | 'right') => {
-        setImageError(false);
         setMostrarMorada(false);
 
         if (direction === 'right') {
@@ -170,87 +165,35 @@ const HomeScreen = ({navigation}: any) => {
         );
     }
 
+    const nextIndex = safeIndex + 1;
+    const hasNext = nextIndex < data.length;
+
     return (
         <View style={globalStyles.screen}>
             <AppHeader navigation={navigation}/>
             <View style={[globalStyles.centeredContainer, {paddingVertical: 16}]}>
+                
+                {/* ÁREA DOS CARTÕES */}
                 <View style={homeStyles.cardContainer}>
+                    
+                    {/* CARTÃO DE TRÁS (Próxima Casa) */}
+                    {hasNext && (
+                        <View style={[{ height: '100%', width: '100%', position: 'absolute' }]}>
+                            <SwipeCard property={data[nextIndex]} mostrarMorada={false} />
+                        </View>
+                    )}
 
+                    {/* CARTÃO DA FRENTE ANIMADO (Casa Atual) */}
                     <Animated.View
-                        style={[animatedCardStyle, { height: '100%', width: '100%' }]}
+                        style={[animatedCardStyle, { height: '100%', width: '100%', position: 'absolute' }]}
                         {...panResponder.panHandlers}
                     >
-
-                        <Image 
-                            source={require('../../assets/placeholder.png')}
-                            style={[homeStyles.cardImage, { position: 'absolute', width: '100%', height: '100%' }]}
-                        />
-
-                        <ImageBackground
-                            source={
-                                data[safeIndex]?.thumbnail && !imageError
-                                    ? { uri: data[safeIndex].thumbnail }
-                                    : require('../../assets/placeholder.png')
-                            }
-                            style={homeStyles.card}
-                            imageStyle={homeStyles.cardImage}
-                            onError={() => setImageError(true)}
-                        >
-                            <View style={homeStyles.overlay}>
-
-                                <View>
-                                    <View style={homeStyles.locationBadge}>
-                                        <Icon name="location-on" size={16} color={COLORS.branco} />
-                                        <Text style={homeStyles.locationBadgeText}>{data[safeIndex].province}, Portugal</Text>
-                                    </View>
-                                    <Text style={homeStyles.title}>T{data[safeIndex].rooms} em {data[safeIndex].province} </Text>
-                                    <View style={{ flexDirection: 'row', alignItems: 'center', marginTop: 4, opacity: 0.8 }}>
-                                        <Text style={{ color: COLORS.branco, fontSize: 15 }}>
-                                            {data[safeIndex].municipality}
-                                        </Text>
-                                        <Icon name={mostrarMorada ? "expand-less" : "expand-more"} size={20} color={COLORS.branco} />
-                                    </View>
-
-
-                                    {mostrarMorada && (
-                                        <View style={{ marginTop: 6 }}>
-                                            <View style={homeStyles.addressRow}>
-                                                <Icon name="location-on" size={16} color={COLORS.branco} />
-                                                <Text style={homeStyles.addressText}>{data[safeIndex].address}</Text>
-                                            </View>
-                                        </View>
-                                    )}
-                                </View>
-
-                                <View>
-                                    <View style={homeStyles.bottomContent}>
-                                        <View style={homeStyles.priceContainer}>
-                                            <Text style={homeStyles.price}>€{data[safeIndex].price}</Text>
-                                            <Text style={homeStyles.priceMonth}>por mês</Text>
-                                        </View>
-                                    </View>
-                                    <View style={homeStyles.infoRow}>
-                                        <View style={homeStyles.infoItem}>
-                                            <Icon name="bed" size={20} color={COLORS.branco} />
-                                            <Text style={homeStyles.infoText}>{data[safeIndex].rooms}</Text>
-                                        </View>
-                                        <View style={homeStyles.infoItem}>
-                                            <Icon name="bathtub" size={20} color={COLORS.branco} />
-                                            <Text style={homeStyles.infoText}>{data[safeIndex].bathrooms}</Text>
-                                        </View>
-                                        <View style={homeStyles.infoItem}>
-                                            <Icon name="square-foot" size={20} color={COLORS.branco} />
-                                            <Text style={homeStyles.infoText}>{data[safeIndex].size}m²</Text>
-                                        </View>
-                                    </View>
-                                </View>
-
-                            </View>
-                        </ImageBackground>
+                        <SwipeCard property={data[safeIndex]} mostrarMorada={mostrarMorada} />
                     </Animated.View>
 
                 </View>
 
+                {/* BOTÕES DE AÇÃO */}
                 <View style={homeStyles.actionsContainer}>
                     <TouchableOpacity style={homeStyles.rejectButton} onPress={() => forceSwipe('left')}>
                         <Icon name="close" size={34} color="#D32F2F" />
