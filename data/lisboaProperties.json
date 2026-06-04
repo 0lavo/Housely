@@ -1,99 +1,43 @@
 [
-{
-    "propertyCode": "50000001",
-    "thumbnail": "https://img4.idealista.pt/blur/480_360_mq/0/id.pro.pt.image.master/11/22/33/314330801.webp",
-    "externalReference": "LX-001",
-    "numPhotos": 22,
-    "floor": "3",
-    "price": 2500.0,
+  {
+    "propertyCode": "34347915",
+    "thumbnail": "https://img4.idealista.pt/blur/480_360_mq/0/id.pro.pt.image.master/39/4d/59/290450962.webp",
+    "externalReference": "125571111-2",
+    "numPhotos": 41,
+    "floor": "4",
+    "price": 2300.0,
     "priceInfo": {
       "price": {
-        "amount": 2500.0,
+        "amount": 2300.0,
         "currencySuffix": "€/mês"
       }
     },
     "propertyType": "flat",
     "operation": "rent",
-    "size": 110.0,
-    "rooms": 2,
+    "size": 102.0,
+    "rooms": 3,
     "bathrooms": 2,
-    "address": "Avenida da Liberdade, 200",
+    "address": "Apartamento T3 na Rua Freitas Gazul, Centro, Campo de Ourique",
     "province": "Lisboa",
-    "municipality": "Lisboa",
-    "district": "Santo António",
+    "municipality": "Campo de Ourique",
+    "district": "Centro",
     "country": "pt",
-    "latitude": 38.7200,
-    "longitude": -9.1450,
-    "showAddress": true,
-    "url": "https://www.idealista.pt/imovel/50000001/",
-    "description": "Apartamento T2 de luxo na icónica Avenida da Liberdade. Prédio com segurança 24h e lugar de garagem.",
-    "hasVideo": true,
+    "latitude": 38.7181073,
+    "longitude": -9.1715735,
+    "showAddress": false,
+    "url": "https://www.idealista.pt/imovel/34347915/",
+    "description": "Apartamento T3, totalmente mobilado, com mobiliário moderno e funcional em todas as divisões, pronto a habitar desde o primeiro dia, com Vista Desafogada no 4º Andar | Rua Freitas Gazul – Campo de Ourique, LisboaApresentamos este apartamento T3, localizado na Rua Freitas Gazul, prédio com elevador, bem conservado e com condomínio organizado, no prestigiado bairro de Campo de Ourique, em Lisboa. Com uma disposição funcional e uma excelente exposição solar, este imóvel destaca-se pela luminosidade natural e pela tranquilidade que oferece, sem abdicar da centralidade.Características Principais: Tipologia: T3 Andar: 4.º andar com elevador Área bruta privativa: 102 m² Exposição solar: Nascente/Poente – luz natural ao longo do dia Cozinha independente, com zona de lavandaria Sala de estar ampla, com janelas generosas e vista desafogada Três quartos espaçosos, com excelente luminosidade Enquadramento e Envolvente: Situado em pleno Campo de Ourique, um dos bairros mais emblemáticos e completos da cidade de Lisboa, este apartamento beneficia da proximidade imediata a: Comércio tradicional, supermercados e restaurantes de qualidade Escolas de referência (incluindo o Liceu Francês Charles Lepierre) Mercado de Campo de Ourique e padarias artesanais Transportes públicos (autocarros e o icónico Eléctrico 28) Farmácias, clínicas e serviços essenciais Parques e espaços verdesIdeal para: Famílias que procuram um lar confortável numa zona residencial consolidada Profissionais que valorizam a centralidade e qualidade de vida Investidores que pretendem um activo sólido com elevada procura no mercado de arrendamento Este é mais do que um apartamento – é uma oportunidade para viver com qualidade numa das localizações mais desejadas da capital. Agende já a sua visita e descubra todo o potencial deste imóvel.  CONDIÇÕES PARA O ARRENDAMENTO:2 rendas + 2 rendas de cauçãoFiadores OU garantia bancária ________________________________________  We present this elegant 3-bedroom apartment, located in the heart of Campo de Ourique, one of Lisbon’s most desirable and vibrant neighbourhoods.  The apartment is rented fully furnished, featuring modern and functional furniture throughout, ready to move in from day one.  With a functional layout and excellent sun exposure, this property offers abundant natural light and a peaceful atmosphere, without compromising on centrality and access to amenities.Key Features: Type: T3 (3 bedrooms) Gross private area: 102 m²  Sun exposure: East/West – natural light throughout the day Condition: Good overall state, with potential for modernisation Separate kitchen with laundry area Spacious living room with large windows and open views Three bright bedrooms with generous areas Location & Surroundings: Located in the prestigious Campo de Ourique district, this apartment is within walking distance of: Traditional shops, supermarkets and renowned restaurants Leading schools, including the French Lycée Charles Lepierre The iconic Campo de Ourique Market and artisan bakeries Public transport (buses and the famous Tram 28) Pharmacies, clinics and essential services Green parks and leisure areasIdeal for: Families seeking a comfortable and central home Professionals who value lifestyle and city living Investors looking for a solid asset in a high-demand rental areaRental Conditions: Initial payment of 2 months’ rent + 2 months’ security deposit Mandatory guarantors or, alternatively, a bank guarantee This apartment is more than just a home – it’s an opportunity to live with comfort and convenience in one of Lisbon’s most charming and complete neighbourhoods. Schedule your visit today and discover the full potential of this unique property.   Licença de Utilização -.",
+    "hasVideo": false,
     "status": "good",
     "newDevelopment": false,
     "hasLift": true,
-    "parkingSpace": {
-      "hasParkingSpace": true,
-      "isParkingSpaceIncludedInPrice": true
-    },
-    "priceByArea": 22.7,
+    "priceByArea": 23.0,
     "change": {},
     "detailedType": {
       "typology": "flat"
     },
     "suggestedTexts": {
-      "subtitle": "Santo António, Lisboa",
-      "title": "Apartamento na Avenida da Liberdade, 200"
-    },
-    "hasPlan": true,
-    "has3DTour": false,
-    "has360": false,
-    "hasStaging": false,
-    "savedAd": {},
-    "notes": [],
-    "topNewDevelopment": false,
-    "newDevelopmentHighlight": false,
-    "topPlus": true
-  },
-  {
-    "propertyCode": "50000002",
-    "thumbnail": "https://img4.idealista.pt/blur/480_360_mq/0/id.pro.pt.image.master/11/22/33/314330802.webp",
-    "externalReference": "LX-002",
-    "numPhotos": 16,
-    "floor": "4",
-    "price": 1600.0,
-    "priceInfo": {
-      "price": {
-        "amount": 1600.0,
-        "currencySuffix": "€/mês"
-      }
-    },
-    "propertyType": "flat",
-    "operation": "rent",
-    "size": 65.0,
-    "rooms": 1,
-    "bathrooms": 1,
-    "address": "Rua Augusta, 150",
-    "province": "Lisboa",
-    "municipality": "Lisboa",
-    "district": "Santa Maria Maior",
-    "country": "pt",
-    "latitude": 38.7105,
-    "longitude": -9.1380,
-    "showAddress": true,
-    "url": "https://www.idealista.pt/imovel/50000002/",
-    "description": "Fantástico T1 na famosa Rua Augusta. Inserido num prédio pombalino reabilitado com elevador.",
-    "hasVideo": false,
-    "status": "good",
-    "newDevelopment": true,
-    "hasLift": true,
-    "priceByArea": 24.6,
-    "change": {},
-    "detailedType": {
-      "typology": "flat"
-    },
-    "suggestedTexts": {
-      "subtitle": "Baixa, Lisboa",
-      "title": "Apartamento na Rua Augusta, 150"
+      "title": "Apartamento T3 na Rua Freitas Gazul, Centro, Campo de Ourique"
     },
     "hasPlan": false,
     "has3DTour": false,
@@ -106,11 +50,60 @@
     "topPlus": false
   },
   {
-    "propertyCode": "50000003",
-    "thumbnail": "https://img4.idealista.pt/blur/480_360_mq/0/id.pro.pt.image.master/11/22/33/314330803.webp",
-    "externalReference": "LX-003",
-    "numPhotos": 28,
-    "floor": "2",
+    "propertyCode": "35049529",
+    "thumbnail": "https://img4.idealista.pt/blur/480_360_mq/0/id.pro.pt.image.master/e5/db/c3/318269249.webp",
+    "externalReference": " 120521293-83",
+    "numPhotos": 11,
+    "floor": "bj",
+    "price": 990.0,
+    "priceInfo": {
+      "price": {
+        "amount": 990.0,
+        "currencySuffix": "€/mês"
+      }
+    },
+    "propertyType": "flat",
+    "operation": "rent",
+    "size": 45.0,
+    "rooms": 1,
+    "bathrooms": 1,
+    "address": "Apartamento T1 na Travessa da Verbena, Calçada da Ajuda - Belém, Ajuda",
+    "province": "Lisboa",
+    "municipality": "Ajuda",
+    "district": "Calçada da Ajuda - Belém",
+    "country": "pt",
+    "latitude": 38.7046448,
+    "longitude": -9.2013578,
+    "showAddress": false,
+    "url": "https://www.idealista.pt/imovel/35049529/",
+    "description": "T1 mobilado e equipado para arrendamento na Ajuda. Localizado no rés-do-chão, na Travessa da Verbena, com proximidade a serviços e transportes. O apartamento é arrendado mobilado e equipado com forno, placa, exaustor, termoacumulador, máquina de lavar roupa, cama, colchão, roupa de cama, estante, sofá, mesa e cadeira de escritório, luminária de chão, tapete, televisão, mesa de refeições com cadeiras, mini-frigorífico, micro-ondas e utensílios de cozinha. O quarto também tem roupeiro. Marque a sua visita. *Dispensado de Licença de Utilização.",
+    "hasVideo": false,
+    "status": "good",
+    "newDevelopment": false,
+    "hasLift": false,
+    "priceByArea": 22.0,
+    "change": {},
+    "detailedType": {
+      "typology": "flat"
+    },
+    "suggestedTexts": {
+      "title": "Apartamento T1 na Travessa da Verbena, Calçada da Ajuda - Belém, Ajuda"
+    },
+    "hasPlan": false,
+    "has3DTour": false,
+    "has360": false,
+    "hasStaging": false,
+    "savedAd": {},
+    "notes": [],
+    "topNewDevelopment": false,
+    "newDevelopmentHighlight": false,
+    "topPlus": false
+  },
+  {
+    "propertyCode": "35041921",
+    "thumbnail": "https://img4.idealista.pt/blur/480_360_mq/0/id.pro.pt.image.master/92/e3/48/317965341.webp",
+    "externalReference": "KWPT-033490",
+    "numPhotos": 18,
     "price": 2800.0,
     "priceInfo": {
       "price": {
@@ -120,82 +113,30 @@
     },
     "propertyType": "flat",
     "operation": "rent",
-    "size": 140.0,
+    "size": 182.0,
     "rooms": 3,
-    "bathrooms": 3,
-    "address": "Rua Garrett, 50",
+    "bathrooms": 2,
+    "address": "Apartamento T3 em Saldanha - Picoas, Arroios",
     "province": "Lisboa",
-    "municipality": "Lisboa",
-    "district": "Misericórdia",
+    "municipality": "Arroios",
+    "district": "São Jorge de Arroios",
     "country": "pt",
-    "latitude": 38.7107,
-    "longitude": -9.1408,
-    "showAddress": true,
-    "url": "https://www.idealista.pt/imovel/50000003/",
-    "description": "Exclusivo apartamento T3 no Chiado. Com varanda virada para a Rua Garrett. Totalmente mobilado.",
-    "hasVideo": true,
-    "status": "good",
-    "newDevelopment": false,
-    "hasLift": true,
-    "priceByArea": 20.0,
-    "change": {},
-    "detailedType": {
-      "typology": "flat"
-    },
-    "suggestedTexts": {
-      "subtitle": "Chiado, Lisboa",
-      "title": "Apartamento na Rua Garrett, 50"
-    },
-    "hasPlan": true,
-    "has3DTour": true,
-    "has360": false,
-    "hasStaging": true,
-    "savedAd": {},
-    "notes": [],
-    "topNewDevelopment": false,
-    "newDevelopmentHighlight": false,
-    "topPlus": false
-  },
-  {
-    "propertyCode": "50000004",
-    "thumbnail": "https://img4.idealista.pt/blur/480_360_mq/0/id.pro.pt.image.master/11/22/33/314330804.webp",
-    "externalReference": "LX-004",
-    "numPhotos": 14,
-    "floor": "5",
-    "price": 1400.0,
-    "priceInfo": {
-      "price": {
-        "amount": 1400.0,
-        "currencySuffix": "€/mês"
-      }
-    },
-    "propertyType": "flat",
-    "operation": "rent",
-    "size": 80.0,
-    "rooms": 2,
-    "bathrooms": 1,
-    "address": "Avenida Almirante Reis, 100",
-    "province": "Lisboa",
-    "municipality": "Lisboa",
-    "district": "Arroios",
-    "country": "pt",
-    "latitude": 38.7280,
-    "longitude": -9.1340,
-    "showAddress": true,
-    "url": "https://www.idealista.pt/imovel/50000004/",
-    "description": "T2 luminoso na Av. Almirante Reis, junto à estação de metro do Intendente. Vistas desafogadas.",
+    "neighborhood": "Saldanha - Picoas",
+    "latitude": 38.7258061,
+    "longitude": -9.1435082,
+    "showAddress": false,
+    "url": "https://www.idealista.pt/imovel/35041921/",
+    "description": "Saldanha - Picoas, São Jorge de Arroios, Arroios Apartamento T3 na zona de Santo António, Lisboa, inserido em prédio com elevador e com um lugar de estacionamento. O apartamento conta com divisões amplas, composto por 3 quartos, 3 WC, um deles suite com varanda, situado no 5º piso de um prédio com apenas 5 andares, oferecendo privacidade, conforto e luminosidade, ideal para quem valoriza qualidade de vida no centro da cidade. Características Principais: Ar condicionado; Quartos com roupeiros embutidos; Cozinha totalmente equipada com forno, micro-ondas, fogão com placa, frigorífico, máquinas de lavar a loiça e roupa; Sala espaçosa e luminosa. A localização central permite fácil acesso a diversas infraestruturas. A walking-distance, encontram-se supermercados (a cerca de 5 minutos a pé), escolas públicas e privadas, farmácias, paragens de autocarro e metro. O Hospital Dona Estefânia está a aproximadamente 10 minutos a pé, facilitando o acesso a serviços de saúde. De carro, o aeroporto internacional de Lisboa situa-se a cerca de 15 minutos, o El Corte Inglês e o Centro Comercial Amoreiras a menos de 10 minutos, e zonas turísticas como a Baixa e o Marquês de Pombal a 5 minutos. Não perca esta oportunidade única de viver com distinção numa das zonas mais dinâmicas e bem conectadas de Lisboa. Ideal para profissionais que procuram viver num ambiente urbano sofisticado, com todas as comodidades à porta. Licença de Utilização n. º 187/61 Emitida em 23/08/1991 pela Câmara Municipal de Lisboa Licença de utilização: 187/91.",
     "hasVideo": false,
     "status": "good",
     "newDevelopment": false,
-    "hasLift": true,
-    "priceByArea": 17.5,
+    "priceByArea": 15.0,
     "change": {},
     "detailedType": {
       "typology": "flat"
     },
     "suggestedTexts": {
-      "subtitle": "Arroios, Lisboa",
-      "title": "Apartamento na Avenida Almirante Reis, 100"
+      "title": "Apartamento T3 em Saldanha - Picoas, Arroios"
     },
     "hasPlan": false,
     "has3DTour": false,
@@ -208,11 +149,108 @@
     "topPlus": false
   },
   {
-    "propertyCode": "50000005",
-    "thumbnail": "https://img4.idealista.pt/blur/480_360_mq/0/id.pro.pt.image.master/11/22/33/314330805.webp",
-    "externalReference": "LX-005",
-    "numPhotos": 10,
-    "floor": "3",
+    "propertyCode": "35049578",
+    "thumbnail": "https://img4.idealista.pt/blur/480_360_mq/0/id.pro.pt.image.master/76/f2/e9/318272800.webp",
+    "numPhotos": 25,
+    "floor": "bj",
+    "price": 1350.0,
+    "priceInfo": {
+      "price": {
+        "amount": 1350.0,
+        "currencySuffix": "€/mês"
+      }
+    },
+    "propertyType": "flat",
+    "operation": "rent",
+    "size": 50.0,
+    "rooms": 1,
+    "bathrooms": 1,
+    "address": "Apartamento T1 na Rua Martins Sarmento, Centro, Penha de França",
+    "province": "Lisboa",
+    "municipality": "Penha de França",
+    "district": "Centro",
+    "country": "pt",
+    "latitude": 38.7300177,
+    "longitude": -9.129934,
+    "showAddress": false,
+    "url": "https://www.idealista.pt/imovel/35049578/",
+    "description": "Modern and bright one-bedroom apartment located in a central and tranquil neighborhood, just minutes from the city's heart. The apartment features a spacious double bed, air conditioning (in the bedroom), and a beautifully designed living room filled with natural light, flowing seamlessly into the kitchen area. The fully equipped galley kitchen includes all essential appliances (oven, induction hob, microwave, kettle, toaster, washing machine) and ample storage within its sleek, white cabinets, perfect for everyday living. The property boasts a bathroom with stunning marble-effect tiling, a modern sink vanity, a toilet, a bidet, and a walk-in glass shower enclosure. Situated on R. Martins Sarmento, this peaceful yet central location offers excellent access to Lisbon's main attractions, public transport, and the vibrant local life of the area. Surrounded by local cafés, traditional restaurants, and essential services, this apartment is ideal for professionals, couples, or solo travelers looking for a stylish and relaxing base in Lisbon. Ideal for mid to long term stays, business travelers, or anyone seeking comfort and convenience. The apartment is move-in ready, offering a seamless experience from day one.",
+    "hasVideo": false,
+    "status": "good",
+    "newDevelopment": false,
+    "hasLift": false,
+    "priceByArea": 27.0,
+    "change": {},
+    "detailedType": {
+      "typology": "flat"
+    },
+    "suggestedTexts": {
+      "title": "Apartamento T1 na Rua Martins Sarmento, Centro, Penha de França"
+    },
+    "hasPlan": false,
+    "has3DTour": false,
+    "has360": false,
+    "hasStaging": false,
+    "savedAd": {},
+    "notes": [],
+    "topNewDevelopment": false,
+    "newDevelopmentHighlight": false,
+    "topPlus": false
+  },
+  {
+    "propertyCode": "35049540",
+    "thumbnail": "https://img4.idealista.pt/blur/480_360_mq/0/id.pro.pt.image.master/39/b6/1e/318270679.webp",
+    "externalReference": "PH05",
+    "numPhotos": 23,
+    "floor": "9",
+    "price": 1700.0,
+    "priceInfo": {
+      "price": {
+        "amount": 1700.0,
+        "currencySuffix": "€/mês"
+      }
+    },
+    "propertyType": "flat",
+    "operation": "rent",
+    "size": 99.0,
+    "rooms": 3,
+    "bathrooms": 2,
+    "address": "Apartamento T3 na Rua Tomás Alcaide, Marvila",
+    "province": "Lisboa",
+    "municipality": "Marvila",
+    "country": "pt",
+    "latitude": 38.7546733,
+    "longitude": -9.1121235,
+    "showAddress": false,
+    "url": "https://www.idealista.pt/imovel/35049540/",
+    "description": "T3 totalmente remodelado com 99 m² | Cozinha equipada | Semi-mobilado | A 5 min do Metro de Chelas Excelente apartamento T3 para arrendamento, com 99 m², totalmente remodelado, situado na Rua Tomás Alcaide, numa zona residencial tranquila e em clara valorização na cidade de Lisboa. O imóvel foi alvo de remodelação integral, incluindo caixilharias novas, canalização, rede de gás e parte elétrica, garantindo conforto, eficiência e tranquilidade. O apartamento destaca-se pela excelente organização dos espaços e pela abundante arrumação. Dispõe de 3 quartos, todos com roupeiros embutidos, ideais para famílias ou para quem procura espaço adicional para escritório ou quarto de hóspedes. Encontra-se semi-mobilado, incluindo cama de casal, sofá e cama de criança, oferecendo maior comodidade a quem procura uma solução prática e pronta a habitar. Conta ainda com duas casas de banho: * 1 casa de banho completa com base de duche; * 1 WC social. A cozinha encontra-se totalmente equipada, com equipamentos das marcas Balay e Samsung, incluindo: * Forno; * Micro-ondas; * Placa de indução; * Esquentador elétrico; * Máquina de lavar loiça; * Máquina de lavar roupa; * Frigorífico americano; * Exaustor/extrator de fumos. Ideal para quem procura uma casa pronta a habitar, moderna, funcional e bem localizada. A localização é um dos grandes pontos fortes deste imóvel. Situado a poucos minutos a pé do Metro de Chelas, permite rápidos acessos ao centro de Lisboa e às principais vias da cidade. Nas imediações encontra: * Comércio local; * Supermercados; * Escolas; * Piscina; * Zonas verdes; * Serviços; * Hospitais; * Transportes públicos. Inserido numa zona urbana em desenvolvimento e valorização, este apartamento representa uma excelente oportunidade para quem procura conforto, praticidade e qualidade de vida em Lisboa.  Características principais ✔ T3 ✔ 99 m² ✔ Totalmente remodelado ✔ 3 quartos com roupeiros embutidos ✔ Semi-mobilado (inclui cama de casal, sofá e cama de criança) ✔ Bastante arrumação ✔ 2 WC, sendo 1 completo e 1 social ✔ Cozinha totalmente equipada ✔ Próximo do Metro de Chelas ✔ Zona com comércio, serviços e espaços verdes ✔ Pronto a habitar **Condições de arrendamento** - 1 renda inicial; - 2 cauções; - Contrato de 3 anos; - Despesas não incluídas (água, luz, gás e internet); - Apresentação de documentação comprovativa de rendimentos; *-Sujeito a análise e aprovação da documentação apresentada. Apartamento pronto a habitar — ideal para quem procura conforto, localização e uma solução prática para viver em Lisboa.",
+    "hasVideo": false,
+    "status": "good",
+    "newDevelopment": false,
+    "hasLift": true,
+    "priceByArea": 17.0,
+    "change": {},
+    "detailedType": {
+      "typology": "flat"
+    },
+    "suggestedTexts": {
+      "title": "Apartamento T3 na Rua Tomás Alcaide, Marvila"
+    },
+    "hasPlan": true,
+    "has3DTour": false,
+    "has360": false,
+    "hasStaging": false,
+    "savedAd": {},
+    "notes": [],
+    "topNewDevelopment": false,
+    "newDevelopmentHighlight": false,
+    "topPlus": false
+  },
+  {
+    "propertyCode": "35049560",
+    "thumbnail": "https://img4.idealista.pt/blur/480_360_mq/0/id.pro.pt.image.master/fa/84/57/318270907.webp",
+    "numPhotos": 22,
+    "floor": "bj",
     "price": 1100.0,
     "priceInfo": {
       "price": {
@@ -225,18 +263,18 @@
     "size": 50.0,
     "rooms": 1,
     "bathrooms": 1,
-    "address": "Rua Morais Soares, 25",
+    "address": "Apartamento T1 na Calçada de Santa Apolónia, Santa Engrácia, São Vicente",
     "province": "Lisboa",
-    "municipality": "Lisboa",
-    "district": "Penha de França",
+    "municipality": "São Vicente",
+    "district": "Santa Engrácia",
     "country": "pt",
-    "latitude": 38.7305,
-    "longitude": -9.1315,
+    "latitude": 38.7176485,
+    "longitude": -9.1178453,
     "showAddress": false,
-    "url": "https://www.idealista.pt/imovel/50000005/",
-    "description": "Apartamento T1 recentemente remodelado, numa das ruas com mais comércio de Lisboa.",
+    "url": "https://www.idealista.pt/imovel/35049560/",
+    "description": "This cozy and fully renovated one-bedroom apartment in Santa Apolónia offers a comfortable and functional living space in one of Lisbon’s historic riverside areas. Thoughtfully furnished, it features a spacious open-plan living room with a fully equipped kitchen, TV, and air conditioning, creating a welcoming atmosphere for everyday living. The bedroom includes a comfortable double bed and its own air conditioning, while the modern bathroom is designed with simplicity and comfort in mind. Compact yet well organized, this apartment is ideal for couples or professionals seeking a stylish and move-in-ready home in a central Lisbon location.",
     "hasVideo": false,
-    "status": "renew",
+    "status": "good",
     "newDevelopment": false,
     "hasLift": false,
     "priceByArea": 22.0,
@@ -245,8 +283,7 @@
       "typology": "flat"
     },
     "suggestedTexts": {
-      "subtitle": "Penha de França, Lisboa",
-      "title": "Apartamento"
+      "title": "Apartamento T1 na Calçada de Santa Apolónia, Santa Engrácia, São Vicente"
     },
     "hasPlan": false,
     "has3DTour": false,
@@ -259,45 +296,153 @@
     "topPlus": false
   },
   {
-    "propertyCode": "50000006",
-    "thumbnail": "https://img4.idealista.pt/blur/480_360_mq/0/id.pro.pt.image.master/11/22/33/314330806.webp",
-    "externalReference": "LX-006",
-    "numPhotos": 25,
-    "floor": "6",
-    "price": 2200.0,
+    "propertyCode": "35049579",
+    "thumbnail": "https://img4.idealista.pt/blur/480_360_mq/0/id.pro.pt.image.master/41/09/2a/318271064.webp",
+    "externalReference": "HT_41036",
+    "numPhotos": 22,
+    "floor": "1",
+    "price": 2100.0,
     "priceInfo": {
       "price": {
-        "amount": 2200.0,
+        "amount": 2100.0,
         "currencySuffix": "€/mês"
       }
     },
     "propertyType": "flat",
     "operation": "rent",
-    "size": 100.0,
-    "rooms": 2,
+    "size": 108.0,
+    "rooms": 3,
     "bathrooms": 2,
-    "address": "Rua Castilho, 75",
+    "address": "Apartamento T3 na Rua Leão de Oliveira nº 2 a, Largo do Calvário - Lx Factory, Alcântara",
     "province": "Lisboa",
-    "municipality": "Lisboa",
-    "district": "Marquês de Pombal",
+    "municipality": "Alcântara",
+    "district": "Largo do Calvário - Lx Factory",
     "country": "pt",
-    "latitude": 38.7235,
-    "longitude": -9.1510,
+    "latitude": 38.7048064,
+    "longitude": -9.1783472,
     "showAddress": true,
-    "url": "https://www.idealista.pt/imovel/50000006/",
-    "description": "T2 excecional na prestigiada Rua Castilho. Acabamentos premium, ar condicionado e suite principal.",
-    "hasVideo": true,
+    "url": "https://www.idealista.pt/imovel/35049579/",
+    "description": "Luminoso e acolhedor apartamento situado em Alcântara, a poucos passos do vibrante LX Factory, rodeado de todo o tipo de serviços, comércio e excelentes acessos a transportes. Inserido em prédio em placa com dois elevadores, este apartamento destaca-se pela sua luminosidade e funcionalidade. Dispõe de três quartos de boas dimensões, duas casas de banho completas e renovadas, o apartamento dispõe também de janelas amplas que proporcionam abundante luz natural ao longo de todo o dia. Conta ainda com chão em madeira, cozinha equipada e vistas desafogadas, criando um ambiente confortável e agradável para viver. Uma excelente oportunidade para quem procura viver numa das zonas mais dinâmicas de Lisboa. Não perca esta oportunidade!  Imóvel com a Licença de Utilização nº 224 emitida em 1980/11/04 pela Câmara Municipal de Lisboa  Categoria Energética: D  ref: HT_41036.",
+    "hasVideo": false,
     "status": "good",
     "newDevelopment": false,
-    "hasLift": true,
-    "priceByArea": 22.0,
+    "hasLift": false,
+    "priceByArea": 19.0,
     "change": {},
     "detailedType": {
       "typology": "flat"
     },
     "suggestedTexts": {
-      "subtitle": "Marquês de Pombal, Lisboa",
-      "title": "Apartamento na Rua Castilho, 75"
+      "title": "Apartamento T3 na Rua Leão de Oliveira nº 2 a, Largo do Calvário - Lx Factory, Alcântara"
+    },
+    "hasPlan": false,
+    "has3DTour": false,
+    "has360": false,
+    "hasStaging": false,
+    "savedAd": {},
+    "notes": [],
+    "topNewDevelopment": false,
+    "newDevelopmentHighlight": false,
+    "topPlus": false
+  },
+  {
+    "propertyCode": "35049478",
+    "thumbnail": "https://img4.idealista.pt/blur/480_360_mq/0/id.pro.pt.image.master/1e/22/35/318268646.webp",
+    "numPhotos": 25,
+    "floor": "1",
+    "price": 1600.0,
+    "priceInfo": {
+      "price": {
+        "amount": 1600.0,
+        "currencySuffix": "€/mês"
+      }
+    },
+    "propertyType": "duplex",
+    "operation": "rent",
+    "size": 75.0,
+    "rooms": 2,
+    "bathrooms": 1,
+    "address": "Duplex na Estrada dos Prazeres, Prazeres - Maria Pia, Campo de Ourique",
+    "province": "Lisboa",
+    "municipality": "Campo de Ourique",
+    "district": "Prazeres - Maria Pia",
+    "country": "pt",
+    "latitude": 38.7138136,
+    "longitude": -9.1719017,
+    "showAddress": false,
+    "url": "https://www.idealista.pt/imovel/35049478/",
+    "description": "Available now! This spacious and bright duplex apartment in Campo de Ourique offers a perfect combination of comfort, style, and functionality. Fully renovated and furnished, the apartment is spread across two floors and features a welcoming open-plan kitchen and living area equipped with all essential appliances, along with a modern bathroom on the main level. Upstairs, you'll find a generously sized bedroom and a dedicated furnished office space, ideal for remote work or study. Air conditioning, wooden flooring, and abundant natural light create a warm and inviting atmosphere throughout. Thoughtfully designed and move-in ready, this apartment is ideal for professionals or couples seeking a comfortable home in one of Lisbon’s most desirable residential neighborhoods.",
+    "hasVideo": false,
+    "status": "good",
+    "newDevelopment": false,
+    "hasLift": false,
+    "priceByArea": 21.0,
+    "change": {},
+    "detailedType": {
+      "typology": "flat",
+      "subTypology": "duplex"
+    },
+    "suggestedTexts": {
+      "title": "Duplex na Estrada dos Prazeres, Prazeres - Maria Pia, Campo de Ourique"
+    },
+    "hasPlan": false,
+    "has3DTour": false,
+    "has360": false,
+    "hasStaging": false,
+    "savedAd": {},
+    "notes": [],
+    "topNewDevelopment": false,
+    "newDevelopmentHighlight": false,
+    "topPlus": false
+  },
+  {
+    "propertyCode": "35048820",
+    "thumbnail": "https://img4.idealista.pt/blur/480_360_mq/0/id.pro.pt.image.master/80/c2/9a/318234371.webp",
+    "externalReference": "P5046 (2)",
+    "numPhotos": 19,
+    "floor": "3",
+    "price": 3400.0,
+    "priceInfo": {
+      "price": {
+        "amount": 3400.0,
+        "currencySuffix": "€/mês",
+        "priceDropInfo": {
+          "formerPrice": 3700.0,
+          "priceDropValue": 300,
+          "priceDropPercentage": 8
+        }
+      }
+    },
+    "propertyType": "flat",
+    "operation": "rent",
+    "size": 204.0,
+    "rooms": 3,
+    "bathrooms": 3,
+    "address": "Apartamento T3 na Junqueiro, Carcavelos e Parede",
+    "province": "Lisboa",
+    "municipality": "Carcavelos e Parede",
+    "district": "Junqueiro",
+    "country": "pt",
+    "latitude": 38.6846718,
+    "longitude": -9.3431963,
+    "showAddress": false,
+    "url": "https://www.idealista.pt/imovel/35048820/",
+    "description": "Apresentamos este apartamento T3 remodelado, com 169 m² de área útil e 204 m² de área bruta total, situado numa localização privilegiada em Carcavelos, concelho de Cascais. O Imóvel pode ser arrendado semi-mobilado ou sem mobilia. O imóvel é composto por:  Hall de Entrada com 10m2;  Sala ampla com lareira moderna e acesso a varanda;  Cozinha independente, totalmente equipada;  Varanda com vista desafogada;  Exposição solar Este/Sul;  Casa de banho social.  Dois quartos com roupeiros embutidos;  Casa de banho completa de apoio aos quartos;  Suíte com closet.  Distribuição funcional, com clara separação entre a zona social e a zona privativa; Conta ainda com:  Dois lugares de estacionamento;  Arrecadação. Inserido em condomínio privado com:  Segurança 24 horas;  Ginásio;  Sala de Festas;  Espaços comuns;  Acesso a terraços comuns com amplas vistas de mar; *Acesso à piscina e campo de ténis do hotel (valores a estipular pelo hotel) Localização de excelência em Carcavelos:  A 5 minutos da praia de Carcavelos;  Entre 1 a 3 minutos a pé de supermercados, farmácia, cafés, restaurantes, ginásios, campos de ténis e padel, zonas verdes e vários serviços;  A poucos minutos de instituições de ensino de referência, como St. Julian's, St. Dominic's e NOVA SBE;  A 7 minutos a pé da estação de comboios de Carcavelos e próximo de várias paragens de autocarro;  Bons acessos ao centro de Cascais, Lisboa e principais vias rodoviárias. Uma oportunidade única para arrendar um apartamento espaçoso, luminoso, remodelado e inserido num dos condomínios mais valorizados de Carcavelos, com segurança, comodidades e proximidade ao mar. O Imóvel pode ser arrendado semi-mobilado ou sem mobilia. * Para mais informações ou agendamento de visita, contacte-nos. Habisale Imobiliária | AMI 2251  Categoria Energética: C  ref: P5046 (2).",
+    "hasVideo": false,
+    "status": "good",
+    "newDevelopment": false,
+    "hasLift": true,
+    "parkingSpace": {
+      "hasParkingSpace": true,
+      "isParkingSpaceIncludedInPrice": true
+    },
+    "priceByArea": 17.0,
+    "change": {},
+    "detailedType": {
+      "typology": "flat"
+    },
+    "suggestedTexts": {
+      "title": "Apartamento T3 na Junqueiro, Carcavelos e Parede"
     },
     "hasPlan": true,
     "has3DTour": false,
@@ -310,11 +455,60 @@
     "topPlus": false
   },
   {
-    "propertyCode": "50000007",
-    "thumbnail": "https://img4.idealista.pt/blur/480_360_mq/0/id.pro.pt.image.master/11/22/33/314330807.webp",
-    "externalReference": "LX-007",
-    "numPhotos": 18,
-    "floor": "2",
+    "propertyCode": "33321709",
+    "thumbnail": "https://img4.idealista.pt/blur/480_360_mq/0/id.pro.pt.image.master/d4/a8/76/240451961.webp",
+    "externalReference": "APA_Pied",
+    "numPhotos": 16,
+    "floor": "3",
+    "price": 1075.0,
+    "priceInfo": {
+      "price": {
+        "amount": 1075.0,
+        "currencySuffix": "€/mês"
+      }
+    },
+    "propertyType": "flat",
+    "operation": "rent",
+    "size": 52.0,
+    "rooms": 1,
+    "bathrooms": 1,
+    "address": "Apartamento T1 na Rua da Piedade, Algés, Algés - Linda-a-Velha - Cruz Quebrada - Dafundo",
+    "province": "Lisboa",
+    "municipality": "Algés - Linda-a-Velha - Cruz Quebrada - Dafundo",
+    "district": "Algés",
+    "country": "pt",
+    "latitude": 38.7000554,
+    "longitude": -9.235,
+    "showAddress": false,
+    "url": "https://www.idealista.pt/imovel/33321709/",
+    "description": "Fully renovated one-bedroom apartment. with balcon in bed-room. Very good finishes. Semi-equipped kitchen with the possibility of being fully equipped. Electric shutters, pvc windows with thermal cut and double glazing that ensure comfort and climate and sound control. Air conditioning pre-installation. Quiet, safe street. Commerce in the neighborhood and close to transport. Central. T1 renovado profundamente com varanda no quarto. Muito bons acabamentos. Cozinha semi-equipada com a possibilidade de ser totalmente equipada. Estores elétricos, Janelas em pvc com corte térmico e vidro duplo que asseguram toda a comodidade e conforto climático e sonoro. Prè- instalação de Ar-Condicionado. Rua tranquila e segura. Comércio no bairro e perto de transportes. Central.",
+    "hasVideo": false,
+    "status": "good",
+    "newDevelopment": false,
+    "hasLift": false,
+    "priceByArea": 21.0,
+    "change": {},
+    "detailedType": {
+      "typology": "flat"
+    },
+    "suggestedTexts": {
+      "title": "Apartamento T1 na Rua da Piedade, Algés, Algés - Linda-a-Velha - Cruz Quebrada - Dafundo"
+    },
+    "hasPlan": false,
+    "has3DTour": false,
+    "has360": false,
+    "hasStaging": false,
+    "savedAd": {},
+    "notes": [],
+    "topNewDevelopment": false,
+    "newDevelopmentHighlight": false,
+    "topPlus": false
+  },
+  {
+    "propertyCode": "35049454",
+    "thumbnail": "https://img4.idealista.pt/blur/480_360_mq/0/id.pro.pt.image.master/3c/87/36/318265834.webp",
+    "externalReference": "KWPT-033626",
+    "numPhotos": 24,
     "price": 2000.0,
     "priceInfo": {
       "price": {
@@ -324,19 +518,1540 @@
     },
     "propertyType": "flat",
     "operation": "rent",
-    "size": 125.0,
+    "size": 98.0,
+    "rooms": 2,
+    "bathrooms": 1,
+    "address": "Apartamento T2 na Rua Costa Goodolfim s/n, Campo Pequeno, Avenidas Novas",
+    "province": "Lisboa",
+    "municipality": "Avenidas Novas",
+    "district": "Campo Pequeno",
+    "country": "pt",
+    "latitude": 38.7392139,
+    "longitude": -9.1419192,
+    "showAddress": true,
+    "url": "https://www.idealista.pt/imovel/35049454/",
+    "description": "Apartamento T1+1 totalmente renovado, com 98 m², localizado no Arco do Cego, numa zona central, bem servida de comércio, transportes e serviços. Inserido num rés-do-chão alto, destaca-se pela excelente luz natural e pela combinação entre conforto contemporâneo e elementos de caráter, como os tetos altos e o chão em madeira. Principais características: 98 m² bem distribuídos Excelente exposição solar Pátio privativo Tetos altos e manutenção do traço original Cozinha equipada com eletrodomésticos Smeg Totalmente mobilado e equipado (pronto a entrar) Casa de banho com cabine de duche em pedra lioz Zona de lavandaria independente +1 ideal para escritório ou arrumação adicional Localizado numa zona com identidade e vida de bairro, junto a avenidas principais, com acesso rápido a toda a cidade. Disponível para entrada imediata.",
+    "hasVideo": true,
+    "status": "good",
+    "newDevelopment": false,
+    "priceByArea": 20.0,
+    "change": {},
+    "detailedType": {
+      "typology": "flat"
+    },
+    "suggestedTexts": {
+      "title": "Apartamento T2 na Rua Costa Goodolfim s/n, Campo Pequeno, Avenidas Novas"
+    },
+    "hasPlan": false,
+    "has3DTour": false,
+    "has360": false,
+    "hasStaging": false,
+    "savedAd": {},
+    "notes": [],
+    "topNewDevelopment": false,
+    "newDevelopmentHighlight": false,
+    "topPlus": false
+  },
+  {
+    "propertyCode": "35049414",
+    "thumbnail": "https://img4.idealista.pt/blur/480_360_mq/0/id.pro.pt.image.master/a1/0a/83/318265547.webp",
+    "externalReference": "RI93,4 (2) (2)",
+    "numPhotos": 28,
+    "price": 2400.0,
+    "priceInfo": {
+      "price": {
+        "amount": 2400.0,
+        "currencySuffix": "€/mês"
+      }
+    },
+    "propertyType": "flat",
+    "operation": "rent",
+    "size": 121.0,
+    "rooms": 2,
+    "bathrooms": 1,
+    "address": "Apartamento T2 na Rua Infantaria 16, 93, Centro, Campo de Ourique",
+    "province": "Lisboa",
+    "municipality": "Campo de Ourique",
+    "district": "Centro",
+    "country": "pt",
+    "latitude": 38.7181823,
+    "longitude": -9.1676983,
+    "showAddress": true,
+    "url": "https://www.idealista.pt/imovel/35049414/",
+    "description": "O empreendimento INFANTARIA 93, situa-se no coração de Lisboa, em Campo de Ourique, por muitos considerado o melhor Bairro de Lisboa.  Um Bairro charmoso com vida própria, onde tudo o que precisa está mesmo ao virar da esquina.  O INFANTARIA 93 foi alvo de uma minuciosa recuperação, na qual foi conservada a traça antiga da fachada, mas adaptando o seu interior às necessidades, exigências e conforto dos tempos modernos. Nos acabamentos, destacam-se os revestimentos das modernas casas de banho em mármore Ibiza de 1ª qualidade, com lavatório cavado em pedra, a funcional cozinha lacada de branco, totalmente equipada, com bancada Silestone branco, as madeiras das portas e roupeiros lacados a branco, o soalho em tábuas corridas de pinho, a caixilharia em vidro duplo, ar condicionado em todas as divisões. Disponível para visitas!  Disponível para entrada a 01 de JUNHO!  Categoria Energética: C  ref: RI93,4 (2) (2).",
+    "hasVideo": false,
+    "status": "good",
+    "newDevelopment": false,
+    "hasLift": true,
+    "priceByArea": 20.0,
+    "change": {},
+    "detailedType": {
+      "typology": "flat"
+    },
+    "suggestedTexts": {
+      "title": "Apartamento T2 na Rua Infantaria 16, 93, Centro, Campo de Ourique"
+    },
+    "hasPlan": true,
+    "has3DTour": false,
+    "has360": false,
+    "hasStaging": false,
+    "savedAd": {},
+    "notes": [],
+    "topNewDevelopment": false,
+    "newDevelopmentHighlight": false,
+    "topPlus": false
+  },
+  {
+    "propertyCode": "34813812",
+    "thumbnail": "https://img4.idealista.pt/blur/480_360_mq/0/id.pro.pt.image.master/19/a9/dd/308380616.webp",
+    "externalReference": "124511033-151",
+    "numPhotos": 15,
+    "floor": "3",
+    "price": 1600.0,
+    "priceInfo": {
+      "price": {
+        "amount": 1600.0,
+        "currencySuffix": "€/mês"
+      }
+    },
+    "propertyType": "flat",
+    "operation": "rent",
+    "size": 96.0,
+    "rooms": 2,
+    "bathrooms": 1,
+    "address": "Apartamento T2 na Rua Cervantes, Centro, Areeiro",
+    "province": "Lisboa",
+    "municipality": "Areeiro",
+    "district": "Centro",
+    "country": "pt",
+    "latitude": 38.7413466,
+    "longitude": -9.1348118,
+    "showAddress": false,
+    "url": "https://www.idealista.pt/imovel/34813812/",
+    "description": "Fantástico T2 para Arrendamento – Areeiro, Lisboa (Rua Cervantes) Apartamento T2 para arrendar, recentemente remodelado, com excelente qualidade de acabamentos e bom gosto, localizado numa das zonas mais centrais e procuradas de Lisboa – Areeiro, na prestigiada Rua Cervantes. Inserido em zona de localização privilegiada, com acesso imediato a todo o tipo de comércio e serviços: supermercados, restaurantes, farmácias, bancos, correios, escolas e jardins, bem como excelente rede de transportes públicos (metro, autocarros e estação de comboios do Areeiro). O apartamento beneficia de excelente exposição solar (nascente/poente), o que lhe confere muita luminosidade ao longo de todo o dia, e dispõe ainda de varanda. Características principais: Tipologia T2 Apartamento totalmente remodelado Cozinha totalmente equipada Excelente luminosidade natural Exposição solar: Nascente / Poente Varanda Não mobilado Inserido no centro da cidade Licença de Utilização nº 225/1949 Localização e envolvente: Muito próximo da Praça do Areeiro, Av. de Roma e Av. João XXI Próximo de zonas verdes, nomeadamente o Jardim Fernando Pessa Próximo de escolas de referência: Escola Básica Luís de Camões (100 metros) Escola Secundária Dona Filipa de Lencastre Excelentes acessos rodoviários Zona com comércio local e serviços Estacionamento: Espaço exterior para estacionamento de uso exclusivo dos residentes Condições de arrendamento: Pagamento inicial: 2 rendas + 2 cauções Apresentação de comprovativos de rendimentos compatíveis Fiador será solicitado Contrato mínimo de 5 anos Disponível para entrada imediata Uma excelente oportunidade para quem procura conforto, centralidade e qualidade de vida, numa das melhores zonas residenciais de Lisboa.  Licença de Utilização - 225.",
+    "hasVideo": false,
+    "status": "good",
+    "newDevelopment": false,
+    "hasLift": false,
+    "priceByArea": 17.0,
+    "change": {},
+    "detailedType": {
+      "typology": "flat"
+    },
+    "suggestedTexts": {
+      "title": "Apartamento T2 na Rua Cervantes, Centro, Areeiro"
+    },
+    "hasPlan": false,
+    "has3DTour": false,
+    "has360": false,
+    "hasStaging": false,
+    "savedAd": {},
+    "notes": [],
+    "topNewDevelopment": false,
+    "newDevelopmentHighlight": false,
+    "topPlus": false
+  },
+  {
+    "propertyCode": "35019853",
+    "thumbnail": "https://img4.idealista.pt/blur/480_360_mq/0/id.pro.pt.image.master/55/2a/d5/316956932.webp",
+    "externalReference": "APA_179",
+    "numPhotos": 16,
+    "price": 1250.0,
+    "priceInfo": {
+      "price": {
+        "amount": 1250.0,
+        "currencySuffix": "€/mês"
+      }
+    },
+    "propertyType": "flat",
+    "operation": "rent",
+    "size": 65.0,
+    "rooms": 2,
+    "bathrooms": 1,
+    "address": "Apartamento T2 na Rua António Maria Pais, 31 a, Moscavide e Portela",
+    "province": "Lisboa",
+    "municipality": "Moscavide e Portela",
+    "country": "pt",
+    "latitude": 38.7756258,
+    "longitude": -9.1025499,
+    "showAddress": true,
+    "url": "https://www.idealista.pt/imovel/35019853/",
+    "description": "Apartamento T2 totalmente remodelado em Moscavide, com varanda, na Rua António Maria Pais, a 1 minuto a pé do Metro. 3º Andar sem elevador. Apartamento com 1 WC, dispensa e ar-condicionado.  Cozinha equipada com placa, forno, exaustor e termoacumuador. Eletricidade e canalização novas. Não mobilidado e restantes eletrodomésticos a cargo do futuro inquilino. Condições:  - 2 meses+2 caução;  - fiador Temos soluções de crédito habitação à sua medida.   Para mais informações e/ou visita, não hesite em contatar-nos!  Um Exclusivo 'Street Homes'  Categoria Energética: C  ref: APA_179.",
+    "hasVideo": false,
+    "status": "good",
+    "newDevelopment": false,
+    "hasLift": false,
+    "priceByArea": 19.0,
+    "change": {},
+    "detailedType": {
+      "typology": "flat"
+    },
+    "suggestedTexts": {
+      "title": "Apartamento T2 na Rua António Maria Pais, 31 a, Moscavide e Portela"
+    },
+    "hasPlan": false,
+    "has3DTour": false,
+    "has360": false,
+    "hasStaging": false,
+    "savedAd": {},
+    "notes": [],
+    "topNewDevelopment": false,
+    "newDevelopmentHighlight": false,
+    "topPlus": false
+  },
+  {
+    "propertyCode": "35049383",
+    "thumbnail": "https://img4.idealista.pt/blur/480_360_mq/0/id.pro.pt.image.master/05/71/71/318263592.webp",
+    "numPhotos": 32,
+    "floor": "2",
+    "price": 1450.0,
+    "priceInfo": {
+      "price": {
+        "amount": 1450.0,
+        "currencySuffix": "€/mês"
+      }
+    },
+    "propertyType": "flat",
+    "operation": "rent",
+    "size": 35.0,
+    "rooms": 1,
+    "bathrooms": 1,
+    "address": "Apartamento T1 na Rua do Almada, Bica, Misericórdia",
+    "province": "Lisboa",
+    "municipality": "Misericórdia",
+    "district": "Bica",
+    "country": "pt",
+    "latitude": 38.7113063,
+    "longitude": -9.1474527,
+    "showAddress": false,
+    "url": "https://www.idealista.pt/imovel/35049383/",
+    "description": "T1 Novo com Varanda na Bica – Design Inteligente no Coração de Lisboa Se procura a essência de Lisboa sem abdicar do conforto moderno, este apartamento é a escolha ideal. Apresentamos um fantástico T1 totalmente novo (a estrear), inserido num edifício reabilitado na emblemática Bica, um dos bairros mais autênticos, dinâmicos e fotografados da capital. Com 35 m², o espaço foi desenhado ao pormenor sob um conceito de smart living, onde a arquitetura de interiores privilegiou a luz natural, a fluidez e a arrumação inteligente. O grande destaque vai para a sua pequena varanda privativa, o elemento perfeito para deixar entrar a luz única de Lisboa, respirar a atmosfera do bairro ou desfrutar de um café pela manhã. O imóvel é entregue completamente mobilado e equipado, com uma decoração moderna, clean e sofisticada. O que o espaço oferece: Zona Social: Sala de estar e jantar em open space com acesso direto à varanda, integrada com uma kitchenette moderna. Internet incluída. Cozinha Equipada: Eletrodomésticos encastrados topo de gama (placa, forno, exaustor, frigorífico, máquina de lavar loiça e máquina de lavar roupa). Inclui pequenos eletrodomésticos e utensílios básicos. Quarto: Independente, com cama de casal e roupeiro planeado para maximizar o espaço. Casa de Banho: Moderna, com base de duche, extrator e acabamentos de qualidade superior. Conforto Térmico e Acústico: Janelas e portadas oscilobatentes com vidros duplos de última geração e sistema de ar condicionado (quente/frio). Localização e Envolvência: Viver na Bica é sintonizar com o pulsar de Lisboa. O apartamento fica a escassos metros do icónico Elevador da Bica, do vibrante Cais do Sodré, do requintado Chiado e do Miradouro de Santa Catarina. À porta de casa encontrará o melhor do comércio local, restaurantes típicos, cafés de especialidade e uma rede completa de transportes (Metro, Comboio e Elétrico).",
+    "hasVideo": false,
+    "status": "good",
+    "newDevelopment": false,
+    "hasLift": false,
+    "priceByArea": 41.0,
+    "change": {},
+    "detailedType": {
+      "typology": "flat"
+    },
+    "suggestedTexts": {
+      "title": "Apartamento T1 na Rua do Almada, Bica, Misericórdia"
+    },
+    "hasPlan": true,
+    "has3DTour": false,
+    "has360": false,
+    "hasStaging": false,
+    "savedAd": {},
+    "notes": [],
+    "topNewDevelopment": false,
+    "newDevelopmentHighlight": false,
+    "topPlus": false
+  },
+  {
+    "propertyCode": "34985460",
+    "thumbnail": "https://img4.idealista.pt/blur/480_360_mq/0/id.pro.pt.image.master/79/68/31/315540916.webp",
+    "externalReference": "0412",
+    "numPhotos": 13,
+    "floor": "3",
+    "price": 3200.0,
+    "priceInfo": {
+      "price": {
+        "amount": 3200.0,
+        "currencySuffix": "€/mês"
+      }
+    },
+    "propertyType": "flat",
+    "operation": "rent",
+    "size": 135.0,
+    "rooms": 2,
+    "bathrooms": 2,
+    "address": "Apartamento T2 na Lapa, Estrela",
+    "province": "Lisboa",
+    "municipality": "Estrela",
+    "district": "Lapa",
+    "country": "pt",
+    "latitude": 38.7073743,
+    "longitude": -9.1656777,
+    "showAddress": false,
+    "url": "https://www.idealista.pt/imovel/34985460/",
+    "description": "Este imóvel para arrendamento, composto por dois quartos e duas casas de banho, com áreas equilibradas, está situado num dos bairros mais históricos e centrais de Lisboa.  Com uma área aproximada de 135 m², este apartamento renovado alia uma generosa dimensão interior a uma localização urbana de elevada procura. A habitação distingue-se por uma distribuição funcional, com uma zona de estar bem definida que se prolonga para uma varanda, proporcionando vistas desafogadas sobre a cidade e abundante luz natural. Todo o apartamento, bem como cozinha e as casas de banho foram alvo de atualização, refletindo uma intervenção de carácter contemporâneo. Sem mobília e prédio sem elevador (3º andar). Inserido num bairro tradicional lisboeta, reconhecido pela sua arquitetura histórica, ruas empedradas e proximidade aos principais polos culturais e comerciais da cidade, o imóvel beneficia de acesso facilitado a transportes públicos, comércio local, restauração e serviços. A sua localização central permite uma mobilidade eficiente por toda a cidade, bem como o usufruto das zonas ribeirinhas e de diversos pontos de referência. Este apartamento revela-se particularmente adequado para quem procura uma residência espaçosa, pronta a habitar, num enquadramento clássico lisboeta, com o benefício adicional de espaço exterior e vistas sobre a cidade.",
+    "hasVideo": false,
+    "status": "good",
+    "newDevelopment": false,
+    "hasLift": false,
+    "priceByArea": 24.0,
+    "change": {},
+    "detailedType": {
+      "typology": "flat"
+    },
+    "suggestedTexts": {
+      "title": "Apartamento T2 na Lapa, Estrela"
+    },
+    "hasPlan": true,
+    "has3DTour": false,
+    "has360": false,
+    "hasStaging": false,
+    "savedAd": {},
+    "notes": [],
+    "topNewDevelopment": false,
+    "newDevelopmentHighlight": false,
+    "topPlus": false
+  },
+  {
+    "propertyCode": "35049328",
+    "thumbnail": "https://img4.idealista.pt/blur/480_360_mq/0/id.pro.pt.image.master/f8/d1/f8/318261310.webp",
+    "numPhotos": 38,
+    "floor": "3",
+    "price": 1800.0,
+    "priceInfo": {
+      "price": {
+        "amount": 1800.0,
+        "currencySuffix": "€/mês"
+      }
+    },
+    "propertyType": "flat",
+    "operation": "rent",
+    "size": 89.0,
+    "rooms": 2,
+    "bathrooms": 2,
+    "address": "Apartamento T2 na Calçada Pampulha, Lapa, Estrela",
+    "province": "Lisboa",
+    "municipality": "Estrela",
+    "district": "Lapa",
+    "country": "pt",
+    "latitude": 38.7031685,
+    "longitude": -9.1672045,
+    "showAddress": false,
+    "url": "https://www.idealista.pt/imovel/35049328/",
+    "description": "*Apartamento Amplo e Luminoso com Vistas Espetaculares para a Ponte 25 de Abril* Descobre este magnífico apartamento totalmente renovado, situado no 3º andar sem elevador, que oferece o conforto e a elegância que procuras. Com 89 m² de área bruta e 72 m² úteis, este imóvel combina espaço generoso com funcionalidade impecável, ideal para quem deseja uma habitação moderna e sofisticada. O apartamento distribui-se por 2 quartos amplos e 2 casas de banho completas, sendo uma delas uma suíte com chuveiro de design contemporâneo e a outra equipada com banheira relaxante. A cozinha totalmente equipada inclui máquina de lavar roupa e máquina de lavar louça, proporcionando máxima comodidade no dia a dia. Todos os espaços dispõem de ar condicionado e aquecedores elétricos, garantindo conforto térmico em qualquer estação. As duas varandas são um destaque especial: a varanda virada a norte oferece luz natural constante, enquanto a varanda virada a sul presenteia-te com vistas deslumbrantes para a icónica Ponte 25 de Abril. A orientação norte, sul e oeste assegura luminosidade abundante durante todo o dia. Este apartamento de segunda mão em bom estado mantém a solidez construtiva de 1948, agora revitalizado com todas as modernidades. Conta com armários embutidos que otimizam o armazenamento. Uma oportunidade única para adquirir um apartamento de qualidade superior, com características premium e localização privilegiada!",
+    "hasVideo": true,
+    "status": "good",
+    "newDevelopment": false,
+    "hasLift": false,
+    "priceByArea": 20.0,
+    "change": {},
+    "detailedType": {
+      "typology": "flat"
+    },
+    "suggestedTexts": {
+      "title": "Apartamento T2 na Calçada Pampulha, Lapa, Estrela"
+    },
+    "hasPlan": false,
+    "has3DTour": false,
+    "has360": false,
+    "hasStaging": false,
+    "savedAd": {},
+    "notes": [],
+    "topNewDevelopment": false,
+    "newDevelopmentHighlight": false,
+    "topPlus": false
+  },
+  {
+    "propertyCode": "35043321",
+    "thumbnail": "https://img4.idealista.pt/blur/480_360_mq/0/id.pro.pt.image.master/bd/be/7b/318025481.webp",
+    "externalReference": "AO350289",
+    "numPhotos": 44,
+    "floor": "8",
+    "price": 1600.0,
+    "priceInfo": {
+      "price": {
+        "amount": 1600.0,
+        "currencySuffix": "€/mês"
+      }
+    },
+    "propertyType": "flat",
+    "operation": "rent",
+    "size": 120.0,
+    "rooms": 2,
+    "bathrooms": 1,
+    "address": "Apartamento T2 na Avenida Angola, Figueirinha - Augusto Castro, Oeiras e São Julião da Barra - Paço de Arcos - Caxias",
+    "province": "Lisboa",
+    "municipality": "Oeiras e São Julião da Barra - Paço de Arcos - Caxias",
+    "district": "Oeiras e São Julião da Barra",
+    "country": "pt",
+    "neighborhood": "Figueirinha - Augusto Castro",
+    "latitude": 38.6934788,
+    "longitude": -9.306398,
+    "showAddress": false,
+    "url": "https://www.idealista.pt/imovel/35043321/",
+    "description": "Apartamento T2 para arrendamento sem móveis, com vista de mar, inserido em prédio com elevador na Figueirinha em Oeiras. Imóvel remodelado, composto por: hall de entrada, sala com lareira e acesso a uma ampla varanda, cozinha totalmente equipada com espaço para sala de refeições e despensa, dois quartos, sendo um deles com roupeiro e uma casa de banho. Dispõe de uma varanda com uma excelente vista de mar que contorna todo o apartamento. Zona de fácil estacionamento. Proximidade a espaços verdes, transportes públicos, escolas e zonas comerciais. Fáceis e rápidos acessos à autoestrada e marginal.  Categoria Energética: E  ref: AO350289.",
+    "hasVideo": false,
+    "status": "good",
+    "newDevelopment": false,
+    "hasLift": true,
+    "priceByArea": 13.0,
+    "change": {},
+    "detailedType": {
+      "typology": "flat"
+    },
+    "suggestedTexts": {
+      "title": "Apartamento T2 na Avenida Angola, Figueirinha - Augusto Castro, Oeiras e São Julião da Barra - Paço de Arcos - Caxias"
+    },
+    "hasPlan": false,
+    "has3DTour": false,
+    "has360": false,
+    "hasStaging": false,
+    "savedAd": {},
+    "notes": [],
+    "topNewDevelopment": false,
+    "newDevelopmentHighlight": false,
+    "topPlus": false
+  },
+  {
+    "propertyCode": "34182383",
+    "thumbnail": "https://img4.idealista.pt/blur/480_360_mq/0/id.pro.pt.image.master/ed/c7/5c/318260204.webp",
+    "numPhotos": 26,
+    "floor": "4",
+    "price": 1700.0,
+    "priceInfo": {
+      "price": {
+        "amount": 1700.0,
+        "currencySuffix": "€/mês"
+      }
+    },
+    "propertyType": "flat",
+    "operation": "rent",
+    "size": 66.0,
+    "rooms": 2,
+    "bathrooms": 1,
+    "address": "Apartamento T2 na Travessa da Laranjeira, Bica, Misericórdia",
+    "province": "Lisboa",
+    "municipality": "Misericórdia",
+    "district": "Bica",
+    "country": "pt",
+    "latitude": 38.70879,
+    "longitude": -9.1458179,
+    "showAddress": false,
+    "url": "https://www.idealista.pt/imovel/34182383/",
+    "description": "Exclusivo Duplex T2 Semi-Novo na Bica – Elegância, Espaço e Conforto no Coração de Lisboa Descubra o privilégio de viver num sofisticado apartamento duplex em plena Bica, um dos bairros mais carismáticos, históricos e valorizados de Lisboa. Este imóvel semi-novo destaca-se pela sua arquitetura interior inteligente, que separa perfeitamente a área social da área privada, oferecendo a envolvência única do centro histórico com os padrões de conforto de uma construção recente. O apartamento encontra-se completamente mobilado e equipado com um gosto irrepreensível, combinando peças de design funcional com acabamentos de alta qualidade. É a solução chave na mão ideal para quem exige centralidade e sofisticação. Distribuição do Espaço & Características: Layout Duplex: Uma distribuição fluida em dois pisos que garante total privacidade e uma sensação de amplitude superior à de um apartamento convencional. Zona Social: Sala de estar e de jantar ampla e muito luminosa, integrada com uma cozinha de estilo moderno, totalmente equipada com eletrodomésticos de gama alta (placa, forno, exaustor, frigorífico combinado, máquina de lavar loiça e máquina de lavar roupa). Zona Privada: 2 quartos acolhedores, mobilados com camas confortáveis e roupeiros embutidos que oferecem excelente capacidade de arrumação. Casas de Banho: 2 casas de banho completas (uma em cada piso), com revestimentos modernos, loiças suspensas e polbãs de design contemporâneo. Localização de Prestígio: Localizado numa das zonas mais pitorescas e procuradas da capital, a poucos passos do famoso Elevador da Bica, do Chiado e do Cais do Sodré. Esta localização premium permite usufruir a pé do melhor que Lisboa tem para oferecer: restaurantes de autor, cafés emblemáticos, comércio tradicional, uma vibrante vida cultural e uma rede imbatível de transportes públicos (Metro, Comboio, Elétrico e barcos). A escolha ideal para: Famílias e/ou profissionais que procuram um espaço com escritório independente.",
+    "hasVideo": true,
+    "status": "good",
+    "newDevelopment": false,
+    "hasLift": false,
+    "priceByArea": 26.0,
+    "change": {},
+    "detailedType": {
+      "typology": "flat"
+    },
+    "suggestedTexts": {
+      "title": "Apartamento T2 na Travessa da Laranjeira, Bica, Misericórdia"
+    },
+    "hasPlan": true,
+    "has3DTour": false,
+    "has360": false,
+    "hasStaging": false,
+    "savedAd": {},
+    "notes": [],
+    "topNewDevelopment": false,
+    "newDevelopmentHighlight": false,
+    "topPlus": false
+  },
+  {
+    "propertyCode": "35049275",
+    "thumbnail": "https://img4.idealista.pt/blur/480_360_mq/0/id.pro.pt.image.master/b4/a9/e9/318261909.webp",
+    "externalReference": "838349",
+    "numPhotos": 11,
+    "price": 2300.0,
+    "priceInfo": {
+      "price": {
+        "amount": 2300.0,
+        "currencySuffix": "€/mês"
+      }
+    },
+    "propertyType": "flat",
+    "operation": "rent",
+    "size": 43.0,
+    "rooms": 1,
+    "bathrooms": 1,
+    "address": "Apartamento T1 na Rua Snu Abecassis, Alto do Lumiar - Quinta das Conchas - Quinta do Lambert, Lumiar",
+    "province": "Lisboa",
+    "municipality": "Lumiar",
+    "district": "Alto do Lumiar - Quinta das Conchas - Quinta do Lambert",
+    "country": "pt",
+    "latitude": 38.7763889,
+    "longitude": -9.1578584,
+    "showAddress": false,
+    "url": "https://www.idealista.pt/imovel/35049275/",
+    "description": "RESERVAS E PEDIDOS DE INFORMAÇÃO Para obter informações detalhadas e reservar online, clique abaixo do mapa em “Link Adicional”. TERMOS E CONDIÇÕES DE ALOJAMENTO: - Data de Disponibilidade: 11/06/2026 - Duração Mínima de Aluguer: 30 dias - Número Máximo de Hóspedes: 2 - Todas as Despesas Incluídas: Sim, para mais informações visite o site - Adicional:  - Animais de Estimação Não Permitido  - Fumadores Não Permitido DETALHES DA PROPRIEDADE Apartamento conveniente e acolhedor  - Localização: Localizado on Lumiar em Lisbon com uma variedade de opções de refeições, lojas essenciais e atividades para fazer, com fácil acesso aos transportes públicos. 1 quartos em Apartment com 1 casas de banho. Características  - Air condicionado  - Televisão por cabo  - Zona exterior  - Wi-Fi  - Elevador  - Toalhas e lençóis  - Forno SOBRE A UNIPLACES O Seu Local de Confiança para Encontrar Casa Como uma plataforma online pioneira, a Uniplaces liga indivíduos, sejam estudantes, profissionais ou famílias, a uma variedade de alojamentos para arrendamento. O nosso compromisso vai para além das listagens - verificamos cada propriedade para garantir que cumpre os nossos rigorosos critérios de conforto e conveniência. Escolha a Uniplaces para uma jornada de arrendamento suave, fiável e com uma excelente relação qualidade-preço.",
+    "hasVideo": false,
+    "status": "good",
+    "newDevelopment": false,
+    "hasLift": true,
+    "priceByArea": 53.0,
+    "change": {},
+    "detailedType": {
+      "typology": "flat"
+    },
+    "suggestedTexts": {
+      "title": "Apartamento T1 na Rua Snu Abecassis, Alto do Lumiar - Quinta das Conchas - Quinta do Lambert, Lumiar"
+    },
+    "hasPlan": false,
+    "has3DTour": false,
+    "has360": false,
+    "hasStaging": false,
+    "savedAd": {},
+    "notes": [],
+    "topNewDevelopment": false,
+    "newDevelopmentHighlight": false,
+    "topPlus": false
+  },
+  {
+    "propertyCode": "34181013",
+    "thumbnail": "https://img4.idealista.pt/blur/480_360_mq/0/id.pro.pt.image.master/c4/b5/dd/289908448.webp",
+    "externalReference": "539232",
+    "numPhotos": 45,
+    "price": 2400.0,
+    "priceInfo": {
+      "price": {
+        "amount": 2400.0,
+        "currencySuffix": "€/mês"
+      }
+    },
+    "propertyType": "flat",
+    "operation": "rent",
+    "size": 75.0,
+    "rooms": 1,
+    "bathrooms": 2,
+    "address": "Apartamento T1 na Rua Damasceno Monteiro, Graça, São Vicente",
+    "province": "Lisboa",
+    "municipality": "São Vicente",
+    "district": "Graça",
+    "country": "pt",
+    "latitude": 38.7187244,
+    "longitude": -9.1335143,
+    "showAddress": false,
+    "url": "https://www.idealista.pt/imovel/34181013/",
+    "description": "RESERVAS E PEDIDOS DE INFORMAÇÃO Para obter informações detalhadas e reservar online, clique abaixo do mapa em “Link Adicional”. TERMOS E CONDIÇÕES DE ALOJAMENTO: - Data de Disponibilidade: 27/10/2025 - Duração Mínima de Aluguer: 27 dias - Número Máximo de Hóspedes: 4 - Todas as Despesas Incluídas: Sim, para mais informações visite o site - Adicional:  - Animais de Estimação Não Permitido  - Fumadores Não Permitido DETALHES DA PROPRIEDADE Apartamento com 1 quarto, com área exterior  - Localização: Localizado on Graça em Lisbon com uma variedade de opções de refeições, lojas essenciais e atividades para fazer, com fácil acesso aos transportes públicos. 1 quartos em Apartment com 2 casas de banho. Características  - Wi-Fi  - Televisão por cabo  - Air condicionado  - Zona exterior  - Toalhas e lençóis  - Forno  - Microondas  - Máquina de lavar roupa  - Máquina de lavar louça SOBRE A UNIPLACES O Seu Local de Confiança para Encontrar Casa Como uma plataforma online pioneira, a Uniplaces liga indivíduos, sejam estudantes, profissionais ou famílias, a uma variedade de alojamentos para arrendamento. O nosso compromisso vai para além das listagens - verificamos cada propriedade para garantir que cumpre os nossos rigorosos critérios de conforto e conveniência. Escolha a Uniplaces para uma jornada de arrendamento suave, fiável e com uma excelente relação qualidade-preço.",
+    "hasVideo": false,
+    "status": "good",
+    "newDevelopment": false,
+    "hasLift": false,
+    "priceByArea": 32.0,
+    "change": {},
+    "detailedType": {
+      "typology": "flat"
+    },
+    "suggestedTexts": {
+      "title": "Apartamento T1 na Rua Damasceno Monteiro, Graça, São Vicente"
+    },
+    "hasPlan": false,
+    "has3DTour": false,
+    "has360": false,
+    "hasStaging": false,
+    "savedAd": {},
+    "notes": [],
+    "topNewDevelopment": false,
+    "newDevelopmentHighlight": false,
+    "topPlus": false
+  },
+  {
+    "propertyCode": "35049359",
+    "thumbnail": "https://img4.idealista.pt/blur/480_360_mq/0/id.pro.pt.image.master/fd/3b/c8/318261829.webp",
+    "externalReference": "357448",
+    "numPhotos": 24,
+    "price": 2299.0,
+    "priceInfo": {
+      "price": {
+        "amount": 2299.0,
+        "currencySuffix": "€/mês"
+      }
+    },
+    "propertyType": "flat",
+    "operation": "rent",
+    "size": 64.0,
+    "rooms": 2,
+    "bathrooms": 2,
+    "address": "Apartamento T2 no Beco das Farinhas, Mouraria - Castelo, Santa Maria Maior",
+    "province": "Lisboa",
+    "municipality": "Santa Maria Maior",
+    "district": "Mouraria - Castelo",
+    "country": "pt",
+    "latitude": 38.7119883,
+    "longitude": -9.1371573,
+    "showAddress": false,
+    "url": "https://www.idealista.pt/imovel/35049359/",
+    "description": "RESERVAS E PEDIDOS DE INFORMAÇÃO Para obter informações detalhadas e reservar online, clique abaixo do mapa em “Link Adicional”. TERMOS E CONDIÇÕES DE ALOJAMENTO: - Data de Disponibilidade: 26/06/2026 - Duração Mínima de Aluguer: 27 dias - Número Máximo de Hóspedes: 4 - Todas as Despesas Incluídas: Sim, para mais informações visite o site - Adicional:  - Animais de Estimação Não Permitido  - Fumadores Não Permitido DETALHES DA PROPRIEDADE Apartamento com 2 quartos  - Localização: Localizado on Mouraria em Lisbon com uma variedade de opções de refeições, lojas essenciais e atividades para fazer, com fácil acesso aos transportes públicos. 2 quartos em Apartment com 2 casas de banho. Características  - Wi-Fi  - Televisão por cabo  - Toalhas e lençóis  - Microondas SOBRE A UNIPLACES O Seu Local de Confiança para Encontrar Casa Como uma plataforma online pioneira, a Uniplaces liga indivíduos, sejam estudantes, profissionais ou famílias, a uma variedade de alojamentos para arrendamento. O nosso compromisso vai para além das listagens - verificamos cada propriedade para garantir que cumpre os nossos rigorosos critérios de conforto e conveniência. Escolha a Uniplaces para uma jornada de arrendamento suave, fiável e com uma excelente relação qualidade-preço.",
+    "hasVideo": false,
+    "status": "good",
+    "newDevelopment": false,
+    "hasLift": false,
+    "priceByArea": 36.0,
+    "change": {},
+    "detailedType": {
+      "typology": "flat"
+    },
+    "suggestedTexts": {
+      "title": "Apartamento T2 no Beco das Farinhas, Mouraria - Castelo, Santa Maria Maior"
+    },
+    "hasPlan": false,
+    "has3DTour": false,
+    "has360": false,
+    "hasStaging": false,
+    "savedAd": {},
+    "notes": [],
+    "topNewDevelopment": false,
+    "newDevelopmentHighlight": false,
+    "topPlus": false
+  },
+  {
+    "propertyCode": "34336214",
+    "thumbnail": "https://img4.idealista.pt/blur/480_360_mq/0/id.pro.pt.image.master/ae/94/14/292947392.webp",
+    "externalReference": "429391",
+    "numPhotos": 16,
+    "price": 1809.0,
+    "priceInfo": {
+      "price": {
+        "amount": 1809.0,
+        "currencySuffix": "€/mês"
+      }
+    },
+    "propertyType": "flat",
+    "operation": "rent",
+    "size": 40.0,
+    "rooms": 1,
+    "bathrooms": 1,
+    "address": "Apartamento T1 na Rua das Farinhas, Mouraria - Castelo, Santa Maria Maior",
+    "province": "Lisboa",
+    "municipality": "Santa Maria Maior",
+    "district": "Mouraria - Castelo",
+    "country": "pt",
+    "latitude": 38.7130484,
+    "longitude": -9.136688,
+    "showAddress": false,
+    "url": "https://www.idealista.pt/imovel/34336214/",
+    "description": "RESERVAS E PEDIDOS DE INFORMAÇÃO Para obter informações detalhadas e reservar online, clique abaixo do mapa em “Link Adicional”. TERMOS E CONDIÇÕES DE ALOJAMENTO: - Data de Disponibilidade: 01/01/2026 - Duração Mínima de Aluguer: 29 dias - Número Máximo de Hóspedes: 2 - Todas as Despesas Incluídas: Sim, para mais informações visite o site - Adicional:  - Animais de Estimação Não Permitido  - Fumadores Não Permitido DETALHES DA PROPRIEDADE Lovely apartment located in Lisbons Castle Hill  - Descrição da Propriedade na Uniplaces: Lindo apartamento no 1 andar de um prédio de 100 anos totalmente renovado. Localizado na Rua das Farinhas, na Colina do Castelo de Lisboa, no coração do Distrito Histórico. Este apartamento é ideal para 2 pessoas, equipado com uma cama de casal, uma cozinha completa e um sofá na sala de estar. Há Wi-Fi gratuito e canais de TV internacionais. Está convenientemente localizado perto de bares badalados, restaurantes e mercearias. Fica a 3 minutos a pé da estação de metrô Martim Moniz e do bonde 28 e a 5 minutos a pé de um estacionamento. Você terá tudo o que precisa para aproveitar e relaxar.  - Localização: Localizado on Mouraria em Lisbon com uma variedade de opções de refeições, lojas essenciais e atividades para fazer, com fácil acesso aos transportes públicos. 1 quartos em Apartment com 1 casas de banho. Características  - Wi-Fi  - Televisão por cabo  - Toalhas e lençóis  - Forno  - Microondas  - Máquina de lavar roupa  - Máquina de lavar louça SOBRE A UNIPLACES O Seu Local de Confiança para Encontrar Casa Como uma plataforma online pioneira, a Uniplaces liga indivíduos, sejam estudantes, profissionais ou famílias, a uma variedade de alojamentos para arrendamento. O nosso compromisso vai para além das listagens - verificamos cada propriedade para garantir que cumpre os nossos rigorosos critérios de conforto e conveniência. Escolha a Uniplaces para uma jornada de arrendamento suave, fiável e com uma excelente relação qualidade-preço.",
+    "hasVideo": false,
+    "status": "good",
+    "newDevelopment": false,
+    "hasLift": false,
+    "priceByArea": 45.0,
+    "change": {},
+    "detailedType": {
+      "typology": "flat"
+    },
+    "suggestedTexts": {
+      "title": "Apartamento T1 na Rua das Farinhas, Mouraria - Castelo, Santa Maria Maior"
+    },
+    "hasPlan": false,
+    "has3DTour": false,
+    "has360": false,
+    "hasStaging": false,
+    "savedAd": {},
+    "notes": [],
+    "topNewDevelopment": false,
+    "newDevelopmentHighlight": false,
+    "topPlus": false
+  },
+  {
+    "propertyCode": "34334106",
+    "thumbnail": "https://img4.idealista.pt/blur/480_360_mq/0/id.pro.pt.image.master/92/89/12/289917182.webp",
+    "externalReference": "717037",
+    "numPhotos": 18,
+    "price": 2280.0,
+    "priceInfo": {
+      "price": {
+        "amount": 2280.0,
+        "currencySuffix": "€/mês"
+      }
+    },
+    "propertyType": "flat",
+    "operation": "rent",
+    "size": 78.0,
+    "rooms": 2,
+    "bathrooms": 2,
+    "address": "Apartamento T2 na Rua de Sant'Ana à Lapa, Lapa, Estrela",
+    "province": "Lisboa",
+    "municipality": "Estrela",
+    "district": "Lapa",
+    "country": "pt",
+    "latitude": 38.711434,
+    "longitude": -9.1621133,
+    "showAddress": false,
+    "url": "https://www.idealista.pt/imovel/34334106/",
+    "description": "RESERVAS E PEDIDOS DE INFORMAÇÃO Para obter informações detalhadas e reservar online, clique abaixo do mapa em “Link Adicional”. TERMOS E CONDIÇÕES DE ALOJAMENTO: - Data de Disponibilidade: 17/11/2025 - Duração Mínima de Aluguer: 30 dias - Número Máximo de Hóspedes: 4 - Todas as Despesas Incluídas: Sim, para mais informações visite o site - Adicional:  - Animais de Estimação Não Permitido  - Fumadores Não Permitido DETALHES DA PROPRIEDADE Excellent 2-bedroom apartment in Lapa  - Descrição da Propriedade na Uniplaces: Desfrute de uma experiência elegante neste espaço bem localizado. Equipado para estadias mais longas, onde o conforto e comodidade é o principal objetivo para se sentir em casa. Perto de comercio como supermercado, mercearia, frutaria, pastelaria e farmácia. Transportes públicos nas mediações, estacionamento pago de segunda a sexta, mesmo á porta. Uma zona de residentes, central mas longe da confusão da vida noturna do centro da cidade. Venha desfrutar deste espaço, que foi criado para si!  - Localização: Localizado on Lapa em Lisbon com uma variedade de opções de refeições, lojas essenciais e atividades para fazer, com fácil acesso aos transportes públicos. 2 quartos em Apartment com 2 casas de banho. Características  - Televisão por cabo  - Aquecimento central  - Wi-Fi  - Toalhas e lençóis  - Máquina de lavar roupa  - Forno  - Microondas  - Máquina de lavar roupa  - Máquina de lavar louça SOBRE A UNIPLACES O Seu Local de Confiança para Encontrar Casa Como uma plataforma online pioneira, a Uniplaces liga indivíduos, sejam estudantes, profissionais ou famílias, a uma variedade de alojamentos para arrendamento. O nosso compromisso vai para além das listagens - verificamos cada propriedade para garantir que cumpre os nossos rigorosos critérios de conforto e conveniência. Escolha a Uniplaces para uma jornada de arrendamento suave, fiável e com uma excelente relação qualidade-preço.",
+    "hasVideo": false,
+    "status": "good",
+    "newDevelopment": false,
+    "hasLift": false,
+    "priceByArea": 29.0,
+    "change": {},
+    "detailedType": {
+      "typology": "flat"
+    },
+    "suggestedTexts": {
+      "title": "Apartamento T2 na Rua de Sant'Ana à Lapa, Lapa, Estrela"
+    },
+    "hasPlan": false,
+    "has3DTour": false,
+    "has360": false,
+    "hasStaging": false,
+    "savedAd": {},
+    "notes": [],
+    "topNewDevelopment": false,
+    "newDevelopmentHighlight": false,
+    "topPlus": false
+  },
+  {
+    "propertyCode": "34175397",
+    "thumbnail": "https://img4.idealista.pt/blur/480_360_mq/0/id.pro.pt.image.master/b9/3b/69/297816548.webp",
+    "externalReference": "418267",
+    "numPhotos": 9,
+    "price": 2250.0,
+    "priceInfo": {
+      "price": {
+        "amount": 2250.0,
+        "currencySuffix": "€/mês"
+      }
+    },
+    "propertyType": "flat",
+    "operation": "rent",
+    "size": 80.0,
+    "rooms": 2,
+    "bathrooms": 1,
+    "address": "Apartamento T2 na Rua Luís Cristino da Silva, Marvila",
+    "province": "Lisboa",
+    "municipality": "Marvila",
+    "country": "pt",
+    "latitude": 38.7578633,
+    "longitude": -9.1217706,
+    "showAddress": false,
+    "url": "https://www.idealista.pt/imovel/34175397/",
+    "description": "RESERVAS E PEDIDOS DE INFORMAÇÃO Para obter informações detalhadas e reservar online, clique abaixo do mapa em “Link Adicional”. TERMOS E CONDIÇÕES DE ALOJAMENTO: - Data de Disponibilidade: 01/10/2025 - Duração Mínima de Aluguer: 27 dias - Número Máximo de Hóspedes: 4 - Todas as Despesas Incluídas: Sim, para mais informações visite o site - Adicional:  - Animais de Estimação Não Permitido  - Fumadores Não Permitido DETALHES DA PROPRIEDADE Apartamento com 2 quartos  - Localização: Localizado on Chelas em Lisbon com uma variedade de opções de refeições, lojas essenciais e atividades para fazer, com fácil acesso aos transportes públicos. 2 quartos em Apartment com 1 casas de banho. Características  - Accessibilidade  - Wi-Fi  - Televisão por cabo  - Elevador  - Toalhas e lençóis  - Forno  - Microondas  - Máquina de lavar louça SOBRE A UNIPLACES O Seu Local de Confiança para Encontrar Casa Como uma plataforma online pioneira, a Uniplaces liga indivíduos, sejam estudantes, profissionais ou famílias, a uma variedade de alojamentos para arrendamento. O nosso compromisso vai para além das listagens - verificamos cada propriedade para garantir que cumpre os nossos rigorosos critérios de conforto e conveniência. Escolha a Uniplaces para uma jornada de arrendamento suave, fiável e com uma excelente relação qualidade-preço.",
+    "hasVideo": false,
+    "status": "good",
+    "newDevelopment": false,
+    "hasLift": true,
+    "priceByArea": 28.0,
+    "change": {},
+    "detailedType": {
+      "typology": "flat"
+    },
+    "suggestedTexts": {
+      "title": "Apartamento T2 na Rua Luís Cristino da Silva, Marvila"
+    },
+    "hasPlan": false,
+    "has3DTour": false,
+    "has360": false,
+    "hasStaging": false,
+    "savedAd": {},
+    "notes": [],
+    "topNewDevelopment": false,
+    "newDevelopmentHighlight": false,
+    "topPlus": false
+  },
+  {
+    "propertyCode": "35049353",
+    "thumbnail": "https://img4.idealista.pt/blur/480_360_mq/0/id.pro.pt.image.master/2a/e7/7c/318261811.webp",
+    "externalReference": "774849",
+    "numPhotos": 29,
+    "price": 2250.0,
+    "priceInfo": {
+      "price": {
+        "amount": 2250.0,
+        "currencySuffix": "€/mês"
+      }
+    },
+    "propertyType": "flat",
+    "operation": "rent",
+    "size": 100.0,
+    "rooms": 2,
+    "bathrooms": 1,
+    "address": "Apartamento T2 na Estrada da Rocha, Linda-a-Velha, Algés - Linda-a-Velha - Cruz Quebrada - Dafundo",
+    "province": "Lisboa",
+    "municipality": "Algés - Linda-a-Velha - Cruz Quebrada - Dafundo",
+    "district": "Linda-a-Velha",
+    "country": "pt",
+    "latitude": 38.7152223,
+    "longitude": -9.2474618,
+    "showAddress": false,
+    "url": "https://www.idealista.pt/imovel/35049353/",
+    "description": "RESERVAS E PEDIDOS DE INFORMAÇÃO Para obter informações detalhadas e reservar online, clique abaixo do mapa em “Link Adicional”. TERMOS E CONDIÇÕES DE ALOJAMENTO: - Data de Disponibilidade: 04/08/2026 - Duração Mínima de Aluguer: 60 dias - Número Máximo de Hóspedes: 4 - Todas as Despesas Incluídas: Não, para mais informações visite o site - Adicional:  - Animais de Estimação Não Permitido  - Fumadores Não Permitido DETALHES DA PROPRIEDADE Apartamento espaçoso com 2 quartos, em Oeiras  - Descrição da Propriedade na Uniplaces: Apartamento confortável e luminoso de 100 m junto ao Parque do Jamor em Oeiras, ideal para estadias prolongadas. Ideal para quem procura tranquilidade e qualidade de vida, junto à margem do rio Tejo e do mar de Oeiras e Cascais, sem abdicar da proximidade a Lisboa. Com autocarros diretos para o centro de Lisboa, comboio na linha Lisboa-Cascais e apenas a 10 minutos de carro do centro de Lisboa. Está totalmente mobilado e equipado para receber até 4 pessoas com todo o conforto necessário para estadias médias ou prolongadas até 1 ano. O apartamento de divisões amplas e bem distribuídas, conta com om 2 quartos com camas de casal 160x200 cm, roupeiros amplos e cómodas de apoio, varanda privativa com vista sobre o campo de Golfe, Estádio Nacional e Parque do Jamor. OFERTA de Internet de alta velocidade, ideal para teletrabalho 1000mb/1000mb.  - Localização: Localizado on Linda-a-Velha em Lisbon com uma variedade de opções de refeições, lojas essenciais e atividades para fazer, com fácil acesso aos transportes públicos. 2 quartos em Apartment com 1 casas de banho. Características  - Wi-Fi  - Aquecimento central  - Zona exterior  - Toalhas e lençóis  - Forno  - Microondas  - Máquina de lavar roupa  - Máquina de lavar louça SOBRE A UNIPLACES O Seu Local de Confiança para Encontrar Casa Como uma plataforma online pioneira, a Uniplaces liga indivíduos, sejam estudantes, profissionais ou famílias, a uma variedade de alojamentos para arrendamento. O nosso compromisso vai para além das listagens - verificamos cada propriedade para garantir que cumpre os nossos rigorosos critérios de conforto e conveniência. Escolha a Uniplaces para uma jornada de arrendamento suave, fiável e com uma excelente relação qualidade-preço.",
+    "hasVideo": false,
+    "status": "good",
+    "newDevelopment": false,
+    "hasLift": false,
+    "priceByArea": 23.0,
+    "change": {},
+    "detailedType": {
+      "typology": "flat"
+    },
+    "suggestedTexts": {
+      "title": "Apartamento T2 na Estrada da Rocha, Linda-a-Velha, Algés - Linda-a-Velha - Cruz Quebrada - Dafundo"
+    },
+    "hasPlan": false,
+    "has3DTour": false,
+    "has360": false,
+    "hasStaging": false,
+    "savedAd": {},
+    "notes": [],
+    "topNewDevelopment": false,
+    "newDevelopmentHighlight": false,
+    "topPlus": false
+  },
+  {
+    "propertyCode": "34808407",
+    "thumbnail": "https://img4.idealista.pt/blur/480_360_mq/0/id.pro.pt.image.master/46/95/fc/318261750.webp",
+    "externalReference": "602919",
+    "numPhotos": 38,
+    "price": 2230.0,
+    "priceInfo": {
+      "price": {
+        "amount": 2230.0,
+        "currencySuffix": "€/mês"
+      }
+    },
+    "propertyType": "flat",
+    "operation": "rent",
+    "size": 110.0,
     "rooms": 3,
     "bathrooms": 2,
-    "address": "Praça de Entrecampos, 2",
+    "address": "Apartamento T3 na Rua André de Gouveia, Quinta dos Alcoutins, Lumiar",
     "province": "Lisboa",
-    "municipality": "Lisboa",
-    "district": "Alvalade",
+    "municipality": "Lumiar",
+    "district": "Quinta dos Alcoutins",
     "country": "pt",
-    "latitude": 38.7450,
-    "longitude": -9.1480,
-    "showAddress": true,
-    "url": "https://www.idealista.pt/imovel/50000007/",
-    "description": "Excelente apartamento T3 em Entrecampos, ideal para famílias. Perto das universidades e metro.",
+    "latitude": 38.7789152,
+    "longitude": -9.1661875,
+    "showAddress": false,
+    "url": "https://www.idealista.pt/imovel/34808407/",
+    "description": "RESERVAS E PEDIDOS DE INFORMAÇÃO Para obter informações detalhadas e reservar online, clique abaixo do mapa em “Link Adicional”. TERMOS E CONDIÇÕES DE ALOJAMENTO: - Data de Disponibilidade: 24/06/2026 - Duração Mínima de Aluguer: 28 dias - Número Máximo de Hóspedes: 6 - Todas as Despesas Incluídas: Sim, para mais informações visite o site - Adicional:  - Animais de Estimação Não Permitido  - Fumadores Não Permitido DETALHES DA PROPRIEDADE Apartamento com 3 quartos  - Descrição da Propriedade na Uniplaces: Se você está vindo para Lisboa, mas quer ficar em um lugar tranquilo, longe do centro da cidade, mas bem conectado a qualquer lugar da cidade, você pode dar uma olhada neste apartamento perto da estação de metrô Ameixoeira. Este apartamento tem três quartos, uma sala de estar, uma cozinha e dois banheiros. Esta encantadora propriedade oferece tudo o que você procura, da localização ao conforto. Você vai adorar esse lugar! Para reservas de mais de 4 meses, é necessário o pagamento antecipado do aluguel do último mês. O imposto municipal também será cobrado, é um pagamento único de 14€ por inquilino.  - Localização: Localizado on Lumiar em Lisbon com uma variedade de opções de refeições, lojas essenciais e atividades para fazer, com fácil acesso aos transportes públicos. 3 quartos em Apartment com 2 casas de banho. Características  - Televisão por cabo  - Wi-Fi  - Toalhas e lençóis  - Forno  - Microondas  - Máquina de lavar louça SOBRE A UNIPLACES O Seu Local de Confiança para Encontrar Casa Como uma plataforma online pioneira, a Uniplaces liga indivíduos, sejam estudantes, profissionais ou famílias, a uma variedade de alojamentos para arrendamento. O nosso compromisso vai para além das listagens - verificamos cada propriedade para garantir que cumpre os nossos rigorosos critérios de conforto e conveniência. Escolha a Uniplaces para uma jornada de arrendamento suave, fiável e com uma excelente relação qualidade-preço.",
+    "hasVideo": false,
+    "status": "good",
+    "newDevelopment": false,
+    "hasLift": false,
+    "priceByArea": 20.0,
+    "change": {},
+    "detailedType": {
+      "typology": "flat"
+    },
+    "suggestedTexts": {
+      "title": "Apartamento T3 na Rua André de Gouveia, Quinta dos Alcoutins, Lumiar"
+    },
+    "hasPlan": false,
+    "has3DTour": false,
+    "has360": false,
+    "hasStaging": false,
+    "savedAd": {},
+    "notes": [],
+    "topNewDevelopment": false,
+    "newDevelopmentHighlight": false,
+    "topPlus": false
+  },
+  {
+    "propertyCode": "34772597",
+    "thumbnail": "https://img4.idealista.pt/blur/480_360_mq/0/id.pro.pt.image.master/fe/6c/f3/318261714.webp",
+    "externalReference": "464471",
+    "numPhotos": 26,
+    "price": 2070.0,
+    "priceInfo": {
+      "price": {
+        "amount": 2070.0,
+        "currencySuffix": "€/mês"
+      }
+    },
+    "propertyType": "flat",
+    "operation": "rent",
+    "size": 75.0,
+    "rooms": 2,
+    "bathrooms": 1,
+    "address": "Apartamento T2 na Rua Marques da Silva, Alameda - Praça do Chile - Almirante Reis, Arroios",
+    "province": "Lisboa",
+    "municipality": "Arroios",
+    "district": "São Jorge de Arroios",
+    "country": "pt",
+    "neighborhood": "Alameda - Praça do Chile - Almirante Reis",
+    "latitude": 38.7304348,
+    "longitude": -9.1320435,
+    "showAddress": false,
+    "url": "https://www.idealista.pt/imovel/34772597/",
+    "description": "RESERVAS E PEDIDOS DE INFORMAÇÃO Para obter informações detalhadas e reservar online, clique abaixo do mapa em “Link Adicional”. TERMOS E CONDIÇÕES DE ALOJAMENTO: - Data de Disponibilidade: 25/07/2026 - Duração Mínima de Aluguer: 28 dias - Número Máximo de Hóspedes: 4 - Todas as Despesas Incluídas: Sim, para mais informações visite o site - Adicional:  - Animais de Estimação Não Permitido  - Fumadores Não Permitido DETALHES DA PROPRIEDADE Apartamento com 2 quartos  - Descrição da Propriedade na Uniplaces: If you're looking for a place to call home while you're in Lisbon, make sure you don't miss out on this apartment in Arroios! For bookings longer than 4 months, payment of the last month's rent in advance is required. The City tax will also be charged, it is a single payment of 14 per tenant.  - Localização: Localizado on Arroios em Lisbon com uma variedade de opções de refeições, lojas essenciais e atividades para fazer, com fácil acesso aos transportes públicos. 2 quartos em Apartment com 1 casas de banho. Características  - Wi-Fi  - Air condicionado  - Toalhas e lençóis  - Forno  - Microondas  - Máquina de lavar roupa  - Máquina de lavar louça SOBRE A UNIPLACES O Seu Local de Confiança para Encontrar Casa Como uma plataforma online pioneira, a Uniplaces liga indivíduos, sejam estudantes, profissionais ou famílias, a uma variedade de alojamentos para arrendamento. O nosso compromisso vai para além das listagens - verificamos cada propriedade para garantir que cumpre os nossos rigorosos critérios de conforto e conveniência. Escolha a Uniplaces para uma jornada de arrendamento suave, fiável e com uma excelente relação qualidade-preço.",
+    "hasVideo": false,
+    "status": "good",
+    "newDevelopment": false,
+    "hasLift": false,
+    "priceByArea": 28.0,
+    "change": {},
+    "detailedType": {
+      "typology": "flat"
+    },
+    "suggestedTexts": {
+      "title": "Apartamento T2 na Rua Marques da Silva, Alameda - Praça do Chile - Almirante Reis, Arroios"
+    },
+    "hasPlan": false,
+    "has3DTour": false,
+    "has360": false,
+    "hasStaging": false,
+    "savedAd": {},
+    "notes": [],
+    "topNewDevelopment": false,
+    "newDevelopmentHighlight": false,
+    "topPlus": false
+  },
+  {
+    "propertyCode": "34808346",
+    "thumbnail": "https://img4.idealista.pt/blur/480_360_mq/0/id.pro.pt.image.master/ff/50/14/318261703.webp",
+    "externalReference": "169381",
+    "numPhotos": 24,
+    "price": 2230.0,
+    "priceInfo": {
+      "price": {
+        "amount": 2230.0,
+        "currencySuffix": "€/mês"
+      }
+    },
+    "propertyType": "flat",
+    "operation": "rent",
+    "size": 90.0,
+    "rooms": 3,
+    "bathrooms": 3,
+    "address": "Apartamento T3 na Rua Bartolomeu da Costa, Santa Engrácia, São Vicente",
+    "province": "Lisboa",
+    "municipality": "São Vicente",
+    "district": "Santa Engrácia",
+    "country": "pt",
+    "latitude": 38.7196479,
+    "longitude": -9.1234294,
+    "showAddress": false,
+    "url": "https://www.idealista.pt/imovel/34808346/",
+    "description": "RESERVAS E PEDIDOS DE INFORMAÇÃO Para obter informações detalhadas e reservar online, clique abaixo do mapa em “Link Adicional”. TERMOS E CONDIÇÕES DE ALOJAMENTO: - Data de Disponibilidade: 25/07/2026 - Duração Mínima de Aluguer: 27 dias - Número Máximo de Hóspedes: 5 - Todas as Despesas Incluídas: Sim, para mais informações visite o site - Adicional:  - Animais de Estimação Não Permitido  - Fumadores Não Permitido DETALHES DA PROPRIEDADE Apartamento com 3 quartos  - Descrição da Propriedade na Uniplaces: For bookings longer than 4 months, payment of the last month's rent in advance is required. The City tax will also be charged, it is a single payment of 14Eur per tenant. If you and your friends are looking for a great place to call home for the following months, then this awesome apartment in Santa Apolónia is it. Cool, comfortable and with plenty of lighting, your new home will make sure you have the ideal stay, a peaceful one. The flat comprises of three bedrooms - two being ensuite - a living room, a kitchen and a common bathroom.  - Localização: Localizado on Santa Apolónia em Lisbon com uma variedade de opções de refeições, lojas essenciais e atividades para fazer, com fácil acesso aos transportes públicos. 3 quartos em Apartment com 3 casas de banho. Características  - Wi-Fi  - Televisão por cabo  - Toalhas e lençóis  - Forno  - Microondas  - Máquina de lavar louça SOBRE A UNIPLACES O Seu Local de Confiança para Encontrar Casa Como uma plataforma online pioneira, a Uniplaces liga indivíduos, sejam estudantes, profissionais ou famílias, a uma variedade de alojamentos para arrendamento. O nosso compromisso vai para além das listagens - verificamos cada propriedade para garantir que cumpre os nossos rigorosos critérios de conforto e conveniência. Escolha a Uniplaces para uma jornada de arrendamento suave, fiável e com uma excelente relação qualidade-preço.",
+    "hasVideo": false,
+    "status": "good",
+    "newDevelopment": false,
+    "hasLift": false,
+    "priceByArea": 25.0,
+    "change": {},
+    "detailedType": {
+      "typology": "flat"
+    },
+    "suggestedTexts": {
+      "title": "Apartamento T3 na Rua Bartolomeu da Costa, Santa Engrácia, São Vicente"
+    },
+    "hasPlan": false,
+    "has3DTour": false,
+    "has360": false,
+    "hasStaging": false,
+    "savedAd": {},
+    "notes": [],
+    "topNewDevelopment": false,
+    "newDevelopmentHighlight": false,
+    "topPlus": false
+  },
+  {
+    "propertyCode": "34201030",
+    "thumbnail": "https://img4.idealista.pt/blur/480_360_mq/0/id.pro.pt.image.master/f8/3e/7d/289917057.webp",
+    "externalReference": "541457",
+    "numPhotos": 48,
+    "price": 2200.0,
+    "priceInfo": {
+      "price": {
+        "amount": 2200.0,
+        "currencySuffix": "€/mês"
+      }
+    },
+    "propertyType": "flat",
+    "operation": "rent",
+    "size": 60.0,
+    "rooms": 1,
+    "bathrooms": 1,
+    "address": "Apartamento T1 na Travessa de Santo Aleixo, Santa Isabel, Campo de Ourique",
+    "province": "Lisboa",
+    "municipality": "Campo de Ourique",
+    "district": "Santa Isabel",
+    "country": "pt",
+    "latitude": 38.7192412,
+    "longitude": -9.1614486,
+    "showAddress": false,
+    "url": "https://www.idealista.pt/imovel/34201030/",
+    "description": "RESERVAS E PEDIDOS DE INFORMAÇÃO Para obter informações detalhadas e reservar online, clique abaixo do mapa em “Link Adicional”. TERMOS E CONDIÇÕES DE ALOJAMENTO: - Data de Disponibilidade: DISPONÍVEL AGORA - Duração Mínima de Aluguer: 55 dias - Número Máximo de Hóspedes: 2 - Todas as Despesas Incluídas: Sim, para mais informações visite o site - Adicional:  - Animais de Estimação Não Permitido  - Fumadores Não Permitido DETALHES DA PROPRIEDADE Apartamento com 1 quarto  - Localização: Localizado on Campo de Ourique em Lisbon com uma variedade de opções de refeições, lojas essenciais e atividades para fazer, com fácil acesso aos transportes públicos. 1 quartos em Apartment com 1 casas de banho. Características  - Wi-Fi  - Televisão por cabo  - Aquecimento central  - Air condicionado  - Zona exterior  - Toalhas e lençóis  - Forno  - Microondas  - Máquina de lavar roupa  - Máquina de lavar louça SOBRE A UNIPLACES O Seu Local de Confiança para Encontrar Casa Como uma plataforma online pioneira, a Uniplaces liga indivíduos, sejam estudantes, profissionais ou famílias, a uma variedade de alojamentos para arrendamento. O nosso compromisso vai para além das listagens - verificamos cada propriedade para garantir que cumpre os nossos rigorosos critérios de conforto e conveniência. Escolha a Uniplaces para uma jornada de arrendamento suave, fiável e com uma excelente relação qualidade-preço.",
+    "hasVideo": false,
+    "status": "good",
+    "newDevelopment": false,
+    "hasLift": false,
+    "priceByArea": 37.0,
+    "change": {},
+    "detailedType": {
+      "typology": "flat"
+    },
+    "suggestedTexts": {
+      "title": "Apartamento T1 na Travessa de Santo Aleixo, Santa Isabel, Campo de Ourique"
+    },
+    "hasPlan": false,
+    "has3DTour": false,
+    "has360": false,
+    "hasStaging": false,
+    "savedAd": {},
+    "notes": [],
+    "topNewDevelopment": false,
+    "newDevelopmentHighlight": false,
+    "topPlus": false
+  },
+  {
+    "propertyCode": "34817195",
+    "thumbnail": "https://img4.idealista.pt/blur/480_360_mq/0/id.pro.pt.image.master/90/8a/aa/318261850.webp",
+    "externalReference": "668888",
+    "numPhotos": 19,
+    "price": 2200.0,
+    "priceInfo": {
+      "price": {
+        "amount": 2200.0,
+        "currencySuffix": "€/mês"
+      }
+    },
+    "propertyType": "flat",
+    "operation": "rent",
+    "size": 71.0,
+    "rooms": 2,
+    "bathrooms": 1,
+    "address": "Apartamento T2 na Calçada da Estrela, Lapa, Estrela",
+    "province": "Lisboa",
+    "municipality": "Estrela",
+    "district": "Lapa",
+    "country": "pt",
+    "latitude": 38.7136198,
+    "longitude": -9.1552593,
+    "showAddress": false,
+    "url": "https://www.idealista.pt/imovel/34817195/",
+    "description": "RESERVAS E PEDIDOS DE INFORMAÇÃO Para obter informações detalhadas e reservar online, clique abaixo do mapa em “Link Adicional”. TERMOS E CONDIÇÕES DE ALOJAMENTO: - Data de Disponibilidade: 18/04/2026 - Duração Mínima de Aluguer: 28 dias - Número Máximo de Hóspedes: 4 - Todas as Despesas Incluídas: Não, para mais informações visite o site - Adicional:  - Animais de Estimação Não Permitido  - Fumadores Não Permitido DETALHES DA PROPRIEDADE Apartamento com 2 quartos  - Localização: Localizado on Estrela em Lisbon com uma variedade de opções de refeições, lojas essenciais e atividades para fazer, com fácil acesso aos transportes públicos. 2 quartos em Apartment com 1 casas de banho. Características  - Televisão por cabo  - Aquecimento central  - Wi-Fi  - Toalhas e lençóis  - Forno  - Máquina de lavar roupa  - Máquina de lavar louça SOBRE A UNIPLACES O Seu Local de Confiança para Encontrar Casa Como uma plataforma online pioneira, a Uniplaces liga indivíduos, sejam estudantes, profissionais ou famílias, a uma variedade de alojamentos para arrendamento. O nosso compromisso vai para além das listagens - verificamos cada propriedade para garantir que cumpre os nossos rigorosos critérios de conforto e conveniência. Escolha a Uniplaces para uma jornada de arrendamento suave, fiável e com uma excelente relação qualidade-preço.",
+    "hasVideo": false,
+    "status": "good",
+    "newDevelopment": false,
+    "hasLift": false,
+    "priceByArea": 31.0,
+    "change": {},
+    "detailedType": {
+      "typology": "flat"
+    },
+    "suggestedTexts": {
+      "title": "Apartamento T2 na Calçada da Estrela, Lapa, Estrela"
+    },
+    "hasPlan": false,
+    "has3DTour": false,
+    "has360": false,
+    "hasStaging": false,
+    "savedAd": {},
+    "notes": [],
+    "topNewDevelopment": false,
+    "newDevelopmentHighlight": false,
+    "topPlus": false
+  },
+  {
+    "propertyCode": "34180997",
+    "thumbnail": "https://img4.idealista.pt/blur/480_360_mq/0/id.pro.pt.image.master/ca/e3/27/289923566.webp",
+    "externalReference": "286081",
+    "numPhotos": 67,
+    "price": 2200.0,
+    "priceInfo": {
+      "price": {
+        "amount": 2200.0,
+        "currencySuffix": "€/mês"
+      }
+    },
+    "propertyType": "flat",
+    "operation": "rent",
+    "size": 90.0,
+    "rooms": 2,
+    "bathrooms": 1,
+    "address": "Apartamento T2 na Travessa de Santos, Santos-o-Velho - Madragoa, Estrela",
+    "province": "Lisboa",
+    "municipality": "Estrela",
+    "district": "Santos-o-Velho - Madragoa",
+    "country": "pt",
+    "latitude": 38.7057425,
+    "longitude": -9.1572238,
+    "showAddress": false,
+    "url": "https://www.idealista.pt/imovel/34180997/",
+    "description": "RESERVAS E PEDIDOS DE INFORMAÇÃO Para obter informações detalhadas e reservar online, clique abaixo do mapa em “Link Adicional”. TERMOS E CONDIÇÕES DE ALOJAMENTO: - Data de Disponibilidade: 31/10/2025 - Duração Mínima de Aluguer: 30 dias - Número Máximo de Hóspedes: 6 - Todas as Despesas Incluídas: Sim, para mais informações visite o site - Adicional:  - Animais de Estimação Não Permitido  - Fumadores Não Permitido DETALHES DA PROPRIEDADE Apartamento com 2 quartos  - Descrição da Propriedade na Uniplaces: No momento do check-in, o pagamento do aluguel do último mês deve ser feito, juntamente com o depósito de segurança e a taxa de administração.  - Localização: Localizado on Santos em Lisbon com uma variedade de opções de refeições, lojas essenciais e atividades para fazer, com fácil acesso aos transportes públicos. 2 quartos em Apartment com 1 casas de banho. Características  - Wi-Fi  - Air condicionado  - Forno  - Microondas  - Máquina de lavar roupa SOBRE A UNIPLACES O Seu Local de Confiança para Encontrar Casa Como uma plataforma online pioneira, a Uniplaces liga indivíduos, sejam estudantes, profissionais ou famílias, a uma variedade de alojamentos para arrendamento. O nosso compromisso vai para além das listagens - verificamos cada propriedade para garantir que cumpre os nossos rigorosos critérios de conforto e conveniência. Escolha a Uniplaces para uma jornada de arrendamento suave, fiável e com uma excelente relação qualidade-preço.",
+    "hasVideo": false,
+    "status": "good",
+    "newDevelopment": false,
+    "hasLift": false,
+    "priceByArea": 24.0,
+    "change": {},
+    "detailedType": {
+      "typology": "flat"
+    },
+    "suggestedTexts": {
+      "title": "Apartamento T2 na Travessa de Santos, Santos-o-Velho - Madragoa, Estrela"
+    },
+    "hasPlan": false,
+    "has3DTour": false,
+    "has360": false,
+    "hasStaging": false,
+    "savedAd": {},
+    "notes": [],
+    "topNewDevelopment": false,
+    "newDevelopmentHighlight": false,
+    "topPlus": false
+  },
+  {
+    "propertyCode": "35049352",
+    "thumbnail": "https://img4.idealista.pt/blur/480_360_mq/0/id.pro.pt.image.master/32/0b/2f/318261598.webp",
+    "externalReference": "822434",
+    "numPhotos": 22,
+    "price": 2200.0,
+    "priceInfo": {
+      "price": {
+        "amount": 2200.0,
+        "currencySuffix": "€/mês"
+      }
+    },
+    "propertyType": "flat",
+    "operation": "rent",
+    "size": 90.0,
+    "rooms": 2,
+    "bathrooms": 2,
+    "address": "Apartamento T2 na Avenida Madame Curie, Reboleira - Atalaia, Águas Livres",
+    "province": "Lisboa",
+    "municipality": "Águas Livres",
+    "district": "Reboleira - Atalaia",
+    "country": "pt",
+    "latitude": 38.7460441,
+    "longitude": -9.2298269,
+    "showAddress": false,
+    "url": "https://www.idealista.pt/imovel/35049352/",
+    "description": "RESERVAS E PEDIDOS DE INFORMAÇÃO Para obter informações detalhadas e reservar online, clique abaixo do mapa em “Link Adicional”. TERMOS E CONDIÇÕES DE ALOJAMENTO: - Data de Disponibilidade: 01/10/2026 - Duração Mínima de Aluguer: 28 dias - Número Máximo de Hóspedes: 4 - Todas as Despesas Incluídas: Não, para mais informações visite o site - Adicional:  - Animais de Estimação Não Permitido  - Fumadores Não Permitido DETALHES DA PROPRIEDADE Apartamento com 2 quartos  - Localização: Localizado on Amadora em Lisbon com uma variedade de opções de refeições, lojas essenciais e atividades para fazer, com fácil acesso aos transportes públicos. 2 quartos em Apartment com 2 casas de banho. Características  - Aquecimento central  - Wi-Fi  - Elevador  - Forno  - Máquina de lavar roupa SOBRE A UNIPLACES O Seu Local de Confiança para Encontrar Casa Como uma plataforma online pioneira, a Uniplaces liga indivíduos, sejam estudantes, profissionais ou famílias, a uma variedade de alojamentos para arrendamento. O nosso compromisso vai para além das listagens - verificamos cada propriedade para garantir que cumpre os nossos rigorosos critérios de conforto e conveniência. Escolha a Uniplaces para uma jornada de arrendamento suave, fiável e com uma excelente relação qualidade-preço.",
+    "hasVideo": false,
+    "status": "good",
+    "newDevelopment": false,
+    "hasLift": true,
+    "priceByArea": 24.0,
+    "change": {},
+    "detailedType": {
+      "typology": "flat"
+    },
+    "suggestedTexts": {
+      "title": "Apartamento T2 na Avenida Madame Curie, Reboleira - Atalaia, Águas Livres"
+    },
+    "hasPlan": false,
+    "has3DTour": false,
+    "has360": false,
+    "hasStaging": false,
+    "savedAd": {},
+    "notes": [],
+    "topNewDevelopment": false,
+    "newDevelopmentHighlight": false,
+    "topPlus": false
+  },
+  {
+    "propertyCode": "35049351",
+    "thumbnail": "https://img4.idealista.pt/blur/480_360_mq/0/id.pro.pt.image.master/31/57/48/318261643.webp",
+    "externalReference": "822375",
+    "numPhotos": 26,
+    "price": 2200.0,
+    "priceInfo": {
+      "price": {
+        "amount": 2200.0,
+        "currencySuffix": "€/mês"
+      }
+    },
+    "propertyType": "flat",
+    "operation": "rent",
+    "size": 67.0,
+    "rooms": 2,
+    "bathrooms": 2,
+    "address": "Apartamento T2 na Rua do Conde, Lapa, Estrela",
+    "province": "Lisboa",
+    "municipality": "Estrela",
+    "district": "Lapa",
+    "country": "pt",
+    "latitude": 38.7071693,
+    "longitude": -9.1628648,
+    "showAddress": false,
+    "url": "https://www.idealista.pt/imovel/35049351/",
+    "description": "RESERVAS E PEDIDOS DE INFORMAÇÃO Para obter informações detalhadas e reservar online, clique abaixo do mapa em “Link Adicional”. TERMOS E CONDIÇÕES DE ALOJAMENTO: - Data de Disponibilidade: 01/10/2026 - Duração Mínima de Aluguer: 28 dias - Número Máximo de Hóspedes: 4 - Todas as Despesas Incluídas: Não, para mais informações visite o site - Adicional:  - Animais de Estimação Não Permitido  - Fumadores Não Permitido DETALHES DA PROPRIEDADE Apartamento com 2 quartos  - Localização: Localizado on Lapa em Lisbon com uma variedade de opções de refeições, lojas essenciais e atividades para fazer, com fácil acesso aos transportes públicos. 2 quartos em Apartment com 2 casas de banho. Características  - Wi-Fi  - Forno SOBRE A UNIPLACES O Seu Local de Confiança para Encontrar Casa Como uma plataforma online pioneira, a Uniplaces liga indivíduos, sejam estudantes, profissionais ou famílias, a uma variedade de alojamentos para arrendamento. O nosso compromisso vai para além das listagens - verificamos cada propriedade para garantir que cumpre os nossos rigorosos critérios de conforto e conveniência. Escolha a Uniplaces para uma jornada de arrendamento suave, fiável e com uma excelente relação qualidade-preço.",
+    "hasVideo": false,
+    "status": "good",
+    "newDevelopment": false,
+    "hasLift": false,
+    "priceByArea": 33.0,
+    "change": {},
+    "detailedType": {
+      "typology": "flat"
+    },
+    "suggestedTexts": {
+      "title": "Apartamento T2 na Rua do Conde, Lapa, Estrela"
+    },
+    "hasPlan": false,
+    "has3DTour": false,
+    "has360": false,
+    "hasStaging": false,
+    "savedAd": {},
+    "notes": [],
+    "topNewDevelopment": false,
+    "newDevelopmentHighlight": false,
+    "topPlus": false
+  },
+  {
+    "propertyCode": "34779907",
+    "thumbnail": "https://img4.idealista.pt/blur/480_360_mq/0/id.pro.pt.image.master/8a/f6/00/318261619.webp",
+    "externalReference": "733648",
+    "numPhotos": 14,
+    "price": 2200.0,
+    "priceInfo": {
+      "price": {
+        "amount": 2200.0,
+        "currencySuffix": "€/mês"
+      }
+    },
+    "propertyType": "chalet",
+    "operation": "rent",
+    "size": 68.0,
+    "rooms": 2,
+    "bathrooms": 1,
+    "address": "Andar de moradia na Rua Luís Fernandes, Príncipe Real - São Bento, Misericórdia",
+    "province": "Lisboa",
+    "municipality": "Misericórdia",
+    "district": "Príncipe Real - São Bento",
+    "country": "pt",
+    "latitude": 38.7167576,
+    "longitude": -9.1530653,
+    "showAddress": false,
+    "url": "https://www.idealista.pt/imovel/34779907/",
+    "description": "RESERVAS E PEDIDOS DE INFORMAÇÃO Para obter informações detalhadas e reservar online, clique abaixo do mapa em “Link Adicional”. TERMOS E CONDIÇÕES DE ALOJAMENTO: - Data de Disponibilidade: 13/06/2026 - Duração Mínima de Aluguer: 27 dias - Número Máximo de Hóspedes: 4 - Todas as Despesas Incluídas: Sim, para mais informações visite o site - Adicional:  - Animais de Estimação Permitido  - Fumadores Não Permitido DETALHES DA PROPRIEDADE Charming home with patio inside historic vila in the heart of Lisbon  - Descrição da Propriedade na Uniplaces: Nestled in the heart of Lisbon, this charming historic home in Vila Fernandes is a hidden gem just 5 minutes from the tranquil Príncipe Real garden and the picturesque Praça das Flores. Located on the peaceful Rua dos Prazeres, is known for its flower-filled streets. This cozy two-bedroom retreat offers a fully equipped kitchen, air conditioning, and a small garden with a medlar tree. Relax in the courtyard or explore the vibrant surroundings. The area is brimming with local cafés, restaurants, boutiques and supermarkets. The trendy shops of Príncipe Real and Rua da Escola Politécnica are within easy reach, offering a blend of fashion, antiques, and unique finds. This is more than just a homeit's a romantic escape in the heart of historic and lively Lisbon.  - Localização: Localizado on São Bento em Lisbon com uma variedade de opções de refeições, lojas essenciais e atividades para fazer, com fácil acesso aos transportes públicos. 2 quartos em House com 1 casas de banho. Características  - Air condicionado  - Televisão por cabo  - Zona exterior  - Wi-Fi  - Toalhas e lençóis  - Máquina de lavar roupa  - Forno  - Máquina de lavar roupa SOBRE A UNIPLACES O Seu Local de Confiança para Encontrar Casa Como uma plataforma online pioneira, a Uniplaces liga indivíduos, sejam estudantes, profissionais ou famílias, a uma variedade de alojamentos para arrendamento. O nosso compromisso vai para além das listagens - verificamos cada propriedade para garantir que cumpre os nossos rigorosos critérios de conforto e conveniência. Escolha a Uniplaces para uma jornada de arrendamento suave, fiável e com uma excelente relação qualidade-preço.",
+    "hasVideo": false,
+    "status": "good",
+    "newDevelopment": false,
+    "priceByArea": 32.0,
+    "change": {},
+    "detailedType": {
+      "typology": "chalet",
+      "subTypology": "andarMoradia"
+    },
+    "suggestedTexts": {
+      "title": "Andar de moradia na Rua Luís Fernandes, Príncipe Real - São Bento, Misericórdia"
+    },
+    "hasPlan": false,
+    "has3DTour": false,
+    "has360": false,
+    "hasStaging": false,
+    "savedAd": {},
+    "notes": [],
+    "topNewDevelopment": false,
+    "newDevelopmentHighlight": false,
+    "topPlus": false
+  },
+  {
+    "propertyCode": "35049350",
+    "thumbnail": "https://img4.idealista.pt/blur/480_360_mq/0/id.pro.pt.image.master/55/6b/4e/318261695.webp",
+    "externalReference": "829392",
+    "numPhotos": 29,
+    "price": 2200.0,
+    "priceInfo": {
+      "price": {
+        "amount": 2200.0,
+        "currencySuffix": "€/mês"
+      }
+    },
+    "propertyType": "flat",
+    "operation": "rent",
+    "size": 95.0,
+    "rooms": 3,
+    "bathrooms": 2,
+    "address": "Apartamento T3 na Rua João de Menezes, Bairro dos Actores, Areeiro",
+    "province": "Lisboa",
+    "municipality": "Areeiro",
+    "district": "Bairro dos Actores",
+    "country": "pt",
+    "latitude": 38.7398792,
+    "longitude": -9.1290629,
+    "showAddress": false,
+    "url": "https://www.idealista.pt/imovel/35049350/",
+    "description": "RESERVAS E PEDIDOS DE INFORMAÇÃO Para obter informações detalhadas e reservar online, clique abaixo do mapa em “Link Adicional”. TERMOS E CONDIÇÕES DE ALOJAMENTO: - Data de Disponibilidade: 16/10/2026 - Duração Mínima de Aluguer: 30 dias - Número Máximo de Hóspedes: 4 - Todas as Despesas Incluídas: Não, para mais informações visite o site - Adicional:  - Animais de Estimação Permitido  - Fumadores Não Permitido DETALHES DA PROPRIEDADE Apartamento com 3 quartos  - Localização: Localizado on Alameda em Lisbon com uma variedade de opções de refeições, lojas essenciais e atividades para fazer, com fácil acesso aos transportes públicos. 3 quartos em Apartment com 2 casas de banho. Características  - Wi-Fi  - Toalhas e lençóis  - Máquina de lavar roupa  - Forno SOBRE A UNIPLACES O Seu Local de Confiança para Encontrar Casa Como uma plataforma online pioneira, a Uniplaces liga indivíduos, sejam estudantes, profissionais ou famílias, a uma variedade de alojamentos para arrendamento. O nosso compromisso vai para além das listagens - verificamos cada propriedade para garantir que cumpre os nossos rigorosos critérios de conforto e conveniência. Escolha a Uniplaces para uma jornada de arrendamento suave, fiável e com uma excelente relação qualidade-preço.",
+    "hasVideo": false,
+    "status": "good",
+    "newDevelopment": false,
+    "hasLift": false,
+    "priceByArea": 23.0,
+    "change": {},
+    "detailedType": {
+      "typology": "flat"
+    },
+    "suggestedTexts": {
+      "title": "Apartamento T3 na Rua João de Menezes, Bairro dos Actores, Areeiro"
+    },
+    "hasPlan": false,
+    "has3DTour": false,
+    "has360": false,
+    "hasStaging": false,
+    "savedAd": {},
+    "notes": [],
+    "topNewDevelopment": false,
+    "newDevelopmentHighlight": false,
+    "topPlus": false
+  },
+  {
+    "propertyCode": "34176281",
+    "thumbnail": "https://img4.idealista.pt/blur/480_360_mq/0/id.pro.pt.image.master/7a/76/b8/297814648.webp",
+    "externalReference": "665803",
+    "numPhotos": 80,
+    "price": 2300.0,
+    "priceInfo": {
+      "price": {
+        "amount": 2300.0,
+        "currencySuffix": "€/mês"
+      }
+    },
+    "propertyType": "flat",
+    "operation": "rent",
+    "size": 90.0,
+    "rooms": 2,
+    "bathrooms": 2,
+    "address": "Apartamento T2 na Rua da Indústria, Alto de Santo Amaro, Alcântara",
+    "province": "Lisboa",
+    "municipality": "Alcântara",
+    "district": "Alto de Santo Amaro",
+    "country": "pt",
+    "latitude": 38.7047599,
+    "longitude": -9.1791712,
+    "showAddress": false,
+    "url": "https://www.idealista.pt/imovel/34176281/",
+    "description": "RESERVAS E PEDIDOS DE INFORMAÇÃO Para obter informações detalhadas e reservar online, clique abaixo do mapa em “Link Adicional”. TERMOS E CONDIÇÕES DE ALOJAMENTO: - Data de Disponibilidade: 01/10/2025 - Duração Mínima de Aluguer: 28 dias - Número Máximo de Hóspedes: 4 - Todas as Despesas Incluídas: Sim, para mais informações visite o site - Adicional:  - Animais de Estimação Não Permitido  - Fumadores Não Permitido DETALHES DA PROPRIEDADE Apartamento com 2 quartos  - Localização: Localizado on Alcântara em Lisbon com uma variedade de opções de refeições, lojas essenciais e atividades para fazer, com fácil acesso aos transportes públicos. 2 quartos em Apartment com 2 casas de banho. Características  - Air condicionado  - Televisão por cabo  - Wi-Fi  - Toalhas e lençóis  - Forno  - Microondas  - Máquina de lavar roupa  - Máquina de lavar louça SOBRE A UNIPLACES O Seu Local de Confiança para Encontrar Casa Como uma plataforma online pioneira, a Uniplaces liga indivíduos, sejam estudantes, profissionais ou famílias, a uma variedade de alojamentos para arrendamento. O nosso compromisso vai para além das listagens - verificamos cada propriedade para garantir que cumpre os nossos rigorosos critérios de conforto e conveniência. Escolha a Uniplaces para uma jornada de arrendamento suave, fiável e com uma excelente relação qualidade-preço.",
+    "hasVideo": false,
+    "status": "good",
+    "newDevelopment": false,
+    "hasLift": false,
+    "priceByArea": 26.0,
+    "change": {},
+    "detailedType": {
+      "typology": "flat"
+    },
+    "suggestedTexts": {
+      "title": "Apartamento T2 na Rua da Indústria, Alto de Santo Amaro, Alcântara"
+    },
+    "hasPlan": false,
+    "has3DTour": false,
+    "has360": false,
+    "hasStaging": false,
+    "savedAd": {},
+    "notes": [],
+    "topNewDevelopment": false,
+    "newDevelopmentHighlight": false,
+    "topPlus": false
+  },
+  {
+    "propertyCode": "34258848",
+    "thumbnail": "https://img4.idealista.pt/blur/480_360_mq/0/id.pro.pt.image.master/69/4a/22/318261593.webp",
+    "externalReference": "557000",
+    "numPhotos": 20,
+    "price": 2200.0,
+    "priceInfo": {
+      "price": {
+        "amount": 2200.0,
+        "currencySuffix": "€/mês"
+      }
+    },
+    "propertyType": "flat",
+    "operation": "rent",
+    "size": 93.0,
+    "rooms": 1,
+    "bathrooms": 1,
+    "address": "Apartamento T1 na Rua Silva e Albuquerque, Av. Estados Unidos da América, Alvalade",
+    "province": "Lisboa",
+    "municipality": "Alvalade",
+    "district": "Av. Estados Unidos da América",
+    "country": "pt",
+    "latitude": 38.7500134,
+    "longitude": -9.1436151,
+    "showAddress": false,
+    "url": "https://www.idealista.pt/imovel/34258848/",
+    "description": "RESERVAS E PEDIDOS DE INFORMAÇÃO Para obter informações detalhadas e reservar online, clique abaixo do mapa em “Link Adicional”. TERMOS E CONDIÇÕES DE ALOJAMENTO: - Data de Disponibilidade: 28/10/2025 - Duração Mínima de Aluguer: 180 dias - Número Máximo de Hóspedes: 2 - Todas as Despesas Incluídas: Sim, para mais informações visite o site - Adicional:  - Animais de Estimação Não Permitido  - Fumadores Não Permitido DETALHES DA PROPRIEDADE Cactus Penthouse  - Descrição da Propriedade na Uniplaces: Cactus house is a cosy penthouse with 53m2, has a big terrace with 40m2 that overlooks the beautiful Alvalade District. You will find all the amenities inside the house for a wonderful stay in Lisboa. The monthly rent includes a weekly 2-hour cleaning service for the tenants convenience.  - Localização: Localizado on Alvalade em Lisbon com uma variedade de opções de refeições, lojas essenciais e atividades para fazer, com fácil acesso aos transportes públicos. 1 quartos em Apartment com 1 casas de banho. Características  - Accessibilidade  - Wi-Fi  - Televisão por cabo  - Air condicionado  - Zona exterior  - Elevador  - Toalhas e lençóis  - Forno  - Microondas  - Máquina de lavar roupa  - Máquina de lavar louça SOBRE A UNIPLACES O Seu Local de Confiança para Encontrar Casa Como uma plataforma online pioneira, a Uniplaces liga indivíduos, sejam estudantes, profissionais ou famílias, a uma variedade de alojamentos para arrendamento. O nosso compromisso vai para além das listagens - verificamos cada propriedade para garantir que cumpre os nossos rigorosos critérios de conforto e conveniência. Escolha a Uniplaces para uma jornada de arrendamento suave, fiável e com uma excelente relação qualidade-preço.",
+    "hasVideo": false,
+    "status": "good",
+    "newDevelopment": false,
+    "hasLift": true,
+    "priceByArea": 24.0,
+    "change": {},
+    "detailedType": {
+      "typology": "flat"
+    },
+    "suggestedTexts": {
+      "title": "Apartamento T1 na Rua Silva e Albuquerque, Av. Estados Unidos da América, Alvalade"
+    },
+    "hasPlan": false,
+    "has3DTour": false,
+    "has360": false,
+    "hasStaging": false,
+    "savedAd": {},
+    "notes": [],
+    "topNewDevelopment": false,
+    "newDevelopmentHighlight": false,
+    "topPlus": false
+  },
+  {
+    "propertyCode": "34180996",
+    "thumbnail": "https://img4.idealista.pt/blur/480_360_mq/0/id.pro.pt.image.master/4b/25/25/289918251.webp",
+    "externalReference": "191989",
+    "numPhotos": 20,
+    "price": 2200.0,
+    "priceInfo": {
+      "price": {
+        "amount": 2200.0,
+        "currencySuffix": "€/mês"
+      }
+    },
+    "propertyType": "flat",
+    "operation": "rent",
+    "size": 50.0,
+    "rooms": 1,
+    "bathrooms": 1,
+    "address": "Apartamento T1 na Calçada do Monte, Graça, São Vicente",
+    "province": "Lisboa",
+    "municipality": "São Vicente",
+    "district": "Graça",
+    "country": "pt",
+    "latitude": 38.7166765,
+    "longitude": -9.1318209,
+    "showAddress": false,
+    "url": "https://www.idealista.pt/imovel/34180996/",
+    "description": "RESERVAS E PEDIDOS DE INFORMAÇÃO Para obter informações detalhadas e reservar online, clique abaixo do mapa em “Link Adicional”. TERMOS E CONDIÇÕES DE ALOJAMENTO: - Data de Disponibilidade: 03/11/2025 - Duração Mínima de Aluguer: 28 dias - Número Máximo de Hóspedes: 4 - Todas as Despesas Incluídas: Sim, para mais informações visite o site - Adicional:  - Animais de Estimação Não Permitido  - Fumadores Não Permitido DETALHES DA PROPRIEDADE Apartamento com 1 quarto  - Descrição da Propriedade na Uniplaces: Upon check-in, payment of the last month's rent must be made, together with the security deposit and the admin fee.  - Localização: Localizado on Graça em Lisbon com uma variedade de opções de refeições, lojas essenciais e atividades para fazer, com fácil acesso aos transportes públicos. 1 quartos em Apartment com 1 casas de banho. Características  - Wi-Fi  - Televisão por cabo  - Aquecimento central  - Toalhas e lençóis  - Forno  - Microondas  - Máquina de lavar roupa SOBRE A UNIPLACES O Seu Local de Confiança para Encontrar Casa Como uma plataforma online pioneira, a Uniplaces liga indivíduos, sejam estudantes, profissionais ou famílias, a uma variedade de alojamentos para arrendamento. O nosso compromisso vai para além das listagens - verificamos cada propriedade para garantir que cumpre os nossos rigorosos critérios de conforto e conveniência. Escolha a Uniplaces para uma jornada de arrendamento suave, fiável e com uma excelente relação qualidade-preço.",
+    "hasVideo": false,
+    "status": "good",
+    "newDevelopment": false,
+    "hasLift": false,
+    "priceByArea": 44.0,
+    "change": {},
+    "detailedType": {
+      "typology": "flat"
+    },
+    "suggestedTexts": {
+      "title": "Apartamento T1 na Calçada do Monte, Graça, São Vicente"
+    },
+    "hasPlan": false,
+    "has3DTour": false,
+    "has360": false,
+    "hasStaging": false,
+    "savedAd": {},
+    "notes": [],
+    "topNewDevelopment": false,
+    "newDevelopmentHighlight": false,
+    "topPlus": false
+  },
+  {
+    "propertyCode": "35049273",
+    "thumbnail": "https://img4.idealista.pt/blur/480_360_mq/0/id.pro.pt.image.master/e5/bb/eb/318261582.webp",
+    "externalReference": "838213",
+    "numPhotos": 18,
+    "price": 2000.0,
+    "priceInfo": {
+      "price": {
+        "amount": 2000.0,
+        "currencySuffix": "€/mês"
+      }
+    },
+    "propertyType": "flat",
+    "operation": "rent",
+    "size": 39.0,
+    "rooms": 1,
+    "bathrooms": 1,
+    "address": "Apartamento T1 na Rua Snu Abecassis, Alto do Lumiar - Quinta das Conchas - Quinta do Lambert, Lumiar",
+    "province": "Lisboa",
+    "municipality": "Lumiar",
+    "district": "Alto do Lumiar - Quinta das Conchas - Quinta do Lambert",
+    "country": "pt",
+    "latitude": 38.7762079,
+    "longitude": -9.1552913,
+    "showAddress": false,
+    "url": "https://www.idealista.pt/imovel/35049273/",
+    "description": "RESERVAS E PEDIDOS DE INFORMAÇÃO Para obter informações detalhadas e reservar online, clique abaixo do mapa em “Link Adicional”. TERMOS E CONDIÇÕES DE ALOJAMENTO: - Data de Disponibilidade: 13/09/2026 - Duração Mínima de Aluguer: 30 dias - Número Máximo de Hóspedes: 2 - Todas as Despesas Incluídas: Sim, para mais informações visite o site - Adicional:  - Animais de Estimação Não Permitido  - Fumadores Não Permitido DETALHES DA PROPRIEDADE Apartamento encantador e totalmente mobilado com 1 quarto  - Localização: Localizado on Lumiar em Lisbon com uma variedade de opções de refeições, lojas essenciais e atividades para fazer, com fácil acesso aos transportes públicos. 1 quartos em Apartment com 1 casas de banho. Características  - Air condicionado  - Televisão por cabo  - Zona exterior  - Wi-Fi  - Elevador  - Toalhas e lençóis  - Forno SOBRE A UNIPLACES O Seu Local de Confiança para Encontrar Casa Como uma plataforma online pioneira, a Uniplaces liga indivíduos, sejam estudantes, profissionais ou famílias, a uma variedade de alojamentos para arrendamento. O nosso compromisso vai para além das listagens - verificamos cada propriedade para garantir que cumpre os nossos rigorosos critérios de conforto e conveniência. Escolha a Uniplaces para uma jornada de arrendamento suave, fiável e com uma excelente relação qualidade-preço.",
+    "hasVideo": false,
+    "status": "good",
+    "newDevelopment": false,
+    "hasLift": true,
+    "priceByArea": 51.0,
+    "change": {},
+    "detailedType": {
+      "typology": "flat"
+    },
+    "suggestedTexts": {
+      "title": "Apartamento T1 na Rua Snu Abecassis, Alto do Lumiar - Quinta das Conchas - Quinta do Lambert, Lumiar"
+    },
+    "hasPlan": false,
+    "has3DTour": false,
+    "has360": false,
+    "hasStaging": false,
+    "savedAd": {},
+    "notes": [],
+    "topNewDevelopment": false,
+    "newDevelopmentHighlight": false,
+    "topPlus": false
+  },
+  {
+    "propertyCode": "34770952",
+    "thumbnail": "https://img4.idealista.pt/blur/480_360_mq/0/id.pro.pt.image.master/93/0a/88/318261552.webp",
+    "externalReference": "23686",
+    "numPhotos": 20,
+    "price": 1000.0,
+    "priceInfo": {
+      "price": {
+        "amount": 1000.0,
+        "currencySuffix": "€/mês"
+      }
+    },
+    "propertyType": "flat",
+    "operation": "rent",
+    "size": 55.0,
+    "rooms": 1,
+    "bathrooms": 1,
+    "address": "Apartamento T1 no Beco Arciprestes, Bica, Misericórdia",
+    "province": "Lisboa",
+    "municipality": "Misericórdia",
+    "district": "Bica",
+    "country": "pt",
+    "latitude": 38.7086768,
+    "longitude": -9.1474798,
+    "showAddress": false,
+    "url": "https://www.idealista.pt/imovel/34770952/",
+    "description": "RESERVAS E PEDIDOS DE INFORMAÇÃO Para obter informações detalhadas e reservar online, clique abaixo do mapa em “Link Adicional”. TERMOS E CONDIÇÕES DE ALOJAMENTO: - Data de Disponibilidade: DISPONÍVEL AGORA - Duração Mínima de Aluguer: 80 dias - Número Máximo de Hóspedes: 2 - Todas as Despesas Incluídas: Sim, para mais informações visite o site - Adicional:  - Animais de Estimação Não Permitido  - Fumadores Não Permitido DETALHES DA PROPRIEDADE Acolhedor apartamento localizado no clássico Bica  - Localização: Localizado on Bairro Alto em Lisbon com uma variedade de opções de refeições, lojas essenciais e atividades para fazer, com fácil acesso aos transportes públicos. 1 quartos em Apartment com 1 casas de banho. Características  - Wi-Fi  - Microondas  - Máquina de lavar roupa SOBRE A UNIPLACES O Seu Local de Confiança para Encontrar Casa Como uma plataforma online pioneira, a Uniplaces liga indivíduos, sejam estudantes, profissionais ou famílias, a uma variedade de alojamentos para arrendamento. O nosso compromisso vai para além das listagens - verificamos cada propriedade para garantir que cumpre os nossos rigorosos critérios de conforto e conveniência. Escolha a Uniplaces para uma jornada de arrendamento suave, fiável e com uma excelente relação qualidade-preço.",
+    "hasVideo": false,
+    "status": "good",
+    "newDevelopment": false,
+    "hasLift": false,
+    "priceByArea": 18.0,
+    "change": {},
+    "detailedType": {
+      "typology": "flat"
+    },
+    "suggestedTexts": {
+      "title": "Apartamento T1 no Beco Arciprestes, Bica, Misericórdia"
+    },
+    "hasPlan": false,
+    "has3DTour": false,
+    "has360": false,
+    "hasStaging": false,
+    "savedAd": {},
+    "notes": [],
+    "topNewDevelopment": false,
+    "newDevelopmentHighlight": false,
+    "topPlus": false
+  },
+  {
+    "propertyCode": "35049300",
+    "thumbnail": "https://img4.idealista.pt/blur/480_360_mq/0/id.pro.pt.image.master/8d/23/4c/318260338.webp",
+    "numPhotos": 35,
+    "floor": "11",
+    "price": 2200.0,
+    "priceInfo": {
+      "price": {
+        "amount": 2200.0,
+        "currencySuffix": "€/mês"
+      }
+    },
+    "propertyType": "flat",
+    "operation": "rent",
+    "size": 135.0,
+    "rooms": 2,
+    "bathrooms": 3,
+    "address": "Apartamento T2 na Avenida Dom João II, Expo Central, Parque das Nações",
+    "province": "Lisboa",
+    "municipality": "Parque das Nações",
+    "district": "Expo Central",
+    "country": "pt",
+    "latitude": 38.7664636,
+    "longitude": -9.098211,
+    "showAddress": false,
+    "url": "https://www.idealista.pt/imovel/35049300/",
+    "description": "presentamos este elegante T2 situado numa das zonas mais exclusivas e valorizadas de Lisboa — o prestigiado Parque das Nações. Com 135 m² de área bruta e 105 m² de área útil, este apartamento destaca-se pelas suas áreas amplas, excelente exposição solar e uma vista panorâmica deslumbrante sobre Lisboa e o Rio Tejo, proporcionando um ambiente sofisticado e confortável para viver. 2 suítes espaçosas com excelente privacidade 3 casas de banho modernas e funcionais Sala ampla com excelente luminosidade natural Cozinha equipada Armários embutidos Arrecadação incluída 1 lugar de estacionamento incluído 11. º andar com vista desafogada sobre a cidade e o rio Prédio com elevador e acessibilidade para pessoas com mobilidade reduzida Localizado a poucos minutos da Gare do Oriente, metro e principais acessos da cidade, o imóvel beneficia ainda da proximidade ao Centro Comercial Vasco da Gama, restaurantes, supermercados, escolas, ginásios e zonas verdes, oferecendo um estilo de vida moderno, confortável e conveniente. Condições de Arrendamento: - Contrato de arrendamento - Disponível mediante acordo - Excelente estado de conservação Se procura viver numa das melhores localizações de Lisboa, com conforto, vista privilegiada e qualidade de vida, esta poderá ser a oportunidade ideal. Para mais informações ou agendamento de visita, estou ao dispor.",
     "hasVideo": false,
     "status": "good",
     "newDevelopment": false,
@@ -351,8 +2066,7 @@
       "typology": "flat"
     },
     "suggestedTexts": {
-      "subtitle": "Alvalade, Lisboa",
-      "title": "Apartamento na Praça de Entrecampos, 2"
+      "title": "Apartamento T2 na Avenida Dom João II, Expo Central, Parque das Nações"
     },
     "hasPlan": false,
     "has3DTour": false,
@@ -365,45 +2079,241 @@
     "topPlus": false
   },
   {
-    "propertyCode": "50000008",
-    "thumbnail": "https://img4.idealista.pt/blur/480_360_mq/0/id.pro.pt.image.master/11/22/33/314330808.webp",
-    "externalReference": "LX-008",
-    "numPhotos": 12,
-    "floor": "1",
-    "price": 1250.0,
+    "propertyCode": "35048698",
+    "thumbnail": "https://img4.idealista.pt/blur/480_360_mq/0/id.pro.pt.image.master/0c/55/8e/318229524.webp",
+    "externalReference": "Arrendamento AJUDA",
+    "numPhotos": 31,
+    "floor": "3",
+    "price": 1200.0,
     "priceInfo": {
       "price": {
-        "amount": 1250.0,
+        "amount": 1200.0,
         "currencySuffix": "€/mês"
       }
     },
     "propertyType": "flat",
     "operation": "rent",
-    "size": 55.0,
+    "size": 50.0,
     "rooms": 1,
     "bathrooms": 1,
-    "address": "Rua de São Bento, 200",
+    "address": "Apartamento T1 na Rua José Osório de Oliveira, 1, Boa Hora, Ajuda",
     "province": "Lisboa",
-    "municipality": "Lisboa",
-    "district": "Estrela",
+    "municipality": "Ajuda",
+    "district": "Boa Hora",
     "country": "pt",
-    "latitude": 38.7150,
-    "longitude": -9.1520,
+    "latitude": 38.7052103,
+    "longitude": -9.1936194,
     "showAddress": true,
-    "url": "https://www.idealista.pt/imovel/50000008/",
-    "description": "Charmoso T1 na zona da Assembleia da República. Rua icónica lisboeta.",
-    "hasVideo": false,
+    "url": "https://www.idealista.pt/imovel/35048698/",
+    "description": "T1 Mobilado para Arrendamento | Ajuda, Lisboa | 1.200€/mês Disponível para entrada a partir de 1 de agosto de 2026, este agradável apartamento T1 encontra-se localizado na Rua José Osório de Oliveira, Ajuda, numa zona tranquila e com bons acessos. Características do imóvel: - T1 totalmente mobilado; - Varanda; - Janelas com vidros duplos; - Edifício com elevador; - Boa luminosidade e conforto. Valor da renda: 1.200€/mês Condições de arrendamento: - 1 mês de renda antecipada; - 2 meses de caução; - Contrato mínimo de 1 ano. Condições adicionais: - Máximo de 2 ocupantes; - Animais de estimação serão analisados caso a caso. Marcação de visitas: Para agendar uma visita, envie uma mensagem WhatsApp para oindicando: - Nome completo; - Número de pessoas que irão ocupar o imóvel; - Situação profissional; - Breve apresentação dos futuros arrendatários. Serão consideradas apenas solicitações acompanhadas de apresentação prévia. ref. Arrendamento AJUDA.",
+    "hasVideo": true,
     "status": "good",
     "newDevelopment": false,
-    "hasLift": false,
-    "priceByArea": 22.7,
+    "hasLift": true,
+    "priceByArea": 24.0,
     "change": {},
     "detailedType": {
       "typology": "flat"
     },
     "suggestedTexts": {
-      "subtitle": "Estrela, Lisboa",
-      "title": "Apartamento na Rua de São Bento, 200"
+      "title": "Apartamento T1 na Rua José Osório de Oliveira, 1, Boa Hora, Ajuda"
+    },
+    "hasPlan": true,
+    "has3DTour": false,
+    "has360": false,
+    "hasStaging": false,
+    "savedAd": {},
+    "notes": [],
+    "topNewDevelopment": false,
+    "newDevelopmentHighlight": false,
+    "topPlus": false
+  },
+  {
+    "propertyCode": "34972372",
+    "thumbnail": "https://img4.idealista.pt/blur/480_360_mq/0/id.pro.pt.image.master/99/a3/31/314992540.webp",
+    "externalReference": "C0537-00261",
+    "numPhotos": 26,
+    "price": 2100.0,
+    "priceInfo": {
+      "price": {
+        "amount": 2100.0,
+        "currencySuffix": "€/mês"
+      }
+    },
+    "propertyType": "flat",
+    "operation": "rent",
+    "size": 144.0,
+    "rooms": 3,
+    "bathrooms": 3,
+    "address": "Apartamento T3 na Rua Cidade de Bissau, 20, Olivais",
+    "province": "Lisboa",
+    "municipality": "Olivais",
+    "country": "pt",
+    "latitude": 38.7626249,
+    "longitude": -9.113622,
+    "showAddress": true,
+    "url": "https://www.idealista.pt/imovel/34972372/",
+    "description": "Descubra este magnífico T3 com 144 m², onde o espaço, a luz e a localização se unem para criar um ambiente verdadeiramente único. Situado nos Olivais, este apartamento destaca-se pelas suas áreas generosas e pela vista deslumbrante que se estende sobre os Olivais e o Parque das Nações — um cenário perfeito para começar e terminar o dia com tranquilidade. A zona social oferece amplitude e conforto, ideal tanto para momentos em família como para receber convidados. Os quartos são espaçosos, um deles em suíte, com excelente luminosidade natural, proporcionando um ambiente acolhedor e relaxante. A distribuição do imóvel foi pensada para garantir funcionalidade e bem-estar em cada detalhe. A nível de conforto térmico a casa dispõe de aquecimento central e a sala de uma lareira a pellets.  Cozinha equipada com: máquina de lavar roupa, máquina de secar roupa, fogão, forno, esquentador e exaustor.   Localizado no próprio Shopping dos Olivais, terá tudo o que precisa literalmente à porta de casa: comércio, serviços, restauração e conveniência no dia a dia. Para maior comodidade, a estação de metro encontra-se mesmo à porta, assegurando uma ligação rápida e fácil a toda a cidade de Lisboa. Se procura um apartamento que combine localização privilegiada, vistas abertas e áreas acima da média, esta é uma oportunidade a não perder. O imóvel dispõe de 1 lugar de garagem.  Venha conhecer e deixe-se surpreender.",
+    "hasVideo": true,
+    "status": "good",
+    "newDevelopment": false,
+    "hasLift": true,
+    "priceByArea": 15.0,
+    "change": {},
+    "detailedType": {
+      "typology": "flat"
+    },
+    "suggestedTexts": {
+      "title": "Apartamento T3 na Rua Cidade de Bissau, 20, Olivais"
+    },
+    "hasPlan": true,
+    "has3DTour": false,
+    "has360": false,
+    "hasStaging": false,
+    "savedAd": {},
+    "notes": [],
+    "topNewDevelopment": false,
+    "newDevelopmentHighlight": false,
+    "topPlus": false
+  },
+  {
+    "propertyCode": "35049236",
+    "thumbnail": "https://img4.idealista.pt/blur/480_360_mq/0/id.pro.pt.image.master/42/3d/9b/318257975.webp",
+    "numPhotos": 18,
+    "floor": "3",
+    "price": 1300.0,
+    "priceInfo": {
+      "price": {
+        "amount": 1300.0,
+        "currencySuffix": "€/mês"
+      }
+    },
+    "propertyType": "flat",
+    "operation": "rent",
+    "size": 35.0,
+    "rooms": 1,
+    "bathrooms": 1,
+    "address": "Apartamento T1 na Rua do Almada, Bica, Misericórdia",
+    "province": "Lisboa",
+    "municipality": "Misericórdia",
+    "district": "Bica",
+    "country": "pt",
+    "latitude": 38.7100438,
+    "longitude": -9.1477273,
+    "showAddress": false,
+    "url": "https://www.idealista.pt/imovel/35049236/",
+    "description": "Moderno T1 Novo e Equipado na Bica – Charme e Otimização no Centro de Lisboa Se procura a combinação perfeita entre a vivência de um bairro histórico e o conforto da modernidade, este apartamento é para si. Apresentamos um fantástico T1 totalmente novo, localizado em plena Bica, um dos corações mais autênticos e desejados de Lisboa. Com 35 m² de área, o imóvel foi meticulosamente projetado sob um conceito de smart living, onde cada metro quadrado foi aproveitado ao pormenor para garantir a máxima funcionalidade, fluidez e arrumação, sem abdicar do conforto. O apartamento será entregue completamente mobilado e equipado, pronto a estrear. Características Principais: Espaço Otimizado (35 m²): Sala de estar acolhedora em plano aberto com uma kitchenette moderna e funcional; quarto independente com soluções inteligentes de arrumação e uma casa de banho contemporânea com acabamentos de qualidade. Pronto a Habitar:  Cozinha totalmente equipada com eletrodomésticos encastrados (placa, forno, frigorífico, máquina de lavar e secar roupa e máquina de lavar louça) e pequenos eletrodomésticos, além de mobiliário moderno e decorado com excelente gosto. Conforto Moderno:  Janelas com vidros duplos para total isolamento térmico e acústico, garantindo a tranquilidade ideal no interior, e ar condicionado. Internet incluída. Localização Imbatível: Situado na pitoresca zona da Bica, o apartamento beneficia da proximidade imediata ao Chiado, Cais do Sodré e ao icónico Elevador da Bica. Uma envolvência rica em comércio tradicional, cafés de autor, restaurantes e com acesso facilitado a toda a rede de transportes públicos (Metro, Comboio, Elétrico e Autocarros). Excelente oportunidade para quem procura um \"refúgio\" prático no centro histórico de Lisboa.",
+    "hasVideo": false,
+    "status": "good",
+    "newDevelopment": false,
+    "hasLift": false,
+    "priceByArea": 37.0,
+    "change": {},
+    "detailedType": {
+      "typology": "flat"
+    },
+    "suggestedTexts": {
+      "title": "Apartamento T1 na Rua do Almada, Bica, Misericórdia"
+    },
+    "hasPlan": true,
+    "has3DTour": false,
+    "has360": false,
+    "hasStaging": false,
+    "savedAd": {},
+    "notes": [],
+    "topNewDevelopment": false,
+    "newDevelopmentHighlight": false,
+    "topPlus": false
+  },
+  {
+    "propertyCode": "35049184",
+    "thumbnail": "https://img4.idealista.pt/blur/480_360_mq/0/id.pro.pt.image.master/ba/2d/45/318252553.webp",
+    "numPhotos": 16,
+    "floor": "bj",
+    "price": 1450.0,
+    "priceInfo": {
+      "price": {
+        "amount": 1450.0,
+        "currencySuffix": "€/mês"
+      }
+    },
+    "propertyType": "flat",
+    "operation": "rent",
+    "size": 49.0,
+    "rooms": 1,
+    "bathrooms": 1,
+    "address": "Apartamento T1 na Rua do Almada, Bica, Misericórdia",
+    "province": "Lisboa",
+    "municipality": "Misericórdia",
+    "district": "Bica",
+    "country": "pt",
+    "latitude": 38.7090983,
+    "longitude": -9.1479454,
+    "showAddress": false,
+    "url": "https://www.idealista.pt/imovel/35049184/",
+    "description": "Apartamento T1 Novo com Terraço na Bica – O Charme de Lisboa Pronto a Habitar Apresentamos este fantástico apartamento T1 totalmente novo, localizado no coração de um dos bairros mais castiços e vibrantes de Lisboa: a Bica. Com uma área bruta privativa de 45,6 m², este imóvel destaca-se pelo aproveitamento inteligente do espaço, aliando o design moderno ao conforto contemporâneo. O apartamento é entregue completamente mobilado e equipado com eletrodomésticos de gama superior e utensílios de qualidade, estando pronto a estrear e a habitar. Destaques do Apartamento: Área Interior (45,6 m²): Sala comum luminosa com kitchenette integrada de design moderno, quarto acolhedor com excelente roupeiro e uma casa de banho completa com acabamentos premium. Internet incluída. Espaço Exterior Privativo:  Um acolhedor terraço com 3,4 m², o refúgio perfeito para relaxar ao final do dia, tomar o pequeno-almoço ao ar livre ou desfrutar do clima único de Lisboa. Conforto & Equipamento:  Ar condicionado, isolamento térmico e acústico de excelência (janelas de vidro duplo), cozinha totalmente equipada (placa, forno, exaustor, frigorífico, máquina de lavar e secar roupa e loiça). Localização Premium: Situado na icónica Bica, o apartamento encontra-se a poucos passos do famoso elevador, do Chiado, do Cais do Sodré e do Miradouro de Santa Catarina (Adamastor). Uma localização privilegiada que oferece uma envolvência cultural rica, proximidade a todo o tipo de comércio local, restaurantes de referência e uma rede completa de transportes públicos (Metro, Comboio e Elétrico). Ideal para: Habitação própria de quem privilegia a vida cosmopolita no centro histórico.",
+    "hasVideo": false,
+    "status": "good",
+    "newDevelopment": false,
+    "hasLift": false,
+    "priceByArea": 30.0,
+    "change": {},
+    "detailedType": {
+      "typology": "flat"
+    },
+    "suggestedTexts": {
+      "title": "Apartamento T1 na Rua do Almada, Bica, Misericórdia"
+    },
+    "hasPlan": true,
+    "has3DTour": false,
+    "has360": false,
+    "hasStaging": false,
+    "savedAd": {},
+    "notes": [],
+    "topNewDevelopment": false,
+    "newDevelopmentHighlight": false,
+    "topPlus": false
+  },
+  {
+    "propertyCode": "35049186",
+    "thumbnail": "https://img4.idealista.pt/blur/480_360_mq/0/id.pro.pt.image.master/e6/65/86/enh/318252572.webp",
+    "externalReference": "123441017-224",
+    "numPhotos": 22,
+    "floor": "1",
+    "price": 1600.0,
+    "priceInfo": {
+      "price": {
+        "amount": 1600.0,
+        "currencySuffix": "€/mês"
+      }
+    },
+    "propertyType": "flat",
+    "operation": "rent",
+    "size": 71.0,
+    "rooms": 2,
+    "bathrooms": 2,
+    "address": "Apartamento T2 na Praceta Dionísio Matias, 11, Paço de Arcos, Oeiras e São Julião da Barra - Paço de Arcos - Caxias",
+    "province": "Lisboa",
+    "municipality": "Oeiras e São Julião da Barra - Paço de Arcos - Caxias",
+    "district": "Paço de Arcos",
+    "country": "pt",
+    "neighborhood": "Paço de Arcos",
+    "latitude": 38.6952009,
+    "longitude": -9.2933286,
+    "showAddress": true,
+    "url": "https://www.idealista.pt/imovel/35049186/",
+    "description": "T2 Premium no Centro Histórico de Paço de Arcos — Design Contemporâneo e Localização de Excelência. Descubra este exclusivo apartamento T2 totalmente mobilado, situado no coração do prestigiado centro histórico de Paço de Arcos, na Praceta Dionísio Matias, em frente ao emblemático Mercado de Paço de Arcos. Com uma remodelação integral recente de inspiração contemporânea, este imóvel distingue-se pelo seu conceito sofisticado, design inovador e acabamentos de elevada qualidade, pensado para um público exigente que valoriza conforto, estética e centralidade. O apartamento oferece uma excelente fluidez entre espaços, com ampla luminosidade natural, varanda agradável, suite privativa, segunda casa de banho completa, cozinha totalmente equipada e lavandaria independente. Cada detalhe foi cuidadosamente concebido para proporcionar uma experiência residencial premium, elegante e funcional. Localizado numa das zonas mais procuradas da Linha de Cascais, combina o charme histórico de Paço de Arcos com uma envolvente cosmopolita e vibrante. A poucos passos encontram-se restaurantes de referência, esplanadas, comércio tradicional, jardins e toda a atmosfera exclusiva junto ao mar que caracteriza esta vila histórica. O centro histórico de Paço de Arcos tem vindo a beneficiar de forte requalificação urbana e afirma-se hoje como uma das localizações mais valorizadas da região de Lisboa. A localização é verdadeiramente privilegiada: - Em frente ao Mercado de Paço de Arcos - Apenas 200 metros da estação de comboios - Cerca de 600 metros da praia e passeio marítimo - Acesso rápido à Marginal e A5 - Oeiras Parque, 4 min - Taguspark, 10 min, zona com forte presença empresarial, tecnológica e internacional Paço de Arcos distingue-se ainda pela sua herança histórica ligada aos Descobrimentos Portugueses e pelo icónico Palácio dos Arcos, que deu nome à vila.  Ideal para executivos, expatriados ou famílias que procuram viver com exclusividade, sofisticação e qualidade de vida junto ao mar, mantendo proximidade imediata a Lisboa e aos principais centros empresariais da região. LU 248 01/08/1957 Agende já a sua visita!",
+    "hasVideo": true,
+    "status": "good",
+    "newDevelopment": false,
+    "hasLift": true,
+    "priceByArea": 23.0,
+    "change": {},
+    "detailedType": {
+      "typology": "flat"
+    },
+    "suggestedTexts": {
+      "title": "Apartamento T2 na Praceta Dionísio Matias, 11, Paço de Arcos, Oeiras e São Julião da Barra - Paço de Arcos - Caxias"
     },
     "hasPlan": false,
     "has3DTour": false,
@@ -416,45 +2326,42 @@
     "topPlus": false
   },
   {
-    "propertyCode": "50000009",
-    "thumbnail": "https://img4.idealista.pt/blur/480_360_mq/0/id.pro.pt.image.master/11/22/33/314330809.webp",
-    "externalReference": "LX-009",
-    "numPhotos": 20,
-    "floor": "4",
-    "price": 1550.0,
+    "propertyCode": "35049192",
+    "numPhotos": 0,
+    "floor": "bj",
+    "price": 1900.0,
     "priceInfo": {
       "price": {
-        "amount": 1550.0,
+        "amount": 1900.0,
         "currencySuffix": "€/mês"
       }
     },
     "propertyType": "flat",
     "operation": "rent",
     "size": 90.0,
-    "rooms": 2,
+    "rooms": 3,
     "bathrooms": 1,
-    "address": "Avenida Infante Santo, 50",
+    "address": "Apartamento T3 na Rua Marquês de Ponte de Lima, Mouraria - Castelo, Santa Maria Maior",
     "province": "Lisboa",
-    "municipality": "Lisboa",
-    "district": "Estrela",
+    "municipality": "Santa Maria Maior",
+    "district": "Mouraria - Castelo",
     "country": "pt",
-    "latitude": 38.7060,
-    "longitude": -9.1680,
-    "showAddress": true,
-    "url": "https://www.idealista.pt/imovel/50000009/",
-    "description": "T2 amplo com vista lateral de rio na Avenida Infante Santo. Muito central.",
+    "latitude": 38.7138008,
+    "longitude": -9.1363227,
+    "showAddress": false,
+    "url": "https://www.idealista.pt/imovel/35049192/",
+    "description": "Fantástico Apartamento T3 no Coração Histórico de Lisboa – Junto à Baixa e ao Martim Moniz Se procura viver onde a história de Lisboa se cruza com a conveniência moderna, este apartamento T3 é a oportunidade ideal.  Localizado na prestigiada Rua do Marquês de Ponte de Lima, na histórica freguesia de Santa Maria Maior, este imóvel combina a centralidade absoluta com o charme único dos bairros tradicionais da capital. Destaques do Apartamento: Tipologia T3: Três quartos com excelente distribuição de espaço, ideais para uma família ou para criar um espaço de escritório em regime de teletrabalho. Áreas e Luminosidade: Espaços bem aproveitados e com uma óptima exposição solar, garantindo luz natural ao longo do dia. Pronto a Habitar: Excelente estado de conservação, pronto a entrar. A Passos de Tudo: Situado a escassos minutos a pé do Martim Moniz, da Praça da Figueira e do Rossio. Transportes à Porta: Acesso imediato ao Metro (Linha Verde), ao icónico elétrico 28, autocarros e estação de comboios do Rossio. Vida de Bairro e Cultura: Rodeado pelo comércio tradicional, restaurantes de referência, esplanadas, teatros e toda a vibrante vida cultural do centro de Lisboa. Seja para habitação própria ou para um investimento seguro no mercado de arrendamento numa das zonas mais procuradas da cidade, este apartamento é uma escolha inteligente. Não perca esta oportunidade. Venha conhecer o seu próximo endereço no coração de Lisboa! Agende já a sua visita.",
     "hasVideo": false,
     "status": "good",
     "newDevelopment": false,
-    "hasLift": true,
-    "priceByArea": 17.2,
+    "hasLift": false,
+    "priceByArea": 21.0,
     "change": {},
     "detailedType": {
       "typology": "flat"
     },
     "suggestedTexts": {
-      "subtitle": "Estrela, Lisboa",
-      "title": "Apartamento na Avenida Infante Santo, 50"
+      "title": "Apartamento T3 na Rua Marquês de Ponte de Lima, Mouraria - Castelo, Santa Maria Maior"
     },
     "hasPlan": false,
     "has3DTour": false,
@@ -467,58 +2374,107 @@
     "topPlus": false
   },
   {
-    "propertyCode": "50000010",
-    "thumbnail": "https://img4.idealista.pt/blur/480_360_mq/0/id.pro.pt.image.master/11/22/33/314330810.webp",
-    "externalReference": "LX-010",
-    "numPhotos": 35,
-    "floor": "8",
-    "price": 1950.0,
+    "propertyCode": "35049078",
+    "thumbnail": "https://img4.idealista.pt/blur/480_360_mq/0/id.pro.pt.image.master/5b/15/60/318249820.webp",
+    "numPhotos": 14,
+    "floor": "2",
+    "price": 2680.0,
     "priceInfo": {
       "price": {
-        "amount": 1950.0,
+        "amount": 2680.0,
         "currencySuffix": "€/mês"
       }
     },
     "propertyType": "flat",
     "operation": "rent",
-    "size": 115.0,
-    "rooms": 2,
-    "bathrooms": 2,
-    "address": "Alameda dos Oceanos, 10",
+    "size": 63.0,
+    "rooms": 1,
+    "bathrooms": 1,
+    "address": "Apartamento T1 na Rua dos Remédios, Alfama, Santa Maria Maior",
     "province": "Lisboa",
-    "municipality": "Lisboa",
-    "district": "Parque das Nações",
+    "municipality": "Santa Maria Maior",
+    "district": "Alfama",
     "country": "pt",
-    "latitude": 38.7650,
-    "longitude": -9.0950,
-    "showAddress": true,
-    "url": "https://www.idealista.pt/imovel/50000010/",
-    "description": "Espetacular T2 no Parque das Nações com vista frontal rio. Condomínio fechado com piscina e ginásio.",
+    "latitude": 38.7132285,
+    "longitude": -9.1275155,
+    "showAddress": false,
+    "url": "https://www.idealista.pt/imovel/35049078/",
+    "description": "  T1 de Luxo Mobilado - Lapa, Lisboa | Vista Rio Tejo Descobre este magnífico T1 de luxo totalmente mobilado, situado na prestigiada Rua dos Remédios, no coração da Lapa. Com 52 m² de área bruta privativa, este apartamento representa o pico do conforto e da sofisticação urbana. A varanda privativa de 10,81 m² oferece vistas panorâmicas deslumbrantes sobre o Rio Tejo e os telhados históricos de Lisboa, criando um refúgio perfeito para desfrutar dos atardeceres lisboetas. O espaço interior foi cuidadosamente pensado com um layout em open space que integra a sala e kitchenette, maximizando a luminosidade natural através de janelas do chão ao teto. A cozinha encontra-se totalmente equipada com eletrodomésticos integrados de última geração, enquanto o quarto oferece acesso direto à varanda privativa. A casa de banho apresenta acabamentos premium com revestimentos em pedra natural e duche walk-in, garantindo uma experiência de bem-estar diária. Este imóvel localiza-se num edifício de reabilitação premium, datado de 2025, com elevador e acesso adaptado para pessoas com mobilidade reduzida. Dispõe de ar condicionado, isolamento térmico e acústico de elevada qualidade, e mobiliário contemporâneo de elevado padrão. A classe energética A assegura eficiência e sustentabilidade. A proximidade à frente ribeirinha, Santos, restaurantes conceituados e transportes públicos torna este espaço ideal para profissionais, expatriados ou quem procura arrendamento de qualidade superior. Possibilidade de garagem, estacionamento ou arrumos a confirmar.",
     "hasVideo": true,
     "status": "good",
     "newDevelopment": false,
     "hasLift": true,
-    "parkingSpace": {
-      "hasParkingSpace": true,
-      "isParkingSpaceIncludedInPrice": true
-    },
-    "priceByArea": 17.0,
+    "priceByArea": 43.0,
     "change": {},
     "detailedType": {
       "typology": "flat"
     },
     "suggestedTexts": {
-      "subtitle": "Parque das Nações, Lisboa",
-      "title": "Apartamento na Alameda dos Oceanos, 10"
+      "title": "Apartamento T1 na Rua dos Remédios, Alfama, Santa Maria Maior"
     },
     "hasPlan": true,
-    "has3DTour": true,
-    "has360": true,
+    "has3DTour": false,
+    "has360": false,
     "hasStaging": false,
     "savedAd": {},
     "notes": [],
     "topNewDevelopment": false,
     "newDevelopmentHighlight": false,
-    "topPlus": true
+    "topPlus": false
+  },
+  {
+    "propertyCode": "34176524",
+    "thumbnail": "https://img4.idealista.pt/blur/480_360_mq/0/id.pro.pt.image.master/d6/6e/6c/283557565.webp",
+    "externalReference": "OSE25029.PC",
+    "numPhotos": 17,
+    "floor": "bj",
+    "price": 1400.0,
+    "priceInfo": {
+      "price": {
+        "amount": 1400.0,
+        "currencySuffix": "€/mês"
+      }
+    },
+    "propertyType": "flat",
+    "operation": "rent",
+    "size": 70.0,
+    "rooms": 1,
+    "bathrooms": 1,
+    "address": "Apartamento T1 na Rua Conde Moser, Monte Estoril, Cascais e Estoril",
+    "province": "Lisboa",
+    "municipality": "Cascais e Estoril",
+    "district": "Estoril",
+    "country": "pt",
+    "neighborhood": "Monte Estoril",
+    "latitude": 38.705635,
+    "longitude": -9.4062135,
+    "showAddress": false,
+    "url": "https://www.idealista.pt/imovel/34176524/",
+    "description": "Estúdio T1 • Localizado em edifício histórico no coração do Monte-Estoril • 70 m² com muita luz natural Composição: • Sala de estar • 1 quarto • Cozinha em open space • 1 casa de banho • Varanda • Lugar de estacionamento para 1 carro Localização: • No coração do Monte-Estoril • A 4 minutos a pé da estação de comboios de Monte-Estoril • A 4 minutos a pé da praia e do paredão • Próximo de comércio, supermercado, farmácia, pastelaria, padaria e jardim público (‘Jardim dos Passarinhos’).",
+    "hasVideo": true,
+    "status": "good",
+    "newDevelopment": false,
+    "hasLift": false,
+    "parkingSpace": {
+      "hasParkingSpace": true,
+      "isParkingSpaceIncludedInPrice": true
+    },
+    "priceByArea": 20.0,
+    "change": {},
+    "detailedType": {
+      "typology": "flat"
+    },
+    "suggestedTexts": {
+      "title": "Apartamento T1 na Rua Conde Moser, Monte Estoril, Cascais e Estoril"
+    },
+    "hasPlan": false,
+    "has3DTour": false,
+    "has360": false,
+    "hasStaging": false,
+    "savedAd": {},
+    "notes": [],
+    "topNewDevelopment": false,
+    "newDevelopmentHighlight": false,
+    "topPlus": false
   }
 ]

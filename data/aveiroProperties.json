@@ -1,60 +1,10 @@
 [
   {
-    "propertyCode": "40000001",
-    "thumbnail": "https://img4.idealista.pt/blur/480_360_mq/0/id.pro.pt.image.master/11/22/33/314330701.webp",
-    "externalReference": "AV-001",
-    "numPhotos": 12,
-    "floor": "2",
-    "price": 850.0,
-    "priceInfo": {
-      "price": {
-        "amount": 850.0,
-        "currencySuffix": "€/mês"
-      }
-    },
-    "propertyType": "flat",
-    "operation": "rent",
-    "size": 75.0,
-    "rooms": 2,
-    "bathrooms": 1,
-    "address": "Avenida Dr. Lourenço Peixinho, 100",
-    "province": "Aveiro",
-    "municipality": "Aveiro",
-    "country": "pt",
-    "latitude": 40.6416,
-    "longitude": -8.6519,
-    "showAddress": true,
-    "url": "https://www.idealista.pt/imovel/40000001/",
-    "description": "Excelente apartamento T2 no centro de Aveiro, na principal avenida da cidade. Totalmente remodelado e equipado. Perto de transportes, comércio e serviços.",
-    "hasVideo": false,
-    "status": "good",
-    "newDevelopment": false,
-    "hasLift": true,
-    "priceByArea": 11.3,
-    "change": {},
-    "detailedType": {
-      "typology": "flat"
-    },
-    "suggestedTexts": {
-      "subtitle": "Glória e Vera Cruz, Aveiro",
-      "title": "Apartamento na Avenida Dr. Lourenço Peixinho, 100"
-    },
-    "hasPlan": false,
-    "has3DTour": false,
-    "has360": false,
-    "hasStaging": false,
-    "savedAd": {},
-    "notes": [],
-    "topNewDevelopment": false,
-    "newDevelopmentHighlight": false,
-    "topPlus": false
-  },
-  {
-    "propertyCode": "40000002",
-    "thumbnail": "https://img4.idealista.pt/blur/480_360_mq/0/id.pro.pt.image.master/11/22/33/314330702.webp",
-    "externalReference": "AV-002",
-    "numPhotos": 20,
-    "floor": "1",
+    "propertyCode": "35049333",
+    "thumbnail": "https://img4.idealista.pt/blur/480_360_mq/0/id.pro.pt.image.master/4e/70/d6/enh/318261875.webp",
+    "externalReference": "25/26 B",
+    "numPhotos": 17,
+    "floor": "4",
     "price": 700.0,
     "priceInfo": {
       "price": {
@@ -67,27 +17,26 @@
     "size": 55.0,
     "rooms": 1,
     "bathrooms": 1,
-    "address": "Rua de João Afonso, 25",
+    "address": "Apartamento T1 na Rua Diogo Cão, Gafanha da Nazaré",
     "province": "Aveiro",
-    "municipality": "Aveiro",
+    "municipality": "Gafanha da Nazaré",
     "country": "pt",
-    "latitude": 40.6410,
-    "longitude": -8.6550,
-    "showAddress": true,
-    "url": "https://www.idealista.pt/imovel/40000002/",
-    "description": "Acolhedor T1 no coração do Bairro da Beira Mar. Perfeito para casais jovens. A 2 minutos dos canais da ria.",
-    "hasVideo": true,
+    "latitude": 40.6396021,
+    "longitude": -8.7433858,
+    "showAddress": false,
+    "url": "https://www.idealista.pt/imovel/35049333/",
+    "description": "Apartamento T1, localizado na Praia da Barra totalmente mobilado. Este apartamento é composto por: Um quarto aconchegante e totalmente mobiliado, proporcionando o refúgio perfeito para relaxar após um dia ensolarado na praia. A cozinha equipada, em conceito aberto, não só maximiza o espaço, mas também oferece um ambiente convidativo para preparar suas refeições favoritas. Uma casa de banho completa. Desfrute de momentos tranquilos na varanda fechada, ideal para relaxar, ler um livro ou apreciar a brisa do mar. Venha conhecer, não perca oportunidade, marque a sua visita! CE: C LU: 94/84 Ref. 25/26 B.",
+    "hasVideo": false,
     "status": "good",
     "newDevelopment": false,
-    "hasLift": false,
-    "priceByArea": 12.7,
+    "hasLift": true,
+    "priceByArea": 13.0,
     "change": {},
     "detailedType": {
       "typology": "flat"
     },
     "suggestedTexts": {
-      "subtitle": "Beira Mar, Aveiro",
-      "title": "Apartamento na Rua de João Afonso, 25"
+      "title": "Apartamento T1 na Rua Diogo Cão, Gafanha da Nazaré"
     },
     "hasPlan": true,
     "has3DTour": false,
@@ -100,11 +49,1136 @@
     "topPlus": false
   },
   {
-    "propertyCode": "40000003",
-    "thumbnail": "https://img4.idealista.pt/blur/480_360_mq/0/id.pro.pt.image.master/11/22/33/314330703.webp",
-    "externalReference": "AV-003",
-    "numPhotos": 15,
+    "propertyCode": "35048992",
+    "thumbnail": "https://img4.idealista.pt/blur/480_360_mq/0/id.pro.pt.image.master/5f/71/be/318242226.webp",
+    "numPhotos": 13,
+    "floor": "2",
+    "price": 850.0,
+    "priceInfo": {
+      "price": {
+        "amount": 850.0,
+        "currencySuffix": "€/mês"
+      }
+    },
+    "propertyType": "flat",
+    "operation": "rent",
+    "size": 47.0,
+    "rooms": 1,
+    "bathrooms": 1,
+    "address": "Apartamento T1 na Travessa da Rua Comandante Rocha e Cunha, 15, Estação - Avenida, Glória e Vera Cruz",
+    "province": "Aveiro",
+    "municipality": "Glória e Vera Cruz",
+    "district": "Estação - Avenida",
+    "country": "pt",
+    "latitude": 40.6425944,
+    "longitude": -8.6430209,
+    "showAddress": true,
+    "url": "https://www.idealista.pt/imovel/35048992/",
+    "description": "Elegante T1 no prestigiado empreendimento Square Residence, onde o conforto, a modernidade e a localização se unem de forma distinta. Situado no 2. º andar de um edifício contemporâneo e recente (com apenas 3 anos), este apartamento destaca-se pela sua excelente exposição solar, proporcionando uma luminosidade natural envolvente ao longo da tarde e criando um ambiente acolhedor e sofisticado. Localizado numa zona privilegiada de Aveiro, a escassos minutos a pé da estação ferroviária e da principal avenida da cidade, oferece o equilíbrio ideal entre centralidade e tranquilidade, com acesso facilitado a comércio, serviços e transportes. O apartamento é arrendado sem mobília, permitindo ao futuro inquilino personalizar o espaço ao seu gosto. Encontra-se totalmente equipado com eletrodomésticos Bosch de elevada qualidade, incluindo forno, micro-ondas, placa de indução, máquina de lavar loiça, máquina de lavar roupa e combinado, assegurando funcionalidade e eficiência no dia a dia. Dispõe ainda de uma agradável varanda, ideal para momentos de lazer e descontração. Condições: - Primeiro e último mês de renda  - 1 mês de caução Uma oportunidade distinta para quem procura viver com qualidade, conforto e liberdade de personalização no coração de Aveiro.",
+    "hasVideo": true,
+    "status": "good",
+    "newDevelopment": false,
+    "hasLift": true,
+    "parkingSpace": {
+      "hasParkingSpace": true,
+      "isParkingSpaceIncludedInPrice": true
+    },
+    "priceByArea": 18.0,
+    "change": {},
+    "detailedType": {
+      "typology": "flat"
+    },
+    "suggestedTexts": {
+      "title": "Apartamento T1 na Travessa da Rua Comandante Rocha e Cunha, 15, Estação - Avenida, Glória e Vera Cruz"
+    },
+    "hasPlan": false,
+    "has3DTour": false,
+    "has360": false,
+    "hasStaging": false,
+    "savedAd": {},
+    "notes": [],
+    "topNewDevelopment": false,
+    "newDevelopmentHighlight": false,
+    "topPlus": false
+  },
+  {
+    "propertyCode": "35048686",
+    "thumbnail": "https://img4.idealista.pt/blur/480_360_mq/0/id.pro.pt.image.master/0b/8d/08/enh/318232157.webp",
+    "externalReference": " 70/26 F",
+    "numPhotos": 23,
+    "floor": "2",
+    "price": 850.0,
+    "priceInfo": {
+      "price": {
+        "amount": 850.0,
+        "currencySuffix": "€/mês"
+      }
+    },
+    "propertyType": "flat",
+    "operation": "rent",
+    "size": 91.0,
+    "rooms": 2,
+    "bathrooms": 1,
+    "address": "Apartamento T2 em Esgueira, São Bernardo",
+    "province": "Aveiro",
+    "municipality": "São Bernardo",
+    "country": "pt",
+    "latitude": 40.617033,
+    "longitude": -8.6223409,
+    "showAddress": false,
+    "url": "https://www.idealista.pt/imovel/35048686/",
+    "description": "Apartamento T2 situado em Esgueira, Aveiro- Ideal para quem procura um espaço confortável e acolhedor para viver. O apartamento é composto por hall de entrada, uma espaçosa sala de estar com varanda, cozinha parcialmente equipada, uma casa de banho completa e dois quartos com boas áreas. Dispõe de uma excelente exposição solar e a sua localização é um dos pontos fortes deste imóvel, situado numa zona privilegiada da cidade de Aveiro, onde encontrará a proximidade de todos os serviços necessários para o seu dia a dia, desde comércio, cafés, restaurantes e vários serviços. Além disso, está localizado entre o centro da cidade de Aveiro e Esgueira e muito perto da Estação de Caminhos de Ferro, facilitando assim o deslocamento para outras zonas da cidade ou mesmo para outras regiões. Não perca a oportunidade de conhecer este ótimo apartamento T2 e viver confortavelmente numa das cidades mais encantadoras de Portugal! REF: 70/26 F CE: D.",
+    "hasVideo": false,
+    "status": "good",
+    "newDevelopment": false,
+    "hasLift": false,
+    "priceByArea": 9.0,
+    "change": {},
+    "detailedType": {
+      "typology": "flat"
+    },
+    "suggestedTexts": {
+      "title": "Apartamento T2 em Esgueira, São Bernardo"
+    },
+    "hasPlan": true,
+    "has3DTour": false,
+    "has360": false,
+    "hasStaging": false,
+    "savedAd": {},
+    "notes": [],
+    "topNewDevelopment": false,
+    "newDevelopmentHighlight": false,
+    "topPlus": false
+  },
+  {
+    "propertyCode": "35048643",
+    "thumbnail": "https://img4.idealista.pt/blur/480_360_mq/0/id.pro.pt.image.master/b3/37/a7/318226892.webp",
+    "numPhotos": 17,
+    "floor": "2",
+    "price": 850.0,
+    "priceInfo": {
+      "price": {
+        "amount": 850.0,
+        "currencySuffix": "€/mês"
+      }
+    },
+    "propertyType": "flat",
+    "operation": "rent",
+    "size": 75.0,
+    "rooms": 1,
+    "bathrooms": 1,
+    "address": "Apartamento T1 na Rua do Banho, 11, Gafanha da Encarnação",
+    "province": "Aveiro",
+    "municipality": "Gafanha da Encarnação",
+    "country": "pt",
+    "latitude": 40.6143017,
+    "longitude": -8.7516098,
+    "showAddress": true,
+    "url": "https://www.idealista.pt/imovel/35048643/",
+    "description": "Apartamento T1 em Arrendamento - Costa Nova, Aveiro Este encantador apartamento T1 localiza-se em Costa Nova, Aveiro, a menos de um minuto da praia! Trata-se de uma oportunidade única para quem deseja viver junto ao mar com toda a comodidade. O imóvel está disponível para entrada imediata e apresenta-se totalmente mobilado e equipado, pronto para habitar. Com 75 m² de área bruta, o apartamento distribui-se de forma funcional e aconchegante. Localizado no 2. º andar (último piso) sem elevador, oferece uma excelente exposição solar com muita luz natural.  A cozinha encontra-se totalmente equipada com todos os eletrodomésticos necessários. A casa de banho dispõe de banheira para momentos de relaxamento. O grande destaque é o terraço privado equipado com vista deslumbrante para o mar, o local perfeito para desfrutares do pôr do sol! O lugar de garagem está incluído no preço do arrendamento, oferecendo segurança e comodidade. A orientação Oeste proporciona luz natural abundante durante a tarde.   As despesas não estão incluídas no valor da renda.  Condições: - 1 renda - 1 caução Visita!",
+    "hasVideo": false,
+    "status": "good",
+    "newDevelopment": false,
+    "hasLift": false,
+    "parkingSpace": {
+      "hasParkingSpace": true,
+      "isParkingSpaceIncludedInPrice": true
+    },
+    "priceByArea": 11.0,
+    "change": {},
+    "detailedType": {
+      "typology": "flat"
+    },
+    "suggestedTexts": {
+      "title": "Apartamento T1 na Rua do Banho, 11, Gafanha da Encarnação"
+    },
+    "hasPlan": false,
+    "has3DTour": false,
+    "has360": false,
+    "hasStaging": false,
+    "savedAd": {},
+    "notes": [],
+    "topNewDevelopment": false,
+    "newDevelopmentHighlight": false,
+    "topPlus": false
+  },
+  {
+    "propertyCode": "35048464",
+    "thumbnail": "https://img4.idealista.pt/blur/480_360_mq/0/id.pro.pt.image.master/92/7b/b5/318218862.webp",
+    "externalReference": "179238_b493d38b",
+    "numPhotos": 19,
+    "floor": "2",
+    "price": 1200.0,
+    "priceInfo": {
+      "price": {
+        "amount": 1200.0,
+        "currencySuffix": "€/mês"
+      }
+    },
+    "propertyType": "flat",
+    "operation": "rent",
+    "size": 60.0,
+    "rooms": 1,
+    "bathrooms": 1,
+    "address": "Apartamento T1 na Rua do Gravito, 53, Sá-Barrocas, Glória e Vera Cruz",
+    "province": "Aveiro",
+    "municipality": "Glória e Vera Cruz",
+    "district": "Sá-Barrocas",
+    "country": "pt",
+    "latitude": 40.6439114,
+    "longitude": -8.6499918,
+    "showAddress": true,
+    "url": "https://www.idealista.pt/imovel/35048464/",
+    "description": "Disponível em: 14/09/2026.  Reserve em linha clicando abaixo do mapa em \"Link adicional\".  ************* COMO É QUE FUNCIONA O SPACEST.COM? Spacest.com é uma plataforma online para alugueres de médio-longo prazo que foi criada como garantia para o arrendatário: verificamos todos os apartamentos e as fotos são recentes e fiáveis para que possa reservar online com paz de espírito para evitar que alguém o faça antes de si.  Para reservar online, siga o link no fundo da página (abaixo do mapa) e clique em \"alugar agora\". Se precisar de assistência, por favor contacte-nos e nós ajudá-lo-emos. Custos de abertura do contrato:  Custos de encerramento do contrato:  Aviso de cancelamento: 1 meses (EN) Discover this cozy and comfortable 1-bedroom apartment located in a charming and quiet area of Aveiro, perfect for singles or couples. Apartment Features: Bedroom: Spacious and bright room with ample storage. Balcony: Private balcony, ideal for enjoying fresh air or a quiet coffee break. Living Room: Comfortable and inviting space for relaxing or entertaining. Kitchen: Fully equipped kitchen with modern appliances for all your cooking needs. Bathroom: Well-maintained, clean, and functional. Location Highlights: Situated on Rua do Gravito, close to essential amenities, local shops, and restaurants. Easy access to public transportation and key areas of Aveiro. Perfect for those seeking a peaceful residence with all conveniences within reach. This apartment offers a practical and serene living environment in one of Aveiro’s desirable neighborhoods! (PT) Descubra este acolhedor e confortável apartamento com 1 quarto localizado numa zona encantadora e tranquila de Aveiro, perfeito para solteiros ou casais. Caraterísticas do apartamento: Quarto de dormir: Quarto espaçoso e luminoso com ampla arrumação. Varanda: Varanda privada, ideal para desfrutar de ar fresco ou de uma pausa tranquila para café. Sala de estar: Espaço confortável e convidativo para relaxar ou divertir-se. Cozinha: Cozinha totalmente equipada com electrodomésticos modernos para todas as suas necessidades culinárias. Casa de banho: Bem conservada, limpa e funcional. Destaques da localização: Situado na Rua do Gravito, perto de serviços essenciais, comércio local e restaurantes. Fácil acesso aos transportes públicos e às principais zonas de Aveiro. Perfeito para quem procura uma residência tranquila com todas as comodidades ao seu alcance. Este apartamento oferece um ambiente de vida prático e sereno num dos bairros mais desejados de Aveiro!",
+    "hasVideo": false,
+    "status": "good",
+    "newDevelopment": false,
+    "hasLift": false,
+    "priceByArea": 20.0,
+    "change": {},
+    "detailedType": {
+      "typology": "flat"
+    },
+    "suggestedTexts": {
+      "title": "Apartamento T1 na Rua do Gravito, 53, Sá-Barrocas, Glória e Vera Cruz"
+    },
+    "hasPlan": false,
+    "has3DTour": false,
+    "has360": false,
+    "hasStaging": false,
+    "savedAd": {},
+    "notes": [],
+    "topNewDevelopment": false,
+    "newDevelopmentHighlight": false,
+    "topPlus": false
+  },
+  {
+    "propertyCode": "35048439",
+    "thumbnail": "https://img4.idealista.pt/blur/480_360_mq/0/id.pro.pt.image.master/3f/2b/8d/318217913.webp",
+    "externalReference": "230205_c91620f9",
+    "numPhotos": 32,
+    "floor": "1",
+    "price": 1300.0,
+    "priceInfo": {
+      "price": {
+        "amount": 1300.0,
+        "currencySuffix": "€/mês"
+      }
+    },
+    "propertyType": "flat",
+    "operation": "rent",
+    "size": 80.0,
+    "rooms": 2,
+    "bathrooms": 2,
+    "address": "Apartamento T2 na Rua da Arrochela, 23, Zona Histórica - Beira-Mar, Glória e Vera Cruz",
+    "province": "Aveiro",
+    "municipality": "Glória e Vera Cruz",
+    "district": "Zona Histórica - Beira-Mar",
+    "country": "pt",
+    "latitude": 40.6397019,
+    "longitude": -8.6555537,
+    "showAddress": true,
+    "url": "https://www.idealista.pt/imovel/35048439/",
+    "description": "Disponível em: 01/09/2026.  Reserve em linha clicando abaixo do mapa em \"Link adicional\".  ************* COMO É QUE FUNCIONA O SPACEST. COM? Spacest. com é uma plataforma online para alugueres de médio-longo prazo que foi criada como garantia para o arrendatário: verificamos todos os apartamentos e as fotos são recentes e fiáveis para que possa reservar online com paz de espírito para evitar que alguém o faça antes de si.  Para reservar online, siga o link no fundo da página (abaixo do mapa) e clique em \"alugar agora\". Se precisar de assistência, por favor contacte-nos e nós ajudá-lo-emos. Custos de abertura do contrato:  Custos de encerramento do contrato:  Aviso de cancelamento: 1 meses Apartment located in a typical neighborhood of Aveiro: the Alboi neighborhood, right in the city center, 100 meters from the main canal of the Ria de Aveiro. With two bedrooms, two bathrooms, a well-equipped kitchen, a comfortable living room, and high-speed Wi-Fi internet access, it is the ideal choice for visiting the city with family or friends. Apartamento situado num bairro típico de Aveiro: o bairro do Alboi, mesmo no centro da cidade, a 100 metros do canal principal da Ria de Aveiro. Com dois quartos, duas casas de banho, uma cozinha bem equipada, uma sala de estar confortável e acesso à Internet Wi-Fi de alta velocidade, é a escolha ideal para visitar a cidade com a família ou amigos. Property rules: Children allowed No pets allowed No smoking No parties/events.",
+    "hasVideo": false,
+    "status": "good",
+    "newDevelopment": false,
+    "hasLift": false,
+    "priceByArea": 16.0,
+    "change": {},
+    "detailedType": {
+      "typology": "flat"
+    },
+    "suggestedTexts": {
+      "title": "Apartamento T2 na Rua da Arrochela, 23, Zona Histórica - Beira-Mar, Glória e Vera Cruz"
+    },
+    "hasPlan": false,
+    "has3DTour": false,
+    "has360": false,
+    "hasStaging": false,
+    "savedAd": {},
+    "notes": [],
+    "topNewDevelopment": false,
+    "newDevelopmentHighlight": false,
+    "topPlus": false
+  },
+  {
+    "propertyCode": "35048411",
+    "thumbnail": "https://img4.idealista.pt/blur/480_360_mq/0/id.pro.pt.image.master/db/5f/79/318217318.webp",
+    "externalReference": "198377_988c6565",
+    "numPhotos": 12,
+    "price": 850.0,
+    "priceInfo": {
+      "price": {
+        "amount": 850.0,
+        "currencySuffix": "€/mês"
+      }
+    },
+    "propertyType": "studio",
+    "operation": "rent",
+    "size": 40.0,
+    "rooms": 0,
+    "bathrooms": 1,
+    "address": "Apartamento T0 na Rua do Gravito, 53, Sá-Barrocas, Glória e Vera Cruz",
+    "province": "Aveiro",
+    "municipality": "Glória e Vera Cruz",
+    "district": "Sá-Barrocas",
+    "country": "pt",
+    "latitude": 40.6439114,
+    "longitude": -8.6499918,
+    "showAddress": true,
+    "url": "https://www.idealista.pt/imovel/35048411/",
+    "description": "Disponível em: 01/09/2026.  Reserve em linha clicando abaixo do mapa em \"Link adicional\".  ************* COMO É QUE FUNCIONA O SPACEST. COM? Spacest. com é uma plataforma online para alugueres de médio-longo prazo que foi criada como garantia para o arrendatário: verificamos todos os apartamentos e as fotos são recentes e fiáveis para que possa reservar online com paz de espírito para evitar que alguém o faça antes de si.  Para reservar online, siga o link no fundo da página (abaixo do mapa) e clique em \"alugar agora\". Se precisar de assistência, por favor contacte-nos e nós ajudá-lo-emos. Custos de abertura do contrato:  Custos de encerramento do contrato:  Aviso de cancelamento: 1 meses PT Desfrute desse aconchegante estúdio de 40m2 localizado em Aveiro. Está preparado com todas as comodidades para a sua estadia!  As contas estão incluídas na renda. A estadia mínima é de 1 mês. Rua do Gravito fica no centro de Aveiro, na freguesia de Glória e Vera Cruz, e é um ótimo ponto de partida para explorar a cidade a pé. Nas imediações há cafés e restaurantes acolhedores.  Também pode visitar a Igreja do Carmo, muito próxima, bem como caminhar pelas margens da ria ou cruzar a famosa Ponte Pedonal Circular para apreciar vistas sobre os canais. Para uma experiência cultural/histórica, vale saber que Aristides de Sousa Mendes viveu alguns anos nesta rua; isso pode enriquecer uma caminhada com reflexão sobre personalidades locais. EN Enjoy this cozy 40m2 studio located in Aveiro. It is equipped with all the amenities you need for your stay!  Utilities are included in the rent. The minimum stay is 1 month. Rua do Gravito is located in the center of Aveiro, in the parish of Glória e Vera Cruz, and is a great starting point for exploring the city on foot. There are cozy cafes and restaurants nearby.  You can also visit the nearby Carmo Church, as well as walk along the banks of the estuary or cross the famous Circular Pedestrian Bridge to enjoy views of the canals. For a cultural/historical experience, it is worth knowing that Aristides de Sousa Mendes lived on this street for a few years; this can enrich a walk with reflection on local personalities.",
+    "hasVideo": false,
+    "status": "good",
+    "newDevelopment": false,
+    "hasLift": false,
+    "priceByArea": 21.0,
+    "change": {},
+    "detailedType": {
+      "typology": "flat",
+      "subTypology": "studio"
+    },
+    "suggestedTexts": {
+      "title": "Apartamento T0 na Rua do Gravito, 53, Sá-Barrocas, Glória e Vera Cruz"
+    },
+    "hasPlan": false,
+    "has3DTour": false,
+    "has360": false,
+    "hasStaging": false,
+    "savedAd": {},
+    "notes": [],
+    "topNewDevelopment": false,
+    "newDevelopmentHighlight": false,
+    "topPlus": false
+  },
+  {
+    "propertyCode": "35048392",
+    "thumbnail": "https://img4.idealista.pt/blur/480_360_mq/0/id.pro.pt.image.master/70/82/08/318217035.webp",
+    "externalReference": "5445",
+    "numPhotos": 17,
     "floor": "3",
+    "price": 1150.0,
+    "priceInfo": {
+      "price": {
+        "amount": 1150.0,
+        "currencySuffix": "€/mês"
+      }
+    },
+    "propertyType": "flat",
+    "operation": "rent",
+    "size": 122.0,
+    "rooms": 3,
+    "bathrooms": 2,
+    "address": "Apartamento T3 em Aradas",
+    "province": "Aveiro",
+    "municipality": "Aradas",
+    "country": "pt",
+    "latitude": 40.6190079,
+    "longitude": -8.6454993,
+    "showAddress": false,
+    "url": "https://www.idealista.pt/imovel/35048392/",
+    "description": "Apartamento T3 para Arrendamento em Aveiro – A 5 Minutos do Centro e da Universidade Excelente oportunidade de arrendamento em Aveiro!   Apartamento arrendado equipado e pronto a habitar. Apresentamos este Apartamento T3, localizado a apenas 5 minutos do Centro da Cidade de Aveiro e da Universidade, ideal para famílias, profissionais ou estudantes, que procuram conforto, espaço e uma localização estratégica. Características do Imóvel - Sala ampla, ideal para momentos de convívio e lazer - Cozinha equipada, com acesso a marquise, oferecendo maior praticidade e arrumação - 3 quartos com roupeiros embutidos - 2 WC’s (WC de serviço e WC completo com banheira) - Lugar de Garagem e Arrumos na cave, garantindo espaço adicional de organização Destaques - Ótimas áreas interiores - Excelente luminosidade natural - Zona residencial tranquila - Bons acessos às principais vias - Ideal para quem procura um Apartamento T3 para Arrendamento em Aveiro com conforto e centralidade Características da zona: Aradas é uma das freguesias da cidade de Aveiro. Dista do Centro da Cidade aproximadamente três quilómetros e fazem parte da freguesia os lugares de Aradas, Verdemilho, Bonsucesso e Quinta do Picado. Na sua área envolvente é possível encontrar uma oferta diversificada de restauração e lazer, bem como de escolas (Universidade de Aveiro, Escola 2º e 3º Ciclo de Aradas, Escola Pequeno Cidadão), Centro de Saúde de Aradas, espaços desportivos (Piscinas do Carocho e Futebol Clube do Bonsucesso), zonas comerciais (Centro Comercial Glicínias, Mercadona e Lidl), transportes públicos. Fica a 15min das Praias da Barra e Costa Nova e a 10min da Zona Industrial da Taboeira. O imóvel encontra-se a 12km da praia e 84km do aeroporto. Não perca esta oportunidade de conseguir um Apartamento T3 para Arrendamento em Aveiro. Contacte a Exitcasa para mais informações ou agendamento de visita. Ref 5445 - Veja mais imóveis em exitcasa. pt Este anúncio foi publicado por rotina informática, todos os dados e informações carecem de confirmação junto da Exitcasa.",
+    "hasVideo": false,
+    "status": "good",
+    "newDevelopment": false,
+    "hasLift": false,
+    "parkingSpace": {
+      "hasParkingSpace": true,
+      "isParkingSpaceIncludedInPrice": true
+    },
+    "priceByArea": 9.0,
+    "change": {},
+    "detailedType": {
+      "typology": "flat"
+    },
+    "suggestedTexts": {
+      "title": "Apartamento T3 em Aradas"
+    },
+    "hasPlan": false,
+    "has3DTour": false,
+    "has360": false,
+    "hasStaging": false,
+    "savedAd": {},
+    "notes": [],
+    "topNewDevelopment": false,
+    "newDevelopmentHighlight": false,
+    "topPlus": false
+  },
+  {
+    "propertyCode": "35037447",
+    "thumbnail": "https://img4.idealista.pt/blur/480_360_mq/0/id.pro.pt.image.master/22/48/e5/317777852.webp",
+    "externalReference": "191870_22efb043",
+    "numPhotos": 11,
+    "floor": "1",
+    "price": 2695.0,
+    "priceInfo": {
+      "price": {
+        "amount": 2695.0,
+        "currencySuffix": "€/mês"
+      }
+    },
+    "propertyType": "flat",
+    "operation": "rent",
+    "size": 55.0,
+    "rooms": 3,
+    "bathrooms": 3,
+    "address": "Apartamento T3 na Rua de Mendes Leite, 17, Zona Histórica - Beira-Mar, Glória e Vera Cruz",
+    "province": "Aveiro",
+    "municipality": "Glória e Vera Cruz",
+    "district": "Zona Histórica - Beira-Mar",
+    "country": "pt",
+    "latitude": 40.6422661,
+    "longitude": -8.6529494,
+    "showAddress": true,
+    "url": "https://www.idealista.pt/imovel/35037447/",
+    "description": "Disponível em: 01/08/2026.  Reserve em linha clicando abaixo do mapa em \"Link adicional\".  ************* COMO É QUE FUNCIONA O SPACEST.COM? Spacest.com é uma plataforma online para alugueres de médio-longo prazo que foi criada como garantia para o arrendatário: verificamos todos os apartamentos e as fotos são recentes e fiáveis para que possa reservar online com paz de espírito para evitar que alguém o faça antes de si.  Para reservar online, siga o link no fundo da página (abaixo do mapa) e clique em \"alugar agora\". Se precisar de assistência, por favor contacte-nos e nós ajudá-lo-emos. Custos de abertura do contrato:  Custos de encerramento do contrato:  Aviso de cancelamento: None meses PT Este espaçoso e aconchegante apartamento possui três quartos e 3 casas de banho. A cozinha é completamente equipada. É fácil sentir felicidade nos dias em que você estará aqui!  É um lugar descontraído e agradável para viver. Desfrute deste espaço totalmente recuperado, e com o charme de uma casa do início do século XX. Sua localização é perfeita para ir caminhando até os principais pontos turísticos culturais e de lazer. À sua disposição: Secador de cabelo Produtos de limpeza Champô Água quente Gel de banho Toalhas, lençóis de cama, gel de banho e papel higiénico Cabides Roupa de cama Cortinas para escurecer quarto Ferro de Engomar Berço Berço portátil - sempre no espaço Jogos de tabuleiro Ar condicionado central Aquecimento Central Wifi Frigorífico Micro-ondas Utensílios básicos de cozinha Tachos e panelas, óleo, sal e pimenta Louças e talheres Tigelas, pauzinhos, pratos, copos, etc. Congelador Fogão Forno Cafeteira Mesa de jantar Se você gosta de comida vegana, tem no térreo um excelente restaurante onde você pode comer qualquer refeição do dia. Você também tem sorvetes muito bons a 50 metros de distância da casa. Você só precisa aproveitar! Estará na melhor localização de Aveiro:) O bairro é o mais típico de Aveiro. Você pode encontrar muitas casas pequenas que pertenceram aos pescadores e famílias. Estará perto de tudo o que você pode querer visitar. Na verdade, você pode caminhar até a maioria das atrações da cidade. EN This spacious and cozy apartment has three bedrooms and 3 bathrooms. The kitchen is fully equipped. It's easy to feel happy the days you're here!  It's a relaxed and pleasant place to live. Enjoy this fully restored space, with the charm of an early 20th century house. Its location is perfect for walking to the main cultural and leisure sights. At your disposal: Hairdryer Cleaning products Shampoo Hot water Shower gel Towels, bed sheets, shower gel and toilet paper Coat hangers Bed linen Room-darkening curtains Iron Cot Portable crib - always on Board games Central air conditioning Central heating Wifi Fridge Microwave Basic kitchen utensils Pots and pans, oil, salt and pepper Crockery and cutlery xml-ph- Freezer Stove Oven Coffee maker Dining table If you like vegan food, there is an excellent restaurant on the first floor where you can eat any meal of the day. You also have very good ice cream 50 meters away from the house. You just have to enjoy it! You'll be in the best location in Aveiro:) The neighborhood is the most typical in Aveiro. You can find many small houses that once belonged to fishermen and families. You'll be close to everything you might want to visit. In fact, you can walk to most of the city's attractions.",
+    "hasVideo": false,
+    "status": "good",
+    "newDevelopment": false,
+    "hasLift": false,
+    "priceByArea": 49.0,
+    "change": {},
+    "detailedType": {
+      "typology": "flat"
+    },
+    "suggestedTexts": {
+      "title": "Apartamento T3 na Rua de Mendes Leite, 17, Zona Histórica - Beira-Mar, Glória e Vera Cruz"
+    },
+    "hasPlan": false,
+    "has3DTour": false,
+    "has360": false,
+    "hasStaging": false,
+    "savedAd": {},
+    "notes": [],
+    "topNewDevelopment": false,
+    "newDevelopmentHighlight": false,
+    "topPlus": false
+  },
+  {
+    "propertyCode": "35047576",
+    "thumbnail": "https://img4.idealista.pt/blur/480_360_mq/0/id.pro.pt.image.master/f3/61/eb/318190955.webp",
+    "externalReference": "183132_694c351d",
+    "numPhotos": 19,
+    "floor": "2",
+    "price": 1200.0,
+    "priceInfo": {
+      "price": {
+        "amount": 1200.0,
+        "currencySuffix": "€/mês"
+      }
+    },
+    "propertyType": "flat",
+    "operation": "rent",
+    "size": 140.0,
+    "rooms": 3,
+    "bathrooms": 3,
+    "address": "Apartamento T3 na Rua 22, 270, Espinho",
+    "province": "Aveiro",
+    "municipality": "Espinho",
+    "country": "pt",
+    "latitude": 41.011108,
+    "longitude": -8.6390527,
+    "showAddress": true,
+    "url": "https://www.idealista.pt/imovel/35047576/",
+    "description": "Disponível em: 01/06/2026.  Reserve em linha clicando abaixo do mapa em \"Link adicional\".  ************* COMO É QUE FUNCIONA O SPACEST.COM? Spacest.com é uma plataforma online para alugueres de médio-longo prazo que foi criada como garantia para o arrendatário: verificamos todos os apartamentos e as fotos são recentes e fiáveis para que possa reservar online com paz de espírito para evitar que alguém o faça antes de si.  Para reservar online, siga o link no fundo da página (abaixo do mapa) e clique em \"alugar agora\". Se precisar de assistência, por favor contacte-nos e nós ajudá-lo-emos. Custos de abertura do contrato:  Custos de encerramento do contrato:  Aviso de cancelamento: 3 meses EN The apartment has a total area of 140 square meters. There are 3 bedrooms, 3 bathrooms and a very bright and spacious living room with dining area.  The condominium fee is included in the monthly rent.  The average cost for utilities is 200€/month A minimum stay of 1 month is required.  It is possible to book directly online. The apartment, located in the center of Espinho, has a vibrant area that offers a range of activities for visitors. A few steps away is Praia da Baía, one of the region's most popular beaches, ideal for relaxing and enjoying the sun and sea. For culture enthusiasts, the Espinho Multimedia Center houses the Espinho Planetarium, offering educational and immersive experiences about the universe.  In addition, Rua 22's proximity to the Casino Espinho offers evening entertainment options, including games and shows. For history lovers, a visit to Castro de Ovil, an ancient pre-Roman settlement, offers a trip back in time. The region is also known for cultural events, such as the International Meeting of Living Statues, which brings art and performance to the streets of Espinho. PT O apartamento tem uma área total de 140 metros quadrados. Tem 3 quartos, 3 casas de banho e uma sala de estar muito luminosa e espaçosa com zona de refeições.  A taxa de condomínio está incluída na renda mensal.  O custo médio das despesas é de 200 euros É necessária uma estadia mínima de 1 mês.  É possível reservar diretamente online. O apartamento, localizado no centro de Espinho, tem uma área vibrante que oferece uma série de actividades para os visitantes. A poucos passos de distância encontra-se a Praia da Baía, uma das praias mais populares da região, ideal para relaxar e desfrutar do sol e do mar. Para os amantes da cultura, o Centro Multimédia de Espinho alberga o Planetário de Espinho, que oferece experiências educativas e imersivas sobre o universo.  Além disso, a proximidade da Rua 22 com o Casino Espinho oferece opções de entretenimento noturno, incluindo jogos e espectáculos. Para os amantes de história, uma visita ao Castro de Ovil, um antigo povoado pré-romano, oferece uma viagem no tempo. A região também é conhecida por eventos culturais, como o Encontro Internacional de Estátuas Vivas, que leva arte e espetáculo às ruas de Espinho.",
+    "hasVideo": false,
+    "status": "good",
+    "newDevelopment": false,
+    "hasLift": true,
+    "priceByArea": 9.0,
+    "change": {},
+    "detailedType": {
+      "typology": "flat"
+    },
+    "suggestedTexts": {
+      "title": "Apartamento T3 na Rua 22, 270, Espinho"
+    },
+    "hasPlan": false,
+    "has3DTour": false,
+    "has360": false,
+    "hasStaging": false,
+    "savedAd": {},
+    "notes": [],
+    "topNewDevelopment": false,
+    "newDevelopmentHighlight": false,
+    "topPlus": false
+  },
+  {
+    "propertyCode": "32398082",
+    "thumbnail": "https://img4.idealista.pt/blur/480_360_mq/0/id.pro.pt.image.master/a2/0e/2e/246175628.webp",
+    "numPhotos": 3,
+    "floor": "1",
+    "price": 650.0,
+    "priceInfo": {
+      "price": {
+        "amount": 650.0,
+        "currencySuffix": "€/mês"
+      }
+    },
+    "propertyType": "studio",
+    "operation": "rent",
+    "size": 25.0,
+    "rooms": 0,
+    "bathrooms": 1,
+    "address": "Apartamento T0 na Rua José Estevão, 66, Zona Histórica - Beira-Mar, Glória e Vera Cruz",
+    "province": "Aveiro",
+    "municipality": "Glória e Vera Cruz",
+    "district": "Zona Histórica - Beira-Mar",
+    "country": "pt",
+    "latitude": 40.6427929,
+    "longitude": -8.6527545,
+    "showAddress": true,
+    "url": "https://www.idealista.pt/imovel/32398082/",
+    "description": "Estudio no centro a 2 minutos a pé do forum, 15 minutos a pé da universidade. o estúdio está mobilado e a cozinha equipada, existe uma zona de lavandaria constituida por uma máquina de lavar roupa e outra de secar, o valor de 650.00 inclui as despesas de água, luz, gás e internet para UMA PESSOA até máximo de 80.00 Entrada em 1 de junho Estádia mínima 6 meses.",
+    "hasVideo": false,
+    "status": "good",
+    "newDevelopment": false,
+    "hasLift": false,
+    "priceByArea": 26.0,
+    "change": {},
+    "detailedType": {
+      "typology": "flat",
+      "subTypology": "studio"
+    },
+    "suggestedTexts": {
+      "title": "Apartamento T0 na Rua José Estevão, 66, Zona Histórica - Beira-Mar, Glória e Vera Cruz"
+    },
+    "hasPlan": false,
+    "has3DTour": false,
+    "has360": false,
+    "hasStaging": false,
+    "savedAd": {},
+    "notes": [],
+    "topNewDevelopment": false,
+    "newDevelopmentHighlight": false,
+    "topPlus": false
+  },
+  {
+    "propertyCode": "34572274",
+    "thumbnail": "https://img4.idealista.pt/blur/480_360_mq/0/id.pro.pt.image.master/f9/1e/eb/299118247.webp",
+    "numPhotos": 17,
+    "floor": "bj",
+    "price": 1150.0,
+    "priceInfo": {
+      "price": {
+        "amount": 1150.0,
+        "currencySuffix": "€/mês"
+      }
+    },
+    "propertyType": "flat",
+    "operation": "rent",
+    "size": 100.0,
+    "rooms": 3,
+    "bathrooms": 2,
+    "address": "Apartamento T3 no Centro, Esmoriz",
+    "province": "Aveiro",
+    "municipality": "Esmoriz",
+    "district": "Centro",
+    "country": "pt",
+    "latitude": 40.9613609,
+    "longitude": -8.6191881,
+    "showAddress": false,
+    "url": "https://www.idealista.pt/imovel/34572274/",
+    "description": "Apartamento T3 para arrendamento no centro da freguesia de Esmoriz, concelho de Ovar.  O apartamento encontra-se distribuído da seguinte forma:  - Cozinha open space - Sala de estar  - 2 quartos  - 1 casa de banho completa - 1 suite com casa de banho completa Desta fração faz parte um lugar de garagem e uma arrecadação.  A 35 minutos de Aveiro e 25 minutos da cidade do Porto  Entre em contacto para mais informações. Encontram-se ainda disponíveis apartamentos de tipologia T2 no mesmo edifício.",
+    "hasVideo": false,
+    "status": "good",
+    "newDevelopment": false,
+    "hasLift": false,
+    "parkingSpace": {
+      "hasParkingSpace": true,
+      "isParkingSpaceIncludedInPrice": true
+    },
+    "priceByArea": 12.0,
+    "change": {},
+    "detailedType": {
+      "typology": "flat"
+    },
+    "suggestedTexts": {
+      "title": "Apartamento T3 no Centro, Esmoriz"
+    },
+    "hasPlan": true,
+    "has3DTour": false,
+    "has360": false,
+    "hasStaging": false,
+    "savedAd": {},
+    "notes": [],
+    "topNewDevelopment": false,
+    "newDevelopmentHighlight": false,
+    "topPlus": false
+  },
+  {
+    "propertyCode": "35046594",
+    "thumbnail": "https://img4.idealista.pt/blur/480_360_mq/0/id.pro.pt.image.master/d8/59/87/318152068.webp",
+    "externalReference": "124541317-19",
+    "numPhotos": 7,
+    "floor": "3",
+    "price": 950.0,
+    "priceInfo": {
+      "price": {
+        "amount": 950.0,
+        "currencySuffix": "€/mês"
+      }
+    },
+    "propertyType": "flat",
+    "operation": "rent",
+    "size": 89.0,
+    "rooms": 1,
+    "bathrooms": 1,
+    "address": "Apartamento T1 na Rua Manuel Firmino, Zona Histórica - Beira-Mar, Glória e Vera Cruz",
+    "province": "Aveiro",
+    "municipality": "Glória e Vera Cruz",
+    "district": "Zona Histórica - Beira-Mar",
+    "country": "pt",
+    "latitude": 40.6411399,
+    "longitude": -8.6528095,
+    "showAddress": false,
+    "url": "https://www.idealista.pt/imovel/35046594/",
+    "description": "Apartamento T1 para arrendamento no centro de Aveiro. Localizado a menos de 5 minutos a pé da Avenida Lourenço Peixinho, do Rossio e do Canal de São Roque, este apartamento destaca-se pela sua excelente localização e proximidade a tudo o que necessita no dia a dia. Inserido numa zona central e privilegiada da cidade, encontra-se rodeado de comércio, restauração, serviços, supermercados, ginásios e transportes públicos, proporcionando uma vivência prática e confortável. Com acesso rápido à A25, permite também chegar facilmente às praias da região, como a Praia da Barra e a Costa Nova. Ideal para quem procura viver no coração de Aveiro com comodidade, acessibilidade e qualidade de vida.  Licença de Utilização - 503/1995.",
+    "hasVideo": false,
+    "status": "good",
+    "newDevelopment": false,
+    "hasLift": true,
+    "priceByArea": 11.0,
+    "change": {},
+    "detailedType": {
+      "typology": "flat"
+    },
+    "suggestedTexts": {
+      "title": "Apartamento T1 na Rua Manuel Firmino, Zona Histórica - Beira-Mar, Glória e Vera Cruz"
+    },
+    "hasPlan": false,
+    "has3DTour": false,
+    "has360": false,
+    "hasStaging": false,
+    "savedAd": {},
+    "notes": [],
+    "topNewDevelopment": false,
+    "newDevelopmentHighlight": false,
+    "topPlus": false
+  },
+  {
+    "propertyCode": "35045981",
+    "thumbnail": "https://img4.idealista.pt/blur/480_360_mq/0/id.pro.pt.image.master/b1/71/5b/318134539.webp",
+    "externalReference": "124541160-96",
+    "numPhotos": 11,
+    "floor": "bj",
+    "price": 1000.0,
+    "priceInfo": {
+      "price": {
+        "amount": 1000.0,
+        "currencySuffix": "€/mês"
+      }
+    },
+    "propertyType": "flat",
+    "operation": "rent",
+    "size": 122.0,
+    "rooms": 2,
+    "bathrooms": 2,
+    "address": "Apartamento T2 na Rua Padre João Miranda Ascenso, Vagos",
+    "province": "Aveiro",
+    "municipality": "Vagos",
+    "country": "pt",
+    "latitude": 40.5515742,
+    "longitude": -8.6765795,
+    "showAddress": false,
+    "url": "https://www.idealista.pt/imovel/35045981/",
+    "description": "Apartamento T2 para arrendamento no centro de Vagos, localizado junto ao Pingo Doce e próximo de uma ampla variedade de comércio e serviços, como pastelarias, restaurantes, farmácia, talho, notário e outros serviços essenciais para o dia a dia. Beneficia ainda de uma localização estratégica, a cerca de 5 km das praias e a apenas 3 km do acesso à A17, permitindo excelentes ligações e comodidade. Inserido no rés do chão de um edifício de linhas modernas, este apartamento destaca-se pela sua funcionalidade, conforto e excelente exposição solar. O imóvel é composto por dois quartos, duas casas de banho, sala e cozinha em conceito open space, proporcionando um ambiente amplo, luminoso e acolhedor. Dispõe ainda de um agradável terraço na frente do apartamento, ideal para momentos de lazer ou convívio. Ao nível do conforto, conta com ar condicionado em todas as divisões e piso radiante na cozinha e sala, garantindo bem-estar em qualquer estação do ano. O apartamento inclui ainda um lugar de estacionamento na cave, existindo também facilidade de estacionamento na frente do edifício. Pela sua localização central, proximidade às praias e acessos rápidos, esta é uma excelente opção para quem procura qualidade de vida, conforto e conveniência numa das zonas mais procuradas do concelho de Vagos. O arrendamento destina-se a clientes com documento de identificação nacional ou cartão de residente. Serão considerados os interessados que reúnam condições para o pagamento de duas rendas adiantadas e caução no valor de duas rendas.    Licença de Utilização - 42/23.",
+    "hasVideo": false,
+    "status": "good",
+    "newDevelopment": false,
+    "hasLift": true,
+    "parkingSpace": {
+      "hasParkingSpace": true,
+      "isParkingSpaceIncludedInPrice": true
+    },
+    "priceByArea": 8.0,
+    "change": {},
+    "detailedType": {
+      "typology": "flat"
+    },
+    "suggestedTexts": {
+      "title": "Apartamento T2 na Rua Padre João Miranda Ascenso, Vagos"
+    },
+    "hasPlan": false,
+    "has3DTour": false,
+    "has360": false,
+    "hasStaging": false,
+    "savedAd": {},
+    "notes": [],
+    "topNewDevelopment": false,
+    "newDevelopmentHighlight": false,
+    "topPlus": false
+  },
+  {
+    "propertyCode": "35045923",
+    "thumbnail": "https://img4.idealista.pt/blur/480_360_mq/0/id.pro.pt.image.master/8c/c1/09/318129155.webp",
+    "externalReference": "124881063-259",
+    "numPhotos": 21,
+    "floor": "2",
+    "price": 1200.0,
+    "priceInfo": {
+      "price": {
+        "amount": 1200.0,
+        "currencySuffix": "€/mês"
+      }
+    },
+    "propertyType": "flat",
+    "operation": "rent",
+    "size": 148.0,
+    "rooms": 3,
+    "bathrooms": 2,
+    "address": "Apartamento T3 na Rua 21, Espinho",
+    "province": "Aveiro",
+    "municipality": "Espinho",
+    "country": "pt",
+    "latitude": 41.008885,
+    "longitude": -8.6360569,
+    "showAddress": false,
+    "url": "https://www.idealista.pt/imovel/35045923/",
+    "description": "Apartamento T3 para Arrendar em EspinhoOnde a vida encontra o mar — e a sua nova história começa.   Imagineacordar todos os dias a poucos passos do mar, com a brisa atlântica a entrarpela janela e o som suave das ondas a acompanhar o seu despertar. É exatamenteisso que este magnífico apartamento T3, localizado no coração de Espinho, tempara oferecer.   Situado aapenas 200 metros da praia, este imóvel combina conforto, amplitude euma localização verdadeiramente privilegiada.   Localizadono 2. º andar de um prédio sem elevador, o apartamento dispõe ainda de lugarde garagem, tornando-se uma excelente opção tanto para habitação própriacomo para investimento em arrendamento, graças à sua proximidade com o mar e aocentro da cidade.   Com uma áreaprivativa de 121,7 m² e 27,3 m² de área bruta dependente, esteapartamento destaca-se pela sua distribuição funcional e pelos espaços amplos eluminosos:    1 quarto em suíte;   2 quartos adicionais, ideais para família, visitas ou escritório;   1 WC de serviço;   Sala espaçosa e acolhedora;   Excelente exposição solar.   Alocalização é simplesmente excecional: junto à Câmara Municipal, biblioteca, comércio, restaurantes, escolas e serviços essenciais. E, claro, a poucosminutos do emblemático passeio marítimo de Espinho, onde cada caminhada setransforma num momento de tranquilidade.   Mais do queum apartamento, este é um espaço pensado para viver com mais qualidade, maisluz e mais emoção.   É o iníciode um novo capítulo… à beira-mar.   Marque já asua visita e descubra o lugar onde poderá encontrar o seu espaço de sonho.        Licença de Utilização - 485.",
+    "hasVideo": false,
+    "status": "good",
+    "newDevelopment": false,
+    "hasLift": false,
+    "parkingSpace": {
+      "hasParkingSpace": true,
+      "isParkingSpaceIncludedInPrice": true
+    },
+    "priceByArea": 8.0,
+    "change": {},
+    "detailedType": {
+      "typology": "flat"
+    },
+    "suggestedTexts": {
+      "title": "Apartamento T3 na Rua 21, Espinho"
+    },
+    "hasPlan": false,
+    "has3DTour": false,
+    "has360": false,
+    "hasStaging": false,
+    "savedAd": {},
+    "notes": [],
+    "topNewDevelopment": false,
+    "newDevelopmentHighlight": false,
+    "topPlus": false
+  },
+  {
+    "propertyCode": "35036273",
+    "thumbnail": "https://img4.idealista.pt/blur/480_360_mq/0/id.pro.pt.image.master/52/c6/e9/317733211.webp",
+    "externalReference": "5060",
+    "numPhotos": 16,
+    "floor": "bj",
+    "price": 800.0,
+    "priceInfo": {
+      "price": {
+        "amount": 800.0,
+        "currencySuffix": "€/mês"
+      }
+    },
+    "propertyType": "flat",
+    "operation": "rent",
+    "size": 42.0,
+    "rooms": 1,
+    "bathrooms": 1,
+    "address": "Apartamento T1 na Zona Histórica - Beira-Mar, Glória e Vera Cruz",
+    "province": "Aveiro",
+    "municipality": "Glória e Vera Cruz",
+    "district": "Zona Histórica - Beira-Mar",
+    "country": "pt",
+    "latitude": 40.6391145,
+    "longitude": -8.6540019,
+    "showAddress": false,
+    "url": "https://www.idealista.pt/imovel/35036273/",
+    "description": "Apartamento T1 Kitchenet para Arrendamento no Centro de Aveiro – Moderno e Funcional Apresentamos este apartamento T1 kitchenet para arrendamento no centro de Aveiro, um imóvel que alia modernidade, conforto e acabamentos de alta qualidade. Cada pormenor foi cuidadosamente pensado para oferecer praticidade e bem-estar, tornando este apartamento uma excelente opção para quem procura viver com qualidade numa localização premium. Características do apartamento: - Cozinha equipada e sala em open space, criando um espaço prático, luminoso e funcional - Quarto com roupeiro embutido, que garante arrumação eficiente - WC completo com acabamentos modernos - Terraço comum, perfeito para momentos de lazer e descontração - Imóvel com equipamentos e acabamentos de excelência Vantagens deste apartamento T1 para arrendamento em Aveiro: - Localização central, próxima de transportes públicos, áreas comerciais, escolas e serviços - Apartamento equipado e pronto a habitar - Ideal para estudantes, jovens profissionais ou casais que procuram conforto no dia a dia - Oportunidade única de viver num imóvel moderno em plena cidade de Aveiro Características da zona: A União de Freguesias de Glória e Vera Cruz é a junta de freguesia que engloba o centro do município de Aveiro. Na sua área envolvente é possível encontrar uma oferta diversificada de restauração, bem como de escolas (Universidade de Aveiro, Escola Secundária Homem Cristo, Mário Sacramento e José Estevão), unidades de saúde (Hospital Infante D. Pedro, Hospital da Luz, Centro de Saúde), espaços de comércio (Mercado Manuel Firmino, Mercado de Santiago e Mercado José Estevão) e espaços de lazer (Teatro Aveirense, Parque da Cidade de Aveiro, Jardim do Rossio, Jardim Fonte Nova). O imóvel encontra-se a 10km da praia e 84km do aeroporto. Exitcasa Aveiro – O parceiro certo para encontrar a sua nova casa Agende já a sua visita e descubra este apartamento T1 kitchenet para arrendamento no centro de Aveiro, onde a qualidade, a modernidade e a localização se encontram para oferecer uma experiência de habitação incomparável. Ref 5060 - Veja mais imóveis em exitcasa. pt Este anúncio foi publicado por rotina informática, todos os dados e informações carecem de confirmação junto da Exitcasa.  .",
+    "hasVideo": false,
+    "status": "good",
+    "newDevelopment": false,
+    "hasLift": true,
+    "priceByArea": 19.0,
+    "change": {},
+    "detailedType": {
+      "typology": "flat"
+    },
+    "suggestedTexts": {
+      "title": "Apartamento T1 na Zona Histórica - Beira-Mar, Glória e Vera Cruz"
+    },
+    "hasPlan": false,
+    "has3DTour": false,
+    "has360": false,
+    "hasStaging": false,
+    "savedAd": {},
+    "notes": [],
+    "topNewDevelopment": false,
+    "newDevelopmentHighlight": false,
+    "topPlus": false
+  },
+  {
+    "propertyCode": "35045203",
+    "thumbnail": "https://img4.idealista.pt/blur/480_360_mq/0/id.pro.pt.image.master/1b/6f/02/318095737.webp",
+    "externalReference": "150/26",
+    "numPhotos": 23,
+    "floor": "1",
+    "price": 895.0,
+    "priceInfo": {
+      "price": {
+        "amount": 895.0,
+        "currencySuffix": "€/mês"
+      }
+    },
+    "propertyType": "flat",
+    "operation": "rent",
+    "size": 111.0,
+    "rooms": 2,
+    "bathrooms": 1,
+    "address": "Apartamento T2 em São Bernardo",
+    "province": "Aveiro",
+    "municipality": "São Bernardo",
+    "country": "pt",
+    "latitude": 40.6199595,
+    "longitude": -8.6285728,
+    "showAddress": false,
+    "url": "https://www.idealista.pt/imovel/35045203/",
+    "description": "Apartamento T2, disponível para arrendamento, situado numa zona tranquila com bons acessos ao centro da cidade de Aveiro, e permite a proximidade a uma vasta oferta de serviços, comercio, rede de transportes e equipamentos, tornando este imóvel uma excelente opção para quem valoriza o equilíbrio entre o conforto residencial e a vida urbana. O imóvel apresenta boas áreas e muita luz natural. Encontra-se equipado com os equipamentos/eletrodomésticos básicos e mobilado. É composto pelo hall de entrada, a sala de estar e de jantar, uma varanda,   recuperador de calor, dois quartos com roupeiros embutidos, duas casas de banho completas, uma com base de duche outra com banheira, uma cozinha completa e uma despensa. Fator importante tendo em conta a escasez de estacionamento, garagem fechada. Entrada de valor de 3 rendas, sendo uma de caução. Contacte-nos e visite hoje o seu novo apartamento!  .",
+    "hasVideo": false,
+    "status": "good",
+    "newDevelopment": false,
+    "hasLift": true,
+    "parkingSpace": {
+      "hasParkingSpace": true,
+      "isParkingSpaceIncludedInPrice": true
+    },
+    "priceByArea": 8.0,
+    "change": {},
+    "detailedType": {
+      "typology": "flat"
+    },
+    "suggestedTexts": {
+      "title": "Apartamento T2 em São Bernardo"
+    },
+    "hasPlan": false,
+    "has3DTour": false,
+    "has360": false,
+    "hasStaging": false,
+    "savedAd": {},
+    "notes": [],
+    "topNewDevelopment": false,
+    "newDevelopmentHighlight": false,
+    "topPlus": false
+  },
+  {
+    "propertyCode": "35043098",
+    "thumbnail": "https://img4.idealista.pt/blur/480_360_mq/0/id.pro.pt.image.master/01/1a/6d/318087724.webp",
+    "externalReference": "3999",
+    "numPhotos": 5,
+    "floor": "1",
+    "price": 825.0,
+    "priceInfo": {
+      "price": {
+        "amount": 825.0,
+        "currencySuffix": "€/mês"
+      }
+    },
+    "propertyType": "flat",
+    "operation": "rent",
+    "size": 110.0,
+    "rooms": 2,
+    "bathrooms": 2,
+    "address": "Apartamento T2 na Cruz, Santa Maria da Feira s/n, Cidade de Santa Maria da Feira, Santa Maria da Feira - Travanca - Sanfins - Espargo",
+    "province": "Aveiro",
+    "municipality": "Santa Maria da Feira - Travanca - Sanfins - Espargo",
+    "district": "Cidade de Santa Maria da Feira",
+    "country": "pt",
+    "latitude": 40.9264782,
+    "longitude": -8.560253,
+    "showAddress": true,
+    "url": "https://www.idealista.pt/imovel/35043098/",
+    "description": "Apartamento T2 como novo, em prédio recente em Santa Maria da Feira, zona da Cruz. Com localização privilegiada, comércio, serviços, zona escolar, acessos a A1 e A29.. . A oportunidade ideal para viver a cidade em pleno. Cozinha equipada com placa vitro cerâmica, exaustor, forno, micro-ondas, combinado, bomba calor. Tetos falsos com focos embutidos, 2 banhos (sendo 1 suite). Dispõe de garagem fechada e arrumo Individual. Condições de Arrendamento: Contrato de permanência mínima de 1 ano. 2 rendas + 2 cauções Fiador (mediante análise de situação profissional).",
+    "hasVideo": false,
+    "status": "good",
+    "newDevelopment": false,
+    "hasLift": true,
+    "parkingSpace": {
+      "hasParkingSpace": true,
+      "isParkingSpaceIncludedInPrice": true
+    },
+    "priceByArea": 8.0,
+    "change": {},
+    "detailedType": {
+      "typology": "flat"
+    },
+    "suggestedTexts": {
+      "title": "Apartamento T2 na Cruz, Santa Maria da Feira s/n, Cidade de Santa Maria da Feira, Santa Maria da Feira - Travanca - Sanfins - Espargo"
+    },
+    "hasPlan": false,
+    "has3DTour": false,
+    "has360": false,
+    "hasStaging": false,
+    "savedAd": {},
+    "notes": [],
+    "topNewDevelopment": false,
+    "newDevelopmentHighlight": false,
+    "topPlus": false
+  },
+  {
+    "propertyCode": "35044410",
+    "thumbnail": "https://img4.idealista.pt/blur/480_360_mq/0/id.pro.pt.image.master/6c/f0/bd/318070386.webp",
+    "externalReference": "KWPT-033121",
+    "numPhotos": 36,
+    "price": 1100.0,
+    "priceInfo": {
+      "price": {
+        "amount": 1100.0,
+        "currencySuffix": "€/mês"
+      }
+    },
+    "propertyType": "duplex",
+    "operation": "rent",
+    "size": 162.0,
+    "rooms": 4,
+    "bathrooms": 2,
+    "address": "Duplex no Centro de Ovar, Ovar",
+    "province": "Aveiro",
+    "municipality": "Ovar",
+    "district": "Centro de Ovar",
+    "country": "pt",
+    "latitude": 40.8624518,
+    "longitude": -8.6155868,
+    "showAddress": false,
+    "url": "https://www.idealista.pt/imovel/35044410/",
+    "description": "Disponível para arrendamento, este apartamento T4 duplex situa-se no 1. º andar de um edifício localizado no Largo Almeida Garrett, freguesia e concelho de Ovar, numa zona central e privilegiada da cidade. Em bom estado de conservação e renovado em 1999, destaca-se pela excelente luminosidade natural, exposição solar nascente/poente e pela organização funcional dos espaços, ideal para famílias que valorizam conforto, centralidade e áreas generosas. Resumo: • Apartamento T4 duplex • 1. º andar • Lugar de garagem incluído • Renovado em 1999 • Excelente exposição solar • Sem mobília Composição e áreas: Distribuído por dois pisos, oferece uma vivência prática e bem definida entre zona social e privada. • Hall de entrada acolhedor • Sala ampla e luminosa • Cozinha funcional equipada • WC de serviço, despensa e lavandaria • 4 quartos com roupeiros embutidos • Casa de banho completa com banheira Conforto e equipamento: • Forno • Placa de indução • Máquina de lavar louça • Exaustor • Termoacumulador • Estores elétricos e focos embutidos Edifício/Exterior/Funcionalidade: • Vista desafogada para jardim • Quartos orientados a nascente e poente • Pavimento cerâmico na zona social • Pavimento flutuante nos quartos • Caixilharia dupla • Boa organização interior Localização e proximidades: • Comércio local 100 m • Serviços essenciais 150 m • Estação ferroviária de Ovar 850 m • Escolas 500 m • Acesso à A29 2 km • Zonas verdes e lazer 100 m Notas relevantes: Uma solução habitacional rara pela sua dimensão e localização central, oferecendo funcionalidade e conforto no coração da cidade. • Ideal para famílias • Zona consolidada e servida • Entrada imediata (a confirmar) Agende já uma visita: Se procura espaço, centralidade e praticidade no dia a dia, contacte para mais informações e agendamento de visita. Para qualquer informação sobre este imóvel, por favor refira sempre o código de identificação ID: KWPT-033121. Quando agendar e efetuar uma visita, faça-se sempre acompanhar do seu Cartão de Cidadão, Passaporte ou qualquer outro documento de identificação. Licença de utilização: 161.",
+    "hasVideo": false,
+    "status": "good",
+    "newDevelopment": false,
+    "priceByArea": 7.0,
+    "change": {},
+    "detailedType": {
+      "typology": "flat",
+      "subTypology": "duplex"
+    },
+    "suggestedTexts": {
+      "title": "Duplex no Centro de Ovar, Ovar"
+    },
+    "hasPlan": false,
+    "has3DTour": false,
+    "has360": false,
+    "hasStaging": false,
+    "savedAd": {},
+    "notes": [],
+    "topNewDevelopment": false,
+    "newDevelopmentHighlight": false,
+    "topPlus": false
+  },
+  {
+    "propertyCode": "35044320",
+    "thumbnail": "https://img4.idealista.pt/blur/480_360_mq/0/id.pro.pt.image.master/05/f5/0a/318066718.webp",
+    "externalReference": "Blanc 2.2 ",
+    "numPhotos": 33,
+    "floor": "2",
+    "price": 975.0,
+    "priceInfo": {
+      "price": {
+        "amount": 975.0,
+        "currencySuffix": "€/mês"
+      }
+    },
+    "propertyType": "studio",
+    "operation": "rent",
+    "size": 45.0,
+    "rooms": 0,
+    "bathrooms": 1,
+    "address": "Apartamento T0 na Rua General José Domingues Peres, 28, Forca, Glória e Vera Cruz",
+    "province": "Aveiro",
+    "municipality": "Glória e Vera Cruz",
+    "district": "Forca",
+    "country": "pt",
+    "latitude": 40.6418763,
+    "longitude": -8.6386613,
+    "showAddress": true,
+    "url": "https://www.idealista.pt/imovel/35044320/",
+    "description": "O apartamento junto à estação ferroviária, mobilado e com despesas incluídas. Um estúdio concebido com uma disposição semelhante à de um apartamento T1. Localizado numa zona tranquila e bem servida de Aveiro, junto à estação ferroviária, o imóvel encontra-se próximo de supermercados, cafés, restaurantes, farmácias, ginásios e outros serviços essenciais do dia a dia. A área é também bem servida por transportes públicos e oferece fácil acesso à universidade, tornando-se uma excelente opção para estudantes, jovens profissionais ou trabalhadores remotos.  Disponível a partir de 15 de junho. Por favor, tenha em consideração: - Os nossos apartamentos não dispõem de receção física; toda a comunicação é feita online ou por telefone. O check-in é totalmente self-service e pode ser realizado através do telemóvel. - O serviço de limpeza não está incluído. - Caso necessário, podemos disponibilizar um conjunto extra de roupa de cama e toalhas para que os inquilinos possam fazer a troca e lavagem autonomamente. - Existe um ginásio convenientemente localizado nas proximidades. - Existe estacionamento público nas imediações. - As despesas estão incluídas até ao limite de 100€.",
+    "hasVideo": true,
+    "status": "good",
+    "newDevelopment": false,
+    "hasLift": true,
+    "priceByArea": 22.0,
+    "change": {},
+    "detailedType": {
+      "typology": "flat",
+      "subTypology": "studio"
+    },
+    "suggestedTexts": {
+      "title": "Apartamento T0 na Rua General José Domingues Peres, 28, Forca, Glória e Vera Cruz"
+    },
+    "hasPlan": true,
+    "has3DTour": false,
+    "has360": false,
+    "hasStaging": false,
+    "savedAd": {},
+    "notes": [],
+    "topNewDevelopment": false,
+    "newDevelopmentHighlight": false,
+    "topPlus": false
+  },
+  {
+    "propertyCode": "35043837",
+    "thumbnail": "https://img4.idealista.pt/blur/480_360_mq/0/id.pro.pt.image.master/1a/7d/77/318049093.webp",
+    "externalReference": "4513",
+    "numPhotos": 17,
+    "floor": "3",
+    "price": 1050.0,
+    "priceInfo": {
+      "price": {
+        "amount": 1050.0,
+        "currencySuffix": "€/mês"
+      }
+    },
+    "propertyType": "flat",
+    "operation": "rent",
+    "size": 80.0,
+    "rooms": 1,
+    "bathrooms": 1,
+    "address": "Apartamento T1 em Anta",
+    "province": "Aveiro",
+    "municipality": "Anta",
+    "country": "pt",
+    "latitude": 41.0047153,
+    "longitude": -8.6244939,
+    "showAddress": false,
+    "url": "https://www.idealista.pt/imovel/35043837/",
+    "description": "Apartamento T1 como novo, para venda em Anta, Espinho com elevador e lugar de garagem para 1 carro. Sito num terceiro andar com excelentes vistas sobre a cidade e o mar, este apartamento é vendido completamente mobilado e equipado. Excelente localização à entrada da cidade de Espinho, Rua 33, com uma exposição solar nascente/poente e fantásticas vistas sobre a cidade e o mar. Próximo de escolas, com fáceis acessos à auto-estrada e a apenas 2 minutos de carro do centro da cidade. Mapa de acabamentos 1.1 Aspetos vários - Pavimentos flutuantes em madeira, acabamento Carvalho e em lamina cerâmica - Carpintarias lacadas - Portas e armários lacados a branco com a altura total dos espaços - Rodapés em mdf lacado - Painel de parede (até 2m) em MDF folheado a madeira nobre nos Halls - Tetos falsos interiores com sancas de iluminação - Pavimento das varandas em deck cerâmico - Pegas sanitárias suspensas - Sistema de corte geral de iluminação e estores - Videoporteiro a cores e botoeira exterior tipo “BPT - Portes exteriores automatizadas - Tv e dados por cabo - Gás canalizado 1.2 Conforto - Ar condicionado - multi-split - Pre-instalação de aspiração central - Sistema de bomba de calor - Estores exteriores 1.3 Segurança - Porta de segurança tipo \"Porseg\" revestida em painéis lacados - Detetor de incêndio e monóxido de carbono (garagem) - Sistema de ventilação natural nas garagens 2. Acabamentos Interiores 2.1 Hall e escadas - Pavimento em material cerâmico retificado - Painel de parede (ate 2m) em MDF folheado a madeira nobre nos Halls - Paredes estanhadas 2.2 Sala - Pavimento flutuante em madeira de Carvalho - Paredes estanhadas - Sancas para cortinas 2.3 Cozinha - Armários em MDF hidrófugo revestido a melamínico topface texturado e acabamento exterior a termolaminado, acabamento alto brilho - Pré-instalação para equipamentos de cozinha embutidos (placa; forno; micro-ondas; exaustor, maquina lavar louça) - Torneiras Mon comando da W 2007 - Tampo e espaço entre moveis em Silstone - Pavimento e paredes em material cerâmico ratificado - Teto falso com iluminação com focos led 2.4 Instalações sanitárias de serviço - Sanita suspensa da Sanindusa - Lavatório de pousar da Sanindusa - Torneiras monocomando da W 2007 - Tato falso com iluminação com focos led - Armários suspensas em MDF hidrófugo com acabamento exterior lacado branco - Pavimento e paredes em maternal lâmina cerâmico retificado 2.5 Instalações sanitárias completas - Peças sanitárias suspensas da Sanindusa - Tampos lacados com Lavatório de pousar da Sanindusa - Torneiras monocomando da W 2007 - Teto falso com iluminação com focos led - Armários suspensos em MDF hidrófugo com acabamento exterior lacado branco - Pavimento e paredes em material cerâmico retificado - Resguardos de duche em vidro temperado - Bases de chuveiro - Toalheiros aquecidos 2.7 Quartos - Pavimento flutuante em madeira de Carvalho - Paredes estanhadas - Portas e armários lacados a branco com a altura total dos espaços; interiores em melamina - Teto falso com iluminação com focos led - Sancas para cortinas - Estores exteriores 2.8 Garagem - Lugares de garagem - Pavimento acabamento betão 3. Acabamentos Exteriores 3.1 Acabamentos exteriores - Pavimento das varandas, terraços e logradouros em lajetas cerâmicas. - Revestimento de fachada em sistema capote, liso com a acabamento a pintura, - Revestimento de fachada em sistema capoto, liso com a acabamento a lamina cerâmica (r/chão). - Revestimento com painéis alumínio, acabamento cor madeira ( Entradas do prédio) - Soleiras e peitoris em chapa quinada de alumínio - Pavimento em lajetas de betão à cor natural nos terraços das habitações - Tatos-falsos exteriores em placas do tipo \"Aquapanel” - Serralharias exteriores (portas e portões) em estrutura de ferro metalizado revestido a painéis alumínio - Caixilharias exteriores em alumínio c.",
+    "hasVideo": false,
+    "status": "good",
+    "newDevelopment": false,
+    "hasLift": true,
+    "parkingSpace": {
+      "hasParkingSpace": true,
+      "isParkingSpaceIncludedInPrice": true
+    },
+    "priceByArea": 13.0,
+    "change": {},
+    "detailedType": {
+      "typology": "flat"
+    },
+    "suggestedTexts": {
+      "title": "Apartamento T1 em Anta"
+    },
+    "hasPlan": true,
+    "has3DTour": false,
+    "has360": false,
+    "hasStaging": false,
+    "savedAd": {},
+    "notes": [],
+    "topNewDevelopment": false,
+    "newDevelopmentHighlight": false,
+    "topPlus": false
+  },
+  {
+    "propertyCode": "35043389",
+    "thumbnail": "https://img4.idealista.pt/blur/480_360_mq/0/id.pro.pt.image.master/18/72/08/318027800.webp",
+    "externalReference": "L2601",
+    "numPhotos": 11,
+    "floor": "1",
+    "price": 825.0,
+    "priceInfo": {
+      "price": {
+        "amount": 825.0,
+        "currencySuffix": "€/mês"
+      }
+    },
+    "propertyType": "flat",
+    "operation": "rent",
+    "size": 51.0,
+    "rooms": 2,
+    "bathrooms": 1,
+    "address": "Apartamento T2 na Rua das Companhas, Gafanha da Encarnação",
+    "province": "Aveiro",
+    "municipality": "Gafanha da Encarnação",
+    "country": "pt",
+    "latitude": 40.612776,
+    "longitude": -8.7515955,
+    "showAddress": false,
+    "url": "https://www.idealista.pt/imovel/35043389/",
+    "description": "Apartamento T2 totalmente renovado, situado na Costa Nova a cerca de 200 m da praia. O apartamento possui boa exposição solar e está mobilado. O apartamento é composto por cozinha/sala em open-space com acesso a uma varanda, dois quartos um deles com acesso a uma varanda e uma casa de banho completa. Para resposta imediata envie contato telefónico. HS. N/Ref. ª L2601  Fully renovated 2 bedroom flat, located in Costa Nova, about 200 m from the beach. The flat has good sun exposure and is furnished. The flat consists of an open-space kitchen/living room with access to a balcony, two bedrooms, one of them with access to a balcony and a full bathroom. For immediate response, please contact us by phone. HS. Part No. L2601.",
+    "hasVideo": false,
+    "status": "good",
+    "newDevelopment": false,
+    "hasLift": false,
+    "priceByArea": 16.0,
+    "change": {},
+    "detailedType": {
+      "typology": "flat"
+    },
+    "suggestedTexts": {
+      "title": "Apartamento T2 na Rua das Companhas, Gafanha da Encarnação"
+    },
+    "hasPlan": true,
+    "has3DTour": false,
+    "has360": false,
+    "hasStaging": false,
+    "savedAd": {},
+    "notes": [],
+    "topNewDevelopment": false,
+    "newDevelopmentHighlight": false,
+    "topPlus": false
+  },
+  {
+    "propertyCode": "35043272",
+    "thumbnail": "https://img4.idealista.pt/blur/480_360_mq/0/id.pro.pt.image.master/48/58/d1/318025345.webp",
+    "externalReference": "1160-96",
+    "numPhotos": 13,
+    "price": 1000.0,
+    "priceInfo": {
+      "price": {
+        "amount": 1000.0,
+        "currencySuffix": "€/mês"
+      }
+    },
+    "propertyType": "flat",
+    "operation": "rent",
+    "size": 122.0,
+    "rooms": 2,
+    "bathrooms": 2,
+    "address": "Apartamento T2 na Rua dos Bombeiros Voluntários de Vagos, 7, Vagos",
+    "province": "Aveiro",
+    "municipality": "Vagos",
+    "country": "pt",
+    "latitude": 40.5511107,
+    "longitude": -8.6770599,
+    "showAddress": true,
+    "url": "https://www.idealista.pt/imovel/35043272/",
+    "description": "Apartamento T2 para arrendamento no centro de Vagos, localizado junto ao Pingo Doce e próximo de uma ampla variedade de comércio e serviços, como pastelarias, restaurantes, farmácia, talho, notário e outros serviços essenciais para o dia a dia. Beneficia ainda de uma localização estratégica, a cerca de 5 km das praias e a apenas 3 km do acesso à A17, permitindo excelentes ligações e comodidade. Inserido no rés do chão de um edifício de linhas modernas, este apartamento destaca-se pela sua funcionalidade, conforto e excelente exposição solar. O imóvel é composto por dois quartos, duas casas de banho, sala e cozinha em conceito open space, proporcionando um ambiente amplo, luminoso e acolhedor. Dispõe ainda de um agradável terraço na frente do apartamento, ideal para momentos de lazer ou convívio. Ao nível do conforto, conta com ar condicionado em todas as divisões e piso radiante na cozinha e sala, garantindo bem-estar em qualquer estação do ano. O apartamento inclui ainda um lugar de estacionamento na cave, existindo também facilidade de estacionamento na frente do edifício. Pela sua localização central, proximidade às praias e acessos rápidos, esta é uma excelente opção para quem procura qualidade de vida, conforto e conveniência numa das zonas mais procuradas do concelho de Vagos. O arrendamento destina-se a clientes com documento de identificação nacional ou cartão de residente. Serão considerados os interessados que reúnam condições para o pagamento de duas rendas adiantadas e caução no valor de duas rendas.",
+    "hasVideo": false,
+    "status": "good",
+    "newDevelopment": false,
+    "hasLift": true,
+    "parkingSpace": {
+      "hasParkingSpace": true,
+      "isParkingSpaceIncludedInPrice": true
+    },
+    "priceByArea": 8.0,
+    "change": {},
+    "detailedType": {
+      "typology": "flat"
+    },
+    "suggestedTexts": {
+      "title": "Apartamento T2 na Rua dos Bombeiros Voluntários de Vagos, 7, Vagos"
+    },
+    "hasPlan": false,
+    "has3DTour": false,
+    "has360": false,
+    "hasStaging": false,
+    "savedAd": {},
+    "notes": [],
+    "topNewDevelopment": false,
+    "newDevelopmentHighlight": false,
+    "topPlus": false
+  },
+  {
+    "propertyCode": "35043084",
+    "thumbnail": "https://img4.idealista.pt/blur/480_360_mq/90/id.pro.pt.image.master/b9/91/7e/318016847.webp",
+    "numPhotos": 21,
+    "floor": "2",
     "price": 1100.0,
     "priceInfo": {
       "price": {
@@ -114,18 +1188,1090 @@
     },
     "propertyType": "flat",
     "operation": "rent",
-    "size": 110.0,
+    "size": 155.0,
+    "rooms": 4,
+    "bathrooms": 2,
+    "address": "Apartamento T4 na Rua 31, 235, Espinho",
+    "province": "Aveiro",
+    "municipality": "Espinho",
+    "country": "pt",
+    "latitude": 41.0047786,
+    "longitude": -8.6431951,
+    "showAddress": true,
+    "url": "https://www.idealista.pt/imovel/35043084/",
+    "description": "**Apartamento T4 Espinho em Localização Privilegiada** Arrenda se T4 a 200 m da Praia.  Disposição solar, Nascente Sul, Com uma área útil de 130 m² e 155 m² Bruta. Cozinha equipada com placa vitrocerâmica, forno, micro-ondas, frigorífico e máquina de lavar louça. A sala dispõe de uma varanda a nascente e 1 quarto com varanda a sul Com 4 quartos e 2 casas de banho, este apartamento é perfeito para famílias ou para quem gosta de receber amigos. Os armários embutidos oferecem espaço extra para armazenamento. Localizado no 2º andar sem elevador, Garagem fechada. A localização é um dos grandes destaques: além da proximidade à praia, este apartamento é uma excelente oportunidade para quem deseja viver em um ambiente confortável e bem localizado. Venha visitar!",
+    "hasVideo": false,
+    "status": "good",
+    "newDevelopment": false,
+    "hasLift": false,
+    "parkingSpace": {
+      "hasParkingSpace": true,
+      "isParkingSpaceIncludedInPrice": true
+    },
+    "priceByArea": 7.0,
+    "change": {},
+    "detailedType": {
+      "typology": "flat"
+    },
+    "suggestedTexts": {
+      "title": "Apartamento T4 na Rua 31, 235, Espinho"
+    },
+    "hasPlan": false,
+    "has3DTour": false,
+    "has360": false,
+    "hasStaging": false,
+    "savedAd": {},
+    "notes": [],
+    "topNewDevelopment": false,
+    "newDevelopmentHighlight": false,
+    "topPlus": false
+  },
+  {
+    "propertyCode": "35042982",
+    "thumbnail": "https://img4.idealista.pt/blur/480_360_mq/0/id.pro.pt.image.master/53/ed/4d/318010837.webp",
+    "numPhotos": 9,
+    "floor": "1",
+    "price": 775.0,
+    "priceInfo": {
+      "price": {
+        "amount": 775.0,
+        "currencySuffix": "€/mês"
+      }
+    },
+    "propertyType": "flat",
+    "operation": "rent",
+    "size": 55.0,
+    "rooms": 1,
+    "bathrooms": 1,
+    "address": "Apartamento T1 na Rua Pedro Álvares Cabral s/n, Santa Joana",
+    "province": "Aveiro",
+    "municipality": "Santa Joana",
+    "country": "pt",
+    "latitude": 40.6388522,
+    "longitude": -8.6239596,
+    "showAddress": true,
+    "url": "https://www.idealista.pt/imovel/35042982/",
+    "description": "Arrenda-se Apartamento T1 Mobilado e Equipado Santa Joana Aveiro, fica no Caião em Santa Joana. Situa-se num 1º andar com acesso a uma garagem com dois lugares disponíveis incluídos no arrendamento. O imóvel está em em ótimas condições e tem uma área espetacular.  Não perca esta oportunidade venha conhecer.",
+    "hasVideo": false,
+    "status": "good",
+    "newDevelopment": false,
+    "hasLift": true,
+    "priceByArea": 14.0,
+    "change": {},
+    "detailedType": {
+      "typology": "flat"
+    },
+    "suggestedTexts": {
+      "title": "Apartamento T1 na Rua Pedro Álvares Cabral s/n, Santa Joana"
+    },
+    "hasPlan": false,
+    "has3DTour": false,
+    "has360": false,
+    "hasStaging": false,
+    "savedAd": {},
+    "notes": [],
+    "topNewDevelopment": false,
+    "newDevelopmentHighlight": false,
+    "topPlus": false
+  },
+  {
+    "propertyCode": "35042280",
+    "thumbnail": "https://img4.idealista.pt/blur/480_360_mq/0/id.pro.pt.image.master/c8/d3/10/317981855.webp",
+    "externalReference": "AV2934",
+    "numPhotos": 16,
+    "price": 1000.0,
+    "priceInfo": {
+      "price": {
+        "amount": 1000.0,
+        "currencySuffix": "€/mês"
+      }
+    },
+    "propertyType": "studio",
+    "operation": "rent",
+    "size": 36.0,
+    "rooms": 0,
+    "bathrooms": 1,
+    "address": "Apartamento T0 na Zona Histórica - Beira-Mar, Glória e Vera Cruz",
+    "province": "Aveiro",
+    "municipality": "Glória e Vera Cruz",
+    "district": "Zona Histórica - Beira-Mar",
+    "country": "pt",
+    "latitude": 40.6412368,
+    "longitude": -8.654624,
+    "showAddress": false,
+    "url": "https://www.idealista.pt/imovel/35042280/",
+    "description": "Apartamento T0  no coração de Aveiro – Avenida Dr. Lourenço Peixinho Apresento este elegante apartamento T0, situado na prestigiada Avenida Dr. Lourenço Peixinho, em pleno centro da cidade de Aveiro. Inserido num edifício moderno de 2024, este imóvel destaca-se pela sua construção recente, acabamentos de elevada qualidade e excelente exposição. O apartamento dispõe de áreas generosas, sendo arrendado totalmente mobilado e equipado, pronto a habitar. Ideal para quem procura conforto, funcionalidade e uma localização privilegiada. O valor da renda já inclui luz, àgua, internet e limpeza quinzenal. Localização central, com acesso imediato a todo o tipo de serviços, comércio, restaurantes, transportes públicos e excelentes ligações às principais vias e autoestradas. Características principais: Apartamento T0 de luxo Construção recente (2024) Totalmente mobilado e equipado Boas áreas e excelente distribuição Localização premium no centro da cidade Próximo de serviços, comércio e restauração Bons acessos rodoviáriosNota: Trata-se de um contrato de prestação de serviços e não de arrendamento.  Para o contrato é necessário o valor correspondente a 4 \"meses\". Existem outras fracções disponíveis no mesmo edifício, por valores similares. Para mais informações e visitas com a consultora, Vânia Estêvão, conforme disponibilidade.",
+    "hasVideo": false,
+    "status": "good",
+    "newDevelopment": false,
+    "hasLift": false,
+    "priceByArea": 28.0,
+    "change": {},
+    "detailedType": {
+      "typology": "flat",
+      "subTypology": "studio"
+    },
+    "suggestedTexts": {
+      "title": "Apartamento T0 na Zona Histórica - Beira-Mar, Glória e Vera Cruz"
+    },
+    "hasPlan": false,
+    "has3DTour": false,
+    "has360": false,
+    "hasStaging": false,
+    "savedAd": {},
+    "notes": [],
+    "topNewDevelopment": false,
+    "newDevelopmentHighlight": false,
+    "topPlus": false
+  },
+  {
+    "propertyCode": "35042275",
+    "thumbnail": "https://img4.idealista.pt/blur/480_360_mq/0/id.pro.pt.image.master/a1/8f/29/317981842.webp",
+    "externalReference": "AV2920",
+    "numPhotos": 23,
+    "floor": "2",
+    "price": 1150.0,
+    "priceInfo": {
+      "price": {
+        "amount": 1150.0,
+        "currencySuffix": "€/mês"
+      }
+    },
+    "propertyType": "flat",
+    "operation": "rent",
+    "size": 51.0,
+    "rooms": 1,
+    "bathrooms": 1,
+    "address": "Apartamento T1 na Avenida Doutor Lourenço Peixinho, 66, Estação - Avenida, Glória e Vera Cruz",
+    "province": "Aveiro",
+    "municipality": "Glória e Vera Cruz",
+    "district": "Estação - Avenida",
+    "country": "pt",
+    "latitude": 40.642027,
+    "longitude": -8.650624,
+    "showAddress": true,
+    "url": "https://www.idealista.pt/imovel/35042275/",
+    "description": "Apartamento T1  no coração de Aveiro – Avenida Dr. Lourenço Peixinho Apresento este elegante apartamento T1, situado na prestigiada Avenida Dr. Lourenço Peixinho, em pleno centro da cidade de Aveiro. Inserido num edifício moderno de 2024, este imóvel destaca-se pela sua construção recente, acabamentos de elevada qualidade e excelente exposição. O apartamento dispõe de áreas generosas, sendo arrendado totalmente mobilado e equipado, pronto a habitar. Ideal para quem procura conforto, funcionalidade e uma localização privilegiada. O valor já inclui luz, e água (de acordo com determinados limites) , internet e limpeza quinzenal  Localização central, com acesso imediato a todo o tipo de serviços, comércio, restaurantes, transportes públicos e excelentes ligações às principais vias e autoestradas. Características principais: Apartamento T1 de luxo Construção recente (2024) Totalmente mobilado e equipado Boas áreas e excelente distribuição Localização premium no centro da cidade Próximo de serviços, comércio e restauração Bons acessos rodoviáriosNota: Trata-se de um contrato de prestação de serviços e não de arrendamento.  Para o contrato é necessário o valor correspondente a 4 \"meses\". Existem outras fracções disponíveis no mesmo edifício, por valores similares. Para mais informações e visitas com a consultora, Vânia Estêvão, conforme disponibilidade.",
+    "hasVideo": false,
+    "status": "good",
+    "newDevelopment": false,
+    "hasLift": false,
+    "priceByArea": 23.0,
+    "change": {},
+    "detailedType": {
+      "typology": "flat"
+    },
+    "suggestedTexts": {
+      "title": "Apartamento T1 na Avenida Doutor Lourenço Peixinho, 66, Estação - Avenida, Glória e Vera Cruz"
+    },
+    "hasPlan": false,
+    "has3DTour": false,
+    "has360": false,
+    "hasStaging": false,
+    "savedAd": {},
+    "notes": [],
+    "topNewDevelopment": false,
+    "newDevelopmentHighlight": false,
+    "topPlus": false
+  },
+  {
+    "propertyCode": "35041737",
+    "thumbnail": "https://img4.idealista.pt/blur/480_360_mq/0/id.pro.pt.image.master/52/b0/fd/317958296.webp",
+    "externalReference": "163806",
+    "numPhotos": 26,
+    "price": 1500.0,
+    "priceInfo": {
+      "price": {
+        "amount": 1500.0,
+        "currencySuffix": "€/mês"
+      }
+    },
+    "propertyType": "chalet",
+    "operation": "rent",
+    "size": 244.0,
+    "rooms": 3,
+    "bathrooms": 3,
+    "address": "Moradia independente em São Salvador",
+    "province": "Aveiro",
+    "municipality": "São Salvador",
+    "country": "pt",
+    "latitude": 40.5861136,
+    "longitude": -8.6335726,
+    "showAddress": false,
+    "url": "https://www.idealista.pt/imovel/35041737/",
+    "description": "Arrenda-se moradia T3 Contemporânea em São Salvador – Ílhavo, Aveiro Luminosidade, Modernidade e Conforto Exclusivo Se procura uma casa que combine arquitetura contemporânea, privacidade e uma luminosidade única, esta elegante moradia T3 (disponível sem mobília) é a escolha perfeita. Localizada numa zona tranquila de São Salvador – Ílhavo, destaca-se pelo seu design moderno de linhas direitas, áreas generosas, pé-direito alto e grandes vãos envidraçados que convidam a luz natural a entrar durante todo o dia. O Interior: Espaço e Funcionalidade Piso Térreo (Zona Social e de Trabalho):  Boas-Vindas: Corredor de distribuição.  Home Office: Um escritório privativo com despensa independente, ideal para teletrabalho.  Cozinha Moderna e Funcional: Equipada com frigorífico grande novo, placa de indução, forno e exaustor e complementada por uma área de lavandaria/serviço independente. Salas de Estar e Jantar: Um espaço amplo e sofisticado enriquecido por uma lareira. As grandes portadas de vidro oferecem uma vista privilegiada e uma ligação harmoniosa ao jardim exterior. Quarto de Banho: Uma casa de banho completa de apoio ao piso térreo. Piso Superior (Zona Privada): Master Suíte: que inclui um closet privativo e uma casa de banho completa com banheira de hidromassagem. Quartos Confortáveis: Quartos amplos com roupeiros,  O Exterior: Lazer e Conveniência  Jardim Privativo: Espaço verde lateral com árvore de frutos e sistema de rega automática instalado.  Zona de Churrasqueira: Perfeita para momentos de lazer e refeições ao ar livre com amigos e família.  Estacionamento Amplo: Garagem fechada (box) com portão automatizado e arrumo interior. Capacidade total para 4 viaturas (2 cobertas e 2 descobertas).  Iluminação exterior integrada em toda a propriedade.  Equipamentos e Alta Performance Conforto Térmico e Acústico: Caixilharia com vidros duplos de alta eficiência.  Sustentabilidade: Painéis solares para aquecimento de águas (redução de consumos energéticos).  Comodidade: Sistema de aspiração central e portões exteriores automáticos.  Segurança: Instalação de sistema de alarme/segurança. Nos quartos estores elétricos para o máximo conforto e isolamento térmico. Localização  Viver aqui significa estar perto de tudo, sem abdicar da tranquilidade:  Acessos Rápidos: Excelentes ligações rodoviárias ao centro de Ílhavo e à cidade de Aveiro.  Estilo de Vida: A poucos minutos das icónicas Praias da Barra e Costa Nova. ref: 163806 Licença de utilização: 00.",
+    "hasVideo": true,
+    "status": "good",
+    "newDevelopment": false,
+    "priceByArea": 6.0,
+    "change": {},
+    "detailedType": {
+      "typology": "chalet",
+      "subTypology": "independantHouse"
+    },
+    "suggestedTexts": {
+      "title": "Moradia independente em São Salvador"
+    },
+    "hasPlan": true,
+    "has3DTour": false,
+    "has360": false,
+    "hasStaging": false,
+    "savedAd": {},
+    "notes": [],
+    "topNewDevelopment": false,
+    "newDevelopmentHighlight": false,
+    "topPlus": false
+  },
+  {
+    "propertyCode": "35041254",
+    "thumbnail": "https://img4.idealista.pt/blur/480_360_mq/0/id.pro.pt.image.master/d4/e9/87/317942610.webp",
+    "externalReference": "124541109-106",
+    "numPhotos": 15,
+    "floor": "bj",
+    "price": 900.0,
+    "priceInfo": {
+      "price": {
+        "amount": 900.0,
+        "currencySuffix": "€/mês"
+      }
+    },
+    "propertyType": "flat",
+    "operation": "rent",
+    "size": 98.0,
+    "rooms": 2,
+    "bathrooms": 1,
+    "address": "Apartamento T2 na Rua Sargento João Nunes Redondo, São Salvador",
+    "province": "Aveiro",
+    "municipality": "São Salvador",
+    "country": "pt",
+    "latitude": 40.5897399,
+    "longitude": -8.6780659,
+    "showAddress": false,
+    "url": "https://www.idealista.pt/imovel/35041254/",
+    "description": "  Apartamento T2 r/c elevado, com terraço em Ílhavo, na zona da Vista Alegre, para arrendamento. Apartamento com ótima localização, o que permitirá uma excelente qualidade de vida. O imóvel é constituído por: cozinha equipada com fogão, exaustor e esquentador; sala de estar e jantar casa de banho com banheira, Hall de quartos que permite a total privacidade para os quartos; 2 quartos com roupeiros; Uma pequena marquise, que poderá funcionar de arrumação, secar roupa de inverno ou outra qualquer utilização; um simpático terraço com 49,20 m2 onde poderá colocar, por exemplo, uma mesa e cadeiras e desfrutar de um belo momento de relaxamento, aproveitando os dias de sol para recarregar energias.   O apartamento dispõe ainda de uma garagem na cave.  Condições:   2 rendas 2 cauções  ultimos recibos de vencimento ultimo IRS  Entrada início de Julho/2026   * Fotografias profissionais em breve!  Licença de Utilização - 186/2003.",
+    "hasVideo": false,
+    "status": "good",
+    "newDevelopment": false,
+    "hasLift": false,
+    "priceByArea": 9.0,
+    "change": {},
+    "detailedType": {
+      "typology": "flat"
+    },
+    "suggestedTexts": {
+      "title": "Apartamento T2 na Rua Sargento João Nunes Redondo, São Salvador"
+    },
+    "hasPlan": false,
+    "has3DTour": false,
+    "has360": false,
+    "hasStaging": false,
+    "savedAd": {},
+    "notes": [],
+    "topNewDevelopment": false,
+    "newDevelopmentHighlight": false,
+    "topPlus": false
+  },
+  {
+    "propertyCode": "35039793",
+    "thumbnail": "https://img4.idealista.pt/blur/480_360_mq/0/id.pro.pt.image.master/9f/e3/18/317878994.webp",
+    "externalReference": "123421423-5",
+    "numPhotos": 21,
+    "floor": "1",
+    "price": 1000.0,
+    "priceInfo": {
+      "price": {
+        "amount": 1000.0,
+        "currencySuffix": "€/mês"
+      }
+    },
+    "propertyType": "flat",
+    "operation": "rent",
+    "size": 107.0,
     "rooms": 3,
     "bathrooms": 2,
-    "address": "Rua do Carmo, 10",
+    "address": "Apartamento T3 na Avenida José Estevão, Gafanha da Nazaré",
     "province": "Aveiro",
-    "municipality": "Aveiro",
+    "municipality": "Gafanha da Nazaré",
     "country": "pt",
-    "latitude": 40.6385,
-    "longitude": -8.6534,
+    "latitude": 40.6367741,
+    "longitude": -8.7063835,
+    "showAddress": false,
+    "url": "https://www.idealista.pt/imovel/35039793/",
+    "description": "Apresentamos este fantástico apartamento T3 no 1º andar, inserido em zona central com excelentes acessos e proximidade a todo o tipo de comércio e serviços. Este imóvel destaca-se pela sua funcionalidade e pela boa distribuição das divisões, proporcionando conforto e qualidade de vida. Boa luminosidade natural 3 Quartos com armarios embutidos 2 WC, 1 deles com banheira Cozinha equipada com placa, forno e exaustor Arrumos Sala com recuperador de calor a lenha Condomínio incluído no valor da renda Apenas 5 minutos das praias (Costa Nova e Barra) A cerca de 10 minutos do centro de Aveiro.",
+    "hasVideo": false,
+    "status": "good",
+    "newDevelopment": false,
+    "hasLift": false,
+    "parkingSpace": {
+      "hasParkingSpace": true,
+      "isParkingSpaceIncludedInPrice": true
+    },
+    "priceByArea": 9.0,
+    "change": {},
+    "detailedType": {
+      "typology": "flat"
+    },
+    "suggestedTexts": {
+      "title": "Apartamento T3 na Avenida José Estevão, Gafanha da Nazaré"
+    },
+    "hasPlan": false,
+    "has3DTour": false,
+    "has360": false,
+    "hasStaging": false,
+    "savedAd": {},
+    "notes": [],
+    "topNewDevelopment": false,
+    "newDevelopmentHighlight": false,
+    "topPlus": false
+  },
+  {
+    "propertyCode": "35039767",
+    "thumbnail": "https://img4.idealista.pt/blur/480_360_mq/0/id.pro.pt.image.master/38/71/9b/317877833.webp",
+    "externalReference": "123421423-5",
+    "numPhotos": 29,
+    "floor": "1",
+    "price": 1000.0,
+    "priceInfo": {
+      "price": {
+        "amount": 1000.0,
+        "currencySuffix": "€/mês"
+      }
+    },
+    "propertyType": "flat",
+    "operation": "rent",
+    "size": 106.0,
+    "rooms": 3,
+    "bathrooms": 2,
+    "address": "Apartamento T3 na Rua Santo Amaro, Gafanha da Nazaré",
+    "province": "Aveiro",
+    "municipality": "Gafanha da Nazaré",
+    "country": "pt",
+    "latitude": 40.6382365,
+    "longitude": -8.7233791,
+    "showAddress": false,
+    "url": "https://www.idealista.pt/imovel/35039767/",
+    "description": "� Apartamento T3 Gafanha da Nazaré Apresentamos este fantástico apartamento T3, situado na prestigiada Avenida José Estevão, na Gafanha da Nazaré, inserido em zona central com excelentes acessos e proximidade a todo o tipo de comércio e serviços. Este imóvel destaca-se pela sua funcionalidade e pela boa distribuição das divisões, proporcionando conforto e qualidade de vida. Principais características: Tipologia T3 Inserido no 1º andar Prédio em regime de propriedade horizontal Áreas equilibradas e bem distribuídas Boa luminosidade natural Condomínio incluído no valor da renda Localização privilegiada: Situado no concelho de Ílhavo, este imóvel encontra-se a: Apenas 5 minutos das praias (Costa Nova e Barra) A cerca de 10 minutos do centro de Aveiro A envolvente oferece tranquilidade, com acesso rápido a escolas, supermercados, transportes e principais vias. LU 142/96 Condições de arrendamento: Pagamento inicial de 2 rendas + 2 cauções.",
+    "hasVideo": false,
+    "status": "good",
+    "newDevelopment": false,
+    "hasLift": false,
+    "parkingSpace": {
+      "hasParkingSpace": true,
+      "isParkingSpaceIncludedInPrice": true
+    },
+    "priceByArea": 9.0,
+    "change": {},
+    "detailedType": {
+      "typology": "flat"
+    },
+    "suggestedTexts": {
+      "title": "Apartamento T3 na Rua Santo Amaro, Gafanha da Nazaré"
+    },
+    "hasPlan": false,
+    "has3DTour": false,
+    "has360": false,
+    "hasStaging": false,
+    "savedAd": {},
+    "notes": [],
+    "topNewDevelopment": false,
+    "newDevelopmentHighlight": false,
+    "topPlus": false
+  },
+  {
+    "propertyCode": "33916800",
+    "thumbnail": "https://img4.idealista.pt/blur/480_360_mq/0/id.pro.pt.image.master/4e/e0/5d/317838843.webp",
+    "externalReference": "2564",
+    "numPhotos": 11,
+    "price": 1100.0,
+    "priceInfo": {
+      "price": {
+        "amount": 1100.0,
+        "currencySuffix": "€/mês"
+      }
+    },
+    "propertyType": "flat",
+    "operation": "rent",
+    "size": 120.0,
+    "rooms": 3,
+    "bathrooms": 1,
+    "address": "Apartamento T3 no Bairro do Liceu - 5 Bicas, Glória e Vera Cruz",
+    "province": "Aveiro",
+    "municipality": "Glória e Vera Cruz",
+    "district": "Bairro do Liceu - 5 Bicas",
+    "country": "pt",
+    "latitude": 40.6373241,
+    "longitude": -8.6507263,
+    "showAddress": false,
+    "url": "https://www.idealista.pt/imovel/33916800/",
+    "description": "Apartamento T3 Aveiro, Glória e Vera Cruz, centro da cidade, inserido em zona privilegiada junto aos principais serviços e comércios.  O apartamento tem boas áreas, cozinha equipada, sala ampla com boa exposição solar, três quartos, uma casa de banho completa com janela, duas varandas e lavandaria.  Este apartamento tem uma ajardinada para uso privado.  Marque a sua visita!  Certificado Energético C  Ref. 2564  3 bedroom flat Aveiro, Glória and Vera Cruz, city centre, inserted in a privileged area next to the main services and shops.  The flat has good areas, equipped kitchen, large living room with good sun exposure, three bedrooms, a full bathroom with window, two balconies and laundry.  This flat has a garden for private use.  Book your visit!  Energy Certificate C  Ref. 2564  Categoria Energética: C  ref: 2564.",
+    "hasVideo": false,
+    "status": "good",
+    "newDevelopment": false,
+    "hasLift": false,
+    "priceByArea": 9.0,
+    "change": {},
+    "detailedType": {
+      "typology": "flat"
+    },
+    "suggestedTexts": {
+      "title": "Apartamento T3 no Bairro do Liceu - 5 Bicas, Glória e Vera Cruz"
+    },
+    "hasPlan": true,
+    "has3DTour": false,
+    "has360": false,
+    "hasStaging": false,
+    "savedAd": {},
+    "notes": [],
+    "topNewDevelopment": false,
+    "newDevelopmentHighlight": false,
+    "topPlus": false
+  },
+  {
+    "propertyCode": "31835804",
+    "thumbnail": "https://img4.idealista.pt/blur/480_360_mq/0/id.pro.pt.image.master/43/d1/cd/169590522.webp",
+    "numPhotos": 25,
+    "floor": "4",
+    "price": 950.0,
+    "priceInfo": {
+      "price": {
+        "amount": 950.0,
+        "currencySuffix": "€/mês"
+      }
+    },
+    "propertyType": "flat",
+    "operation": "rent",
+    "size": 90.0,
+    "rooms": 2,
+    "bathrooms": 1,
+    "address": "Apartamento T2 na Rua 8, 955, Espinho",
+    "province": "Aveiro",
+    "municipality": "Espinho",
+    "country": "pt",
+    "latitude": 41.004973,
+    "longitude": -8.6439085,
     "showAddress": true,
-    "url": "https://www.idealista.pt/imovel/40000003/",
-    "description": "Espaçoso T3 perto da Praça do Peixe. Vista para a ria de Aveiro. Cozinha totalmente equipada e varanda larga.",
+    "url": "https://www.idealista.pt/imovel/31835804/",
+    "description": "  Apartamento T1+1 no Coração de Espinho - Junto à Praia Apartamento T1+1 situado no centro de Espinho, a poucos passos da praia! Com 90 m² de área bruta e 75 m² úteis, este imóvel oferece o espaço perfeito para quem deseja viver junto ao mar com todo o conforto. O apartamento dispõe de 2 quartos, 1 casa de banho funcional e armários embutidos que maximizam o espaço. A cozinha e a sala estão viradas a poente conferindo uma excelente luminosidade. O terraço virado para o mar, é o local ideal para desfrutar de momentos relaxantes com a brisa do oceano. Localizado no **4º andar com elevador**, o acesso é fácil e cómodo. O prédio oferece todas as comodidades, incluindo um **lugar de garagem incluído no preço**, eliminando preocupações com estacionamento. Existe ainda uma arrecadação prática para armazenar os teus pertences. A zona é privilegiada com **bons acessos e proximidade a todos os serviços essenciais** - comércio, restaurantes, farmácias e transportes públicos. O imóvel encontra-se em bom estado, sendo segunda mão, e representa uma excelente oportunidade para quem procura qualidade de vida à beira-mar.",
+    "hasVideo": false,
+    "status": "good",
+    "newDevelopment": false,
+    "hasLift": true,
+    "parkingSpace": {
+      "hasParkingSpace": true,
+      "isParkingSpaceIncludedInPrice": true
+    },
+    "priceByArea": 11.0,
+    "change": {},
+    "detailedType": {
+      "typology": "flat"
+    },
+    "suggestedTexts": {
+      "title": "Apartamento T2 na Rua 8, 955, Espinho"
+    },
+    "hasPlan": false,
+    "has3DTour": false,
+    "has360": false,
+    "hasStaging": false,
+    "savedAd": {},
+    "notes": [],
+    "topNewDevelopment": false,
+    "newDevelopmentHighlight": false,
+    "topPlus": false
+  },
+  {
+    "propertyCode": "35038141",
+    "thumbnail": "https://img4.idealista.pt/blur/480_360_mq/0/id.pro.pt.image.master/4f/da/b3/317808965.webp",
+    "numPhotos": 21,
+    "floor": "5",
+    "price": 850.0,
+    "priceInfo": {
+      "price": {
+        "amount": 850.0,
+        "currencySuffix": "€/mês"
+      }
+    },
+    "propertyType": "studio",
+    "operation": "rent",
+    "size": 54.0,
+    "rooms": 0,
+    "bathrooms": 1,
+    "address": "Apartamento T0 na Rua General José Domingues Peres s/n, Forca, Glória e Vera Cruz",
+    "province": "Aveiro",
+    "municipality": "Glória e Vera Cruz",
+    "district": "Forca",
+    "country": "pt",
+    "latitude": 40.6422737,
+    "longitude": -8.6387723,
+    "showAddress": true,
+    "url": "https://www.idealista.pt/imovel/35038141/",
+    "description": "Apartamento de tipologia T0+1, situado ao nível do 5º andar, caracterizado pela sua excelente luminosidade natural, privilegiando de uma ótima localização, por se encontrar próximo de todos os serviços e comodidades essenciais. Este maravilhoso imóvel encontra-se distribuído por uma sala de estar e jantar, integrada com a cozinha em conceito open space, zona de dormir, com acesso a uma aprazível varanda, ideal para momentos de lazer ao ar livre, e uma casa de banho completa. Ao apartamento pertence ainda 1 lugar de garagem. Tratamos da aprovação do seu crédito! Intermediário de crédito vinculado nº 0007356 licenciado pelo Banco de Portugal. Este anúncio foi publicado por rotina informática, todos os dados e informações carecem de confirmação junto d’A Casa da Joana A Casa Da Joana® é uma empresa ligada ao ramo imobiliário que nasceu na cidade de Aveiro. Distingue-se pela seleção rigorosa e criteriosa dos imóveis que promove e que apresenta aos seus clientes. Assume-se como um conceito descontraído, onde encontrar a casa ideal, e o mais apaixonante possível, são as palavras de ordem. A proximidade e a empatia que firma com os clientes cria laços e estabelece uma relação de confiança e credibilidade igualáveis. Estamos no mercado para dar cor e paixão ao mercado imobiliário e combater um pouco o modelo tradicional de compra e venda de imóveis. A nossa casa é o local mais especial da nossa vida e, por isso, escolhê-la é um processo que deverá ser assessorado com toda a importância e cuidado que ele merece. Joana Portela Lda. | AMI: 13535.",
+    "hasVideo": false,
+    "status": "good",
+    "newDevelopment": false,
+    "hasLift": true,
+    "parkingSpace": {
+      "hasParkingSpace": true,
+      "isParkingSpaceIncludedInPrice": true
+    },
+    "priceByArea": 16.0,
+    "change": {},
+    "detailedType": {
+      "typology": "flat",
+      "subTypology": "studio"
+    },
+    "suggestedTexts": {
+      "title": "Apartamento T0 na Rua General José Domingues Peres s/n, Forca, Glória e Vera Cruz"
+    },
+    "hasPlan": false,
+    "has3DTour": false,
+    "has360": false,
+    "hasStaging": false,
+    "savedAd": {},
+    "notes": [],
+    "topNewDevelopment": false,
+    "newDevelopmentHighlight": false,
+    "topPlus": false
+  },
+  {
+    "propertyCode": "34925564",
+    "thumbnail": "https://img4.idealista.pt/blur/480_360_mq/0/id.pro.pt.image.master/1b/36/5d/313015010.webp",
+    "externalReference": "127251017-45",
+    "numPhotos": 19,
+    "floor": "bj",
+    "price": 600.0,
+    "priceInfo": {
+      "price": {
+        "amount": 600.0,
+        "currencySuffix": "€/mês"
+      }
+    },
+    "propertyType": "flat",
+    "operation": "rent",
+    "size": 8102.0,
+    "rooms": 1,
+    "bathrooms": 1,
+    "address": "Apartamento T1 na Avenida Engenheiro Duarte Pacheco, Torreira",
+    "province": "Aveiro",
+    "municipality": "Torreira",
+    "country": "pt",
+    "latitude": 40.7608156,
+    "longitude": -8.6994397,
+    "showAddress": false,
+    "url": "https://www.idealista.pt/imovel/34925564/",
+    "description": "Apartamento T1 para arrendamento na Quinta dos Pintos, na Torreira!   Este imóvel, localizado entre a ria e o Mar, encontra-se em excelente estado de conservação e ficará completamente mobilado para arrendamento a partir de Abril.   Conta com: Sala de estar, quarto com roupeiros, casa de banho completamente renovada e com base de duche, cozinha nova, moderna e completamente equipada e com acesso a um pátio com churrasqueira de zona de lazer. Tem ainda um local de instalação de máquinas de lavar roupa. Para o arrendamento é necessário dar: -2 rendas e 1 caução English: One-bedroom apartment for rent in Quinta dos Pintos, Torreira! This property, located between the estuary and the sea, is in excellent condition and will be fully furnished for rent from April. It features: Living room, bedroom with wardrobes, fully renovated bathroom with shower, new, modern and fully equipped kitchen with access to a patio with barbecue and leisure area. It also has a space for installing washing machines. For the rental, the following is required: - 2 months' rent and 1 month's deposit  Licença de Utilização - 39/92.",
+    "hasVideo": false,
+    "status": "good",
+    "newDevelopment": false,
+    "hasLift": false,
+    "priceByArea": 0.0,
+    "change": {},
+    "detailedType": {
+      "typology": "flat"
+    },
+    "suggestedTexts": {
+      "title": "Apartamento T1 na Avenida Engenheiro Duarte Pacheco, Torreira"
+    },
+    "hasPlan": false,
+    "has3DTour": false,
+    "has360": false,
+    "hasStaging": false,
+    "savedAd": {},
+    "notes": [],
+    "topNewDevelopment": false,
+    "newDevelopmentHighlight": false,
+    "topPlus": false
+  },
+  {
+    "propertyCode": "35037723",
+    "thumbnail": "https://img4.idealista.pt/blur/480_360_mq/0/id.pro.pt.image.master/49/29/0e/317790914.webp",
+    "externalReference": "AR1144/26 AL",
+    "numPhotos": 11,
+    "price": 950.0,
+    "priceInfo": {
+      "price": {
+        "amount": 950.0,
+        "currencySuffix": "€/mês"
+      }
+    },
+    "propertyType": "chalet",
+    "operation": "rent",
+    "size": 140.0,
+    "rooms": 4,
+    "bathrooms": 2,
+    "address": "Moradia em banda em Albergaria-a-Velha e Valmaior",
+    "province": "Aveiro",
+    "municipality": "Albergaria-a-Velha e Valmaior",
+    "country": "pt",
+    "latitude": 40.6947768,
+    "longitude": -8.4818876,
+    "showAddress": false,
+    "url": "https://www.idealista.pt/imovel/35037723/",
+    "description": "Moradia para Arrendamento em Albergaria-a-Velha  Excelente moradia para arrendamento em Albergaria-a-Velha, ideal para quem procura conforto, espaço e tranquilidade. A moradia dispõe de uma cozinha ampla e espaçosa, quartos grandes com roupeiros embutidos, uma sala bastante ampla e luminosa, proporcionando um ambiente confortável para toda a família. Conta ainda com: • 1 casa de banho completa com banheira • 1 casa de banho de serviço • Pátio grande • Divisões bastante espaçosas e com excelente luminosidade Uma excelente oportunidade para viver com conforto numa zona calma e de fácil acesso.  Com mais de 10 anos de experiência no mercado imobiliário, a Exclusivodisseia é a sua parceira de confiança para encontrar o imóvel ideal para si. Os nossos consultores imobiliários são especialistas em pesquisa, avaliação e negociação de imóveis. Ajudamo-lo a encontrar o imóvel que melhor se adapta às suas necessidades e orçamento. Oferecemos um serviço personalizado e exclusivo, com acompanhamento durante todo o processo de compra, venda ou arrendamento. Na Exclusivodisseia, a nossa prioridade é garantir a sua satisfação. Venha conversar connosco hoje mesmo! Ref. : AR1144/26 AL.",
+    "hasVideo": false,
+    "status": "good",
+    "newDevelopment": false,
+    "priceByArea": 7.0,
+    "change": {},
+    "detailedType": {
+      "typology": "chalet",
+      "subTypology": "terracedHouse"
+    },
+    "suggestedTexts": {
+      "title": "Moradia em banda em Albergaria-a-Velha e Valmaior"
+    },
+    "hasPlan": true,
+    "has3DTour": false,
+    "has360": false,
+    "hasStaging": false,
+    "savedAd": {},
+    "notes": [],
+    "topNewDevelopment": false,
+    "newDevelopmentHighlight": false,
+    "topPlus": false
+  },
+  {
+    "propertyCode": "35036724",
+    "thumbnail": "https://img4.idealista.pt/blur/480_360_mq/0/id.pro.pt.image.master/ae/63/9a/317749780.webp",
+    "externalReference": "A0610",
+    "numPhotos": 11,
+    "floor": "2",
+    "price": 750.0,
+    "priceInfo": {
+      "price": {
+        "amount": 750.0,
+        "currencySuffix": "€/mês"
+      }
+    },
+    "propertyType": "duplex",
+    "operation": "rent",
+    "size": 51.0,
+    "rooms": 1,
+    "bathrooms": 1,
+    "address": "Duplex na Rua da Palmeira, Zona Histórica - Beira-Mar, Glória e Vera Cruz",
+    "province": "Aveiro",
+    "municipality": "Glória e Vera Cruz",
+    "district": "Zona Histórica - Beira-Mar",
+    "country": "pt",
+    "latitude": 40.6429521,
+    "longitude": -8.6516348,
+    "showAddress": false,
+    "url": "https://www.idealista.pt/imovel/35036724/",
+    "description": "Apartamento T1 situado no coração da cidade de Aveiro. O aparamento é moderno e possui boa exposição solar, é um segundo andar e possui elevador. O apartamento é composto por cozinha equipada, sala ampla, um quarto em mezzanine e uma casa de banho completa. O apartamento possui ar-condicionado. AU: 65/2021. Para resposta imediata envie contato telefónico. HS. N/Ref. ª A0610 1 bedroom flat located in the heart of the city of Aveiro. The flat is modern and has good sun exposure, it is a first floor and has a lift. The flat consists of an equipped kitchen, large living room, a mezzanine bedroom and a full bathroom. The flat is air-conditioned. AU: 65/2021. For immediate response, please contact us by phone. HS. Part No. A0610.",
+    "hasVideo": false,
+    "status": "good",
+    "newDevelopment": false,
+    "hasLift": true,
+    "priceByArea": 15.0,
+    "change": {},
+    "detailedType": {
+      "typology": "flat",
+      "subTypology": "duplex"
+    },
+    "suggestedTexts": {
+      "title": "Duplex na Rua da Palmeira, Zona Histórica - Beira-Mar, Glória e Vera Cruz"
+    },
+    "hasPlan": true,
+    "has3DTour": false,
+    "has360": false,
+    "hasStaging": false,
+    "savedAd": {},
+    "notes": [],
+    "topNewDevelopment": false,
+    "newDevelopmentHighlight": false,
+    "topPlus": false
+  },
+  {
+    "propertyCode": "35036716",
+    "thumbnail": "https://img4.idealista.pt/blur/480_360_mq/0/id.pro.pt.image.master/9d/09/c2/317749378.webp",
+    "externalReference": "A0435",
+    "numPhotos": 25,
+    "floor": "bj",
+    "price": 1050.0,
+    "priceInfo": {
+      "price": {
+        "amount": 1050.0,
+        "currencySuffix": "€/mês"
+      }
+    },
+    "propertyType": "flat",
+    "operation": "rent",
+    "size": 196.0,
+    "rooms": 2,
+    "bathrooms": 2,
+    "address": "Apartamento T2 na Praceta Engenheiro Von Haff, Estação - Avenida, Glória e Vera Cruz",
+    "province": "Aveiro",
+    "municipality": "Glória e Vera Cruz",
+    "district": "Estação - Avenida",
+    "country": "pt",
+    "latitude": 40.6426991,
+    "longitude": -8.6445269,
+    "showAddress": false,
+    "url": "https://www.idealista.pt/imovel/35036716/",
+    "description": "Apartamento T2 situado no centro de Aveiro, próximo de comércio e serviços. O apartamento é composto por cozinha semi-equipada com placa, forno, exaustor e caldeira, sala ampla com acesso a terraço, dois quartos com roupeiros embutidos sendo um deles suite, hall entrada com um roupeiro embutido, casa de banho privativa e casa de banho completa. O apartamento possui aquecimento central completo e ainda um lugar de garagem para dois carros e um arrumo na cave do edifício. AU: 147/2009. Para resposta imediata envie contato. N/Ref. ª A0435.",
+    "hasVideo": false,
+    "status": "good",
+    "newDevelopment": false,
+    "hasLift": true,
+    "parkingSpace": {
+      "hasParkingSpace": true,
+      "isParkingSpaceIncludedInPrice": true
+    },
+    "priceByArea": 5.0,
+    "change": {},
+    "detailedType": {
+      "typology": "flat"
+    },
+    "suggestedTexts": {
+      "title": "Apartamento T2 na Praceta Engenheiro Von Haff, Estação - Avenida, Glória e Vera Cruz"
+    },
+    "hasPlan": true,
+    "has3DTour": false,
+    "has360": false,
+    "hasStaging": false,
+    "savedAd": {},
+    "notes": [],
+    "topNewDevelopment": false,
+    "newDevelopmentHighlight": false,
+    "topPlus": false
+  },
+  {
+    "propertyCode": "35036376",
+    "thumbnail": "https://img4.idealista.pt/blur/480_360_mq/0/id.pro.pt.image.master/c2/ee/7c/318118005.webp",
+    "externalReference": "ZMPT589222",
+    "numPhotos": 18,
+    "floor": "3",
+    "price": 700.0,
+    "priceInfo": {
+      "price": {
+        "amount": 700.0,
+        "currencySuffix": "€/mês"
+      }
+    },
+    "propertyType": "flat",
+    "operation": "rent",
+    "size": 82.0,
+    "rooms": 1,
+    "bathrooms": 1,
+    "address": "Apartamento T1 na Rua Tílias, 66, Tamengos - Aguim - Óis do Bairro",
+    "province": "Aveiro",
+    "municipality": "Tamengos - Aguim - Óis do Bairro",
+    "country": "pt",
+    "latitude": 40.4319446,
+    "longitude": -8.4607152,
+    "showAddress": true,
+    "url": "https://www.idealista.pt/imovel/35036376/",
+    "description": "Identificação do imóvel: ZMPT589222 Inserido em empreendimento privado com piscina e campos de ténis, este imóvel oferece conforto, modernidade e tranquilidade. O imóvel é composto por: - Hall de entrada espaçoso; - Sala e cozinha em open space com acesso à varanda; - Quarto com boa luminosidade, roupeiro embutido acesso à varanda agradável; - Casa de banho com banheira; Localizado numa zona calma, com bons acessos e proximidade a comércio e serviços. Ideal para quem procura qualidade de vida num ambiente exclusivo. Consigo sempre na procura de casa 3 razões para comprar com a Zome: + Acompanhamento Com uma preparação e experiência única no mercado imobiliário, os consultores Zome põem toda a sua dedicação em dar-lhe o melhor acompanhamento, orientando-o com a máxima confiança, na direção certa das suas necessidades e ambições. Daqui para a frente, vamos criar uma relação próxima e escutar com atenção as suas expectativas, porque a nossa prioridade é a sua felicidade! Porque é importante que sinta que está acompanhado, e que estamos consigo sempre. + Simples Os consultores Zome têm uma formação única no mercado, ancorada na partilha de experiência prática entre profissionais e fortalecida pelo conhecimento de neurociência aplicada que lhes permite simplificar e tornar mais eficaz a sua experiência imobiliária. Deixe para trás os pesadelos burocráticos porque na Zome encontra o apoio total de uma equipa experiente e multidisciplinar que lhe dá suporte prático em todos os aspetos fundamentais, para que a sua experiência imobiliária supere as expectativas. + Feliz Liberte-se de preocupações e ganhe o tempo de qualidade que necessita para se dedicar ao que lhe faz mais feliz. Agimos diariamente para trazer mais valor à sua vida com o aconselhamento fiável de que precisa para, juntos, conseguirmos atingir os melhores resultados. Com a Zome nunca vai estar perdido ou desacompanhado e encontrará algo que não tem preço: a sua máxima tranquilidade! É assim que se vai sentir ao longo de toda a experiência: Tranquilo, seguro, confortável e.. . FELIZ! Notas: ● Caso seja um consultor imobiliário, este imóvel está disponível para partilha de negócio. Não hesite em apresentar aos seus clientes compradores e fale connosco para agendar a sua visita. ● Para maior facilidade na identificação deste imóvel, por favor, refira o respetivo ID ZMPT ou o respetivo agente que lhe tenha enviado a sugestão.",
+    "hasVideo": false,
+    "status": "good",
+    "newDevelopment": false,
+    "hasLift": true,
+    "priceByArea": 9.0,
+    "change": {},
+    "detailedType": {
+      "typology": "flat"
+    },
+    "suggestedTexts": {
+      "title": "Apartamento T1 na Rua Tílias, 66, Tamengos - Aguim - Óis do Bairro"
+    },
+    "hasPlan": true,
+    "has3DTour": false,
+    "has360": true,
+    "hasStaging": false,
+    "savedAd": {},
+    "notes": [],
+    "topNewDevelopment": false,
+    "newDevelopmentHighlight": false,
+    "topPlus": false
+  },
+  {
+    "propertyCode": "34432394",
+    "thumbnail": "https://img4.idealista.pt/blur/480_360_mq/0/id.pro.pt.image.master/08/ab/84/317790310.webp",
+    "externalReference": "6424",
+    "numPhotos": 23,
+    "price": 1400.0,
+    "priceInfo": {
+      "price": {
+        "amount": 1400.0,
+        "currencySuffix": "€/mês",
+        "priceDropInfo": {
+          "formerPrice": 1500.0,
+          "priceDropValue": 100,
+          "priceDropPercentage": 7
+        }
+      }
+    },
+    "propertyType": "flat",
+    "operation": "rent",
+    "size": 174.0,
+    "rooms": 4,
+    "bathrooms": 3,
+    "address": "Apartamento T4 no Bairro do Liceu - 5 Bicas, Glória e Vera Cruz",
+    "province": "Aveiro",
+    "municipality": "Glória e Vera Cruz",
+    "district": "Bairro do Liceu - 5 Bicas",
+    "country": "pt",
+    "latitude": 40.6380818,
+    "longitude": -8.6482075,
+    "showAddress": false,
+    "url": "https://www.idealista.pt/imovel/34432394/",
+    "description": "ApartamentoT4 Duplex Aveiro, centro da cidade, próximo das escolas, da Avenida Lourenço Peixinho e a dois passos do canal de São Roque.  O apartamento tem uma sala ampla com uma excelente área e muito luminosa, cozinha totalmente equipada e com dispensa. Tem 4 quartos, sendo que um tem casa de banho privada. Tem duas casas de banho completas de acesso à área social e aos restantes quartos.  Este apartamento tem varandas, que permite a entrada de muita luz natural e ainda um solário para usufruir de momentos de lazer ao ar livre.  O apartamento tem um lugar de garagem e um arrumo.  Está inserido em, prédio com elevador. Ideal para famílias que não prescindem de viver no centro da cidade! Marque já a sua visita!  Certificação Energética B Ref. 6424  ApartmentT4 Duplex Aveiro, city centre, close to schools, Avenida Lourenço Peixinho and a stone's throw from the São Roque canal.  The flat has a large living room with an excellent and very bright area, fully equipped kitchen and pantry. It has 4 bedrooms, one of which has a private bathroom and has two full bathrooms and access to the remaining bedrooms.  It has balconies that allow plenty of natural light to enter and also a solarium that can enjoy outdoor leisure time.  The flat has a parking space and a storage room. It is inserted in a building with lift. Ideal for families who do not give up living in the city centre! Book your visit now!  Energy Certification B Ref. 6424  Categoria Energética: B  ref: 6424.",
+    "hasVideo": false,
+    "status": "good",
+    "newDevelopment": false,
+    "hasLift": true,
+    "parkingSpace": {
+      "hasParkingSpace": true,
+      "isParkingSpaceIncludedInPrice": true
+    },
+    "priceByArea": 8.0,
+    "change": {},
+    "detailedType": {
+      "typology": "flat"
+    },
+    "suggestedTexts": {
+      "title": "Apartamento T4 no Bairro do Liceu - 5 Bicas, Glória e Vera Cruz"
+    },
+    "hasPlan": true,
+    "has3DTour": false,
+    "has360": false,
+    "hasStaging": false,
+    "savedAd": {},
+    "notes": [],
+    "topNewDevelopment": false,
+    "newDevelopmentHighlight": false,
+    "topPlus": false
+  },
+  {
+    "propertyCode": "35036051",
+    "thumbnail": "https://img4.idealista.pt/blur/480_360_mq/0/id.pro.pt.image.master/0a/9e/6b/317723101.webp",
+    "externalReference": "124541010-781",
+    "numPhotos": 10,
+    "floor": "2",
+    "price": 1500.0,
+    "priceInfo": {
+      "price": {
+        "amount": 1500.0,
+        "currencySuffix": "€/mês"
+      }
+    },
+    "propertyType": "flat",
+    "operation": "rent",
+    "size": 95.0,
+    "rooms": 3,
+    "bathrooms": 2,
+    "address": "Apartamento T3 na Rua do Engenheiro Oudinot, Estação - Avenida, Glória e Vera Cruz",
+    "province": "Aveiro",
+    "municipality": "Glória e Vera Cruz",
+    "district": "Estação - Avenida",
+    "country": "pt",
+    "latitude": 40.6443276,
+    "longitude": -8.6461472,
+    "showAddress": false,
+    "url": "https://www.idealista.pt/imovel/35036051/",
+    "description": "Apartamento de tipologia T3 situado na Av. Lourenço Peixinho, em frente à Pastelaria Avenida, perto de tudo!. Composto por três quartos, uma sala, uma cozinha com acesso a um excelente Terraço, um Wc completo e um wc de serviço. Todos os quartos, sala e a cozinha têm ar condicionado. Excelente exposição solar, acabamentos modernos e completamente novo este é o apartamento que procura! . Nota: visitas só são possíveis dentro de 2 semanas.  Licença de Utilização - 123/2019.",
+    "hasVideo": false,
+    "status": "good",
+    "newDevelopment": false,
+    "hasLift": false,
+    "priceByArea": 16.0,
+    "change": {},
+    "detailedType": {
+      "typology": "flat"
+    },
+    "suggestedTexts": {
+      "title": "Apartamento T3 na Rua do Engenheiro Oudinot, Estação - Avenida, Glória e Vera Cruz"
+    },
+    "hasPlan": false,
+    "has3DTour": false,
+    "has360": false,
+    "hasStaging": false,
+    "savedAd": {},
+    "notes": [],
+    "topNewDevelopment": false,
+    "newDevelopmentHighlight": false,
+    "topPlus": false
+  },
+  {
+    "propertyCode": "33612228",
+    "thumbnail": "https://img4.idealista.pt/blur/480_360_mq/0/id.pro.pt.image.master/12/57/cd/254180141.webp",
+    "numPhotos": 17,
+    "floor": "4",
+    "price": 700.0,
+    "priceInfo": {
+      "price": {
+        "amount": 700.0,
+        "currencySuffix": "€/mês"
+      }
+    },
+    "propertyType": "studio",
+    "operation": "rent",
+    "size": 41.0,
+    "rooms": 0,
+    "bathrooms": 1,
+    "address": "Apartamento T0 na Avenida Doutor Lourenço Peixinho s/n, Estação - Avenida, Glória e Vera Cruz",
+    "province": "Aveiro",
+    "municipality": "Glória e Vera Cruz",
+    "district": "Estação - Avenida",
+    "country": "pt",
+    "latitude": 40.6430542,
+    "longitude": -8.6465455,
+    "showAddress": true,
+    "url": "https://www.idealista.pt/imovel/33612228/",
+    "description": "Apartamento de tipologia T0, situado ao nível do 4º andar, privilegiando de uma localização de excelência por se encontrar no centro da cidade. O apartamento é distribuído por hall de entrado com bastante arrumação, sala e cozinha em open space, zona de dormir, casa de banho completa e zona de arrumos. Destacamos que o apartamento conta com uma luminosidade de excelência. Tratamos da aprovação do seu crédito! Intermediário de crédito vinculado nº 0007356 licenciado pelo Banco de Portugal. Este anúncio foi publicado por rotina informática, todos os dados e informações carecem de confirmação junto d’A Casa da Joana A Casa Da Joana® é uma empresa ligada ao ramo imobiliário que nasceu na cidade de Aveiro. Distingue-se pela seleção rigorosa e criteriosa dos imóveis que promove e que apresenta aos seus clientes. Assume-se como um conceito descontraído, onde encontrar a casa ideal, e o mais apaixonante possível, são as palavras de ordem. A proximidade e a empatia que firma com os clientes cria laços e estabelece uma relação de confiança e credibilidade igualáveis. Estamos no mercado para dar cor e paixão ao mercado imobiliário e combater um pouco o modelo tradicional de compra e venda de imóveis. A nossa casa é o local mais especial da nossa vida e, por isso, escolhê-la é um processo que deverá ser assessorado com toda a importância e cuidado que ele merece. Joana Portela Lda. | AMI: 13535.",
+    "hasVideo": true,
+    "status": "good",
+    "newDevelopment": false,
+    "hasLift": true,
+    "priceByArea": 17.0,
+    "change": {},
+    "detailedType": {
+      "typology": "flat",
+      "subTypology": "studio"
+    },
+    "suggestedTexts": {
+      "title": "Apartamento T0 na Avenida Doutor Lourenço Peixinho s/n, Estação - Avenida, Glória e Vera Cruz"
+    },
+    "hasPlan": false,
+    "has3DTour": false,
+    "has360": false,
+    "hasStaging": false,
+    "savedAd": {},
+    "notes": [],
+    "topNewDevelopment": false,
+    "newDevelopmentHighlight": false,
+    "topPlus": false
+  },
+  {
+    "propertyCode": "35034102",
+    "thumbnail": "https://img4.idealista.pt/blur/480_360_mq/0/id.pro.pt.image.master/e5/1b/6c/317602369.webp",
+    "externalReference": "L2603",
+    "numPhotos": 14,
+    "floor": "3",
+    "price": 1300.0,
+    "priceInfo": {
+      "price": {
+        "amount": 1300.0,
+        "currencySuffix": "€/mês"
+      }
+    },
+    "propertyType": "flat",
+    "operation": "rent",
+    "size": 114.0,
+    "rooms": 2,
+    "bathrooms": 2,
+    "address": "Apartamento T2 na Avenida Doutor Lourenço Peixinho, Estação - Avenida, Glória e Vera Cruz",
+    "province": "Aveiro",
+    "municipality": "Glória e Vera Cruz",
+    "district": "Estação - Avenida",
+    "country": "pt",
+    "latitude": 40.6444849,
+    "longitude": -8.6456009,
+    "showAddress": false,
+    "url": "https://www.idealista.pt/imovel/35034102/",
+    "description": "Apartamento T2, novo, com boas áreas, próximo da estação de comboios no centro de Aveiro. O apartamento é composto por cozinha equipada com placa, forno, exaustor e frigorifico; sala em open-space; despensa/lavandaria com bomba de calor; dois quartos com roupeiros embutidos (sendo um deles suite com casa de banho privativa) e ainda uma casa de banho completa. O apartamento dispõe de uma varanda em todo o apartamento. O apartamento possui focos embutidos, estores elétricos, ar-condicionado e ainda um lugar de garagem na cave do edifício. AU: 142/2026. Para resposta imediata envie contato telefónico. HS. N/Ref. ª L2603.",
+    "hasVideo": false,
+    "status": "good",
+    "newDevelopment": false,
+    "hasLift": true,
+    "parkingSpace": {
+      "hasParkingSpace": true,
+      "isParkingSpaceIncludedInPrice": true
+    },
+    "priceByArea": 11.0,
+    "change": {},
+    "detailedType": {
+      "typology": "flat"
+    },
+    "suggestedTexts": {
+      "title": "Apartamento T2 na Avenida Doutor Lourenço Peixinho, Estação - Avenida, Glória e Vera Cruz"
+    },
+    "hasPlan": true,
+    "has3DTour": false,
+    "has360": false,
+    "hasStaging": false,
+    "savedAd": {},
+    "notes": [],
+    "topNewDevelopment": false,
+    "newDevelopmentHighlight": false,
+    "topPlus": false
+  },
+  {
+    "propertyCode": "35033382",
+    "thumbnail": "https://img4.idealista.pt/blur/480_360_mq/0/id.pro.pt.image.master/dd/fd/15/317572171.webp",
+    "numPhotos": 16,
+    "floor": "4",
+    "price": 1750.0,
+    "priceInfo": {
+      "price": {
+        "amount": 1750.0,
+        "currencySuffix": "€/mês"
+      }
+    },
+    "propertyType": "flat",
+    "operation": "rent",
+    "size": 175.0,
+    "rooms": 4,
+    "bathrooms": 2,
+    "address": "Apartamento T4 na Avenida Doutor Lourenço Peixinho, 49, Zona Histórica - Beira-Mar, Glória e Vera Cruz",
+    "province": "Aveiro",
+    "municipality": "Glória e Vera Cruz",
+    "district": "Zona Histórica - Beira-Mar",
+    "country": "pt",
+    "latitude": 40.6423412,
+    "longitude": -8.6507966,
+    "showAddress": true,
+    "url": "https://www.idealista.pt/imovel/35033382/",
+    "description": "  Apartamento T4 no Coração de Aveiro - Perfeito para Estudantes! Descobre este magnífico apartamento T4 localizado no início da Avenida Dr. Lourenço Peixinho, no centro vibrante de Aveiro. Com 175 m² de área bruta, este espaço oferece conforto e praticidade para quem procura uma habitação de qualidade junto à universidade. A localização é imbatível! Fica junto à loja Normal, a apenas dois passos da famosa Praça do Peixe, e a apenas 15 minutos a pé da Universidade de Aveiro. Para além disso, a estação de comboios e autocarros fica a apenas 10 minutos de distância, facilitando deslocações por toda a região. O apartamento distribui-se por 4 quartos espaçosos e 2 casas de banho completas. A suíte oferece privacidade com casa de banho privada, enquanto os 3 quartos adicionais partilham uma casa de banho comum. Todos os quartos estão mobilados com cama e roupeiro, proporcionando conforto imediato. A cozinha é grande e totalmente equipada com todos os utensílios, louça, frigorífico e máquina de lavar roupa. A zona de jantar conta com uma mesa grande, perfeita para refeições em grupo. A sala é espaçosa e acolhedora, ideal para convívio entre colegas. Desfruta de uma pequena varanda com vistas agradável. Os armários em cada quarto permite armazenamento. Com aquecedores adicionais nos quartos. Situado no 4. º andar com elevador, o acesso é fácil e cómodo. A orientação Norte-Sul permite excelente iluminação natural. Nas imediações encontras cafés, supermercados, bares e transportes públicos ao teu alcance. **Envia-nos uma mensagem para mais informações ou para agendar a tua visita! **.",
+    "hasVideo": false,
+    "status": "good",
+    "newDevelopment": false,
+    "hasLift": true,
+    "priceByArea": 10.0,
+    "change": {},
+    "detailedType": {
+      "typology": "flat"
+    },
+    "suggestedTexts": {
+      "title": "Apartamento T4 na Avenida Doutor Lourenço Peixinho, 49, Zona Histórica - Beira-Mar, Glória e Vera Cruz"
+    },
+    "hasPlan": false,
+    "has3DTour": false,
+    "has360": false,
+    "hasStaging": false,
+    "savedAd": {},
+    "notes": [],
+    "topNewDevelopment": false,
+    "newDevelopmentHighlight": false,
+    "topPlus": false
+  },
+  {
+    "propertyCode": "35033309",
+    "thumbnail": "https://img4.idealista.pt/blur/480_360_mq/0/id.pro.pt.image.master/51/53/96/317566953.webp",
+    "externalReference": "CC-APA_1355",
+    "numPhotos": 26,
+    "floor": "1",
+    "price": 1800.0,
+    "priceInfo": {
+      "price": {
+        "amount": 1800.0,
+        "currencySuffix": "€/mês"
+      }
+    },
+    "propertyType": "flat",
+    "operation": "rent",
+    "size": 175.0,
+    "rooms": 3,
+    "bathrooms": 3,
+    "address": "Apartamento T3 na Rua Cristovão Pinho Queimado, Forca, Glória e Vera Cruz",
+    "province": "Aveiro",
+    "municipality": "Glória e Vera Cruz",
+    "district": "Forca",
+    "country": "pt",
+    "latitude": 40.6379448,
+    "longitude": -8.6372479,
+    "showAddress": false,
+    "url": "https://www.idealista.pt/imovel/35033309/",
+    "description": "Apartamento T3 Mobilado em Aveiro Descubra o seu novo lar neste encantador apartamento T3, totalmente mobilado e equipado, situado numa zona nobre de Aveiro, ao lado do Hospital da Luz e do Shopping Glicínias. Facilidade de acesso a nacional e as vias rápidas, Com acesso fácil a serviços essenciais e a faculdades, este imóvel é perfeito para quem busca conforto e praticidade. **Características: ** - Área privativa: 115 m² - Localizado no 1º andar - Varanda ampla com 30 m², ideal para desfrutar de momentos ao ar livre - Três quartos, sendo um deles suite - Três banheiros (WC) - Cozinha equipada - Lavandaria - Exposição solar fantástica, proporcionando muita luz natural - Lugar de garagem Aproveite a tranquilidade desta zona calma, que oferece qualidade de vida e bem-estar. Não perca a oportunidade de viver num espaço que combina conforto e conveniência! **Para mais informações e agendar visitas, entre em contato! **.",
     "hasVideo": false,
     "status": "good",
     "newDevelopment": false,
@@ -140,8 +2286,7 @@
       "typology": "flat"
     },
     "suggestedTexts": {
-      "subtitle": "Glória e Vera Cruz, Aveiro",
-      "title": "Apartamento na Rua do Carmo, 10"
+      "title": "Apartamento T3 na Rua Cristovão Pinho Queimado, Forca, Glória e Vera Cruz"
     },
     "hasPlan": false,
     "has3DTour": false,
@@ -154,233 +2299,32 @@
     "topPlus": false
   },
   {
-    "propertyCode": "40000004",
-    "thumbnail": "https://img4.idealista.pt/blur/480_360_mq/0/id.pro.pt.image.master/11/22/33/314330704.webp",
-    "externalReference": "AV-004",
-    "numPhotos": 8,
-    "floor": "bj",
-    "price": 650.0,
-    "priceInfo": {
-      "price": {
-        "amount": 650.0,
-        "currencySuffix": "€/mês"
-      }
-    },
-    "propertyType": "flat",
-    "operation": "rent",
-    "size": 45.0,
-    "rooms": 1,
-    "bathrooms": 1,
-    "address": "Cais do Alboi, 12",
-    "province": "Aveiro",
-    "municipality": "Aveiro",
-    "country": "pt",
-    "latitude": 40.6402,
-    "longitude": -8.6575,
-    "showAddress": true,
-    "url": "https://www.idealista.pt/imovel/40000004/",
-    "description": "T1 no R/C localizado na carismática zona do Alboi. Muito tranquilo, a passos do centro histórico.",
-    "hasVideo": false,
-    "status": "renew",
-    "newDevelopment": false,
-    "hasLift": false,
-    "priceByArea": 14.4,
-    "change": {},
-    "detailedType": {
-      "typology": "flat"
-    },
-    "suggestedTexts": {
-      "subtitle": "Alboi, Aveiro",
-      "title": "Apartamento no Cais do Alboi, 12"
-    },
-    "hasPlan": false,
-    "has3DTour": false,
-    "has360": false,
-    "hasStaging": false,
-    "savedAd": {},
-    "notes": [],
-    "topNewDevelopment": false,
-    "newDevelopmentHighlight": false,
-    "topPlus": false
-  },
-  {
-    "propertyCode": "40000005",
-    "thumbnail": "https://img4.idealista.pt/blur/480_360_mq/0/id.pro.pt.image.master/11/22/33/314330705.webp",
-    "externalReference": "AV-005",
+    "propertyCode": "35033071",
+    "thumbnail": "https://img4.idealista.pt/blur/480_360_mq/0/id.pro.pt.image.master/06/84/2d/317558875.webp",
+    "externalReference": "1130831",
     "numPhotos": 18,
-    "floor": "4",
-    "price": 950.0,
+    "price": 900.0,
     "priceInfo": {
       "price": {
-        "amount": 950.0,
+        "amount": 900.0,
         "currencySuffix": "€/mês"
       }
     },
     "propertyType": "flat",
     "operation": "rent",
-    "size": 85.0,
-    "rooms": 2,
-    "bathrooms": 2,
-    "address": "Rua de São Martinho, 40",
-    "province": "Aveiro",
-    "municipality": "Aveiro",
-    "country": "pt",
-    "latitude": 40.6425,
-    "longitude": -8.6562,
-    "showAddress": true,
-    "url": "https://www.idealista.pt/imovel/40000005/",
-    "description": "T2 moderno e luminoso, com ar condicionado e acabamentos de luxo. Último andar.",
-    "hasVideo": true,
-    "status": "good",
-    "newDevelopment": true,
-    "hasLift": true,
-    "priceByArea": 11.2,
-    "change": {},
-    "detailedType": {
-      "typology": "flat"
-    },
-    "suggestedTexts": {
-      "subtitle": "Centro, Aveiro",
-      "title": "Apartamento na Rua de São Martinho, 40"
-    },
-    "hasPlan": true,
-    "has3DTour": true,
-    "has360": false,
-    "hasStaging": false,
-    "savedAd": {},
-    "notes": [],
-    "topNewDevelopment": false,
-    "newDevelopmentHighlight": false,
-    "topPlus": false
-  },
-  {
-    "propertyCode": "40000006",
-    "thumbnail": "https://img4.idealista.pt/blur/480_360_mq/0/id.pro.pt.image.master/11/22/33/314330706.webp",
-    "externalReference": "AV-006",
-    "numPhotos": 10,
-    "floor": "1",
-    "price": 750.0,
-    "priceInfo": {
-      "price": {
-        "amount": 750.0,
-        "currencySuffix": "€/mês"
-      }
-    },
-    "propertyType": "flat",
-    "operation": "rent",
-    "size": 60.0,
-    "rooms": 1,
-    "bathrooms": 1,
-    "address": "Praça do Marquês de Pombal, 5",
-    "province": "Aveiro",
-    "municipality": "Aveiro",
-    "country": "pt",
-    "latitude": 40.6391,
-    "longitude": -8.6510,
-    "showAddress": true,
-    "url": "https://www.idealista.pt/imovel/40000006/",
-    "description": "Estúdio/T1 mesmo no centro da cidade, junto aos edifícios governamentais. Decorado com muito gosto.",
-    "hasVideo": false,
-    "status": "good",
-    "newDevelopment": false,
-    "hasLift": true,
-    "priceByArea": 12.5,
-    "change": {},
-    "detailedType": {
-      "typology": "flat"
-    },
-    "suggestedTexts": {
-      "subtitle": "Glória e Vera Cruz, Aveiro",
-      "title": "Apartamento na Praça do Marquês de Pombal, 5"
-    },
-    "hasPlan": false,
-    "has3DTour": false,
-    "has360": false,
-    "hasStaging": false,
-    "savedAd": {},
-    "notes": [],
-    "topNewDevelopment": false,
-    "newDevelopmentHighlight": false,
-    "topPlus": false
-  },
-  {
-    "propertyCode": "40000007",
-    "thumbnail": "https://img4.idealista.pt/blur/480_360_mq/0/id.pro.pt.image.master/11/22/33/314330707.webp",
-    "externalReference": "AV-007",
-    "numPhotos": 25,
-    "floor": "3",
-    "price": 880.0,
-    "priceInfo": {
-      "price": {
-        "amount": 880.0,
-        "currencySuffix": "€/mês"
-      }
-    },
-    "propertyType": "flat",
-    "operation": "rent",
-    "size": 80.0,
-    "rooms": 2,
-    "bathrooms": 1,
-    "address": "Rua Conselheiro Luís Magalhães, 30",
-    "province": "Aveiro",
-    "municipality": "Aveiro",
-    "country": "pt",
-    "latitude": 40.6380,
-    "longitude": -8.6495,
-    "showAddress": false,
-    "url": "https://www.idealista.pt/imovel/40000007/",
-    "description": "T2 muito central, junto à estação de comboios. Facilidade de acesso à universidade.",
-    "hasVideo": false,
-    "status": "good",
-    "newDevelopment": false,
-    "hasLift": true,
-    "priceByArea": 11.0,
-    "change": {},
-    "detailedType": {
-      "typology": "flat"
-    },
-    "suggestedTexts": {
-      "subtitle": "Estação, Aveiro",
-      "title": "Apartamento"
-    },
-    "hasPlan": true,
-    "has3DTour": false,
-    "has360": false,
-    "hasStaging": false,
-    "savedAd": {},
-    "notes": [],
-    "topNewDevelopment": false,
-    "newDevelopmentHighlight": false,
-    "topPlus": false
-  },
-  {
-    "propertyCode": "40000008",
-    "thumbnail": "https://img4.idealista.pt/blur/480_360_mq/0/id.pro.pt.image.master/11/22/33/314330708.webp",
-    "externalReference": "AV-008",
-    "numPhotos": 30,
-    "floor": "5",
-    "price": 1250.0,
-    "priceInfo": {
-      "price": {
-        "amount": 1250.0,
-        "currencySuffix": "€/mês"
-      }
-    },
-    "propertyType": "flat",
-    "operation": "rent",
-    "size": 130.0,
+    "size": 202.0,
     "rooms": 3,
-    "bathrooms": 2,
-    "address": "Rua Eça de Queiroz, 15",
+    "bathrooms": 3,
+    "address": "Apartamento T3 na Rua Sobral, 130 a, Mozelos",
     "province": "Aveiro",
-    "municipality": "Aveiro",
+    "municipality": "Mozelos",
     "country": "pt",
-    "latitude": 40.6365,
-    "longitude": -8.6472,
+    "latitude": 40.9958599,
+    "longitude": -8.5717174,
     "showAddress": true,
-    "url": "https://www.idealista.pt/imovel/40000008/",
-    "description": "Fantástico T3 com vistas panorâmicas sobre a cidade de Aveiro. Garagem dupla e arrecadação.",
-    "hasVideo": true,
+    "url": "https://www.idealista.pt/imovel/35033071/",
+    "description": "T3-ARRENDAMENTO: -Hall de Entrada -Cozinha Equipada. -Despensa. -Espaço de Lavandaria com Caldeira. -Aquecimento Central em Todas as Divisões. -W.C. Serviço com Luz Direta. -Sala Espaçosa com Aquecimento Central. -1-Quarto pavimento Parquet. -2-Quarto com Roupeiro pavimento Parquet. -3-Quarto Suite 2-Roupeiro, pavimento parquet W.C. Luz Direta. -Terraço com 68m2, Nascente-Sul vista Mar. -Lugar de Garagem para 2-viaturas. LOJAS: -Continente Modelo. -Lidl. -Cafés. -Correios. -Multibanco. -Bombas de Gasolina. ESCOLAS: -Primárias. -Infantários. -Colégio de Lamas. -Escolas Secundárias Próximas. TRANSPORTES: -Autocarros. ACESSOS: -Estrada Nacional Nº1, A-29, Autoestrada. A CASA DA PORTELA Imobiliária – É uma empresa de mediação imobiliária e Intermediação de Crédito criada em 2013. Os seus sócios fundadores possuem um sólido conhecimento acumulado desde 1994 sobre o mercado imobiliário, mantendo-se atentos às suas tendências e evolução, e com uma Intermediação de Crédito registado no Banco de Portugal com o nº 0004889. A empresa começou por centrar-se na região do Grande Porto, conseguindo, desde o início, um grande volume de transações. O sucesso do modelo de negócio fez com que a marca Casa da Portela imobiliária chegasse em 2022 a Vila Nova de Famalicão. A Casa da Portela imobiliária pretende valorizar o trabalho dos consultores e prestar um serviço de excelência aos seus clientes, proporcionando um serviço de qualidade e tranquilidade, de forma a realizar bons negócios, garantindo a satisfação dos nossos clientes e parceiros. Para atingir esse propósito, dispomos de uma equipa multidisciplinar de profissionais qualificados, com vasta experiência em mediação imobiliária que nos permite apresentar e sugerir as melhores alternativas para os seus objetivos de venda, de arrendamento, ou de investimento imobiliário. Possuímos uma rede de contatos privilegiada que nos permite potenciar a divulgação, a gestão e a concretização de negócio do seu imóvel em vários formatos. 3 Pilares fundamentais da Casa da Portela: Missão A nossa missão é orientar os nossos objetivos excecionais (financeiros, humanos e sociais) na nossa organização e uni-los aos nossos não menos excecionais clientes, atendendo sempre às suas necessidades, desejos e expectativas. A Casa da Portela imobiliária nasceu para que fosse possível prestar um acompanhamento e apoio contínuos, explicação e esclarecimento de dúvidas, sobre todo o processo de compra, venda ou arrendamento de imóveis em Portugal. A concretização de tudo isto faz com que a nossa máxima ambição seja sermos os melhores no mercado imobiliário.   Visão A nossa visão é sermos a empresa de referência no mercado imobiliário, assim como sermos reconhecidos como a melhor opção para os nossos clientes. Para isso, fazemos sempre por manter um espírito inovador e de liderança que nos levará ao reconhecimento pela nossa excelência no mercado. Valores Os nossos valores são sempre o conjunto das nossas atitudes e crenças, que envolvem todas as pessoas da organização, para que, em uníssono, consigamos atingir os resultados de excelência a que nos propomos sempre que são baseados na Qualidade, Profissionalismo, Responsabilidade, Respeito e Inovação.",
+    "hasVideo": false,
     "status": "good",
     "newDevelopment": false,
     "hasLift": true,
@@ -388,64 +2332,13 @@
       "hasParkingSpace": true,
       "isParkingSpaceIncludedInPrice": true
     },
-    "priceByArea": 9.6,
+    "priceByArea": 4.0,
     "change": {},
     "detailedType": {
       "typology": "flat"
     },
     "suggestedTexts": {
-      "subtitle": "Glória e Vera Cruz, Aveiro",
-      "title": "Apartamento na Rua Eça de Queiroz, 15"
-    },
-    "hasPlan": true,
-    "has3DTour": false,
-    "has360": true,
-    "hasStaging": false,
-    "savedAd": {},
-    "notes": [],
-    "topNewDevelopment": false,
-    "newDevelopmentHighlight": false,
-    "topPlus": true
-  },
-  {
-    "propertyCode": "40000009",
-    "thumbnail": "https://img4.idealista.pt/blur/480_360_mq/0/id.pro.pt.image.master/11/22/33/314330709.webp",
-    "externalReference": "AV-009",
-    "numPhotos": 14,
-    "floor": "2",
-    "price": 680.0,
-    "priceInfo": {
-      "price": {
-        "amount": 680.0,
-        "currencySuffix": "€/mês"
-      }
-    },
-    "propertyType": "flat",
-    "operation": "rent",
-    "size": 50.0,
-    "rooms": 1,
-    "bathrooms": 1,
-    "address": "Rua de Viana do Castelo, 50",
-    "province": "Aveiro",
-    "municipality": "Aveiro",
-    "country": "pt",
-    "latitude": 40.6358,
-    "longitude": -8.6450,
-    "showAddress": true,
-    "url": "https://www.idealista.pt/imovel/40000009/",
-    "description": "T1 semi-novo, zona residencial muito calma, ótimo para estudantes de mestrado ou trabalhadores.",
-    "hasVideo": false,
-    "status": "good",
-    "newDevelopment": false,
-    "hasLift": true,
-    "priceByArea": 13.6,
-    "change": {},
-    "detailedType": {
-      "typology": "flat"
-    },
-    "suggestedTexts": {
-      "subtitle": "Esgueira, Aveiro",
-      "title": "Apartamento na Rua de Viana do Castelo, 50"
+      "title": "Apartamento T3 na Rua Sobral, 130 a, Mozelos"
     },
     "hasPlan": false,
     "has3DTour": false,
@@ -458,44 +2351,190 @@
     "topPlus": false
   },
   {
-    "propertyCode": "40000010",
-    "thumbnail": "https://img4.idealista.pt/blur/480_360_mq/0/id.pro.pt.image.master/11/22/33/314330710.webp",
-    "externalReference": "AV-010",
-    "numPhotos": 11,
+    "propertyCode": "35032035",
+    "thumbnail": "https://img4.idealista.pt/blur/480_360_mq/0/id.pro.pt.image.master/bc/d7/ba/317516695.webp",
+    "externalReference": "155751_4b2abce0",
+    "numPhotos": 14,
     "floor": "1",
-    "price": 600.0,
+    "price": 1200.0,
     "priceInfo": {
       "price": {
-        "amount": 600.0,
+        "amount": 1200.0,
         "currencySuffix": "€/mês"
       }
     },
     "propertyType": "flat",
     "operation": "rent",
-    "size": 40.0,
-    "rooms": 1,
-    "bathrooms": 1,
-    "address": "Avenida da Universidade, 300",
+    "size": 55.0,
+    "rooms": 2,
+    "bathrooms": 2,
+    "address": "Apartamento T2 na Rua de Mendes Leite, 17, Zona Histórica - Beira-Mar, Glória e Vera Cruz",
     "province": "Aveiro",
-    "municipality": "Aveiro",
+    "municipality": "Glória e Vera Cruz",
+    "district": "Zona Histórica - Beira-Mar",
     "country": "pt",
-    "latitude": 40.6300,
-    "longitude": -8.6560,
+    "latitude": 40.6422661,
+    "longitude": -8.6529494,
     "showAddress": true,
-    "url": "https://www.idealista.pt/imovel/40000010/",
-    "description": "T0/T1 diretamente em frente à Universidade de Aveiro. Ideal para professores ou estudantes universitários.",
+    "url": "https://www.idealista.pt/imovel/35032035/",
+    "description": "Disponível em: 01/07/2026.  Reserve em linha clicando abaixo do mapa em \"Link adicional\".  ************* COMO É QUE FUNCIONA O SPACEST. COM? Spacest. com é uma plataforma online para alugueres de médio-longo prazo que foi criada como garantia para o arrendatário: verificamos todos os apartamentos e as fotos são recentes e fiáveis para que possa reservar online com paz de espírito para evitar que alguém o faça antes de si.  Para reservar online, siga o link no fundo da página (abaixo do mapa) e clique em \"alugar agora\". Se precisar de assistência, por favor contacte-nos e nós ajudá-lo-emos. Custos de abertura do contrato:  Custos de encerramento do contrato:  Aviso de cancelamento: None meses O Bairro Vera Cruz é considerado o mais típico da cidade. O Ficus está perto do cais onde se embarca para o passeio de moliceiro, da biblioteca, Rossio, Praça do Peixe, etc. Está localizado no centro turístico da cidade. Aveiro é uma cidade muito bonita e agradável. Pode deslocar-se de bicicleta ou mesmo a pé. Para estacionar, existe um parque gratuito junto ao canal de S. Roque. Experimente o charme e o conforto desta casa antiga inteiramente remodelada. Em pleno centro de Aveiro, perto de tudo. E, se apreciar, basta descer ao r/c para poder saborear os saudáveis pequenos almoços bio. O apartamento acomoda confortavelmente até 4 pessoas e tem duas casas de banho. The Vera Cruz neighborhood is considered the most typical in the city. Ficus is close to the pier where you board the moliceiro boat, the library, Rossio, Praça do Peixe, etc. It is located in the tourist center of the city. Aveiro is a very beautiful and pleasant city. You can get around by bike or even on foot. There is a free parking lot next to the S. Roque canal. Experience the charm and comfort of this entirely refurbished old house. In the heart of Aveiro, close to everything. And, if you like, just go downstairs to enjoy the healthy organic breakfasts. The apartment comfortably accommodates up to 4 people and has two bathrooms. Cleaning fee: 40€/month.",
     "hasVideo": false,
     "status": "good",
     "newDevelopment": false,
     "hasLift": false,
-    "priceByArea": 15.0,
+    "priceByArea": 22.0,
     "change": {},
     "detailedType": {
       "typology": "flat"
     },
     "suggestedTexts": {
-      "subtitle": "Santiago, Aveiro",
-      "title": "Apartamento na Avenida da Universidade, 300"
+      "title": "Apartamento T2 na Rua de Mendes Leite, 17, Zona Histórica - Beira-Mar, Glória e Vera Cruz"
+    },
+    "hasPlan": false,
+    "has3DTour": false,
+    "has360": false,
+    "hasStaging": false,
+    "savedAd": {},
+    "notes": [],
+    "topNewDevelopment": false,
+    "newDevelopmentHighlight": false,
+    "topPlus": false
+  },
+  {
+    "propertyCode": "32146984",
+    "thumbnail": "https://img4.idealista.pt/blur/480_360_mq/0/id.pro.pt.image.master/ac/7e/d2/189451102.webp",
+    "externalReference": "casa sunset residence",
+    "numPhotos": 11,
+    "price": 1200.0,
+    "priceInfo": {
+      "price": {
+        "amount": 1200.0,
+        "currencySuffix": "€/mês"
+      }
+    },
+    "propertyType": "chalet",
+    "operation": "rent",
+    "size": 200.0,
+    "rooms": 2,
+    "bathrooms": 2,
+    "address": "Moradia geminada na Avenida joao corte real, 140, Gafanha da Nazaré",
+    "province": "Aveiro",
+    "municipality": "Gafanha da Nazaré",
+    "country": "pt",
+    "latitude": 40.6387667,
+    "longitude": -8.7472778,
+    "showAddress": true,
+    "url": "https://www.idealista.pt/imovel/32146984/",
+    "description": "Vivenda T2+1 na primeira linha da praia da Barra, inserido nas suas dunas e com acesso direto. Composto por 3 quartos: um com cama de casal, um com 2 camas de solteiro e um com uma cama individual. Duas casas de banho completas, cozinha com zona de refeições e equipada com placa, forno, exaustor, microondas, frigorífico e máquina de lavar louça. Sala de estar com TV LCD. Zona de lavandaria com máquina de lavar roupa, ferro e tábua e aspiração central. Terraço com barbecue. Disponível 1 Setembro As despesas internet estão incluidas no preço.",
+    "hasVideo": false,
+    "status": "good",
+    "newDevelopment": false,
+    "priceByArea": 6.0,
+    "change": {},
+    "detailedType": {
+      "typology": "chalet",
+      "subTypology": "semidetachedHouse"
+    },
+    "suggestedTexts": {
+      "title": "Moradia geminada na Avenida joao corte real, 140, Gafanha da Nazaré"
+    },
+    "hasPlan": false,
+    "has3DTour": false,
+    "has360": false,
+    "hasStaging": false,
+    "savedAd": {},
+    "notes": [],
+    "topNewDevelopment": false,
+    "newDevelopmentHighlight": false,
+    "topPlus": false
+  },
+  {
+    "propertyCode": "35030920",
+    "thumbnail": "https://img4.idealista.pt/blur/480_360_mq/0/id.pro.pt.image.master/a9/6a/de/317473023.webp",
+    "externalReference": "126411049-14",
+    "numPhotos": 23,
+    "floor": "2",
+    "price": 550.0,
+    "priceInfo": {
+      "price": {
+        "amount": 550.0,
+        "currencySuffix": "€/mês"
+      }
+    },
+    "propertyType": "flat",
+    "operation": "rent",
+    "size": 74.0,
+    "rooms": 1,
+    "bathrooms": 1,
+    "address": "Apartamento T1 na Rua Tílias, Tamengos - Aguim - Óis do Bairro",
+    "province": "Aveiro",
+    "municipality": "Tamengos - Aguim - Óis do Bairro",
+    "country": "pt",
+    "latitude": 40.4309362,
+    "longitude": -8.4616117,
+    "showAddress": false,
+    "url": "https://www.idealista.pt/imovel/35030920/",
+    "description": "✨ Oportunidade imperdível Imagine viver num espaço onde o conforto, a modernidade e a localização se encontram na perfeição  Apresentamos este fantástico T1 totalmente remodelado e equipado, pronto a habitar, situado no 2. º andar – Fração F, com uma área generosa de 74,62 m²  � Localização estratégica: �♂️ Apenas a 8 minutos a pé da estação de comboio� A 2 minutos de carro da estação de comboio� A apenas 8 minutos de Anadia Um imóvel ideal para quem valoriza mobilidade, praticidade e qualidade de vida  ✔️ Totalmente remodelado✔️ Cozinha equipada✔️ Ambiente acolhedor � Imagine o seu dia a dia com tudo o que precisa por perto… e com a tranquilidade de chegar a casa e sentir-se bem.  Pronto a habitar   Licença de Utilização - 71.",
+    "hasVideo": false,
+    "status": "good",
+    "newDevelopment": false,
+    "hasLift": true,
+    "priceByArea": 7.0,
+    "change": {},
+    "detailedType": {
+      "typology": "flat"
+    },
+    "suggestedTexts": {
+      "title": "Apartamento T1 na Rua Tílias, Tamengos - Aguim - Óis do Bairro"
+    },
+    "hasPlan": false,
+    "has3DTour": false,
+    "has360": false,
+    "hasStaging": false,
+    "savedAd": {},
+    "notes": [],
+    "topNewDevelopment": false,
+    "newDevelopmentHighlight": false,
+    "topPlus": false
+  },
+  {
+    "propertyCode": "35030200",
+    "thumbnail": "https://img4.idealista.pt/blur/480_360_mq/0/id.pro.pt.image.master/e5/a6/27/317447586.webp",
+    "externalReference": "169489_a33840d3",
+    "numPhotos": 14,
+    "price": 1500.0,
+    "priceInfo": {
+      "price": {
+        "amount": 1500.0,
+        "currencySuffix": "€/mês"
+      }
+    },
+    "propertyType": "flat",
+    "operation": "rent",
+    "size": 127.0,
+    "rooms": 3,
+    "bathrooms": 2,
+    "address": "Apartamento T3 na Rua dos Arrais, 6, Zona Histórica - Beira-Mar, Glória e Vera Cruz",
+    "province": "Aveiro",
+    "municipality": "Glória e Vera Cruz",
+    "district": "Zona Histórica - Beira-Mar",
+    "country": "pt",
+    "latitude": 40.6434542,
+    "longitude": -8.6567308,
+    "showAddress": true,
+    "url": "https://www.idealista.pt/imovel/35030200/",
+    "description": "Disponível em: 07/06/2026.  Reserve em linha clicando abaixo do mapa em \"Link adicional\".  ************* COMO É QUE FUNCIONA O SPACEST. COM? Spacest. com é uma plataforma online para alugueres de médio-longo prazo que foi criada como garantia para o arrendatário: verificamos todos os apartamentos e as fotos são recentes e fiáveis para que possa reservar online com paz de espírito para evitar que alguém o faça antes de si.  Para reservar online, siga o link no fundo da página (abaixo do mapa) e clique em \"alugar agora\". Se precisar de assistência, por favor contacte-nos e nós ajudá-lo-emos. Custos de abertura do contrato:  Custos de encerramento do contrato:  Aviso de cancelamento: None meses EN The apartment has a total area of 127 square meters.  There are 3 bedrooms, 2 bathrooms. The following services are not included in the rent: gas, water, electricity, internet.  A minimum length of stay of 6 months is required.  There are no tours and you can book directly online. The Rua dos Arrais area in Aveiro is close to several attractions, such as the moliceiro boat rides along the city's canals, the Aveiro Museum in the Convento de Jesus, and the picturesque Bairro da Beira-Mar with its colorful houses.  You can also taste the traditional Ovos Moles, visit the salt pans and explore the Fish Market. For a more relaxing experience, Praia da Costa Nova is an excellent nearby destination.  Aveiro offers a mix of history, culture and natural beauty. PT O apartamento tem uma área total de 127 metros quadrados.  Há 3 quartos, 2 casas de banho. Os seguintes serviços não estão incluídos no preço da renda: gás, água, eletricidade, internet.  É necessário um período mínimo de permanência de 6 meses.  Não são realizadas visitas e é possível reservar diretamente online. A região da Rua dos Arrais, em Aveiro, está perto de várias atrações, como os passeios de moliceiro pelos canais da cidade, o Museu de Aveiro no Convento de Jesus, e o pitoresco Bairro da Beira-Mar com suas casas coloridas.  Também pode provar os tradicionais Ovos Moles, visitar as salinas e explorar o Mercado do Peixe. Para uma experiência mais relaxante, a Praia da Costa Nova é um excelente destino nas proximidades.  Aveiro oferece uma mistura de história, cultura, e beleza natural.",
+    "hasVideo": false,
+    "status": "good",
+    "newDevelopment": false,
+    "hasLift": false,
+    "priceByArea": 12.0,
+    "change": {},
+    "detailedType": {
+      "typology": "flat"
+    },
+    "suggestedTexts": {
+      "title": "Apartamento T3 na Rua dos Arrais, 6, Zona Histórica - Beira-Mar, Glória e Vera Cruz"
     },
     "hasPlan": false,
     "has3DTour": false,
