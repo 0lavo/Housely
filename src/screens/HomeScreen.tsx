@@ -13,10 +13,13 @@ import { Property, filterProperties } from "../utils/filterProperties";
 import { useFocusEffect } from "@react-navigation/native";
 import { getFirstTime, setFirstTime } from "../storage/firstTimeStorage";
 import FirstTimeModal from "../components/FirstTimeModal";
-import SwipeCard from "../components/SwipeCard"; // <--- ADICIONADO AQUI
+import SwipeCard from "../components/SwipeCard"; 
 
 const SCREEN_WIDTH = Dimensions.get('window').width;
 const SWIPE_THRESHOLD = 0.25 * SCREEN_WIDTH;
+
+// Variável temporária: apaga-se quando fechas a app ou limpas
+export const sessionRejects = new Set<string>();
 
 const HomeScreen = ({navigation}: any) => {
 
@@ -27,9 +30,14 @@ const HomeScreen = ({navigation}: any) => {
             Promise.all([filterProperties(), getLiked(), getFirstTime()])
             .then(([result, liked, firstTime]) => {
                 const likedSet = new Set(liked.map(p => p.propertyCode));
-                const filtered = result.filter(p => !likedSet.has(p.propertyCode));
+                
+                // Filtra as que estão nos favoritos E as que estão nas rejeições da sessão
+                const filtered = result.filter(
+                    p => !likedSet.has(p.propertyCode) && !sessionRejects.has(p.propertyCode)
+                );
+                
                 setData(filtered);
-                setIndex(0);
+                setIndex(0); // Agora pode voltar a 0 à vontade, as casas antigas já foram filtradas!
                 setIsEnd(filtered.length === 0);
                 setShowFirstTimeModal(firstTime === null ? true : firstTime);
             })
@@ -68,6 +76,9 @@ const HomeScreen = ({navigation}: any) => {
     const toggleMorada = () => setMostrarMorada(m => !m);
 
     const skipCurrent = () => {
+        // Adiciona a casa atual à lista de rejeitadas desta sessão
+        sessionRejects.add(data[safeIndex].propertyCode);
+
         const nextIndex = index + 1;
         setIndex(nextIndex);
         if (nextIndex >= data.length) setIsEnd(true);

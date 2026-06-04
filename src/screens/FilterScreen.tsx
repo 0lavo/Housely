@@ -13,7 +13,7 @@ import { saveFilters } from '../storage/filtersStorage.ts';
 import {propertyStyles} from '../styles/idealSpaceFiltersStyles.ts'
 import Slider from '@react-native-community/slider';
 import { Dropdown } from 'react-native-element-dropdown';
-
+import { sessionRejects } from './HomeScreen';
 
 type TabType = 'space' | 'personal';
 
@@ -229,6 +229,7 @@ const FilterScreen = ({ navigation }: any) => {
                     activeOpacity={0.8} 
                     onPress={async () => {
                         await handleFilters();
+                        sessionRejects.clear();
                         navigation.navigate('Home');
                     }}>
                     <Text style={globalStyles.primaryButtonText}>Ver Propriedades</Text>
