@@ -19,7 +19,8 @@ interface PropertyCardProps {
 const PropertyCard = ({ imageUrl, title, price, address, beds, baths, onPressFavorite, onPressViewDetails }: PropertyCardProps) => {
     return (
         <View style={styles.card}>
-            {/* Secção Superior: Imagem e Coração */}
+            <TouchableOpacity onPress={onPressViewDetails}>
+                {/* Secção Superior: Imagem e Coração */}
             <View style={styles.imageContainer}>
                 <Image source={imageUrl} style={styles.image} resizeMode="cover" />
                 
@@ -65,6 +66,7 @@ const PropertyCard = ({ imageUrl, title, price, address, beds, baths, onPressFav
 
                 </View>
             </View>
+            </TouchableOpacity>
         </View>
     );
 };

@@ -35,12 +35,12 @@ export const filterProperties = async (): Promise<Property[]>  => {
 
             return apiRes;
         } catch {
-            return properties.filter(property => filtering(property, filters));;
+            return properties.filter(property => filtering(property, filters));
         };
     };
 
 
-    return properties.filter(property => filtering(property, filters));;
+    return properties.filter(property => filtering(property, filters));
 }
 
 const selectPropertiesByCity = (city: string): Property[] => {
