@@ -141,7 +141,11 @@ const HomeScreen = ({navigation}: any) => {
         } else {
             latest.current.skipCurrent();
         }
-        position.setValue({ x: 0, y: 0 });
+
+        // Reset só no próximo frame, depois do index já ter atualizado
+        requestAnimationFrame(() => {
+            position.setValue({ x: 0, y: 0 });
+        });
     };
 
     const resetPosition = () => {
@@ -190,7 +194,7 @@ const HomeScreen = ({navigation}: any) => {
                     {/* CARTÃO DE TRÁS (Próxima Casa) */}
                     {hasNext && (
                         <View style={[{ height: '100%', width: '100%', position: 'absolute' }]}>
-                            <SwipeCard property={data[nextIndex]} mostrarMorada={false} />
+                            <SwipeCard key={data[nextIndex].propertyCode} property={data[nextIndex]} mostrarMorada={false} />
                         </View>
                     )}
 
@@ -199,7 +203,7 @@ const HomeScreen = ({navigation}: any) => {
                         style={[animatedCardStyle, { height: '100%', width: '100%', position: 'absolute' }]}
                         {...panResponder.panHandlers}
                     >
-                        <SwipeCard property={data[safeIndex]} mostrarMorada={mostrarMorada} />
+                    <SwipeCard key={data[safeIndex].propertyCode} property={data[safeIndex]} mostrarMorada={mostrarMorada} />
                     </Animated.View>
 
                 </View>
