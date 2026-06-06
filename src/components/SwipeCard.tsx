@@ -20,7 +20,7 @@ const SwipeCard = ({ property, mostrarMorada = false }: SwipeCardProps) => {
     return (
         <>
             <Image 
-                source={require('../../assets/placeholder.png')}
+                source={require('../../assets/placeholder.webp')}
                 style={[homeStyles.cardImage, { position: 'absolute', width: '100%', height: '100%' }]}
             />
 
@@ -28,7 +28,7 @@ const SwipeCard = ({ property, mostrarMorada = false }: SwipeCardProps) => {
                 source={
                     property.thumbnail && !imageError
                         ? { uri: property.thumbnail }
-                        : require('../../assets/placeholder.png')
+                        : require('../../assets/placeholder.webp')
                 }
                 style={homeStyles.card}
                 imageStyle={homeStyles.cardImage}
