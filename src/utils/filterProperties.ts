@@ -16,7 +16,7 @@ export const filterProperties = async (): Promise<Property[]>  => {
     if (!filters) return properties;
     
 
-    const params = false //buildApiParams(filters);
+    const params = buildApiParams(filters);
 
     if (params) {
         try {
@@ -32,6 +32,7 @@ export const filterProperties = async (): Promise<Property[]>  => {
                     return d <= filters.distance!;
                 });
             };
+            
 
             return apiRes;
         } catch {

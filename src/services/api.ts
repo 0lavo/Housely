@@ -73,7 +73,7 @@ export const buildApiParams = (
 
 // Aqui a onde realmente faz a chamada a API, usando os parametros construidos acima
 
-const TIMEOUT_MS = 500; 
+const TIMEOUT_MS = 2000; 
 
 export const fetchProperties = async (
     params: Record<string, string>
@@ -90,7 +90,11 @@ export const fetchProperties = async (
 
         const json = await res.json();
 
-        return json as Property[];
+        const list = Array.isArray(json)
+            ? json
+            : (json.results ?? json.data ?? json.properties ?? json.elementList ?? []);
+
+        return list as Property[];
     } finally {
         clearTimeout(timer);
     }
