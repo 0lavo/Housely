@@ -1,6 +1,6 @@
-import React, {useMemo, useState} from 'react';
-import { View, Text, Image, TouchableOpacity, ScrollView, Linking, Alert, FlatList, useWindowDimensions, Share } from "react-native";
-
+import React, {useMemo, useState, useCallback} from 'react';
+import { View, Text, Image, TouchableOpacity, ScrollView, Linking, Alert, FlatList, useWindowDimensions, Share,  } from "react-native";
+import { useFocusEffect } from "@react-navigation/native";
 import Icon from 'react-native-vector-icons/Ionicons';
 import { COLORS, globalStyles } from "../styles/globalStyles";
 import { propertyStyles } from '../styles/propertyDetailsStyles';
@@ -10,6 +10,7 @@ import aveiroData from '../../data/aveiroProperties.json';
 import lisboaData from '../../data/lisboaProperties.json';
 import imagesMap from '../../data/images.json';
 import { SafeAreaView } from 'react-native-safe-area-context';
+import { getLikedByCode } from '../storage/likedStorage';
 
 
 interface FeatureProps {
@@ -29,16 +30,20 @@ const PropertyDetails = ({ route, navigation }: any ) => {
 
     const [isExpanded, setIsExpanded] = useState(false);
     const [currentIndex, setCurrentIndex] = useState(0);
+    const [property, setProperty] = useState<any>(null);
 
     // Buscar o propertyCode vindo do FavoriteScreen
     const { propertyCode } = route.params || {};
 
-    // Procurar a propriedade correta no JSON usando o propertyCode
-    const property =
-        portoData.find((p: any) => p.propertyCode === propertyCode) ??
-        aveiroData.find((p: any) => p.propertyCode === propertyCode) ??
-        lisboaData.find((p: any) => p.propertyCode === propertyCode);
-
+    useFocusEffect(
+        useCallback(() => {
+            getLikedByCode(propertyCode).then((likedProperty) => {
+                if (likedProperty) setProperty(likedProperty);
+                else setProperty(null);
+            });
+        }, [propertyCode])
+    );
+                    
 
     const imagesList = useMemo(() => {
         let listFromJson: string[] = (imagesMap as any)?.[String(propertyCode)] ?? [];

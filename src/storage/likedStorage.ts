@@ -53,6 +53,11 @@ const writeLiked = async (liked: LikedProperty[]) => {
 // Retorna todas as casas curtidas em um array
 export const getLiked = (): Promise<LikedProperty[]> => readLiked();
 
+export const getLikedByCode = async (propertyCode: string): Promise<LikedProperty | null> => {
+    const liked = await readLiked();
+    return liked.find(p => p.propertyCode === propertyCode) || null;
+}
+
 // Adiciona uma casa nas curtidas
 export const addLiked = async (property : LikedProperty): Promise<void> => {
     const current = await readLiked();
