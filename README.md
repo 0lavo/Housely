@@ -62,9 +62,17 @@ Housely/
 ### Instalação
 
 ```bash
-# 1. Clonar o repositório
+# 1. Clonar os repositórios
 git clone https://github.com/0lavo/Housely.git
 cd Housely
+
+em outra janela:
+git clone https://github.com/0lavo/HouselyBackEnd.git
+cd HouselyBackEnd
+
+
+# 2. Ir ao repositório de backend e correr o backend (voltar para a janela do frontend uma vez que o backend esteja a correr)
+(LER README Backend)
 
 # 2. Instalar dependências
 npm install
